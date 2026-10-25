@@ -1,0 +1,95 @@
+{
+  "received_at": "2026-10-25T01:19:46.574Z",
+  "headers": {
+    "host": "nonmetallurgical-glossily-myron.ngrok-free.dev",
+    "user-agent": "PayPal/AUHD-1.0-1",
+    "content-length": "1454",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "correlation-id": "f33667160e34d",
+    "paypal-auth-algo": "SHA256withRSA",
+    "paypal-auth-version": "v2",
+    "paypal-cert-url": "https://api.sandbox.paypal.com/v1/notifications/certs/CERT-360caa42-fca2a594-bf9ab596",
+    "paypal-transmission-id": "289e7ca6-d012-11f1-8c96-77a5e3a0b390",
+    "paypal-transmission-sig": "GQVSDQx5pWkPZHmdVI8jZL9HCLqY4pFvvhvfGsTLl/sDPdCvDVAkcIfSc+rRw1zzLkfsWAedBftp2OYzq5rNDHzLtsNSO2wfe24+tLHUI4ib/bGlxR7y9tF4p90S35LuL27VoN56v2Yx2IxrwD0UsB3vdFiIc7SeVzwYzqz68btGCeAghSsFt9qQsCvRFybxAYkeF3N+Sw9h88S61AhxfSqPnIROZU9aS50a5wpQdoBpcKONp/iOH4jX92JSsGor6Lw0CEa49HIuifIxNLf59YLUUlsrMybq22MHFQG106oxut1Yh/UZMK2rtqOXXJJvJYLOmDdw0dOPrC+0Q+gteA==",
+    "paypal-transmission-time": "2026-10-25T01:19:43Z",
+    "x-forwarded-for": "173.0.80.116",
+    "x-forwarded-host": "nonmetallurgical-glossily-myron.ngrok-free.dev",
+    "x-forwarded-proto": "https",
+    "accept-encoding": "gzip"
+  },
+  "verification": {
+    "verified": true,
+    "http_status": 200,
+    "response": {
+      "verification_status": "SUCCESS"
+    }
+  },
+  "event": {
+    "id": "WH-0WJ23482XX422840K-2F109488H2497205H",
+    "event_version": "1.0",
+    "create_time": "2026-10-25T01:19:31.353Z",
+    "resource_type": "refund",
+    "resource_version": "2.0",
+    "event_type": "PAYMENT.CAPTURE.REFUNDED",
+    "summary": "A $ 15.0 USD capture payment was refunded",
+    "resource": {
+      "id": "3M986776R8117221S",
+      "amount": {
+        "currency_code": "USD",
+        "value": "15.00"
+      },
+      "note_to_payer": "Matchpoint price protection: an approved store dropped its price.",
+      "seller_payable_breakdown": {
+        "gross_amount": {
+          "currency_code": "USD",
+          "value": "15.00"
+        },
+        "paypal_fee": {
+          "currency_code": "USD",
+          "value": "0.00"
+        },
+        "net_amount": {
+          "currency_code": "USD",
+          "value": "15.00"
+        },
+        "total_refunded_amount": {
+          "currency_code": "USD",
+          "value": "15.00"
+        }
+      },
+      "invoice_id": "spike-refund-2S321369LL635443S",
+      "status": "COMPLETED",
+      "create_time": "2026-10-24T18:19:26-07:00",
+      "update_time": "2026-10-24T18:19:26-07:00",
+      "payer": {
+        "email_address": "sb-eks7053539431@business.example.com",
+        "merchant_id": "VTSVYYAL7K77Q"
+      },
+      "links": [
+        {
+          "href": "https://api.sandbox.paypal.com/v2/payments/refunds/3M986776R8117221S",
+          "rel": "self",
+          "method": "GET"
+        },
+        {
+          "href": "https://api.sandbox.paypal.com/v2/payments/captures/2S321369LL635443S",
+          "rel": "up",
+          "method": "GET"
+        }
+      ]
+    },
+    "links": [
+      {
+        "href": "https://api.sandbox.paypal.com/v1/notifications/webhooks-events/WH-0WJ23482XX422840K-2F109488H2497205H",
+        "rel": "self",
+        "method": "GET"
+      },
+      {
+        "href": "https://api.sandbox.paypal.com/v1/notifications/webhooks-events/WH-0WJ23482XX422840K-2F109488H2497205H/resend",
+        "rel": "resend",
+        "method": "POST"
+      }
+    ]
+  }
+}
