@@ -75,7 +75,7 @@ The environment is validated at startup ([`lib/env.ts`](lib/env.ts)): live mode 
 
 `npm run seed` stores 12 Channel3 catalog products with complete variant data, each with a shop price (the median current price, ending in .99) and a unit cost. It creates the "Matchpoint approved stores" Collection in Channel3 and the default policy (version 1): 18 approved stores, 15% margin floor, 20% maximum discount, 14-day protection window, automatic refunds up to $50.
 
-The chosen product IDs are in [`fixtures/seed/catalog.json`](fixtures/seed/catalog.json), so live and demo mode seed the same catalog. `npm run seed -- --pick` chooses the products again from live Channel3 data, `--record` refreshes the recorded fixtures, and `--reset` empties every table first. Re-running the seed is safe: products are upserted and an existing policy is never overwritten.
+The chosen product IDs are in [`fixtures/seed/catalog.json`](fixtures/seed/catalog.json), so live and demo mode seed the same catalog. `npm run seed -- --pick` re-checks the chosen products against live Channel3 data and replaces any that no longer qualify (delete `fixtures/seed/catalog.json` to choose all of them from scratch). `--record` refreshes the recorded fixtures, and `--reset` empties every table first. Condition (New / Used) never counts as variant data. Re-running the seed is safe: products are upserted and an existing policy is never overwritten.
 
 ## Scripts
 

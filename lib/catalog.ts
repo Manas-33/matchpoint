@@ -12,21 +12,35 @@ const decode = (s: string) => {
   }
 };
 
+// Channel3 sometimes lists condition (New / Used) as a variant option. Condition describes an offer,
+// not the product, so it never counts as variant data.
+const isConditionOption = (name: string) => /^condition$/i.test(name.trim());
+
+export function variantOptions(p: Product) {
+  return (p.variants?.options ?? []).filter((o) => !isConditionOption(o.name));
+}
+
+export function variantSelection(p: Product) {
+  return (p.variants?.selected ?? []).filter((s) => !isConditionOption(s.name));
+}
+
 // Complete variant data: every option lists its values, and the product says which variant it is.
 export function hasCompleteVariants(p: Product): boolean {
-  const v = p.variants;
-  if (!v?.options?.length || !v.selected?.length) return false;
-  const optionNames = new Set(v.options.map((o) => o.name));
+  const options = variantOptions(p);
+  const selected = variantSelection(p);
+  if (!options.length || !selected.length) return false;
+  const optionNames = new Set(options.map((o) => o.name));
   return (
-    v.options.every((o) => o.name && o.values.length > 0 && o.values.every((val) => val.label)) &&
-    v.selected.every((s) => s.label && optionNames.has(s.name))
+    options.every((o) => o.name && o.values.length > 0 && o.values.every((val) => val.label)) &&
+    selected.every((s) => s.label && optionNames.has(s.name))
   );
 }
 
 // Every option has a selected value (e.g. both colour and size), not just some of them.
 export function isFullySelected(p: Product): boolean {
-  const selected = new Set(p.variants?.selected?.map((s) => s.name));
-  return !!p.variants?.options?.length && p.variants.options.every((o) => selected.has(o.name));
+  const options = variantOptions(p);
+  const selected = new Set(variantSelection(p).map((s) => s.name));
+  return options.length > 0 && options.every((o) => selected.has(o.name));
 }
 
 // In-stock offers that aren't known to be used. Channel3 usually reports condition as null (unknown).
@@ -61,7 +75,7 @@ export function shopPricing(p: Product): { shopPriceCents: Cents; unitCostCents:
 
 export function toProductRow(p: Product): NewProduct {
   const image = p.images?.find((i) => i.is_main_image) ?? p.images?.[0];
-  const variant: VariantSelection = (p.variants?.selected ?? []).map((s) => ({ name: s.name, label: decode(s.label) }));
+  const variant: VariantSelection = variantSelection(p).map((s) => ({ name: s.name, label: decode(s.label) }));
   return {
     slug: `${slug(p.title).slice(0, 48)}-${p.id.toLowerCase()}`,
     channel3ProductId: p.id,
@@ -69,7 +83,7 @@ export function toProductRow(p: Product): NewProduct {
     brand: p.brands?.[0]?.name ?? null,
     category: p.category?.title ?? null,
     variant,
-    variantOptions: p.variants?.options ?? [],
+    variantOptions: variantOptions(p),
     imageUrl: image?.cleaned_url ?? image?.url ?? null,
     ...shopPricing(p),
     currency: "USD",

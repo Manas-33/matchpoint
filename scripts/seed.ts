@@ -2,7 +2,9 @@
 // price and unit cost; the approved-stores Collection in Channel3; and the default policy.
 //
 //   npm run seed                live: refresh the chosen products from Channel3 and upsert them
-//   npm run seed -- --pick      live: choose the products again (searches Channel3), then seed
+//   npm run seed -- --pick      live: re-check the chosen products, replace any that no longer qualify
+//                               (searches Channel3), then seed. Delete fixtures/seed/catalog.json
+//                               to choose all of them from scratch.
 //   npm run seed -- --record    live: also overwrite the recorded fixtures with fresh responses
 //                               (otherwise only missing fixtures are written)
 //   npm run seed:demo           demo: seed from fixtures/ only, no API keys or network
@@ -10,7 +12,7 @@
 //
 // The chosen product IDs live in fixtures/seed/catalog.json, so live and demo seed the same catalog.
 import "./load-env";
-import { desc, sql } from "drizzle-orm";
+import { and, desc, notInArray, sql } from "drizzle-orm";
 import { getChannel3, type Channel3Service, type Collection, type Product } from "@/lib/channel3";
 import { hasCompleteVariants, isFullySelected, newInStockOffers, toProductRow } from "@/lib/catalog";
 import { closeDb, getDb, schema } from "@/lib/db";
@@ -76,16 +78,20 @@ function qualifies(p: Product, domains: string[]) {
 }
 
 // Choose the catalog from live Channel3 data: one product per query, preferring products whose every
-// variant option is selected and that more approved stores sell.
-async function pickCatalog(c3: Channel3Service, domains: string[]): Promise<SeedCatalog> {
+// variant option is selected and that more approved stores sell. Earlier picks that still qualify are
+// kept, and the queries that found them aren't searched again.
+async function pickCatalog(c3: Channel3Service, domains: string[], previous?: SeedCatalog): Promise<SeedCatalog> {
   const picked = new Map<string, { title: string; source: string }>();
-  for (const id of PREFERRED_IDS) {
+  const start = previous?.products ?? PREFERRED_IDS.map((id) => ({ id, source: "preferred" }));
+  for (const { id, source } of start) {
     const p = await c3.retrieve(id).catch(() => undefined);
-    if (p && qualifies(p, domains)) picked.set(p.id, { title: p.title, source: "preferred" });
-    console.log(`  ${p && picked.has(p.id) ? "+" : "-"} ${id} (preferred) ${p?.title ?? "not found"}`);
+    if (p && qualifies(p, domains)) picked.set(p.id, { title: p.title, source });
+    console.log(`  ${picked.has(id) ? "+" : "-"} ${id} (${previous ? "kept" : source}) ${p?.title ?? "not found"}`);
   }
+  const searched = new Set([...picked.values()].map((v) => v.source));
   for (const query of QUERIES) {
     if (picked.size >= TARGET) break;
+    if (searched.has(query)) continue;
     const results = await c3.search(query, { limit: 10, filters: { website_ids: domains } });
     const candidates = results
       .filter((p) => qualifies(p, domains) && !picked.has(p.id))
@@ -154,7 +160,8 @@ async function main() {
   let catalog: SeedCatalog;
   if (live && (PICK || !hasFixture(CATALOG_FIXTURE))) {
     console.log("Choosing products from Channel3:");
-    catalog = await pickCatalog(c3, domains);
+    const previous = hasFixture(CATALOG_FIXTURE) ? loadFixture<SeedCatalog>(CATALOG_FIXTURE) : undefined;
+    catalog = await pickCatalog(c3, domains, previous);
     saveFixture(CATALOG_FIXTURE, catalog);
   } else if (hasFixture(CATALOG_FIXTURE)) {
     catalog = loadFixture<SeedCatalog>(CATALOG_FIXTURE);
@@ -174,11 +181,24 @@ async function main() {
   }
 
   // 3. Database: products, then the policy (only created if missing; owner edits are never overwritten)
-  await db.transaction(async (tx) => {
+  const removed = await db.transaction(async (tx) => {
     for (const row of rows) {
       const { channel3ProductId, ...set } = row;
       await tx.insert(schema.products).values(row).onConflictDoUpdate({ target: schema.products.channel3ProductId, set });
     }
+    // Products that left the catalog, unless an order, match request or price event points at them.
+    const { products: p, orders, matchRequests, priceEvents } = schema;
+    const gone = await tx
+      .delete(p)
+      .where(
+        and(
+          notInArray(p.channel3ProductId, rows.map((r) => r.channel3ProductId)),
+          sql`not exists (select 1 from ${orders} where ${orders.productId} = ${p.id})`,
+          sql`not exists (select 1 from ${matchRequests} where ${matchRequests.productId} = ${p.id})`,
+          sql`not exists (select 1 from ${priceEvents} where ${priceEvents.productId} = ${p.id})`,
+        ),
+      )
+      .returning({ title: p.title });
     const collectionId = collection?.collection_id ?? latestPolicy?.channel3CollectionId ?? null;
     if (!latestPolicy) {
       await tx.insert(schema.policies).values({
@@ -196,9 +216,11 @@ async function main() {
         createdBy: "seed",
       });
     }
+    return gone;
   });
 
   // Summary
+  for (const r of removed) console.log(`Removed from the catalog: ${r.title}`);
   const [policy] = await db.select().from(schema.policies).orderBy(desc(schema.policies.version)).limit(1);
   const [{ count }] = await db.select({ count: sql<number>`count(*)::int` }).from(schema.products);
   console.log(`\nProducts (${rows.length} seeded, ${count} in the database):`);

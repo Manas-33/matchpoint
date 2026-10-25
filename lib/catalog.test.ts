@@ -29,6 +29,29 @@ describe("variant completeness", () => {
     expect(hasCompleteVariants(product({ variants: { ...catalog("mgo7x7F").variants!, selected: [] } }))).toBe(false);
   });
 
+  it("doesn't count condition (New / Used) as a variant", () => {
+    const condition = { name: "Condition", values: [{ label: "New", exists: true }, { label: "Used", exists: true }] };
+    const color = { name: "Color", values: [{ label: "Natural", exists: true }] };
+    const conditionOnly = product({
+      variants: { options: [condition], selected: [{ name: "Condition", label: "New" }] } as Product["variants"],
+    });
+    expect(hasCompleteVariants(conditionOnly)).toBe(false);
+    expect(isFullySelected(conditionOnly)).toBe(false);
+
+    const withColor = product({
+      variants: {
+        options: [condition, color],
+        selected: [
+          { name: "Condition", label: "New" },
+          { name: "Color", label: "Natural" },
+        ],
+      } as Product["variants"],
+    });
+    expect(hasCompleteVariants(withColor)).toBe(true);
+    expect(isFullySelected(withColor)).toBe(true);
+    expect(toProductRow(withColor).variant).toEqual([{ name: "Color", label: "Natural" }]);
+  });
+
   it("tells fully and partly selected variants apart", () => {
     expect(isFullySelected(catalog("mgo7x7F"))).toBe(true);
     expect(isFullySelected(catalog("3FRZAlJ"))).toBe(false); // colour selected, size not

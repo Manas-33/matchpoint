@@ -1,0 +1,338 @@
+{
+  "url": "channel3:hDKW5mO",
+  "product": {
+    "id": "hDKW5mO",
+    "title": "Garmin Forerunner 970",
+    "description": "The Garmin Forerunner 970 is a high-performance sports smartwatch designed to elevate athletic training. It features an AMOLED display with an optional always-on mode, detailed built-in mapping, and an impressive battery life of up to 15 days in smartwatch mode. Built for durability and function, the watch is constructed with a Titanium bezel and a Sapphire Crystal lens, paired with a comfortable silicone strap. It offers advanced fitness tracking, including Training Readiness, heart rate monitoring, Pulse Ox blood oxygen saturation, and advanced sleep insights. Connectivity is seamless with Bluetooth, ANT+, and Wi-Fi, and it includes convenient features like Garmin Pay, music storage, and a built-in speaker and microphone for calls and texts via a compatible smartphone.",
+    "brands": [
+      {
+        "id": "ntqy",
+        "name": "Garmin"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://cdn.trychannel3.com/dfd799b0-8c5a-4040-9666-053b8cc778f1?aid=01M5RCZPRYEW9GM2WKM80MYPTY&mid=K6RA",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/dfd799b0-8c5a-4040-9666-053b8cc778f1?aid=01M5RCZPRYEW9GM2WKM80MYPTY&mid=K6RA",
+        "is_main_image": true,
+        "shot_type": "hero",
+        "alt_text": "Garmin Forerunner 970 smartwatch face on a plain background."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/30dadf0e-2b09-4a1e-8c53-488d114e0444?aid=01M5RCZPRYEW9GM2WKM80MYPTY&mid=K6RA",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/30dadf0e-2b09-4a1e-8c53-488d114e0444?aid=01M5RCZPRYEW9GM2WKM80MYPTY&mid=K6RA",
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Garmin Forerunner 970 showing GPS map navigation."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/3db06dd7-e716-4ea2-b2b9-e3c8a0f85ff5?aid=01M5RCZPRYEW9GM2WKM80MYPTY&mid=K6RA",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/3db06dd7-e716-4ea2-b2b9-e3c8a0f85ff5?aid=01M5RCZPRYEW9GM2WKM80MYPTY&mid=K6RA",
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Garmin Forerunner 970 displaying running performance data."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/f733d9f4-bfb6-496d-8b68-ee0c0d729195?aid=01M5RCZPRYEW9GM2WKM80MYPTY&mid=K6RA",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/f733d9f4-bfb6-496d-8b68-ee0c0d729195?aid=01M5RCZPRYEW9GM2WKM80MYPTY&mid=K6RA",
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Garmin Forerunner 970 displaying run statistics and training details."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/f5d8b767-38da-41cd-b38b-d490d7fd9c2e?aid=01M5RCZPRYEW9GM2WKM80MYPTY&mid=K6RA",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/f5d8b767-38da-41cd-b38b-d490d7fd9c2e?aid=01M5RCZPRYEW9GM2WKM80MYPTY&mid=K6RA",
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Close-up of the black silicone strap and side buttons of the watch."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/499ac1cc-5f2c-4471-b4c9-f4eb77628e53?aid=01M5RCZPRYEW9GM2WKM80MYPTY&mid=K6RA",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/499ac1cc-5f2c-4471-b4c9-f4eb77628e53?aid=01M5RCZPRYEW9GM2WKM80MYPTY&mid=K6RA",
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Garmin Forerunner 970 showing workout tracking screen."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/22b83318-f300-40d8-b4d1-62a6e2055e63?aid=01M5RCZPRYEW9GM2WKM80MYPTY&mid=K6RA",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/22b83318-f300-40d8-b4d1-62a6e2055e63?aid=01M5RCZPRYEW9GM2WKM80MYPTY&mid=K6RA",
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Garmin Forerunner 970 watch face showing model identification."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/b6079ca4-c7a3-4359-9ab9-c2fad12f67f8?aid=01M5RCZPRYEW9GM2WKM80MYPTY&mid=K6RA",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/b6079ca4-c7a3-4359-9ab9-c2fad12f67f8?aid=01M5RCZPRYEW9GM2WKM80MYPTY&mid=K6RA",
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Close-up of the black silicone watch strap with the Forerunner 970 branding."
+      }
+    ],
+    "category": {
+      "slug": "smart-watches",
+      "title": "Smart Watches",
+      "path": [
+        {
+          "slug": "apparel-accessories",
+          "title": "Apparel & Accessories"
+        },
+        {
+          "slug": "jewelry",
+          "title": "Jewelry"
+        },
+        {
+          "slug": "smart-watches",
+          "title": "Smart Watches"
+        }
+      ],
+      "has_children": false
+    },
+    "gender": null,
+    "age": null,
+    "materials": [
+      "silicone"
+    ],
+    "key_features": [
+      "Bright AMOLED Display with scratch-resistant sapphire lens, and cased in a durable titanium bezel",
+      "Garmin Triathlon Coach training plans and improved Garmin Coach with Adaptive Training",
+      "Skin Temperature Tracking",
+      "Built-in LED flashlight",
+      "Call and text ability from watch with integrated speaker and microphone",
+      "Enhanced performance data such as running tolerance, running economy, and step speed loss",
+      "Evening Report before bed helps you better prepare for the next day",
+      "Multisport workouts to create custom step-by-step multisport workouts",
+      "Up to 26 hours battery life in GPS mode, 15 Days in smartwatch mode",
+      "Sleep Coach"
+    ],
+    "colors": [
+      {
+        "hex": "#373b3b",
+        "percentage": 0.395
+      },
+      {
+        "hex": "#040404",
+        "percentage": 0.2462
+      },
+      {
+        "hex": "#5a5c5c",
+        "percentage": 0.1336
+      },
+      {
+        "hex": "#1b201f",
+        "percentage": 0.1214
+      },
+      {
+        "hex": "#7da28d",
+        "percentage": 0.1037
+      }
+    ],
+    "offers": [
+      {
+        "url": "https://buy.trychannel3.com/hDKW5mO-K6RA-5l3z0w?o=01M1FV23ZK1BKS0XFMNN209P9D&aid=01M5RCZPRYEW9GM2WKM80MYPTY",
+        "domain": "macys.com",
+        "price": {
+          "price": 749.99,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0.056,
+        "dimensions": null
+      },
+      {
+        "url": "https://buy.trychannel3.com/hDKW5mO-DO3T-5l3z0w?o=01KXX7Y5FCWZXG8W7PQQ6KYX19&aid=01M5RCZPRYEW9GM2WKM80MYPTY",
+        "domain": "abt.com",
+        "price": {
+          "price": 749.99,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0.056,
+        "dimensions": null
+      },
+      {
+        "url": "https://buy.trychannel3.com/hDKW5mO-UiHK-5l3z0w?o=01M42DRN2WZ3F0WPPAZX0DMPXZ&aid=01M5RCZPRYEW9GM2WKM80MYPTY",
+        "domain": "jpcycles.com",
+        "price": {
+          "price": 749.99,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0.049,
+        "dimensions": {
+          "length": {
+            "number": 47,
+            "unit": "mm"
+          },
+          "width": {
+            "number": 47,
+            "unit": "mm"
+          },
+          "height": {
+            "number": 12.9,
+            "unit": "mm"
+          },
+          "weight": {
+            "number": 56,
+            "unit": "g"
+          }
+        }
+      },
+      {
+        "url": "https://buy.trychannel3.com/hDKW5mO-98k8-5l3z0w?o=01KBPCD3KYN6A93XZF5HBZS79C&aid=01M5RCZPRYEW9GM2WKM80MYPTY",
+        "domain": "scheels.com",
+        "price": {
+          "price": 749.99,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0.04,
+        "dimensions": null
+      },
+      {
+        "url": "https://buy.trychannel3.com/hDKW5mO-DoRK-5l3z0w?o=01KBPBMBBMZA64JXC2J5QCH1ZN&aid=01M5RCZPRYEW9GM2WKM80MYPTY",
+        "domain": "holabirdsports.com",
+        "price": {
+          "price": 749.99,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0.035,
+        "dimensions": null
+      },
+      {
+        "url": "https://buy.trychannel3.com/hDKW5mO-3KLu-5l3z0w?o=01KXTMRW3H1C90H7NVR1R9KHCK&aid=01M5RCZPRYEW9GM2WKM80MYPTY",
+        "domain": "marathonsports.com",
+        "price": {
+          "price": 749.99,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0.016,
+        "dimensions": null
+      },
+      {
+        "url": "https://buy.trychannel3.com/hDKW5mO-DEoc-5l3z0w?o=01M1KA8QVDXHYKKC0ZM7ATNGRF&aid=01M5RCZPRYEW9GM2WKM80MYPTY",
+        "domain": "academy.com",
+        "price": {
+          "price": 749.99,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0.014,
+        "dimensions": null
+      },
+      {
+        "url": "https://buy.trychannel3.com/hDKW5mO-p1PB-5l3z0w?o=01M40BPAQK54BA40PCS2R86GTD&aid=01M5RCZPRYEW9GM2WKM80MYPTY",
+        "domain": "bestbuy.com",
+        "price": {
+          "price": 749.99,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0.005,
+        "dimensions": null
+      },
+      {
+        "url": "https://buy.trychannel3.com/hDKW5mO-TgS4-5l3z0w?o=01M456P1TJVY8QHTPKK0CKDEY2&aid=01M5RCZPRYEW9GM2WKM80MYPTY",
+        "domain": "cdw.com",
+        "price": {
+          "price": 891.99,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0,
+        "dimensions": {
+          "length": {
+            "number": 0.5,
+            "unit": "in"
+          },
+          "width": {
+            "number": 1.9,
+            "unit": "in"
+          },
+          "height": {
+            "number": 1.9,
+            "unit": "in"
+          },
+          "weight": {
+            "number": 1.98,
+            "unit": "oz"
+          }
+        }
+      },
+      {
+        "url": "https://buy.trychannel3.com/hDKW5mO-LPzf-5l3z0w?o=01KBP7SC0SSZDA652ZCWE12TCQ&aid=01M5RCZPRYEW9GM2WKM80MYPTY",
+        "domain": "newegg.com",
+        "price": {
+          "price": 764.99,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "OutOfStock",
+        "condition": "new",
+        "max_commission_rate": 0.007,
+        "dimensions": null
+      }
+    ],
+    "variants": {
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            {
+              "label": "Carbon Gray",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/dfd799b0-8c5a-4040-9666-053b8cc778f1",
+              "product_id": "hDKW5mO"
+            },
+            {
+              "label": "Whitestone",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/46dead74-b101-435e-9508-a28a54172e61",
+              "product_id": "t7OR1T6"
+            }
+          ]
+        }
+      ],
+      "selected": [
+        {
+          "name": "Color",
+          "label": "Carbon Gray"
+        }
+      ]
+    },
+    "structured_attributes": {
+      "jewelry-material": [
+        "Titanium"
+      ],
+      "pattern": [
+        "Solid"
+      ]
+    },
+    "ratings": {
+      "value": 4.59,
+      "count": 1313,
+      "source_count": 5
+    }
+  }
+}
