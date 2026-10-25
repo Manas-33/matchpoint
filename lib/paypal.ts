@@ -17,6 +17,7 @@ import {
 import { getEnv } from "./env";
 import { listFixtures, loadFixture } from "./fixtures";
 import { centsToPaypalValue, paypalValueToCents, type Cents } from "./money";
+import { SHOP } from "./shop-info";
 
 const PAYPAL_API = "https://api-m.sandbox.paypal.com";
 
@@ -84,7 +85,7 @@ function orderBody(input: CreateOrderInput) {
     paymentSource: {
       paypal: {
         experienceContext: {
-          brandName: "Matchpoint Demo Shop",
+          brandName: SHOP.name,
           shippingPreference: PaypalWalletContextShippingPreference.NoShipping,
           userAction: PaypalExperienceUserAction.PayNow,
           returnUrl: input.returnUrl,
@@ -122,6 +123,48 @@ const toRefund = (refund: PayPalJson): IssuedRefund => ({
 });
 
 const header = (headers: Headers, name: string) => headers.get(name) ?? undefined;
+
+export type VerifyWebhookInput = {
+  headers: Headers;
+  rawBody: string;
+  webhookId: string | undefined;
+  accessToken: () => Promise<string>;
+  fetch?: typeof fetch;
+};
+
+// Not in the SDK: POST /v1/notifications/verify-webhook-signature. PayPal re-hashes webhook_event,
+// so the raw body is spliced in rather than re-serialised (key order or number formatting could differ).
+// Throws when PayPal can't be reached, so the caller can answer 5xx and PayPal redelivers.
+export async function verifyPayPalWebhook({
+  headers,
+  rawBody,
+  webhookId,
+  accessToken,
+  fetch: fetchFn = fetch,
+}: VerifyWebhookInput): Promise<PayPalWebhookVerification> {
+  if (!webhookId) return { verified: false, reason: "PAYPAL_WEBHOOK_ID not set" };
+  const fields = {
+    auth_algo: header(headers, "paypal-auth-algo"),
+    cert_url: header(headers, "paypal-cert-url"),
+    transmission_id: header(headers, "paypal-transmission-id"),
+    transmission_sig: header(headers, "paypal-transmission-sig"),
+    transmission_time: header(headers, "paypal-transmission-time"),
+    webhook_id: webhookId,
+  };
+  if (!fields.auth_algo || !fields.cert_url || !fields.transmission_id || !fields.transmission_sig || !fields.transmission_time) {
+    return { verified: false, reason: "missing PayPal headers" };
+  }
+  const res = await fetchFn(`${PAYPAL_API}/v1/notifications/verify-webhook-signature`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json", Authorization: `Bearer ${await accessToken()}` },
+    body: `${JSON.stringify(fields).slice(0, -1)},"webhook_event":${rawBody}}`,
+  });
+  if (res.status >= 500) throw new Error(`PayPal webhook verification unavailable (HTTP ${res.status})`);
+  const json = (await res.json().catch(() => ({}))) as { verification_status?: string };
+  return json.verification_status === "SUCCESS"
+    ? { verified: true, response: json }
+    : { verified: false, reason: `verification_status ${json.verification_status ?? `HTTP ${res.status}`}`, response: json };
+}
 
 function livePayPal(clientId: string, clientSecret: string, webhookId: string | undefined): PayPalService {
   // The SDK defaults to no timeout and no retries (DEFAULT_CONFIGURATION / DEFAULT_RETRY_CONFIG).
@@ -185,29 +228,8 @@ function livePayPal(clientId: string, clientSecret: string, webhookId: string | 
       );
       return toRefund(refund);
     },
-    // Not in the SDK: POST /v1/notifications/verify-webhook-signature. PayPal re-hashes webhook_event,
-    // so the raw body is spliced in rather than re-serialised (key order or number formatting could differ).
-    async verifyWebhookSignature(headers, rawBody) {
-      if (!webhookId) return { verified: false, reason: "PAYPAL_WEBHOOK_ID not set" };
-      const fields = {
-        auth_algo: header(headers, "paypal-auth-algo"),
-        cert_url: header(headers, "paypal-cert-url"),
-        transmission_id: header(headers, "paypal-transmission-id"),
-        transmission_sig: header(headers, "paypal-transmission-sig"),
-        transmission_time: header(headers, "paypal-transmission-time"),
-        webhook_id: webhookId,
-      };
-      if (!fields.transmission_id || !fields.transmission_sig) return { verified: false, reason: "missing PayPal headers" };
-      const res = await fetch(`${PAYPAL_API}/v1/notifications/verify-webhook-signature`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json", Authorization: `Bearer ${await accessToken()}` },
-        body: `${JSON.stringify(fields).slice(0, -1)},"webhook_event":${rawBody}}`,
-      });
-      const json = (await res.json()) as { verification_status?: string };
-      return json.verification_status === "SUCCESS"
-        ? { verified: true, response: json }
-        : { verified: false, reason: `verification_status ${json.verification_status ?? res.status}`, response: json };
-    },
+    verifyWebhookSignature: (headers, rawBody) =>
+      verifyPayPalWebhook({ headers, rawBody, webhookId, accessToken }),
   };
 }
 
@@ -217,9 +239,12 @@ const demoId = (prefix: string, key: string) =>
 
 type RecordedWebhook = { headers: Record<string, string>; verification: { verified: boolean } };
 
+// Orders created in this process, so a capture returns the amount that was ordered. Kept on globalThis:
+// Next.js bundles each route separately, so the create and capture routes each get their own module copy.
+const demoOrders = globalThis as unknown as { matchpointDemoOrders?: Map<string, CreateOrderInput> };
+
 function demoPayPal(): PayPalService {
-  // Orders created in this process, so a capture returns the amount that was ordered.
-  const created = new Map<string, CreateOrderInput>();
+  const created = (demoOrders.matchpointDemoOrders ??= new Map<string, CreateOrderInput>());
 
   return {
     mode: "demo",

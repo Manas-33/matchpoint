@@ -5,6 +5,10 @@ const nextConfig: NextConfig = {
   partialPrefetching: true,
   // Don't write AGENTS.md into the repo on `next dev`.
   agentRules: false,
+  // Product images come from Channel3's CDN (they carry ?aid=&mid= query strings).
+  images: {
+    remotePatterns: [{ protocol: "https", hostname: "cdn.trychannel3.com" }],
+  },
   // Demo mode reads recorded responses from fixtures/ at runtime, so ship them with every route.
   outputFileTracingIncludes: {
     "/*": ["./fixtures/**/*"],
