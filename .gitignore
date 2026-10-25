@@ -5,7 +5,22 @@ notes/
 .env
 .env.*
 !.env.example
+*.pem
 
 # Dependencies and OS files
 node_modules/
 .DS_Store
+
+# Next.js
+/.next/
+/out/
+/build
+next-env.d.ts
+*.tsbuildinfo
+.vercel
+
+# Tests
+/coverage
+
+# Logs
+npm-debug.log*
