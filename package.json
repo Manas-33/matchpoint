@@ -1,0 +1,26 @@
+{
+  "name": "matchpoint",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc",
+    "spike:paypal": "tsx scripts/spikes/paypal-order-refund.ts",
+    "spike:webhooks": "tsx scripts/spikes/webhook-server.ts",
+    "spike:c3:lookup": "tsx scripts/spikes/channel3-lookup.ts",
+    "spike:c3:track": "tsx scripts/spikes/channel3-track.ts",
+    "spike:claude": "tsx scripts/spikes/claude-same-product.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.3.0",
+    "@channel3/sdk": "^4.5.0",
+    "@paypal/paypal-server-sdk": "^2.5.0",
+    "dotenv": "^18.0.9",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
