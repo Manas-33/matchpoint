@@ -1,0 +1,618 @@
+{
+  "url": "channel3:jeBHh66",
+  "product": {
+    "id": "jeBHh66",
+    "title": "Men's Moab 3 Hiking Shoes",
+    "description": "The Merrell Men's Moab 3 Hiking Shoes are durable and supportive outdoor shoes designed for hiking and trail walking. They feature a pigskin leather and mesh upper for breathability, combined with a protective toe cap and bellows tongue to keep debris out. For comfort and stability, the shoes include a Kinetic Fit® ADVANCED removable contoured insole, a molded nylon arch shank, and a Merrell Air Cushion® in the heel. The lightweight EVA foam midsole provides additional cushioning, while the grippy Vibram® TC5+ rubber outsole ensures enhanced traction on various terrains.",
+    "brands": [
+      {
+        "id": "jU84",
+        "name": "MERRELL"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://cdn.trychannel3.com/472d6ff1-82a6-4ad8-a426-f44942147d77?aid=01M5RC3CNB3WXC3D2M5DMR4GEF&mid=qzpY",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/472d6ff1-82a6-4ad8-a426-f44942147d77?aid=01M5RC3CNB3WXC3D2M5DMR4GEF&mid=qzpY",
+        "is_main_image": true,
+        "shot_type": "hero",
+        "alt_text": "Dark olive green and black hiking shoe on white background."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/3547dd51-2edb-45f8-a3e6-2c513f314a94?aid=01M5RC3CNB3WXC3D2M5DMR4GEF&mid=qzpY",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/3547dd51-2edb-45f8-a3e6-2c513f314a94?aid=01M5RC3CNB3WXC3D2M5DMR4GEF&mid=qzpY",
+        "is_main_image": false,
+        "shot_type": "detail",
+        "alt_text": "Close-up of the rugged outsole of the hiking shoe."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/8ea80a5b-fbac-4382-ad1e-c945a2ad63c7?aid=01M5RC3CNB3WXC3D2M5DMR4GEF&mid=qzpY",
+        "cleaned_url": null,
+        "is_main_image": false,
+        "shot_type": "lifestyle",
+        "alt_text": "Pair of dark olive green and black hiking shoes."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/42ddd284-3bc0-4298-9a97-2e25a73afb17?aid=01M5RC3CNB3WXC3D2M5DMR4GEF&mid=qzpY",
+        "cleaned_url": null,
+        "is_main_image": false,
+        "shot_type": "flat_lay",
+        "alt_text": "Pair of hiking shoes flat lay view."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/ce095437-8f05-401a-8909-2a46996cadb8?aid=01M5RC3CNB3WXC3D2M5DMR4GEF&mid=qzpY",
+        "cleaned_url": null,
+        "is_main_image": false,
+        "shot_type": "lifestyle",
+        "alt_text": "Pair of dark olive green and black hiking shoes from above."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/2d657c4c-6765-401a-adb0-3d2b817b0933?aid=01M5RC3CNB3WXC3D2M5DMR4GEF&mid=qzpY",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/2d657c4c-6765-401a-adb0-3d2b817b0933?aid=01M5RC3CNB3WXC3D2M5DMR4GEF&mid=qzpY",
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Dark olive green and black hiking shoe on white background."
+      }
+    ],
+    "category": {
+      "slug": "athletic-shoes",
+      "title": "Athletic Shoes",
+      "path": [
+        {
+          "slug": "apparel-accessories",
+          "title": "Apparel & Accessories"
+        },
+        {
+          "slug": "shoes",
+          "title": "Shoes"
+        },
+        {
+          "slug": "athletic-shoes",
+          "title": "Athletic Shoes"
+        }
+      ],
+      "has_children": false
+    },
+    "gender": "male",
+    "age": "adult",
+    "materials": [
+      "Pigskin leather",
+      "Mesh",
+      "Rubber",
+      "EVA foam",
+      "Nylon"
+    ],
+    "key_features": [
+      "Pigskin leather and mesh upper",
+      "100% recycled laces and webbing",
+      "Bellows tongue keeps out debris",
+      "Protective toe cap",
+      "100% recycled mesh lining",
+      "Kinetic Fit® ADVANCED removable contoured insole",
+      "Molded nylon arch shank for support",
+      "Merrell Air Cushion® in the heel",
+      "Lightweight EVA foam midsole",
+      "Grippy Vibram® TC5+ rubber sole"
+    ],
+    "colors": [
+      {
+        "hex": "#4e4b3c",
+        "percentage": 0.5721
+      },
+      {
+        "hex": "#2f2f2f",
+        "percentage": 0.364
+      },
+      {
+        "hex": "#8d8a7d",
+        "percentage": 0.0639
+      }
+    ],
+    "offers": [
+      {
+        "url": "https://buy.trychannel3.com/jeBHh66-qzpY-5l3z0w?o=01M1WRHY7A8KFBCKK84AYS61XN&aid=01M5RC3CNB3WXC3D2M5DMR4GEF",
+        "domain": "basspro.com",
+        "price": {
+          "price": 144.99,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0.021,
+        "dimensions": {
+          "length": null,
+          "width": null,
+          "height": null,
+          "weight": {
+            "number": 1.56,
+            "unit": "lb"
+          }
+        }
+      },
+      {
+        "url": "https://buy.trychannel3.com/jeBHh66-fdOw-5l3z0w?o=01M3WNZJPSNSWQQNPDWE72KH9F&aid=01M5RC3CNB3WXC3D2M5DMR4GEF",
+        "domain": "dickssportinggoods.com",
+        "price": {
+          "price": 144.99,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0,
+        "dimensions": {
+          "length": null,
+          "width": null,
+          "height": null,
+          "weight": {
+            "number": 2.0625,
+            "unit": "lb"
+          }
+        }
+      },
+      {
+        "url": "https://buy.trychannel3.com/jeBHh66-B0fA-5l3z0w?o=01M4D3P85XBB6J7PJG9JM9E7QB&aid=01M5RC3CNB3WXC3D2M5DMR4GEF",
+        "domain": "merrell.com",
+        "price": {
+          "price": 145,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0.05,
+        "dimensions": {
+          "length": null,
+          "width": null,
+          "height": null,
+          "weight": {
+            "number": 460,
+            "unit": "g"
+          }
+        }
+      }
+    ],
+    "variants": {
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            {
+              "label": "Beluga",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/472d6ff1-82a6-4ad8-a426-f44942147d77",
+              "product_id": "jeBHh66"
+            },
+            {
+              "label": "Beluga/Bluff, Dark Moss, Granite V2, Walnut, Walnut/Moss, Talus/Black",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/404c91e5-bd37-4122-b22b-be071fca53b1",
+              "product_id": "RkgOGp2"
+            },
+            {
+              "label": "Black",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/fa242137-8a01-4e57-92e9-b3cc793ecabc",
+              "product_id": "JjjNBxN"
+            },
+            {
+              "label": "Light Brown 01",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/73c05450-0701-42ca-8c32-95d7d6a9dfa9",
+              "product_id": "8rhx9DV"
+            },
+            {
+              "label": "Teak/Burlap",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/aed71e7d-7dd1-4bd5-b1d2-88014085e340",
+              "product_id": "s9SLvAc"
+            },
+            {
+              "label": "Granite",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/61681b8b-40f0-4e1c-b8cf-03f5db2d9e28",
+              "product_id": "aQymXVf"
+            },
+            {
+              "label": "Granite V2",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/18627d86-7cb1-4e7f-aa2d-1f693d40711d",
+              "product_id": "rFCMciC"
+            },
+            {
+              "label": "Beluga/Bluff",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/f4aba425-3558-469d-ae16-d06365926643",
+              "product_id": "MrF7QKV"
+            },
+            {
+              "label": "Talus/Black",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/587dafb7-62a5-492c-ada9-616b6d6baf97",
+              "product_id": "HHI2Lw2"
+            },
+            {
+              "label": "Off-white",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/f93a9666-0bf0-4caa-821e-447dec3c3ea0",
+              "product_id": "UiqMbPI"
+            }
+          ]
+        },
+        {
+          "name": "Size",
+          "values": [
+            {
+              "label": "3",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "3.5",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "4",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "4.5",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "5",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "5.5",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "6",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "6.5",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "7",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "7 Wide",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "7.5",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "7.5 Wide",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "8",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "8 Wide",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "8.5",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "8.5 Wide",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "9",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "9 Wide",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "9.5",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "9.5 Wide",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "10",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "10 Wide",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "10.5",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "10.5 Wide",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "11",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "11 Wide",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "11.5",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "11.5 Wide",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "12",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "12 Wide",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "12.5",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "12.5 Wide",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "13",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "13 Wide",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "14",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "14 Wide",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "15",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "16",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "D",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            }
+          ]
+        }
+      ],
+      "selected": [
+        {
+          "name": "Color",
+          "label": "Beluga"
+        }
+      ]
+    },
+    "structured_attributes": {
+      "outsole-material": [
+        "Rubber"
+      ],
+      "ankle-collar-style": [
+        "Low cut"
+      ],
+      "shoe-features": [
+        "Breathable design",
+        "Cushioned",
+        "Lightweight",
+        "Recycled materials",
+        "Slip resistant"
+      ],
+      "footwear-cut": [
+        "Low cut"
+      ],
+      "lining-material": [
+        "Mesh"
+      ],
+      "activity": [
+        "Hiking"
+      ],
+      "waterproof-level": [
+        "Not water resistant"
+      ],
+      "heel-height-type": [
+        "Flat"
+      ],
+      "toe-protection-type": [
+        "Soft"
+      ],
+      "toe-style": [
+        "Round"
+      ],
+      "pattern": [
+        "Solid"
+      ],
+      "closure-type": [
+        "Lace-up"
+      ],
+      "shoe-fit": [
+        "Regular"
+      ],
+      "occasion-style": [
+        "Casual"
+      ],
+      "outsole-stud-type": [
+        "Rubber lugs"
+      ],
+      "boot-style": [
+        "Hiking"
+      ],
+      "upper-material": [
+        "Leather",
+        "Mesh"
+      ],
+      "footwear-material": [
+        "Leather",
+        "Mesh",
+        "Nylon",
+        "Rubber"
+      ],
+      "insole-material": [
+        "Synthetic"
+      ],
+      "shoe-collar-height": [
+        "Low-top"
+      ],
+      "footwear-support-type": [
+        "Neutral"
+      ]
+    },
+    "ratings": {
+      "value": 4.58,
+      "count": 2758,
+      "source_count": 2
+    }
+  }
+}

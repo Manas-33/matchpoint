@@ -1,0 +1,519 @@
+{
+  "url": "channel3:9G5eqUx",
+  "product": {
+    "id": "9G5eqUx",
+    "title": "Hoka Clifton 11 Running Shoes",
+    "description": "Power every mile with the HOKA Clifton 11 Running Shoes, built for smooth, lightweight performance on daily runs and long distances alike. A breathable engineered mesh upper pairs with a plush CMEVA midsole and smooth MetaRocker geometry to deliver soft landings and effortless flow mile after mile. Finished with durable traction and a secure, locked-in fit, it’s designed to keep your runs fast, fluid, and unstoppable. What’s New: upper refresh with elevated engineered mesh upper and premium sockliner. Design: engineered mesh upper delivers breathable support for consistent airflow on daily runs. 3D printed touchpoints add lightweight structure and targeted durability. Reflective details for visibility. Double-lace lock system for secure fit. In-Shoe Comfort: Rearfoot-Focused Active Foot Frame cradles the heel for stability. Smooth MetaRocker promotes natural stride and seamless heel-to-toe transitions. Open cell sockliner provides soft step-in comfort with improved breathability. CMEVA midsole delivers lightweight cushioning for everyday mileage. Durability & Traction: Durabrasion rubber outsole offers reliable grip and long-lasting wear on road surfaces. Additional Details: Weight 9.87 oz / 280 g (size 10); Heel drop 8mm; Stack height 42mm heel / 34mm toe; Designed for road running and daily training; Vegan.",
+    "brands": [
+      {
+        "id": "a50q",
+        "name": "HOKA"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://cdn.trychannel3.com/d84caec5-baa3-4bfe-9931-2a2a8cdf0de8?aid=01M5RC3B8615ES8NPGWG2Y9Q4V&mid=fdOw",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/d84caec5-baa3-4bfe-9931-2a2a8cdf0de8?aid=01M5RC3B8615ES8NPGWG2Y9Q4V&mid=fdOw",
+        "is_main_image": true,
+        "shot_type": "hero",
+        "alt_text": "Hoka Clifton 11 running shoe side view."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/5d8c7a79-c102-4b9d-b577-b87dee98ea3c?aid=01M5RC3B8615ES8NPGWG2Y9Q4V&mid=fdOw",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/5d8c7a79-c102-4b9d-b577-b87dee98ea3c?aid=01M5RC3B8615ES8NPGWG2Y9Q4V&mid=fdOw",
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Hoka Clifton 11 running shoe side view."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/d696da36-0984-4c03-be4b-bf34da98fe63?aid=01M5RC3B8615ES8NPGWG2Y9Q4V&mid=fdOw",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/d696da36-0984-4c03-be4b-bf34da98fe63?aid=01M5RC3B8615ES8NPGWG2Y9Q4V&mid=fdOw",
+        "is_main_image": false,
+        "shot_type": "detail",
+        "alt_text": "Close-up of the interior and exterior of the shoe."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/2114cfcc-d32d-4a2e-b7fd-d90b6b322ee0?aid=01M5RC3B8615ES8NPGWG2Y9Q4V&mid=fdOw",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/2114cfcc-d32d-4a2e-b7fd-d90b6b322ee0?aid=01M5RC3B8615ES8NPGWG2Y9Q4V&mid=fdOw",
+        "is_main_image": false,
+        "shot_type": "detail",
+        "alt_text": "Close-up of the outsole pattern of the running shoe."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/f5da1415-ac2a-451c-9d2f-84fc8f336654?aid=01M5RC3B8615ES8NPGWG2Y9Q4V&mid=fdOw",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/f5da1415-ac2a-451c-9d2f-84fc8f336654?aid=01M5RC3B8615ES8NPGWG2Y9Q4V&mid=fdOw",
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Hoka Clifton 11 running shoe from back and side."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/79e85dbb-b2c6-4611-9b45-b5da11d582ec?aid=01M5RC3B8615ES8NPGWG2Y9Q4V&mid=fdOw",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/79e85dbb-b2c6-4611-9b45-b5da11d582ec?aid=01M5RC3B8615ES8NPGWG2Y9Q4V&mid=fdOw",
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Hoka Clifton 11 running shoe sole and upper."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/64b7353e-68ec-44a7-806c-40f74f03c32f?aid=01M5RC3B8615ES8NPGWG2Y9Q4V&mid=fdOw",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/64b7353e-68ec-44a7-806c-40f74f03c32f?aid=01M5RC3B8615ES8NPGWG2Y9Q4V&mid=fdOw",
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Hoka Clifton 11 running shoe front view."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/0fe67b26-00e6-488c-b8a1-058315406e3e?aid=01M5RC3B8615ES8NPGWG2Y9Q4V&mid=fdOw",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/0fe67b26-00e6-488c-b8a1-058315406e3e?aid=01M5RC3B8615ES8NPGWG2Y9Q4V&mid=fdOw",
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Hoka Clifton 11 running shoe side profile."
+      }
+    ],
+    "category": {
+      "slug": "athletic-shoes",
+      "title": "Athletic Shoes",
+      "path": [
+        {
+          "slug": "apparel-accessories",
+          "title": "Apparel & Accessories"
+        },
+        {
+          "slug": "shoes",
+          "title": "Shoes"
+        },
+        {
+          "slug": "athletic-shoes",
+          "title": "Athletic Shoes"
+        }
+      ],
+      "has_children": false
+    },
+    "gender": "male",
+    "age": "adult",
+    "materials": [],
+    "key_features": [
+      "New upper refresh with elevated engineered mesh upper",
+      "Premium sockliner",
+      "Reflective details for low-light visibility",
+      "Double-lace lock system",
+      "Rearfoot-Focused Active Foot Frame",
+      "Smooth MetaRocker for natural stride",
+      "CMEVA midsole cushioning",
+      "Durabrasion rubber outsole"
+    ],
+    "colors": [
+      {
+        "hex": "#cebba6",
+        "percentage": 0.6423
+      },
+      {
+        "hex": "#997d55",
+        "percentage": 0.1513
+      },
+      {
+        "hex": "#b09878",
+        "percentage": 0.1117
+      },
+      {
+        "hex": "#705636",
+        "percentage": 0.0946
+      }
+    ],
+    "offers": [
+      {
+        "url": "https://buy.trychannel3.com/9G5eqUx-fdOw-5l3z0w?o=01KYMCT37EN0ZSRQZVGAGMB4TT&aid=01M5RC3B8615ES8NPGWG2Y9Q4V",
+        "domain": "dickssportinggoods.com",
+        "price": {
+          "price": 154.99,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0,
+        "dimensions": null
+      }
+    ],
+    "variants": {
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            {
+              "label": "Black/Black",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/92f8a555-0dda-47a9-95e4-40397184da94",
+              "product_id": "CWEgxJS"
+            },
+            {
+              "label": "Antique Olive/River Rock Grey",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/42d528af-e8d9-460c-94f3-6f8f31a646ab",
+              "product_id": "VmCNQlt"
+            },
+            {
+              "label": "Barley Flour/Barley",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/d84caec5-baa3-4bfe-9931-2a2a8cdf0de8",
+              "product_id": "9G5eqUx"
+            },
+            {
+              "label": "Virtual Blue/Soft Cobalt",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/73bcbaf5-9f47-4e30-a7ad-bd189599c4ed",
+              "product_id": "8qBOQDH"
+            },
+            {
+              "label": "Galactic Grey/stardust",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/adb5c0d1-ffc1-43ef-a6b3-3260bfb37c8f",
+              "product_id": "E9T4cuv"
+            },
+            {
+              "label": "White/Black",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/871e511f-222e-4ea0-ad9f-b662968942b5",
+              "product_id": "7UNAuC6"
+            },
+            {
+              "label": "Stucco/Grout",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/6462c6fb-cd05-4284-87ca-1ddcde241a3a",
+              "product_id": "y8z5gut"
+            }
+          ]
+        },
+        {
+          "name": "Shoe Width",
+          "values": [
+            {
+              "label": "Medium/B",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "Medium",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "Medium/D",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "Regular B",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "Regular",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "Regular D",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "Wide/D",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "Wide",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "Wide D",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "Wide/2E",
+              "exists": true,
+              "available": "OutOfStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "Wide 2E",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "Extra Wide/2E",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "Extra Wide",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "X Wide",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "X Wide 2E",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "X Wide 4E",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "Not specified",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            }
+          ]
+        },
+        {
+          "name": "Shoe Size",
+          "values": [
+            {
+              "label": "6",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "6.5",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "7",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "7.5",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "8",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "8.5",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "9",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "9.5",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "10",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "10.5",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "11",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "11.5",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "12",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "12.5",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "13",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "14",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "15",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "None presented on page",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "Not specified",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            }
+          ]
+        }
+      ],
+      "selected": [
+        {
+          "name": "Color",
+          "label": "Barley Flour/Barley"
+        }
+      ]
+    },
+    "structured_attributes": {
+      "shoe-features": [
+        "Lightweight",
+        "Cushioned",
+        "Breathable design"
+      ],
+      "visibility-features": [
+        "Reflective elements"
+      ],
+      "shoe-collar-height": [
+        "Mid-top"
+      ],
+      "occasion-style": [
+        "Casual"
+      ],
+      "pattern": [
+        "Solid"
+      ],
+      "upper-material": [
+        "Mesh"
+      ],
+      "toe-style": [
+        "Round"
+      ],
+      "footwear-support-type": [
+        "Neutral"
+      ],
+      "pronation-support": [
+        "Neutral"
+      ],
+      "outsole-material": [
+        "Rubber"
+      ],
+      "sneaker-style": [
+        "Athletic"
+      ],
+      "footwear-material": [
+        "Textile"
+      ],
+      "closure-type": [
+        "Straps"
+      ],
+      "activity": [
+        "Running",
+        "Walking",
+        "Training"
+      ],
+      "heel-height-type": [
+        "Flat"
+      ]
+    },
+    "ratings": {
+      "value": 4.44,
+      "count": 36,
+      "source_count": 1
+    }
+  }
+}

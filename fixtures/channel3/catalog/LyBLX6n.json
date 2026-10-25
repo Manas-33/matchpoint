@@ -1,0 +1,366 @@
+{
+  "url": "channel3:LyBLX6n",
+  "product": {
+    "id": "LyBLX6n",
+    "title": "Men's Thermoball™ Jacket",
+    "description": "The North Face THERMOBALL™ Jacket is a lightweight, high-performance men's coat designed for versatility on the trail or for everyday wear. It features a slim fit and a ripstop DWR shell that sheds light rain and dries quickly. The jacket is insulated with PrimaLoft® ThermoBall™, a synthetic alternative to down that retains warmth even when wet and offers compressibility equivalent to 600-fill down. Practical features include the ability to stow into its own hand pocket, a stand collar for extra warmth, an exposed VISLON® zipper, a secure interior zip pocket, and an adjustable cinchcord hem. The jacket is constructed from 100% nylon with 100% polyester insulation.",
+    "brands": [
+      {
+        "id": "7JdA",
+        "name": "The North Face"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://cdn.trychannel3.com/1bc0cc5f-b99d-4017-8f5c-2adf7d0ae894?aid=01M5RC3CG4NPKE1JBEXJW8TMCW&mid=fsxO",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/1bc0cc5f-b99d-4017-8f5c-2adf7d0ae894?aid=01M5RC3CG4NPKE1JBEXJW8TMCW&mid=fsxO",
+        "is_main_image": true,
+        "shot_type": "on_model",
+        "alt_text": "Man wearing a black quilted puffer jacket."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/9768f748-bf67-474d-974d-fe5f60ed90f0?aid=01M5RC3CG4NPKE1JBEXJW8TMCW&mid=fsxO",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/9768f748-bf67-474d-974d-fe5f60ed90f0?aid=01M5RC3CG4NPKE1JBEXJW8TMCW&mid=fsxO",
+        "is_main_image": false,
+        "shot_type": "on_model",
+        "alt_text": "Man wearing a black quilted puffer jacket."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/870bdd8b-163f-467b-894d-ab61a4257542?aid=01M5RC3CG4NPKE1JBEXJW8TMCW&mid=fsxO",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/870bdd8b-163f-467b-894d-ab61a4257542?aid=01M5RC3CG4NPKE1JBEXJW8TMCW&mid=fsxO",
+        "is_main_image": false,
+        "shot_type": "on_model",
+        "alt_text": "Man view back wearing a black quilted puffer jacket."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/a0d61722-3ade-479f-9545-ae4a87a53b08?aid=01M5RC3CG4NPKE1JBEXJW8TMCW&mid=fsxO",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/a0d61722-3ade-479f-9545-ae4a87a53b08?aid=01M5RC3CG4NPKE1JBEXJW8TMCW&mid=fsxO",
+        "is_main_image": false,
+        "shot_type": "on_model",
+        "alt_text": "Man view back wearing a black quilted puffer jacket."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/5182f075-9d5f-4c06-ae08-10c0be95afef?aid=01M5RC3CG4NPKE1JBEXJW8TMCW&mid=fsxO",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/5182f075-9d5f-4c06-ae08-10c0be95afef?aid=01M5RC3CG4NPKE1JBEXJW8TMCW&mid=fsxO",
+        "is_main_image": false,
+        "shot_type": "detail",
+        "alt_text": "Close-up of the quilted nylon material on a black jacket."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/435bd651-76c6-411c-ad6b-cb2b66def4ce?aid=01M5RC3CG4NPKE1JBEXJW8TMCW&mid=fsxO",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/435bd651-76c6-411c-ad6b-cb2b66def4ce?aid=01M5RC3CG4NPKE1JBEXJW8TMCW&mid=fsxO",
+        "is_main_image": false,
+        "shot_type": "on_model",
+        "alt_text": "Man wearing a black quilted puffer jacket."
+      }
+    ],
+    "category": {
+      "slug": "puffer-jackets-2",
+      "title": "Puffer Jackets",
+      "path": [
+        {
+          "slug": "apparel-accessories",
+          "title": "Apparel & Accessories"
+        },
+        {
+          "slug": "clothing",
+          "title": "Clothing"
+        },
+        {
+          "slug": "outerwear",
+          "title": "Outerwear"
+        },
+        {
+          "slug": "coats-jackets",
+          "title": "Coats & Jackets"
+        },
+        {
+          "slug": "puffer-jackets-2",
+          "title": "Puffer Jackets"
+        }
+      ],
+      "has_children": false
+    },
+    "gender": "male",
+    "age": "adult",
+    "materials": [
+      "100% nylon",
+      "100% polyester"
+    ],
+    "key_features": [
+      "Ripstop DWR Shell",
+      "PrimaLoft® ThermoBall™ insulation",
+      "Stows into its own hand pocket",
+      "Slim fit",
+      "Exposed VISLON® zipper",
+      "Adjustable cinchcord hem",
+      "Secure-zip interior pocket"
+    ],
+    "colors": [
+      {
+        "hex": "#2f2e32",
+        "percentage": 0.3917
+      },
+      {
+        "hex": "#18191c",
+        "percentage": 0.2287
+      },
+      {
+        "hex": "#4c4644",
+        "percentage": 0.1482
+      },
+      {
+        "hex": "#666060",
+        "percentage": 0.1157
+      },
+      {
+        "hex": "#ac9f98",
+        "percentage": 0.1157
+      }
+    ],
+    "offers": [
+      {
+        "url": "https://buy.trychannel3.com/LyBLX6n-fsxO-5l3z0w?o=01M581N9AGBSDK8YXDMY38GD3T&aid=01M5RC3CG4NPKE1JBEXJW8TMCW",
+        "domain": "zappos.com",
+        "price": {
+          "price": 220,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0.05,
+        "dimensions": {
+          "length": {
+            "number": 28,
+            "unit": "in"
+          },
+          "width": null,
+          "height": null,
+          "weight": null
+        }
+      }
+    ],
+    "variants": {
+      "options": [
+        {
+          "name": "Style",
+          "values": [
+            {
+              "label": "Jacket",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/1bc0cc5f-b99d-4017-8f5c-2adf7d0ae894",
+              "product_id": "LyBLX6n"
+            },
+            {
+              "label": "Hooded Jacket",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/9595d9ca-3767-408f-96a3-4f7fa8d4603a",
+              "product_id": "Bazr3bY"
+            }
+          ]
+        },
+        {
+          "name": "Color",
+          "values": [
+            {
+              "label": "Woodland Green",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/562f2e74-5b2a-47e9-b205-be39ed88c7c0",
+              "product_id": "cdz7waz"
+            },
+            {
+              "label": "Summit Navy",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/1bc0cc5f-b99d-4017-8f5c-2adf7d0ae894",
+              "product_id": "LyBLX6n"
+            },
+            {
+              "label": "Bold Blue",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/e436f942-47c7-41d2-a43d-6e2c536839fb",
+              "product_id": "KtVnmFZ"
+            },
+            {
+              "label": "Smoked Pearl",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/a513bfe3-df1c-48b5-8ade-d4dbf9f2b68c",
+              "product_id": "He4VnCV"
+            }
+          ]
+        },
+        {
+          "name": "Size",
+          "values": [
+            {
+              "label": "S",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "M",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "L",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "Standard",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "XL",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "XXL",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "3XL",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "Big",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            }
+          ]
+        },
+        {
+          "name": "Fit",
+          "values": [
+            {
+              "label": "S",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "M",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "L",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "XL",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "XXL",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "3XL",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "Standard",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "Big",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            }
+          ]
+        }
+      ],
+      "selected": [
+        {
+          "name": "Style",
+          "label": "Jacket"
+        },
+        {
+          "name": "Color",
+          "label": "Summit Navy"
+        }
+      ]
+    },
+    "structured_attributes": {
+      "outerwear-clothing-features": [
+        "Insulated",
+        "Lightweight",
+        "Pockets",
+        "Quick drying",
+        "UV protection"
+      ],
+      "sleeve-length-type": [
+        "Long"
+      ],
+      "clothing-features": [
+        "Quick drying",
+        "Lightweight"
+      ],
+      "outerwear-length-type": [
+        "Hip length"
+      ],
+      "neckline": [
+        "Collared"
+      ],
+      "front-closure-style": [
+        "Zip"
+      ],
+      "pattern": [
+        "Texture"
+      ],
+      "fabric": [
+        "Nylon",
+        "Polyester"
+      ]
+    },
+    "ratings": null
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "url": "channel3:AM73BFE",
+  "product": {
+    "id": "AM73BFE",
+    "title": "Arc'teryx Atom Jacket Men's",
+    "description": "A men's insulated jacket from Arc'teryx, featuring a high neckline, full-zip front closure with a silver zipper, and stretchable knit cuffs. The exterior Tyono 20 face fabric is wind- and weather-resistant, treated with a DWR coating. It is insulated with Coreloft Compact insulation, which contains a minimum of 20 percent recycled content. The jacket also features the Arc'teryx lizard logo on the left chest. Available in black.",
+    "brands": [
+      {
+        "id": "y0lG",
+        "name": "Arc'teryx"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://cdn.trychannel3.com/6522dfe8-0e44-433f-ad37-0b8419295a6e?aid=01M5RC3BJF6DWJXR3RTAWD6D74&mid=fsxO",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/6522dfe8-0e44-433f-ad37-0b8419295a6e?aid=01M5RC3BJF6DWJXR3RTAWD6D74&mid=fsxO",
+        "is_main_image": true,
+        "shot_type": "on_model",
+        "alt_text": "Man wearing a black Arc'teryx Atom jacket with grey pants."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/8523e1ef-3fe2-4366-836f-65610e3e8f5c?aid=01M5RC3BJF6DWJXR3RTAWD6D74&mid=fsxO",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/8523e1ef-3fe2-4366-836f-65610e3e8f5c?aid=01M5RC3BJF6DWJXR3RTAWD6D74&mid=fsxO",
+        "is_main_image": false,
+        "shot_type": "on_model",
+        "alt_text": "Man wearing a black Arc'teryx Atom jacket with grey pants."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/7280ce27-aef7-4242-9d1d-7533acf2d394?aid=01M5RC3BJF6DWJXR3RTAWD6D74&mid=fsxO",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/7280ce27-aef7-4242-9d1d-7533acf2d394?aid=01M5RC3BJF6DWJXR3RTAWD6D74&mid=fsxO",
+        "is_main_image": false,
+        "shot_type": "on_model",
+        "alt_text": "Back view of a black Arc'teryx Atom jacket worn by a man."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/0681ca04-12af-4c1d-8cd1-4cddedd510c4?aid=01M5RC3BJF6DWJXR3RTAWD6D74&mid=fsxO",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/0681ca04-12af-4c1d-8cd1-4cddedd510c4?aid=01M5RC3BJF6DWJXR3RTAWD6D74&mid=fsxO",
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Close-up of the front of a black Arc'teryx Atom jacket with a zipper."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/693c09d3-c4e4-4d4d-bd4a-91720fa57728?aid=01M5RC3BJF6DWJXR3RTAWD6D74&mid=fsxO",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/693c09d3-c4e4-4d4d-bd4a-91720fa57728?aid=01M5RC3BJF6DWJXR3RTAWD6D74&mid=fsxO",
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Front view of a black Arc'teryx Atom jacket with purple trim."
+      }
+    ],
+    "category": {
+      "slug": "liners-insulators",
+      "title": "Liners & Insulators",
+      "path": [
+        {
+          "slug": "apparel-accessories",
+          "title": "Apparel & Accessories"
+        },
+        {
+          "slug": "clothing",
+          "title": "Clothing"
+        },
+        {
+          "slug": "outerwear",
+          "title": "Outerwear"
+        },
+        {
+          "slug": "liners-insulators",
+          "title": "Liners & Insulators"
+        }
+      ],
+      "has_children": false
+    },
+    "gender": "male",
+    "age": "adult",
+    "materials": [
+      "100% nylon",
+      "100% recycled polyester",
+      "94% polyester",
+      "6% elastane"
+    ],
+    "key_features": [
+      "Contains a minimum of 20 percent recycled content",
+      "High neckline and long sleeves with stretchable knit cuffs",
+      "Zippered front closure",
+      "Tyono 20 face fabric is wind-and weather-resistant",
+      "Coreloft Compact insulation resists frequent loading and unloading and absorbs heat when damp",
+      "Moisture is repelled using a DWR (Durable Water Repellent) coating"
+    ],
+    "colors": [
+      {
+        "hex": "#31302f",
+        "percentage": 0.7508
+      },
+      {
+        "hex": "#7a685d",
+        "percentage": 0.1509
+      },
+      {
+        "hex": "#b09c90",
+        "percentage": 0.0983
+      }
+    ],
+    "offers": [
+      {
+        "url": "https://buy.trychannel3.com/AM73BFE-fsxO-5l3z0w?o=01M49SSNSCDAMW8X9NG4WPXV40&aid=01M5RC3BJF6DWJXR3RTAWD6D74",
+        "domain": "zappos.com",
+        "price": {
+          "price": 280,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0.05,
+        "dimensions": null
+      }
+    ],
+    "variants": {
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            {
+              "label": "Black Sapphire",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/6522dfe8-0e44-433f-ad37-0b8419295a6e",
+              "product_id": "AM73BFE"
+            },
+            {
+              "label": "Forage",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/7bb31bcd-1e02-4f21-b8ad-a6d25ae6322d",
+              "product_id": "6PjVRDu"
+            }
+          ]
+        },
+        {
+          "name": "Size",
+          "values": [
+            {
+              "label": "XS",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "SM",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "MD",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "LG",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "XL",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "2XL",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            }
+          ]
+        }
+      ],
+      "selected": [
+        {
+          "name": "Color",
+          "label": "Black Sapphire"
+        }
+      ]
+    },
+    "structured_attributes": {
+      "sleeve-length-type": [
+        "Long"
+      ],
+      "outerwear-clothing-features": [
+        "Breathable design",
+        "Insulated",
+        "Pockets",
+        "Windproof",
+        "Lightweight",
+        "Waterproof"
+      ],
+      "neckline": [
+        "Collared",
+        "Mock",
+        "Turtle"
+      ],
+      "care-instructions": [
+        "Machine washable",
+        "Tumble dry"
+      ],
+      "pattern": [
+        "Solid"
+      ],
+      "fabric": [
+        "Nylon",
+        "Polyester",
+        "Spandex",
+        "Cotton"
+      ]
+    },
+    "ratings": {
+      "value": 5,
+      "count": 90,
+      "source_count": 1
+    }
+  }
+}

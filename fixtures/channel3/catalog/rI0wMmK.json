@@ -1,0 +1,169 @@
+{
+  "url": "channel3:rI0wMmK",
+  "product": {
+    "id": "rI0wMmK",
+    "title": "Shure SM58 Microphone Kit",
+    "description": "This Shure SM58 Handheld Dynamic Microphone Kit is a legendary vocal microphone known for its ruggedness and exceptional sound quality. It features a cardioid polar pattern for excellent sound isolation, minimizing background noise and feedback. The microphone's tailored midrange and bass roll-off enhance vocal clarity, making it ideal for speech and singing. The kit includes the SM58 microphone, a red XLR microphone cable, and a red foam windscreen for protection against plosives and wind noise. Its durable construction ensures longevity, making it a reliable choice for live performances, home studios, and various other audio applications.",
+    "brands": [
+      {
+        "id": "u5Mb",
+        "name": "Shure"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://cdn.trychannel3.com/b35b3fef-b624-46b0-af9d-b54e4ad1af83?aid=01M5RC3BDM0669RNGER2XDDM8N&mid=oHaU",
+        "cleaned_url": "https://cdn.trychannel3.com/93483394-ea75-4f9f-a49b-21bcdb1e5dc2?aid=01M5RC3BDM0669RNGER2XDDM8N&mid=oHaU",
+        "is_main_image": true,
+        "shot_type": "hero",
+        "alt_text": "Black handheld dynamic microphone with red cable and windscreen."
+      }
+    ],
+    "category": {
+      "slug": "microphones",
+      "title": "Microphones",
+      "path": [
+        {
+          "slug": "electronics",
+          "title": "Electronics"
+        },
+        {
+          "slug": "audio",
+          "title": "Audio"
+        },
+        {
+          "slug": "audio-components",
+          "title": "Audio Components"
+        },
+        {
+          "slug": "microphones",
+          "title": "Microphones"
+        }
+      ],
+      "has_children": false
+    },
+    "gender": null,
+    "age": null,
+    "materials": [
+      "metal",
+      "steel"
+    ],
+    "key_features": [
+      "SM58 Cardioid Dynamic Microphone",
+      "XLR 3-Pin Microphone Cable",
+      "Removable Foam Windscreen",
+      "Ideal for Speech and Vocals",
+      "Cardioid Polar Pattern",
+      "50 Hz to 15 kHz Frequency Response",
+      "Low Handling Noise",
+      "Immunity to Plosives & Wind Noise",
+      "Durable Metal Construction"
+    ],
+    "colors": [
+      {
+        "hex": "#2d3033",
+        "percentage": 0.2585
+      },
+      {
+        "hex": "#131317",
+        "percentage": 0.246
+      },
+      {
+        "hex": "#6e7174",
+        "percentage": 0.1437
+      },
+      {
+        "hex": "#e7e8ea",
+        "percentage": 0.1322
+      },
+      {
+        "hex": "#4c5053",
+        "percentage": 0.119
+      },
+      {
+        "hex": "#9ea0a3",
+        "percentage": 0.1007
+      }
+    ],
+    "offers": [
+      {
+        "url": "https://buy.trychannel3.com/rI0wMmK-oHaU-5l3z0w?o=01KS93JZA29SJ8KJZJD0AX5FV2&aid=01M5RC3BDM0669RNGER2XDDM8N",
+        "domain": "bhphotovideo.com",
+        "price": {
+          "price": 109.99,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0.021,
+        "dimensions": {
+          "length": {
+            "number": 6.4,
+            "unit": "in"
+          },
+          "width": null,
+          "height": null,
+          "weight": {
+            "number": 0.72,
+            "unit": "lb"
+          }
+        }
+      }
+    ],
+    "variants": {
+      "options": [
+        {
+          "name": "Version",
+          "values": [
+            {
+              "label": "Standard",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/b35b3fef-b624-46b0-af9d-b54e4ad1af83",
+              "product_id": "rI0wMmK"
+            },
+            {
+              "label": "with On/Off Switch",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/06d80f10-d258-40f4-92f5-a3a8833f07ab",
+              "product_id": "y5Avaom"
+            }
+          ]
+        }
+      ],
+      "selected": [
+        {
+          "name": "Version",
+          "label": "Standard"
+        }
+      ]
+    },
+    "structured_attributes": {
+      "battery-type": [
+        "Disposable"
+      ],
+      "device-interface": [
+        "XLR"
+      ],
+      "material": [
+        "Metal"
+      ],
+      "microphone-design": [
+        "Dynamic"
+      ],
+      "microphone-thread": [
+        "5/8\"-27"
+      ],
+      "polar-pattern": [
+        "Cardioid"
+      ]
+    },
+    "ratings": {
+      "value": 4.8,
+      "count": 94,
+      "source_count": 1
+    }
+  }
+}

@@ -1,0 +1,340 @@
+{
+  "url": "channel3:3FRZAlJ",
+  "product": {
+    "id": "3FRZAlJ",
+    "title": "Osprey Atmos AG 65 Backpack",
+    "description": "The Osprey Atmos AG 65 is a high-performance backpacking pack designed for comfort and support on long treks. It features the revolutionary Anti-Gravity (AG) system, which seamlessly extends the tensioned backpanel into the hipbelt for lightweight, suspended support. The pack includes a Fit-on-the-Fly harness and hipbelt for a customizable fit, along with versatile storage options such as curved zip side panel access, a floating top lid, and a fabric-reinforced front shove-it pocket. For organization, it offers a zippered sleeping bag compartment with a removable divider and straps for a sleeping pad. It also comes with an included waterproof raincover made with PFC/PFAS-free DWR and bluesign approved materials, and an internal sleeve for a hydration reservoir.",
+    "brands": [
+      {
+        "id": "lhFb",
+        "name": "Osprey"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://cdn.trychannel3.com/452f4355-d870-4f37-85d1-246391c2d0bf?aid=01M5RC3AVAF1YZWGQNZPRXPRGR&mid=Nn6J",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/452f4355-d870-4f37-85d1-246391c2d0bf?aid=01M5RC3AVAF1YZWGQNZPRXPRGR&mid=Nn6J",
+        "is_main_image": true,
+        "shot_type": "hero",
+        "alt_text": "Olive green Osprey Atmos AG 65 backpack on a white background."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/afc976e5-0477-4ecb-902e-17a27784cb6c?aid=01M5RC3AVAF1YZWGQNZPRXPRGR&mid=Nn6J",
+        "cleaned_url": null,
+        "is_main_image": false,
+        "shot_type": "lifestyle",
+        "alt_text": "Man wearing an olive green backpack while hiking outdoors."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/c9510971-d665-41dd-84e0-449c36f11074?aid=01M5RC3AVAF1YZWGQNZPRXPRGR&mid=Nn6J",
+        "cleaned_url": null,
+        "is_main_image": false,
+        "shot_type": "lifestyle",
+        "alt_text": "Man sitting on rocks wearing an olive green backpack outdoors."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/2ebafe2a-7764-4506-8449-f983ee5a1150?aid=01M5RC3AVAF1YZWGQNZPRXPRGR&mid=Nn6J",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/2ebafe2a-7764-4506-8449-f983ee5a1150?aid=01M5RC3AVAF1YZWGQNZPRXPRGR&mid=Nn6J",
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Olive green Osprey backpack with integrated raincover on a white background."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/33ff85d2-b133-4c7b-88dd-da0cb52c7879?aid=01M5RC3AVAF1YZWGQNZPRXPRGR&mid=Nn6J",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/33ff85d2-b133-4c7b-88dd-da0cb52c7879?aid=01M5RC3AVAF1YZWGQNZPRXPRGR&mid=Nn6J",
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Olive green Osprey backpack viewed from the front, showing harness."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/e8532c67-68fe-4a35-9885-bde4b21f1a65?aid=01M5RC3AVAF1YZWGQNZPRXPRGR&mid=Nn6J",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/e8532c67-68fe-4a35-9885-bde4b21f1a65?aid=01M5RC3AVAF1YZWGQNZPRXPRGR&mid=Nn6J",
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Olive green Osprey backpack showing the raincover from the side."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/69a3fa2f-d764-4325-ae99-951a837a3cf1?aid=01M5RC3AVAF1YZWGQNZPRXPRGR&mid=Nn6J",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/69a3fa2f-d764-4325-ae99-951a837a3cf1?aid=01M5RC3AVAF1YZWGQNZPRXPRGR&mid=Nn6J",
+        "is_main_image": false,
+        "shot_type": "on_model",
+        "alt_text": "Man wearing a blue Osprey backpack outdoors."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/f5830185-d585-4cb8-8dc1-c6a10027594f?aid=01M5RC3AVAF1YZWGQNZPRXPRGR&mid=Nn6J",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/f5830185-d585-4cb8-8dc1-c6a10027594f?aid=01M5RC3AVAF1YZWGQNZPRXPRGR&mid=Nn6J",
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Back view of a blue and green Osprey backpack on a person."
+      }
+    ],
+    "category": {
+      "slug": "hiking-backpacks",
+      "title": "Hiking Backpacks",
+      "path": [
+        {
+          "slug": "luggage-bags",
+          "title": "Luggage & Bags"
+        },
+        {
+          "slug": "backpacks",
+          "title": "Backpacks"
+        },
+        {
+          "slug": "hiking-backpacks",
+          "title": "Hiking Backpacks"
+        }
+      ],
+      "has_children": false
+    },
+    "gender": null,
+    "age": null,
+    "materials": [
+      "recycled 210D honey comb nylon",
+      "recycled 210D high tenacity nylon",
+      "recycled 500D high tenacity nylon"
+    ],
+    "key_features": [
+      "AntiGravity suspension system with 3D-suspended mesh",
+      "Integrated raincover made with PFC/PFAS-free DWR",
+      "Stow-on-the-Go trekking pole attachment system",
+      "Fit-on-the-Fly® adjustable harness and hipbelt",
+      "Curved zip access on each side panel for main compartment",
+      "Internal hydration reservoir sleeve with center back exit port",
+      "Made with 100% recycled main, accent and bottom fabrics",
+      "Floating top lid with lash points",
+      "Fabric reinforced front shove-it pocket",
+      "Tall dual-access side water bottle pockets"
+    ],
+    "colors": [
+      {
+        "hex": "#717c5c",
+        "percentage": 0.4513
+      },
+      {
+        "hex": "#555e43",
+        "percentage": 0.3926
+      },
+      {
+        "hex": "#2b2f22",
+        "percentage": 0.0938
+      },
+      {
+        "hex": "#aeb3a0",
+        "percentage": 0.0622
+      }
+    ],
+    "offers": [
+      {
+        "url": "https://buy.trychannel3.com/3FRZAlJ-Nn6J-5l3z0w?o=01M32M2BHB1JQ3QP0HRXYCZTNM&aid=01M5RC3AVAF1YZWGQNZPRXPRGR",
+        "domain": "backcountry.com",
+        "price": {
+          "price": 369.95,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0.056,
+        "dimensions": {
+          "length": {
+            "number": 14.17,
+            "unit": "in"
+          },
+          "width": {
+            "number": 15.35,
+            "unit": "in"
+          },
+          "height": {
+            "number": 34.65,
+            "unit": "in"
+          },
+          "weight": {
+            "number": 4.69,
+            "unit": "lb"
+          }
+        }
+      },
+      {
+        "url": "https://buy.trychannel3.com/3FRZAlJ-0xCp-5l3z0w?o=01M2Q4T0W15J4H5WRPYM8CVMKM&aid=01M5RC3AVAF1YZWGQNZPRXPRGR",
+        "domain": "ascentoutdoors.com",
+        "price": {
+          "price": 370,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0.07,
+        "dimensions": {
+          "length": null,
+          "width": null,
+          "height": null,
+          "weight": {
+            "number": 3039,
+            "unit": "g"
+          }
+        }
+      },
+      {
+        "url": "https://buy.trychannel3.com/3FRZAlJ-gt53-5l3z0w?o=01M2Y8CR3G51WN3E88WN7VYZ94&aid=01M5RC3AVAF1YZWGQNZPRXPRGR",
+        "domain": "osprey.com",
+        "price": {
+          "price": 370,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "OutOfStock",
+        "condition": "new",
+        "max_commission_rate": 0.08,
+        "dimensions": {
+          "length": {
+            "number": 15.35,
+            "unit": "in"
+          },
+          "width": {
+            "number": 14.17,
+            "unit": "in"
+          },
+          "height": {
+            "number": 32.68,
+            "unit": "in"
+          },
+          "weight": {
+            "number": 4.613,
+            "unit": "lb"
+          }
+        }
+      },
+      {
+        "url": "https://buy.trychannel3.com/3FRZAlJ-Jp0g-5l3z0w?o=01M3BHY24XT3ZFEFCABKASZYM6&aid=01M5RC3AVAF1YZWGQNZPRXPRGR",
+        "domain": "campmor.com",
+        "price": {
+          "price": 370,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "OutOfStock",
+        "condition": "new",
+        "max_commission_rate": 0.02,
+        "dimensions": null
+      },
+      {
+        "url": "https://buy.trychannel3.com/3FRZAlJ-DeIl-5l3z0w?o=01KBPAY95WY7XSAGRR28TN11YC&aid=01M5RC3AVAF1YZWGQNZPRXPRGR",
+        "domain": "gearheadoutfitters.com",
+        "price": {
+          "price": 370,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "OutOfStock",
+        "condition": "new",
+        "max_commission_rate": 0,
+        "dimensions": null
+      }
+    ],
+    "variants": {
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            {
+              "label": "Mythical Green",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/452f4355-d870-4f37-85d1-246391c2d0bf",
+              "product_id": "3FRZAlJ"
+            },
+            {
+              "label": "Venturi Blue",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/4ceecb0b-eb8c-4514-8c5d-52934b11958c",
+              "product_id": "NjZzUYg"
+            }
+          ]
+        },
+        {
+          "name": "Size",
+          "values": [
+            {
+              "label": "L/XL",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "S/M",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            }
+          ]
+        }
+      ],
+      "selected": [
+        {
+          "name": "Color",
+          "label": "Mythical Green"
+        }
+      ]
+    },
+    "structured_attributes": {
+      "luggage-bag-closure": [
+        "Zipper"
+      ],
+      "bag-case-closure": [
+        "Zipper"
+      ],
+      "bag-case-material": [
+        "Nylon",
+        "Polyester",
+        "Mesh"
+      ],
+      "pattern": [
+        "Solid",
+        "Logo",
+        "Texture"
+      ],
+      "care-instructions": [
+        "Tumble dry"
+      ],
+      "carry-options": [
+        "Backpack strap",
+        "Handle",
+        "Chest/Waist strap",
+        "Shoulder strap",
+        "Detachable strap",
+        "Crossbody strap"
+      ],
+      "bag-case-features": [
+        "Adjustable size",
+        "Lightweight",
+        "Waterproof",
+        "Internal padding",
+        "Anti-theft",
+        "Lockable"
+      ],
+      "bag-case-storage-features": [
+        "Built-in compartments",
+        "External pockets",
+        "Protective sleeves",
+        "Water bottle holder",
+        "Bow holders",
+        "Laptop compartment",
+        "Insulated bottle pocket",
+        "Adjustable dividers",
+        "Internal padding",
+        "Hidden pockets",
+        "Removable pouch"
+      ]
+    },
+    "ratings": {
+      "value": 4.71,
+      "count": 55,
+      "source_count": 1
+    }
+  }
+}
