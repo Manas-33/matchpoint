@@ -1,0 +1,42 @@
+{
+  "id": "3M986776R8117221S",
+  "amount": {
+    "currency_code": "USD",
+    "value": "15.00"
+  },
+  "note_to_payer": "Matchpoint price protection: an approved store dropped its price.",
+  "seller_payable_breakdown": {
+    "gross_amount": {
+      "currency_code": "USD",
+      "value": "15.00"
+    },
+    "paypal_fee": {
+      "currency_code": "USD",
+      "value": "0.00"
+    },
+    "net_amount": {
+      "currency_code": "USD",
+      "value": "15.00"
+    },
+    "total_refunded_amount": {
+      "currency_code": "USD",
+      "value": "15.00"
+    }
+  },
+  "invoice_id": "spike-refund-2S321369LL635443S",
+  "status": "COMPLETED",
+  "create_time": "2026-10-24T18:19:26-07:00",
+  "update_time": "2026-10-24T18:19:26-07:00",
+  "links": [
+    {
+      "href": "https://api.sandbox.paypal.com/v2/payments/refunds/3M986776R8117221S",
+      "rel": "self",
+      "method": "GET"
+    },
+    {
+      "href": "https://api.sandbox.paypal.com/v2/payments/captures/2S321369LL635443S",
+      "rel": "up",
+      "method": "GET"
+    }
+  ]
+}

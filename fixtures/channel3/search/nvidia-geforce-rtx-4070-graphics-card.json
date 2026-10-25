@@ -1,0 +1,645 @@
+{
+  "query": "NVIDIA GeForce RTX 4070 graphics card",
+  "response": {
+    "products": [
+      {
+        "id": "ax1A0SB",
+        "title": "SPS-GFX NVIDIA GeForce RTX 4070 12GB G6X",
+        "description": "The NVIDIA GeForce RTX 4070 is a high-performance graphics processing unit (GPU) designed for laptops and desktop PCs. This specific model features 12GB of G6X memory and comes in a sleek black finish with a matte shroud and an efficient cooling system to manage thermal loads during intensive gaming or professional workloads.",
+        "brands": [
+          {
+            "id": "ft5T",
+            "name": "NVIDIA"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://cdn.trychannel3.com/767e2bf1-78a6-4944-9935-f46085857f2f?aid=01M5R97C7WQ68S6YX04P15EA23&mid=KRXv",
+            "cleaned_url": null,
+            "is_main_image": true,
+            "shot_type": "hero",
+            "alt_text": "Black NVIDIA GeForce RTX4070 graphics card on a pink background."
+          }
+        ],
+        "category": {
+          "slug": "video-cards-adapters",
+          "title": "Video Cards & Adapters",
+          "path": [
+            {
+              "slug": "electronics",
+              "title": "Electronics"
+            },
+            {
+              "slug": "electronics-accessories",
+              "title": "Electronics Accessories"
+            },
+            {
+              "slug": "computer-components",
+              "title": "Computer Components"
+            },
+            {
+              "slug": "i-o-cards-adapters",
+              "title": "I/O Cards & Adapters"
+            },
+            {
+              "slug": "video-cards-adapters",
+              "title": "Video Cards & Adapters"
+            }
+          ],
+          "has_children": true
+        },
+        "gender": null,
+        "age": null,
+        "materials": [],
+        "key_features": [
+          "12GB G6X memory",
+          "High-performance graphics processing unit",
+          "Designed for Laptops & Desktop PCs"
+        ],
+        "colors": [
+          {
+            "hex": "#494646",
+            "percentage": 0.4737
+          },
+          {
+            "hex": "#65505b",
+            "percentage": 0.2983
+          },
+          {
+            "hex": "#c890b5",
+            "percentage": 0.1568
+          },
+          {
+            "hex": "#98768c",
+            "percentage": 0.0712
+          }
+        ],
+        "offers": [
+          {
+            "url": "https://buy.trychannel3.com/ax1A0SB-KRXv-5l3z0w?o=01M2QMV3HDB511D5WQSSZWPS0S&aid=01M5R97C7WQ68S6YX04P15EA23",
+            "domain": "hp.com",
+            "price": {
+              "price": 2804.55,
+              "compare_at_price": null,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0.052,
+            "dimensions": null
+          }
+        ],
+        "variants": null,
+        "structured_attributes": {
+          "graphics-card-type": [
+            "Dedicated"
+          ],
+          "cooling-technology": [
+            "Fan"
+          ],
+          "device-interface": [
+            "PCIe"
+          ]
+        },
+        "ratings": null
+      },
+      {
+        "id": "H8T14Lh",
+        "title": "NVIDIA RTX 4000 Ada Generation Graphics Card (OEM)",
+        "description": "The NVIDIA RTX 4000 Ada Generation Graphics Card (OEM) is a professional-grade, single-slot GPU designed for workstations. Built on the Ada Lovelace architecture, it features 6144 CUDA cores, 20GB of ECC GDDR6 VRAM, and supports PCIe Gen 4.0 x16. It is optimized for AI-accelerated workflows, ray tracing, and high-performance visualization, offering four DisplayPort 1.4a outputs and a blower-style fan cooler for efficient thermal management.",
+        "brands": [
+          {
+            "id": "ft5T",
+            "name": "NVIDIA"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://cdn.trychannel3.com/7da17d66-8670-4a29-bb02-a9173e553df9?aid=01M5R97C7WQ68S6YX04P15EA23&mid=oHaU",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/7da17d66-8670-4a29-bb02-a9173e553df9?aid=01M5R97C7WQ68S6YX04P15EA23&mid=oHaU",
+            "is_main_image": true,
+            "shot_type": "hero",
+            "alt_text": "Black graphics card viewed from the side, showing the ports and design."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/661a383d-6038-4443-b48e-1a79cfeb9c5d?aid=01M5R97C7WQ68S6YX04P15EA23&mid=oHaU",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/661a383d-6038-4443-b48e-1a79cfeb9c5d?aid=01M5R97C7WQ68S6YX04P15EA23&mid=oHaU",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Black graphics card viewed from the side, showing the heatsink and ports."
+          }
+        ],
+        "category": {
+          "slug": "video-cards-adapters",
+          "title": "Video Cards & Adapters",
+          "path": [
+            {
+              "slug": "electronics",
+              "title": "Electronics"
+            },
+            {
+              "slug": "electronics-accessories",
+              "title": "Electronics Accessories"
+            },
+            {
+              "slug": "computer-components",
+              "title": "Computer Components"
+            },
+            {
+              "slug": "i-o-cards-adapters",
+              "title": "I/O Cards & Adapters"
+            },
+            {
+              "slug": "video-cards-adapters",
+              "title": "Video Cards & Adapters"
+            }
+          ],
+          "has_children": true
+        },
+        "gender": null,
+        "age": null,
+        "materials": [],
+        "key_features": [
+          "6144 CUDA Cores",
+          "Ada Lovelace Architecture",
+          "20GB of ECC GDDR6 VRAM",
+          "160-Bit Memory Interface",
+          "PCI Express 4.0 x16 Interface",
+          "Single-Slot Design",
+          "AV1 Encoding / Decoding",
+          "Blower-Style Fan Cooler",
+          "4x DisplayPort 1.4a outputs"
+        ],
+        "colors": [
+          {
+            "hex": "#696969",
+            "percentage": 0.27
+          },
+          {
+            "hex": "#282828",
+            "percentage": 0.2648
+          },
+          {
+            "hex": "#444444",
+            "percentage": 0.2603
+          },
+          {
+            "hex": "#9c9c9c",
+            "percentage": 0.1047
+          },
+          {
+            "hex": "#111112",
+            "percentage": 0.1001
+          }
+        ],
+        "offers": [
+          {
+            "url": "https://buy.trychannel3.com/H8T14Lh-oHaU-5l3z0w?o=01M3K6MT899W2VBT90AK8ANJ50&aid=01M5R97C7WQ68S6YX04P15EA23",
+            "domain": "bhphotovideo.com",
+            "price": {
+              "price": 3299.99,
+              "compare_at_price": null,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0.021,
+            "dimensions": null
+          }
+        ],
+        "variants": null,
+        "structured_attributes": {
+          "bracket-profile": [
+            "Full-height"
+          ],
+          "graphics-card-type": [
+            "Professional"
+          ],
+          "video-resolution-supported": [
+            "4K ultra HD",
+            "8K ultra HD",
+            "1080p",
+            "1440p"
+          ],
+          "device-interface": [
+            "Display port",
+            "PCIe"
+          ],
+          "cooling-technology": [
+            "Blower",
+            "Fan"
+          ]
+        },
+        "ratings": null
+      },
+      {
+        "id": "VhCo5ml",
+        "title": "GeForce RTX 4060 Ti 8GB GDDR6 PCI Express 4.0 Graphics Card",
+        "description": "Experience immersive gaming and accelerated creative workflows with the NVIDIA GeForce RTX 4060 Ti. This graphics card features the ultra-efficient NVIDIA Ada Lovelace architecture, enabling advanced ray tracing and DLSS 3 for enhanced realism and performance in the latest games and applications. It is also optimized for productivity with NVIDIA Studio drivers.",
+        "brands": [
+          {
+            "id": "ft5T",
+            "name": "NVIDIA"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://cdn.trychannel3.com/41a122ff-b00d-421f-8135-2db365da7437?aid=01M5R97C7WQ68S6YX04P15EA23&mid=p1PB",
+            "cleaned_url": null,
+            "is_main_image": true,
+            "shot_type": "hero",
+            "alt_text": "Graphics card with cooling fan, black and silver design."
+          }
+        ],
+        "category": {
+          "slug": "video-cards-adapters",
+          "title": "Video Cards & Adapters",
+          "path": [
+            {
+              "slug": "electronics",
+              "title": "Electronics"
+            },
+            {
+              "slug": "electronics-accessories",
+              "title": "Electronics Accessories"
+            },
+            {
+              "slug": "computer-components",
+              "title": "Computer Components"
+            },
+            {
+              "slug": "i-o-cards-adapters",
+              "title": "I/O Cards & Adapters"
+            },
+            {
+              "slug": "video-cards-adapters",
+              "title": "Video Cards & Adapters"
+            }
+          ],
+          "has_children": true
+        },
+        "gender": null,
+        "age": null,
+        "materials": [],
+        "key_features": [
+          "Graphics Processing Unit (GPU)/Clock Speed: 2.31 gigahertz base clock, 2.535 ghz boost clock",
+          "On-Board Memory: 8GB GDDR6",
+          "Interface Compatibility: PCI Express 4.0 and earlier PCI Express 3.0",
+          "Technologies: 4,352 NVIDIA CUDA Cores, 2.535 ghz Boost Clock, dedicated Ray Tracing Cores, dedicated Tensor Cores, NVIDIA DLSS, Game Ready and NVIDIA Studio Drivers, NVIDIA GeForce Experience, NVIDIA Broadcast, NVIDIA G-SYNC, NVIDIA GPU Boost, GDDR6 Graphics Memory, PCI Express Gen 4",
+          "Api (Application Programming Interface) Support: Microsoft DirectX 12 Ultimate, Vulkan RT apis, Vulkan 1.3, Open GL 4.6, HDCP 2.3, Displayport 1.4a",
+          "DisplayPort Ports: 3 x DisplayPort",
+          "HDMI Ports: 1 x HDMI",
+          "Maximum Resolution: 8K (4320p)",
+          "Maximum Number of Displays Supported: 4",
+          "Dual-fan cooling",
+          "PCI Express 4.0 interface"
+        ],
+        "colors": [
+          {
+            "hex": "#181818",
+            "percentage": 0.38
+          },
+          {
+            "hex": "#3b3b3c",
+            "percentage": 0.2401
+          },
+          {
+            "hex": "#5b5b5b",
+            "percentage": 0.1619
+          },
+          {
+            "hex": "#d4d3cf",
+            "percentage": 0.1379
+          },
+          {
+            "hex": "#817f7b",
+            "percentage": 0.08
+          }
+        ],
+        "offers": [
+          {
+            "url": "https://buy.trychannel3.com/VhCo5ml-p1PB-5l3z0w?o=01KXQ7B2QEX9G973KCRZGXH92N&aid=01M5R97C7WQ68S6YX04P15EA23",
+            "domain": "bestbuy.com",
+            "price": {
+              "price": 399,
+              "compare_at_price": null,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0.004,
+            "dimensions": null
+          }
+        ],
+        "variants": null,
+        "structured_attributes": {
+          "bracket-profile": [
+            "Full-height"
+          ],
+          "card-adapter-installation": [
+            "Internal"
+          ],
+          "cooling-technology": [
+            "Fan"
+          ],
+          "device-interface": [
+            "Display port",
+            "HDMI",
+            "SDI"
+          ],
+          "graphics-card-type": [
+            "Dedicated"
+          ],
+          "host-interface": [
+            "USB type-C"
+          ],
+          "material": [
+            "Nylon"
+          ],
+          "video-resolution-supported": [
+            "4320p"
+          ]
+        },
+        "ratings": {
+          "value": 4.3,
+          "count": 123,
+          "source_count": 1
+        }
+      },
+      {
+        "id": "OXPece6",
+        "title": "NVIDIA RTX A400 Graphics Card (OEM)",
+        "description": "The NVIDIA RTX A400 is a professional graphics card built on the Ampere architecture, designed to accelerate data-intensive tasks like 3D modeling, video rendering, and generative AI. It features 768 CUDA cores, 4GB of GDDR6 VRAM with a 64-bit memory interface, and 2nd-Gen RT cores for realistic ray tracing. The card utilizes a low-profile, single-slot design with a blower-style fan for efficient cooling and connects via a PCIe 4.0 x8 interface. For display output, it is equipped with four mini DisplayPort 1.4a ports, supporting high-resolution displays up to 5K at 60 Hz. This specific model comes in OEM packaging.",
+        "brands": [
+          {
+            "id": "ft5T",
+            "name": "NVIDIA"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://cdn.trychannel3.com/853baa58-c8b1-4a05-b732-d364344fa52d?aid=01M5R97C7WQ68S6YX04P15EA23&mid=oHaU",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/853baa58-c8b1-4a05-b732-d364344fa52d?aid=01M5R97C7WQ68S6YX04P15EA23&mid=oHaU",
+            "is_main_image": true,
+            "shot_type": "hero",
+            "alt_text": "Front view of a black NVIDIA RTX A1000 graphics card."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/01bf3282-2fd4-4b1d-af20-a9149babeeec?aid=01M5R97C7WQ68S6YX04P15EA23&mid=oHaU",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/01bf3282-2fd4-4b1d-af20-a9149babeeec?aid=01M5R97C7WQ68S6YX04P15EA23&mid=oHaU",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Front view of a black NVIDIA RTX A1000 graphics card."
+          }
+        ],
+        "category": {
+          "slug": "video-cards-adapters",
+          "title": "Video Cards & Adapters",
+          "path": [
+            {
+              "slug": "electronics",
+              "title": "Electronics"
+            },
+            {
+              "slug": "electronics-accessories",
+              "title": "Electronics Accessories"
+            },
+            {
+              "slug": "computer-components",
+              "title": "Computer Components"
+            },
+            {
+              "slug": "i-o-cards-adapters",
+              "title": "I/O Cards & Adapters"
+            },
+            {
+              "slug": "video-cards-adapters",
+              "title": "Video Cards & Adapters"
+            }
+          ],
+          "has_children": true
+        },
+        "gender": null,
+        "age": "adult",
+        "materials": [],
+        "key_features": [
+          "768 CUDA Cores",
+          "Ampere Architecture",
+          "4GB of GDDR6 VRAM",
+          "64-Bit Memory Interface",
+          "4 x Mini DisplayPort 1.4a Ports",
+          "PCIe 4.0 x8 Interface",
+          "Low-Profile Bracket",
+          "Blower-Style Fan Cooler",
+          "2nd-Gen RT Cores",
+          "3rd-Gen Tensor Cores"
+        ],
+        "colors": [
+          {
+            "hex": "#424344",
+            "percentage": 0.275
+          },
+          {
+            "hex": "#6b6b6d",
+            "percentage": 0.2561
+          },
+          {
+            "hex": "#040404",
+            "percentage": 0.1374
+          },
+          {
+            "hex": "#d2cfc8",
+            "percentage": 0.1251
+          },
+          {
+            "hex": "#9d988f",
+            "percentage": 0.1223
+          },
+          {
+            "hex": "#242526",
+            "percentage": 0.0841
+          }
+        ],
+        "offers": [
+          {
+            "url": "https://buy.trychannel3.com/OXPece6-oHaU-5l3z0w?o=01M3B6ZHRNDMTM7CH9PCJA6CJQ&aid=01M5R97C7WQ68S6YX04P15EA23",
+            "domain": "bhphotovideo.com",
+            "price": {
+              "price": 229.99,
+              "compare_at_price": 259,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0.021,
+            "dimensions": {
+              "length": {
+                "number": 162.6,
+                "unit": "mm"
+              },
+              "width": null,
+              "height": {
+                "number": 68.6,
+                "unit": "mm"
+              },
+              "weight": {
+                "number": 1.435,
+                "unit": "lb"
+              }
+            }
+          }
+        ],
+        "variants": null,
+        "structured_attributes": {
+          "device-interface": [
+            "Display port",
+            "PCIe"
+          ],
+          "video-resolution-supported": [
+            "4K ultra HD"
+          ],
+          "cooling-technology": [
+            "Blower",
+            "Fan"
+          ],
+          "graphics-card-type": [
+            "Professional"
+          ],
+          "bracket-profile": [
+            "Full-height",
+            "Low-profile"
+          ]
+        },
+        "ratings": {
+          "value": 5,
+          "count": 2,
+          "source_count": 1
+        }
+      },
+      {
+        "id": "dmDBinx",
+        "title": "NVIDIA GeForce RTX Pro 4500 Blackwell Single-Fan AI & Workstation Graphics Card (OEM)",
+        "description": "The NVIDIA GeForce RTX Pro 4500 Blackwell is a high-performance workstation graphics card designed for AI acceleration and professional workflows. It features 32GB of ultra-fast GDDR7 memory and utilizes the Blackwell architecture to empower complex design challenges, neural rendering, and data science tasks.",
+        "brands": [
+          {
+            "id": "ft5T",
+            "name": "NVIDIA"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://cdn.trychannel3.com/3688cd8f-25a4-4b1d-8e6f-379b9fac96fd?aid=01M5R97C7WQ68S6YX04P15EA23&mid=yqJJ",
+            "cleaned_url": null,
+            "is_main_image": true,
+            "shot_type": "hero",
+            "alt_text": "Black NVIDIA GeForce RTX Pro 4500 Blackwell graphics card from the side."
+          }
+        ],
+        "category": {
+          "slug": "video-cards-adapters",
+          "title": "Video Cards & Adapters",
+          "path": [
+            {
+              "slug": "electronics",
+              "title": "Electronics"
+            },
+            {
+              "slug": "electronics-accessories",
+              "title": "Electronics Accessories"
+            },
+            {
+              "slug": "computer-components",
+              "title": "Computer Components"
+            },
+            {
+              "slug": "i-o-cards-adapters",
+              "title": "I/O Cards & Adapters"
+            },
+            {
+              "slug": "video-cards-adapters",
+              "title": "Video Cards & Adapters"
+            }
+          ],
+          "has_children": true
+        },
+        "gender": null,
+        "age": null,
+        "materials": [],
+        "key_features": [
+          "32GB GDDR7 256-bit Memory",
+          "7680 x 4320 Maximum Resolution",
+          "PCIe 5.0 x16 Interface",
+          "82 RT Cores",
+          "328 Tensor Cores",
+          "Full Height, Dual Slot",
+          "DisplayPort 2.1b"
+        ],
+        "colors": [
+          {
+            "hex": "#2a292a",
+            "percentage": 0.2849
+          },
+          {
+            "hex": "#4d4d4e",
+            "percentage": 0.2521
+          },
+          {
+            "hex": "#e6dbc6",
+            "percentage": 0.1389
+          },
+          {
+            "hex": "#717071",
+            "percentage": 0.1362
+          },
+          {
+            "hex": "#969592",
+            "percentage": 0.0979
+          },
+          {
+            "hex": "#0f0f10",
+            "percentage": 0.0899
+          }
+        ],
+        "offers": [
+          {
+            "url": "https://buy.trychannel3.com/dmDBinx-yqJJ-5l3z0w?o=01M3ZDQZ3NC7A14HXD2EYY0KFE&aid=01M5R97C7WQ68S6YX04P15EA23",
+            "domain": "microcenter.com",
+            "price": {
+              "price": 4499.99,
+              "compare_at_price": 5499.99,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0,
+            "dimensions": null
+          }
+        ],
+        "variants": null,
+        "structured_attributes": {
+          "video-resolution-supported": [
+            "4320p"
+          ],
+          "graphics-card-type": [
+            "Professional"
+          ],
+          "bracket-profile": [
+            "Full-height"
+          ],
+          "device-interface": [
+            "Display port"
+          ],
+          "cooling-technology": [
+            "Fan"
+          ]
+        },
+        "ratings": {
+          "value": 4.6,
+          "count": 5,
+          "source_count": 1
+        }
+      }
+    ],
+    "next_page_token": "eyJjYWNoZV9rZXkiOiAic2VhcmNoOjgyY2MxNDk0ODgzNWUyMDMiLCAib2Zmc2V0IjogNX0="
+  }
+}

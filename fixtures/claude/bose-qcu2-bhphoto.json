@@ -1,0 +1,112 @@
+{
+  "model": "claude-sonnet-5-5",
+  "expect": {
+    "same_product": true
+  },
+  "shop_fixture": "channel3/catalog/mgo7x7F.json",
+  "competitor_fixture": "channel3/lookup/bhphotovideo-com-bose-quietcomfort-ultra-headph-b0f61c.json",
+  "outcome": "ok",
+  "decision": {
+    "same_product": true,
+    "variant_match": true,
+    "condition_ok": false,
+    "bundle_or_accessory": false,
+    "model_year_mismatch": false,
+    "confidence": 0.72,
+    "reasons": [
+      {
+        "listing": "both",
+        "field": "brands[0].name",
+        "observation": "Both listings are Bose (brand id qHHu) in the same Over-Ear Headphones category."
+      },
+      {
+        "listing": "shop",
+        "field": "title",
+        "observation": "The shop title says '(2nd Gen)'."
+      },
+      {
+        "listing": "competitor",
+        "field": "title",
+        "observation": "The competitor title omits '2nd Gen'. Its description says 'Bose QuietComfort Ultra (2nd Gen) Headphones', so it is probably the same generation."
+      },
+      {
+        "listing": "shop",
+        "field": "description",
+        "observation": "The shop description and the key feature 'Up to 24 hours of battery life' read like first-generation copy. This conflicts with the 2nd Gen title and lowers confidence."
+      },
+      {
+        "listing": "both",
+        "field": "key_features",
+        "observation": "Both list CustomTune, Immersive Audio, New Cinema Mode and up to 30 hours (23 with Immersive Audio), which fits the same current model."
+      },
+      {
+        "listing": "both",
+        "field": "variants.selected",
+        "observation": "Both have Color = Black selected, so the variant matches."
+      },
+      {
+        "listing": "both",
+        "field": "canonical_product_id",
+        "observation": "The canonical IDs differ (mgo7x7F vs p69UwYn). Both sit in each listing's colour variant list as Black, so this is a catalog split rather than evidence of different products."
+      },
+      {
+        "listing": "both",
+        "field": "structured_attributes",
+        "observation": "Bit depth (16-bit vs 24-bit) and driver technology differ between the listings. This looks like catalog noise, not a real product difference."
+      },
+      {
+        "listing": "competitor",
+        "field": "offers[0].condition",
+        "observation": "The competitor offer's condition is null, so new condition cannot be confirmed from the data."
+      },
+      {
+        "listing": "competitor",
+        "field": "title",
+        "observation": "Neither listing shows a bundle, multipack or accessory. Both are the headphones themselves."
+      }
+    ],
+    "customer_message": "The competitor's listing looks like the same Bose QuietComfort Ultra headphones in Black, but its listing doesn't state that the item is new. The generation is also not clearly labelled in its title."
+  },
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 5543,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "iterations": [
+      {
+        "input_tokens": 5543,
+        "output_tokens": 1381,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "type": "message",
+        "model": null
+      }
+    ],
+    "output_tokens": 1381,
+    "output_tokens_details": {
+      "thinking_tokens": 625
+    },
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+  },
+  "content": [
+    {
+      "type": "thinking",
+      "thinking": "",
+      "signature": "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"
+    },
+    {
+      "type": "text",
+      "text": "{\"same_product\":true,\"variant_match\":true,\"condition_ok\":false,\"bundle_or_accessory\":false,\"model_year_mismatch\":false,\"confidence\":0.72,\"reasons\":[{\"listing\":\"both\",\"field\":\"brands[0].name\",\"observation\":\"Both listings are Bose (brand id qHHu) in the same Over-Ear Headphones category.\"},{\"listing\":\"shop\",\"field\":\"title\",\"observation\":\"The shop title says '(2nd Gen)'.\"},{\"listing\":\"competitor\",\"field\":\"title\",\"observation\":\"The competitor title omits '2nd Gen'. Its description says 'Bose QuietComfort Ultra (2nd Gen) Headphones', so it is probably the same generation.\"},{\"listing\":\"shop\",\"field\":\"description\",\"observation\":\"The shop description and the key feature 'Up to 24 hours of battery life' read like first-generation copy. This conflicts with the 2nd Gen title and lowers confidence.\"},{\"listing\":\"both\",\"field\":\"key_features\",\"observation\":\"Both list CustomTune, Immersive Audio, New Cinema Mode and up to 30 hours (23 with Immersive Audio), which fits the same current model.\"},{\"listing\":\"both\",\"field\":\"variants.selected\",\"observation\":\"Both have Color = Black selected, so the variant matches.\"},{\"listing\":\"both\",\"field\":\"canonical_product_id\",\"observation\":\"The canonical IDs differ (mgo7x7F vs p69UwYn). Both sit in each listing's colour variant list as Black, so this is a catalog split rather than evidence of different products.\"},{\"listing\":\"both\",\"field\":\"structured_attributes\",\"observation\":\"Bit depth (16-bit vs 24-bit) and driver technology differ between the listings. This looks like catalog noise, not a real product difference.\"},{\"listing\":\"competitor\",\"field\":\"offers[0].condition\",\"observation\":\"The competitor offer's condition is null, so new condition cannot be confirmed from the data.\"},{\"listing\":\"competitor\",\"field\":\"title\",\"observation\":\"Neither listing shows a bundle, multipack or accessory. Both are the headphones themselves.\"}],\"customer_message\":\"The competitor's listing looks like the same Bose QuietComfort Ultra headphones in Black, but its listing doesn't state that the item is new. The generation is also not clearly labelled in its title.\"}"
+    }
+  ]
+}

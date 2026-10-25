@@ -1,0 +1,1012 @@
+{
+  "query": "Fender Player Stratocaster electric guitar",
+  "response": {
+    "products": [
+      {
+        "id": "d4PJDa4",
+        "title": "Fender Player II Stratocaster Electric Guitar",
+        "description": "The Fender Player II Stratocaster builds on the classic Stratocaster formula, offering its unmistakable sound and feel with player-focused refinements. It features an alder body for balanced resonance, a Modern \"C\" maple neck with a satin urethane finish for smooth playability, and a 9.5\"-radius slab rosewood fingerboard with rolled edges. The guitar is equipped with three Player Series Alnico V single-coil pickups for iconic Strat chime and versatility, a 5-way blade switch, and a two-point synchronized tremolo with bent steel saddles for expressive vibrato. ClassicGear tuning machines and a synthetic bone nut ensure reliable tuning stability. This electric guitar is designed for confident, expressive playing, delivering the versatility, comfort, and unmistakable Fender character that inspires musicians.",
+        "brands": [
+          {
+            "id": "QEak",
+            "name": "Fender"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://cdn.trychannel3.com/da488105-48e5-4a47-b9a8-de45f98df693?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "cleaned_url": "https://cdn.trychannel3.com/6ba6e6be-6545-4151-a841-3b2ccc1b74e5?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "is_main_image": true,
+            "shot_type": "hero",
+            "alt_text": "Fender Player II Stratocaster electric guitar in 3-color sunburst finish, viewed from the front."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/c400f0a5-122b-4975-83ec-5037c4fd0bfc?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "cleaned_url": "https://cdn.trychannel3.com/87ef8789-88af-4a36-b926-c77fde6ba694?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "is_main_image": false,
+            "shot_type": "lifestyle",
+            "alt_text": "Fender Player II Stratocaster electric guitar in a sunburst finish, viewed from the side."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/a5f33d54-4112-4966-afd9-a72fd97cd58b?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "lifestyle",
+            "alt_text": "Fender Player II Stratocaster electric guitar in a sunburst finish, viewed from the front."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/b100d33b-fdbd-478d-97ca-aa9822b74384?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "cleaned_url": "https://cdn.trychannel3.com/e8aabfd1-9e22-4d0b-b031-7f93dde1e680?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "is_main_image": false,
+            "shot_type": "angle_view",
+            "alt_text": "Fender Player II Stratocaster electric guitar showing the headstock and neck."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/b84d6eec-f2cc-414f-8344-62b9329cea17?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "detail",
+            "alt_text": "Close-up detail of the Fender Player II Stratocaster electric guitar body and hardware."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/affbd884-fe85-4a2b-9f0d-9adc1e3a05e7?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Fender Player II Stratocaster electric guitar with white pickguard and sunburst finish."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/a4e4d6d6-4b82-4502-9b03-391ed4c2edd1?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "cleaned_url": "https://cdn.trychannel3.com/4cc00d33-69cc-420d-8880-eecdcb604a81?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "is_main_image": false,
+            "shot_type": "detail",
+            "alt_text": "Close-up detail of the guitar headstock with tuning machines and fretboard."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/a22bc0ff-4aa0-4288-9996-f49772b78620?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/a22bc0ff-4aa0-4288-9996-f49772b78620?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "is_main_image": false,
+            "shot_type": "detail",
+            "alt_text": "Close-up detail of the guitar fretboard with frets and inlays."
+          }
+        ],
+        "category": {
+          "slug": "electric-guitars",
+          "title": "Electric Guitars",
+          "path": [
+            {
+              "slug": "arts-entertainment",
+              "title": "Arts & Entertainment"
+            },
+            {
+              "slug": "hobbies-creative-arts",
+              "title": "Hobbies & Creative Arts"
+            },
+            {
+              "slug": "musical-instruments",
+              "title": "Musical Instruments"
+            },
+            {
+              "slug": "string-instruments",
+              "title": "String Instruments"
+            },
+            {
+              "slug": "guitars",
+              "title": "Guitars"
+            },
+            {
+              "slug": "electric-guitars",
+              "title": "Electric Guitars"
+            }
+          ],
+          "has_children": false
+        },
+        "gender": null,
+        "age": null,
+        "materials": [
+          "Alder",
+          "Maple",
+          "Rosewood"
+        ],
+        "key_features": [
+          "Alder body",
+          "Maple neck",
+          "Rosewood fingerboard",
+          "Player series single-coil pickups",
+          "5-way blade switch",
+          "2-point synchronized tremolo",
+          "Modern \"C\" profile neck",
+          "Rolled fingerboard edges",
+          "2 medium jumbo frets",
+          "Gloss Polyester finish"
+        ],
+        "colors": [
+          {
+            "hex": "#f0ece3",
+            "percentage": 0.3981
+          },
+          {
+            "hex": "#150405",
+            "percentage": 0.2682
+          },
+          {
+            "hex": "#9c4610",
+            "percentage": 0.1236
+          },
+          {
+            "hex": "#bd7128",
+            "percentage": 0.1065
+          },
+          {
+            "hex": "#760b03",
+            "percentage": 0.1035
+          }
+        ],
+        "offers": [
+          {
+            "url": "https://buy.trychannel3.com/d4PJDa4-KB7L-5l3z0w?o=01M2ZXVQZBPMPN0K6A682NPQHD&aid=01M5R97GSSW02NVK0TGS16FR0M",
+            "domain": "musicarts.com",
+            "price": {
+              "price": 849.99,
+              "compare_at_price": null,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0.035,
+            "dimensions": null
+          },
+          {
+            "url": "https://buy.trychannel3.com/d4PJDa4-p3xj-5l3z0w?o=01KRYH15M00REC9X7N3YE5RGFC&aid=01M5R97GSSW02NVK0TGS16FR0M",
+            "domain": "sweetwater.com",
+            "price": {
+              "price": 849.99,
+              "compare_at_price": null,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0.014,
+            "dimensions": {
+              "length": null,
+              "width": null,
+              "height": null,
+              "weight": {
+                "number": 7.375,
+                "unit": "lb"
+              }
+            }
+          },
+          {
+            "url": "https://buy.trychannel3.com/d4PJDa4-Fn95-5l3z0w?o=01KJ9X5VY2SEES9VQFJ6Z8GWHF&aid=01M5R97GSSW02NVK0TGS16FR0M",
+            "domain": "crutchfield.com",
+            "price": {
+              "price": 849.99,
+              "compare_at_price": null,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0,
+            "dimensions": null
+          }
+        ],
+        "variants": null,
+        "structured_attributes": {
+          "instrument-material": [
+            "Aluminum",
+            "Maple wood",
+            "Metal",
+            "Stainless steel",
+            "Steel",
+            "Alder wood",
+            "Rosewood"
+          ],
+          "instrument-pattern": [
+            "Solid"
+          ],
+          "instrument-string-material": [
+            "Steel"
+          ],
+          "instrument-string-pattern": [
+            "Solid"
+          ],
+          "fingerboard-pattern": [
+            "Solid"
+          ],
+          "pickup-configuration": [
+            "SSS"
+          ],
+          "neck-material": [
+            "Maple wood"
+          ],
+          "neck-pattern": [
+            "Solid"
+          ],
+          "fingerboard-material": [
+            "Rosewood"
+          ],
+          "guitar-body-finish-type": [
+            "Gloss"
+          ],
+          "electric-guitar-bridge-type": [
+            "Synchronized tremolo"
+          ],
+          "body-shape": [
+            "S-style"
+          ]
+        },
+        "ratings": {
+          "value": 5,
+          "count": 17,
+          "source_count": 3
+        }
+      },
+      {
+        "id": "XwAEFsC",
+        "title": "Player II Stratocaster Maple Fingerboard Electric Guitar",
+        "description": "The Fender Player II Stratocaster is an electric guitar built for modern players while maintaining the classic Stratocaster tone and feel. It features a trio of Player Series single-coil pickups for articulate, crisp sound across the range. The guitar is designed with a comfortable Modern C-shaped maple neck and a 22-fret maple fingerboard, offering a smooth playing experience. Key updates include a responsive two-point synchronized tremolo bridge for reliable tuning stability and improved feel. This instrument provides versatile tone shaping via master volume and tone controls, along with a 5-way pickup switch, making it suitable for various musical genres.",
+        "brands": [
+          {
+            "id": "QEak",
+            "name": "Fender"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://cdn.trychannel3.com/80d854bc-3729-4592-87ac-e741f388fe89?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "cleaned_url": null,
+            "is_main_image": true,
+            "shot_type": "hero",
+            "alt_text": "Turquoise electric guitar body with maple fingerboard, viewed from the front."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/77cceedd-9a07-4112-89bd-f182640edb79?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Turquoise electric guitar body with a natural wood neck, viewed from the front."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/d210052a-8a79-408d-bf6b-bc3e310792e9?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Turquoise electric guitar body with a maple neck, viewed from the front."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/19d8588c-bb38-4399-ad85-d547570a0e55?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "lifestyle",
+            "alt_text": "Maple neck and turquoise body of an electric guitar side-by-side comparison."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/a8594fec-e654-449f-acf2-cf43fef556ac?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Turquoise electric guitar body with maple fingerboard and white pickguard, viewed from the front."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/101648bd-232c-4e4f-af76-c18f61767ab3?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Turquoise electric guitar body with maple fingerboard and controls, viewed from the front."
+          }
+        ],
+        "category": {
+          "slug": "electric-guitars",
+          "title": "Electric Guitars",
+          "path": [
+            {
+              "slug": "arts-entertainment",
+              "title": "Arts & Entertainment"
+            },
+            {
+              "slug": "hobbies-creative-arts",
+              "title": "Hobbies & Creative Arts"
+            },
+            {
+              "slug": "musical-instruments",
+              "title": "Musical Instruments"
+            },
+            {
+              "slug": "string-instruments",
+              "title": "String Instruments"
+            },
+            {
+              "slug": "guitars",
+              "title": "Guitars"
+            },
+            {
+              "slug": "electric-guitars",
+              "title": "Electric Guitars"
+            }
+          ],
+          "has_children": false
+        },
+        "gender": null,
+        "age": "adult",
+        "materials": [],
+        "key_features": [],
+        "colors": [
+          {
+            "hex": "#059aa9",
+            "percentage": 0.524
+          },
+          {
+            "hex": "#efe9d9",
+            "percentage": 0.2359
+          },
+          {
+            "hex": "#a6d0d2",
+            "percentage": 0.1202
+          },
+          {
+            "hex": "#198188",
+            "percentage": 0.0628
+          },
+          {
+            "hex": "#ecd5b6",
+            "percentage": 0.0571
+          }
+        ],
+        "offers": [
+          {
+            "url": "https://buy.trychannel3.com/XwAEFsC-KB7L-5l3z0w?o=01KCH5SNK7BMD9XN5QVGXKAZFJ&aid=01M5R97GSSW02NVK0TGS16FR0M",
+            "domain": "musicarts.com",
+            "price": {
+              "price": 849.99,
+              "compare_at_price": null,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0.035,
+            "dimensions": null
+          }
+        ],
+        "variants": null,
+        "structured_attributes": {
+          "fingerboard-pattern": [
+            "Solid"
+          ],
+          "guitar-size": [
+            "Full size"
+          ],
+          "instrument-material": [
+            "Wood",
+            "Steel",
+            "Maple wood"
+          ],
+          "fingerboard-material": [
+            "Maple wood"
+          ],
+          "neck-pattern": [
+            "Solid"
+          ],
+          "body-shape": [
+            "S-style"
+          ],
+          "pickup-configuration": [
+            "SSS"
+          ],
+          "instrument-pattern": [
+            "Solid"
+          ],
+          "electric-guitar-bridge-type": [
+            "2-point tremolo"
+          ],
+          "neck-material": [
+            "Maple wood"
+          ]
+        },
+        "ratings": null
+      },
+      {
+        "id": "wzzYtUG",
+        "title": "Player II Stratocaster Electric Guitar, Rosewood Fingerboard",
+        "description": "The Fender Player II Stratocaster is an electric guitar that builds upon the classic Stratocaster design with player-focused refinements. It features an alder body for balanced resonance, a Modern \"C\" maple neck with a satin urethane finish for comfortable playability, and a 9.5-inch radius rosewood fingerboard with rolled edges. The guitar is equipped with three Player Series Alnico V single-coil pickups that deliver iconic Stratocaster chime and versatility, a 5-way blade switch, and controls for master volume and tone. The two-point synchronized tremolo system with bent steel saddles allows for expressive vibrato, while Fender ClassicGear tuning machines ensure tuning stability. This model comes in a Polar White finish and is designed for right-handed players.",
+        "brands": [
+          {
+            "id": "QEak",
+            "name": "Fender"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://cdn.trychannel3.com/aa365465-87f1-4add-a735-4d975214569e?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "cleaned_url": "https://cdn.trychannel3.com/3db127ff-33c8-46da-8f41-2f312507474d?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "is_main_image": true,
+            "shot_type": "hero",
+            "alt_text": "Polar White Fender Player II Stratocaster electric guitar body and neck."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/8a452577-ce76-48bb-9c25-79eb17bcb904?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/8a452577-ce76-48bb-9c25-79eb17bcb904?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Polar White Fender Player II Stratocaster body with a black pickup selector switch."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/7172c504-fdb4-4b05-bc28-0fea0dca2d10?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Polar White Fender Player II Stratocaster electric guitar with a rosewood fingerboard and black pickguard."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/f52ed25d-68c1-4bd4-b19d-d90079f3eef9?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/f52ed25d-68c1-4bd4-b19d-d90079f3eef9?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "is_main_image": false,
+            "shot_type": "angle_view",
+            "alt_text": "Side view of a white electric guitar with a rosewood fretboard and black pickguard."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/f928f735-a8da-4806-a3f9-d439007afb2a?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Polar White Fender Player II Stratocaster electric guitar with a black pickguard and hardware."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/e881c026-cd4f-4725-841a-1dfea90f7a5e?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "detail",
+            "alt_text": "Close-up detail of the Fender Player II Stratocaster body with pickups and hardware."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/4d387fea-dff9-4e50-b124-2ac1ee1ed175?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/4d387fea-dff9-4e50-b124-2ac1ee1ed175?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "is_main_image": false,
+            "shot_type": "detail",
+            "alt_text": "Close-up detail of the Fender Player II Stratocaster headstock and neck."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/e17d1733-8909-4d4f-a02c-43036a359901?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/e17d1733-8909-4d4f-a02c-43036a359901?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "is_main_image": false,
+            "shot_type": "detail",
+            "alt_text": "Close-up detail of the guitar neck and headstock."
+          }
+        ],
+        "category": {
+          "slug": "electric-guitars",
+          "title": "Electric Guitars",
+          "path": [
+            {
+              "slug": "arts-entertainment",
+              "title": "Arts & Entertainment"
+            },
+            {
+              "slug": "hobbies-creative-arts",
+              "title": "Hobbies & Creative Arts"
+            },
+            {
+              "slug": "musical-instruments",
+              "title": "Musical Instruments"
+            },
+            {
+              "slug": "string-instruments",
+              "title": "String Instruments"
+            },
+            {
+              "slug": "guitars",
+              "title": "Guitars"
+            },
+            {
+              "slug": "electric-guitars",
+              "title": "Electric Guitars"
+            }
+          ],
+          "has_children": false
+        },
+        "gender": null,
+        "age": null,
+        "materials": [
+          "alder",
+          "rosewood"
+        ],
+        "key_features": [
+          "Iconic Fender Stratocaster design with alder body",
+          "Modern \"C\"-profile neck with satin urethane finish",
+          "9.5\"-radius rosewood fingerboard with rolled edges and 22 medium jumbo frets",
+          "Player Series Alnico V Single-Coil pickups",
+          "5-way blade switch for versatile tonal possibilities",
+          "2-point synchronized tremolo with bent steel saddles",
+          "ClassicGear tuning machines with 18:1 gear ratio",
+          "Synthetic bone nut",
+          "Vintage-inspired Stratocaster styling pairs timeless design with classic finishes from the Fender archives"
+        ],
+        "colors": [
+          {
+            "hex": "#030303",
+            "percentage": 0.6552
+          },
+          {
+            "hex": "#37231b",
+            "percentage": 0.1736
+          },
+          {
+            "hex": "#beb9b2",
+            "percentage": 0.1713
+          }
+        ],
+        "offers": [
+          {
+            "url": "https://buy.trychannel3.com/wzzYtUG-KB7L-5l3z0w?o=01M336HJKRW4MJ2QM2WEXE01GD&aid=01M5R97GSSW02NVK0TGS16FR0M",
+            "domain": "musicarts.com",
+            "price": {
+              "price": 849.99,
+              "compare_at_price": null,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0.035,
+            "dimensions": null
+          },
+          {
+            "url": "https://buy.trychannel3.com/wzzYtUG-Fn95-5l3z0w?o=01KJ9WG7NYEMD4WTW1Q3X3B3WB&aid=01M5R97GSSW02NVK0TGS16FR0M",
+            "domain": "crutchfield.com",
+            "price": {
+              "price": 849.99,
+              "compare_at_price": null,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0,
+            "dimensions": null
+          }
+        ],
+        "variants": null,
+        "structured_attributes": {
+          "instrument-material": [
+            "Metal",
+            "Steel",
+            "Alder wood",
+            "Aluminum",
+            "Stainless steel"
+          ],
+          "neck-material": [
+            "Maple wood"
+          ],
+          "guitar-body-finish-type": [
+            "Gloss"
+          ],
+          "body-shape": [
+            "S-style"
+          ],
+          "neck-pattern": [
+            "Solid"
+          ],
+          "fingerboard-pattern": [
+            "Solid"
+          ],
+          "pickup-configuration": [
+            "SSS"
+          ],
+          "instrument-pattern": [
+            "Solid"
+          ],
+          "electric-guitar-bridge-type": [
+            "Synchronized tremolo"
+          ],
+          "fingerboard-material": [
+            "Rosewood"
+          ],
+          "instrument-string-material": [
+            "Steel"
+          ]
+        },
+        "ratings": {
+          "value": 5,
+          "count": 11,
+          "source_count": 1
+        }
+      },
+      {
+        "id": "Pel28FW",
+        "title": "Fender Player II Stratocaster HSS Electric Guitar, Rosewood Fingerboard",
+        "description": "The Fender Player II Stratocaster HSS is a versatile electric guitar designed for serious musicians. It features a solid alder body in Polar White and a modern C-shaped maple neck with a smooth satin urethane finish. The guitar is equipped with a rosewood fingerboard with a 9.5\" radius and 22 medium-jumbo frets. Its HSS pickup configuration—combining a humbucking bridge pickup for warm, punchy tones with single-coil middle and neck pickups for classic chime—provides a wide sonic range. Additional features include a two-point tremolo bridge, sealed tuning machines, and a 5-way pickup switch for flexible tone shaping.",
+        "brands": [
+          {
+            "id": "QEak",
+            "name": "Fender"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://cdn.trychannel3.com/fc1a287b-5c06-4d2f-8805-5c36462e6996?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/fc1a287b-5c06-4d2f-8805-5c36462e6996?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "is_main_image": true,
+            "shot_type": "hero",
+            "alt_text": "White Fender Stratocaster HSS electric guitar, front view."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/e3e74113-f7da-4807-893b-e8bde3683d2e?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/e3e74113-f7da-4807-893b-e8bde3683d2e?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "White Fender electric guitar body, profile view."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/e822bfb0-2ec7-440d-ac5d-9941e83a92c0?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/e822bfb0-2ec7-440d-ac5d-9941e83a92c0?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "White electric guitar, three-quarter view showing neck and body."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/96dfd15d-4f96-42ad-b944-bcbbae27d721?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/96dfd15d-4f96-42ad-b944-bcbbae27d721?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Close-up of the headstock and neck of a white guitar."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/bc27792b-e526-40d7-88bc-b545567c83ff?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/bc27792b-e526-40d7-88bc-b545567c83ff?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "White electric guitar body, front view showing pickups."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/fa2f13bf-999a-4e4b-a764-1dd2973c9015?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=KB7L",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "White electric guitar body showing pickups and controls."
+          }
+        ],
+        "category": {
+          "slug": "electric-guitars",
+          "title": "Electric Guitars",
+          "path": [
+            {
+              "slug": "arts-entertainment",
+              "title": "Arts & Entertainment"
+            },
+            {
+              "slug": "hobbies-creative-arts",
+              "title": "Hobbies & Creative Arts"
+            },
+            {
+              "slug": "musical-instruments",
+              "title": "Musical Instruments"
+            },
+            {
+              "slug": "string-instruments",
+              "title": "String Instruments"
+            },
+            {
+              "slug": "guitars",
+              "title": "Guitars"
+            },
+            {
+              "slug": "electric-guitars",
+              "title": "Electric Guitars"
+            }
+          ],
+          "has_children": false
+        },
+        "gender": null,
+        "age": "adult",
+        "materials": [
+          "Alder",
+          "Maple",
+          "Rosewood"
+        ],
+        "key_features": [
+          "Alder body for balanced tone and sustain",
+          "Maple neck with Modern \"C\" profile for comfort and speed",
+          "Rosewood fingerboard with rolled edges for enhanced playability",
+          "HSS pickup configuration (Alnico II humbucker, Alnico V single-coils) for versatile sound",
+          "2-point synchronized tremolo with bent steel saddles for expressive vibrato",
+          "ClassicGear tuning machines with 18:1 gear ratio for precise tuning stability",
+          "22 frets for extended range",
+          "5-way blade switch for a wide range of tonal options",
+          "Alder body with Polar White finish",
+          "3-ply pickguard and synthetic bone nut"
+        ],
+        "colors": [
+          {
+            "hex": "#070605",
+            "percentage": 0.5086
+          },
+          {
+            "hex": "#443028",
+            "percentage": 0.2716
+          },
+          {
+            "hex": "#cac1bc",
+            "percentage": 0.1388
+          },
+          {
+            "hex": "#7b726c",
+            "percentage": 0.081
+          }
+        ],
+        "offers": [
+          {
+            "url": "https://buy.trychannel3.com/Pel28FW-KB7L-5l3z0w?o=01M46RWC2Z88A2GZ4JD496PS97&aid=01M5R97GSSW02NVK0TGS16FR0M",
+            "domain": "musicarts.com",
+            "price": {
+              "price": 879.99,
+              "compare_at_price": null,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0.035,
+            "dimensions": null
+          },
+          {
+            "url": "https://buy.trychannel3.com/Pel28FW-p3xj-5l3z0w?o=01KBP7R6N9DSJ3679WSP0K4187&aid=01M5R97GSSW02NVK0TGS16FR0M",
+            "domain": "sweetwater.com",
+            "price": {
+              "price": 879.99,
+              "compare_at_price": null,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0.014,
+            "dimensions": null
+          }
+        ],
+        "variants": null,
+        "structured_attributes": {
+          "instrument-pattern": [
+            "Solid"
+          ],
+          "instrument-material": [
+            "Metal",
+            "Birch wood",
+            "Nylon",
+            "Rosewood",
+            "Synthetic",
+            "Alder wood"
+          ],
+          "instrument-string-material": [
+            "Synthetic"
+          ],
+          "fingerboard-pattern": [
+            "Solid"
+          ],
+          "pickup-configuration": [
+            "HSS"
+          ],
+          "fingerboard-material": [
+            "Rosewood"
+          ],
+          "electric-guitar-bridge-type": [
+            "2-point tremolo",
+            "Synchronized tremolo"
+          ],
+          "neck-pattern": [
+            "Solid"
+          ],
+          "neck-material": [
+            "Maple wood"
+          ],
+          "body-shape": [
+            "S-style"
+          ],
+          "guitar-body-finish-type": [
+            "Satin"
+          ],
+          "guitar-size": [
+            "Full size"
+          ]
+        },
+        "ratings": {
+          "value": 5,
+          "count": 9,
+          "source_count": 1
+        }
+      },
+      {
+        "id": "J1sCFNv",
+        "title": "70th Anniversary Player Stratocaster Electric Guitar",
+        "description": "The Fender 70th Anniversary Player Stratocaster is a limited-edition electric guitar celebrating seven decades of the iconic Stratocaster design. It features a striking Nebula Noir speckled finish complemented by a 4-ply white pearloid pickguard. Built for versatility and vintage tone, it is equipped with Pure Vintage '59 single-coil pickups and a resonant alder body. The guitar offers a modern playing experience with a 'Modern C' profile maple neck, a 9.5\"-radius rosewood fingerboard, and a stable 2-point synchronized tremolo bridge. Finished with Fender ClassicGear tuners, this instrument blends classic aesthetic and sound with modern playability.",
+        "brands": [
+          {
+            "id": "QEak",
+            "name": "Fender"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://cdn.trychannel3.com/6f768601-67de-4484-bce2-397f01288050?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=H7gT",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/6f768601-67de-4484-bce2-397f01288050?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=H7gT",
+            "is_main_image": true,
+            "shot_type": "hero",
+            "alt_text": "Fender Stratocaster electric guitar in black and cream finish, full view."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/c39e4bec-4d99-40bf-89b0-9bfdc65cfa84?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=H7gT",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/c39e4bec-4d99-40bf-89b0-9bfdc65cfa84?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=H7gT",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Fender Stratocaster electric guitar with sunburst body and wood neck."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/5abf2805-c9f2-4717-ba10-a6cecb3bf3bd?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=H7gT",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/5abf2805-c9f2-4717-ba10-a6cecb3bf3bd?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=H7gT",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Fender Stratocaster electric guitar with black speckled body and cream pickguard."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/2ec66328-6f60-408f-835d-d93969049f86?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=H7gT",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/2ec66328-6f60-408f-835d-d93969049f86?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=H7gT",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Fender Stratocaster guitar neck and body combination."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/7e0d098c-aea2-4e92-9857-d51fb9828954?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=H7gT",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/7e0d098c-aea2-4e92-9857-d51fb9828954?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=H7gT",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Fender Stratocaster electric guitar with black speckled finish and cream pickguard."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/f277cd54-1243-4873-aff6-ee5c9b494431?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=H7gT",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/f277cd54-1243-4873-aff6-ee5c9b494431?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=H7gT",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Detailed view of a Fender Stratocaster guitar body and controls."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/36548911-1007-44c0-b101-f95f8b083f53?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=H7gT",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/36548911-1007-44c0-b101-f95f8b083f53?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=H7gT",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Close-up of the maple neck and headstock of a Stratocaster guitar."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/4b4d48b6-554d-454b-837a-228c271a3f63?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=H7gT",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/4b4d48b6-554d-454b-837a-228c271a3f63?aid=01M5R97GSSW02NVK0TGS16FR0M&mid=H7gT",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Close-up of the Stratocaster headstock and neck."
+          }
+        ],
+        "category": {
+          "slug": "electric-guitars",
+          "title": "Electric Guitars",
+          "path": [
+            {
+              "slug": "arts-entertainment",
+              "title": "Arts & Entertainment"
+            },
+            {
+              "slug": "hobbies-creative-arts",
+              "title": "Hobbies & Creative Arts"
+            },
+            {
+              "slug": "musical-instruments",
+              "title": "Musical Instruments"
+            },
+            {
+              "slug": "string-instruments",
+              "title": "String Instruments"
+            },
+            {
+              "slug": "guitars",
+              "title": "Guitars"
+            },
+            {
+              "slug": "electric-guitars",
+              "title": "Electric Guitars"
+            }
+          ],
+          "has_children": false
+        },
+        "gender": null,
+        "age": null,
+        "materials": [
+          "Alder",
+          "Maple"
+        ],
+        "key_features": [
+          "Solid body electric guitar",
+          "SSS pickup configuration (three single-coil pickups)",
+          "Alder body",
+          "Maple neck",
+          "Nebula Noir finish",
+          "Pure Vintage '59 single-coil Strat pickups",
+          "Modern C profile maple neck",
+          "2-point synchronized tremolo bridge",
+          "Fender ClassicGear tuners",
+          "4-ply white pearloid pickguard"
+        ],
+        "colors": [
+          {
+            "hex": "#0f0e0d",
+            "percentage": 0.5128
+          },
+          {
+            "hex": "#dacec0",
+            "percentage": 0.2881
+          },
+          {
+            "hex": "#5a524c",
+            "percentage": 0.1092
+          },
+          {
+            "hex": "#aba39b",
+            "percentage": 0.09
+          }
+        ],
+        "offers": [
+          {
+            "url": "https://buy.trychannel3.com/J1sCFNv-H7gT-5l3z0w?o=01M2W2DA8AEQK8ZCP5THDM72RT&aid=01M5R97GSSW02NVK0TGS16FR0M",
+            "domain": "guitarcenter.com",
+            "price": {
+              "price": 999.99,
+              "compare_at_price": null,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0,
+            "dimensions": null
+          }
+        ],
+        "variants": null,
+        "structured_attributes": {
+          "neck-material": [
+            "Maple wood"
+          ],
+          "fingerboard-material": [
+            "Maple wood",
+            "Rosewood"
+          ],
+          "body-shape": [
+            "S-style"
+          ],
+          "instrument-material": [
+            "Alder wood"
+          ],
+          "fingerboard-pattern": [
+            "Solid"
+          ],
+          "neck-pattern": [
+            "Solid"
+          ],
+          "instrument-string-pattern": [
+            "Solid"
+          ],
+          "guitar-body-finish-type": [
+            "Gloss"
+          ],
+          "instrument-string-material": [
+            "Nickel"
+          ],
+          "pickup-configuration": [
+            "SSS"
+          ],
+          "instrument-pattern": [
+            "Solid"
+          ],
+          "electric-guitar-bridge-type": [
+            "2-point tremolo"
+          ]
+        },
+        "ratings": {
+          "value": 5,
+          "count": 17,
+          "source_count": 2
+        }
+      }
+    ],
+    "next_page_token": "eyJjYWNoZV9rZXkiOiAic2VhcmNoOjBkZmZiZTBjYmEyOWE4ZDgiLCAib2Zmc2V0IjogNX0="
+  }
+}

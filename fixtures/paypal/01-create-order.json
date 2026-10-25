@@ -1,0 +1,38 @@
+{
+  "id": "0VR4998765084373W",
+  "intent": "CAPTURE",
+  "status": "PAYER_ACTION_REQUIRED",
+  "payment_source": {
+    "paypal": {}
+  },
+  "purchase_units": [
+    {
+      "reference_id": "spike",
+      "amount": {
+        "currency_code": "USD",
+        "value": "120.00"
+      },
+      "payee": {
+        "email_address": "sb-eks7053539431@business.example.com",
+        "merchant_id": "VTSVYYAL7K77Q",
+        "display_data": {
+          "brand_name": "Matchpoint Demo Shop"
+        }
+      },
+      "description": "Matchpoint Phase 0 spike: matched price",
+      "invoice_id": "spike-1792890606596"
+    }
+  ],
+  "links": [
+    {
+      "href": "https://api.sandbox.paypal.com/v2/checkout/orders/0VR4998765084373W",
+      "rel": "self",
+      "method": "GET"
+    },
+    {
+      "href": "https://www.sandbox.paypal.com/checkoutnow?token=0VR4998765084373W",
+      "rel": "payer-action",
+      "method": "GET"
+    }
+  ]
+}

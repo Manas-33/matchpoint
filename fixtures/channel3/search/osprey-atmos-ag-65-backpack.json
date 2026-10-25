@@ -1,0 +1,930 @@
+{
+  "query": "Osprey Atmos AG 65 backpack",
+  "response": {
+    "products": [
+      {
+        "id": "oAZYjS0",
+        "title": "Atmos AG 65 Backpacking Backpack",
+        "description": "The Osprey Atmos AG 65L is a high-performance men's backpacking pack designed for superior comfort and load distribution. It features an advanced mesh back structure that ventilates and conforms to the body's shape, effectively reducing restriction and enhancing airflow. This pack is highly versatile, offering a stretchable front panel for expanded storage, a removable top lid with a built-in FlapJacket cover, and an adjustable hipbelt. Technical specifications include a 65L to 68L gear capacity depending on size, an internal LightWire aluminum frame, and construction from 100% recycled nylon. Additional functional details include a zippered sleeping bag compartment, hydration reservoir compatibility, compression straps, and trekking pole attachments.",
+        "brands": [
+          {
+            "id": "lhFb",
+            "name": "Osprey"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://cdn.trychannel3.com/9a45e6c2-b777-41c1-9611-9e467d27c882?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=98k8",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/9a45e6c2-b777-41c1-9611-9e467d27c882?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=98k8",
+            "is_main_image": true,
+            "shot_type": "hero",
+            "alt_text": "Front view of a black Osprey Atmos AG 65L backpack."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/d18d3d3b-a99b-4a59-848a-6e8f50352910?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=98k8",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "lifestyle",
+            "alt_text": "Man sitting in grass with blue and red backpacks."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/f260cc94-5c27-4b5f-b5f4-f79132e58c01?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=98k8",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/f260cc94-5c27-4b5f-b5f4-f79132e58c01?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=98k8",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Front view of a black Osprey Atmos AG 65L backpack."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/10ec6766-a903-4da7-9db6-2be85a593384?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=98k8",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "lifestyle",
+            "alt_text": "Back view of a black Osprey Atmos AG 65L backpack showing harness."
+          }
+        ],
+        "category": {
+          "slug": "hiking-backpacks",
+          "title": "Hiking Backpacks",
+          "path": [
+            {
+              "slug": "luggage-bags",
+              "title": "Luggage & Bags"
+            },
+            {
+              "slug": "backpacks",
+              "title": "Backpacks"
+            },
+            {
+              "slug": "hiking-backpacks",
+              "title": "Hiking Backpacks"
+            }
+          ],
+          "has_children": false
+        },
+        "gender": null,
+        "age": "adult",
+        "materials": [
+          "100% recycled nylon"
+        ],
+        "key_features": [
+          "Comfortable Mesh Ventilates and Follows Body Shape",
+          "Stretchable for Expansion to Allow Storage Capacity",
+          "Top Section Removal with Built-in Cover Replacement",
+          "Hipbelt Pulls Out and Recedes Back In",
+          "Zippered Pockets Easy to Reach at Sides",
+          "Internal LightWire aluminum frame",
+          "Hydration reservoir compatible",
+          "Sleeping bag compartment",
+          "AntiGravity suspension system",
+          "Fit-on-the-Fly® harness and hipbelt"
+        ],
+        "colors": [
+          {
+            "hex": "#414141",
+            "percentage": 0.6911
+          },
+          {
+            "hex": "#232423",
+            "percentage": 0.2398
+          },
+          {
+            "hex": "#989998",
+            "percentage": 0.0691
+          }
+        ],
+        "offers": [
+          {
+            "url": "https://buy.trychannel3.com/oAZYjS0-98k8-5l3z0w?o=01KBPA0FFD6J9VFEZYRXFNWHT5&aid=01M5R97FZVS7SS00N6ZX5VKWQX",
+            "domain": "scheels.com",
+            "price": {
+              "price": 370,
+              "compare_at_price": null,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0.04,
+            "dimensions": null
+          },
+          {
+            "url": "https://buy.trychannel3.com/oAZYjS0-fdOw-5l3z0w?o=01M43TPKE4NHTTEV7XAJHTHRMQ&aid=01M5R97FZVS7SS00N6ZX5VKWQX",
+            "domain": "dickssportinggoods.com",
+            "price": {
+              "price": 370,
+              "compare_at_price": null,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0,
+            "dimensions": {
+              "length": null,
+              "width": null,
+              "height": null,
+              "weight": {
+                "number": 4.56,
+                "unit": "lb"
+              }
+            }
+          }
+        ],
+        "variants": null,
+        "structured_attributes": {
+          "bag-case-storage-features": [
+            "Built-in compartments",
+            "External pockets",
+            "Protective sleeves",
+            "Water bottle holder",
+            "Laptop compartment",
+            "Removable pouch",
+            "Internal padding"
+          ],
+          "carry-options": [
+            "Backpack strap",
+            "Handle",
+            "Crossbody strap",
+            "Shoulder strap"
+          ],
+          "bag-case-features": [
+            "Lightweight",
+            "Waterproof",
+            "Adjustable size"
+          ],
+          "bag-case-material": [
+            "Nylon",
+            "Polyester"
+          ],
+          "pattern": [
+            "Solid"
+          ],
+          "bag-case-closure": [
+            "Zipper"
+          ],
+          "luggage-bag-closure": [
+            "Zipper"
+          ]
+        },
+        "ratings": {
+          "value": 4.71,
+          "count": 66,
+          "source_count": 1
+        }
+      },
+      {
+        "id": "QUvs8DN",
+        "title": "Atmos AG 65 Backpacking Backpack",
+        "description": "A high-capacity backpacking backpack designed for multi-day trips, featuring Osprey's AntiGravity suspension system for superior ventilation and comfort under heavy loads. It comes in a distinct blue colorway named 'Night Shift Scoria Blue' and is constructed with sustainable, recycled fabrics. Key features include curved side zip access, adjustable harness and hipbelt, and integrated rain cover for all-weather performance.",
+        "brands": [
+          {
+            "id": "lhFb",
+            "name": "Osprey"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://cdn.trychannel3.com/41f03a91-c574-40d1-b564-83fb75dbc10a?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=98k8",
+            "cleaned_url": "https://cdn.trychannel3.com/f6dc53b9-a644-4f0a-a957-93e84e318875?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=98k8",
+            "is_main_image": true,
+            "shot_type": "hero",
+            "alt_text": "Blue Osprey Atmos AG 65 backpacking backpack front view"
+          }
+        ],
+        "category": {
+          "slug": "hiking-backpacks",
+          "title": "Hiking Backpacks",
+          "path": [
+            {
+              "slug": "luggage-bags",
+              "title": "Luggage & Bags"
+            },
+            {
+              "slug": "backpacks",
+              "title": "Backpacks"
+            },
+            {
+              "slug": "hiking-backpacks",
+              "title": "Hiking Backpacks"
+            }
+          ],
+          "has_children": false
+        },
+        "gender": "male",
+        "age": null,
+        "materials": [
+          "nylon"
+        ],
+        "key_features": [
+          "AntiGravity suspension system",
+          "Large, curved side zip access",
+          "bluesign® APPROVED recycled fabrics",
+          "Integrated raincover",
+          "Fit-on-the-Fly® harness and hipbelt",
+          "Crossbody ErgoPull hipbelt",
+          "Internal hydration reservoir sleeve",
+          "Stow-on-the-Go trekking pole attachment"
+        ],
+        "colors": [
+          {
+            "hex": "#115a7c",
+            "percentage": 0.4728
+          },
+          {
+            "hex": "#0d3854",
+            "percentage": 0.4409
+          },
+          {
+            "hex": "#87aebe",
+            "percentage": 0.0864
+          }
+        ],
+        "offers": [
+          {
+            "url": "https://buy.trychannel3.com/QUvs8DN-98k8-5l3z0w?o=01KBPBKGZMV3NRTH7S5QF78P43&aid=01M5R97FZVS7SS00N6ZX5VKWQX",
+            "domain": "scheels.com",
+            "price": {
+              "price": 320,
+              "compare_at_price": null,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0.04,
+            "dimensions": null
+          }
+        ],
+        "variants": null,
+        "structured_attributes": {
+          "bag-case-features": [
+            "Adjustable size",
+            "Lightweight",
+            "Waterproof",
+            "Internal padding"
+          ],
+          "pattern": [
+            "Solid"
+          ],
+          "bag-case-material": [
+            "Nylon",
+            "Polyester"
+          ],
+          "bag-case-closure": [
+            "Zipper"
+          ],
+          "bag-case-storage-features": [
+            "External pockets",
+            "Laptop compartment",
+            "Water bottle holder",
+            "Removable pouch",
+            "Adjustable dividers",
+            "Internal padding",
+            "Built-in compartments",
+            "Hidden pockets"
+          ],
+          "luggage-bag-closure": [
+            "Zipper"
+          ],
+          "carry-options": [
+            "Shoulder strap",
+            "Handle",
+            "Detachable strap",
+            "Backpack strap"
+          ]
+        },
+        "ratings": null
+      },
+      {
+        "id": "dgJPyIv",
+        "title": "Atmos AG 65 Backpack",
+        "description": "The Osprey Atmos AG 65 is a high-capacity backpacking pack designed for comfort and support on long trails. It features the revolutionary Anti-Gravity (AG) system that seamlessly extends the tensioned backpanel into the hipbelt for lightweight support. The pack is designed for easy organization with curved zip access on side panels, a floating top lid with lash points, and a fabric-reinforced front shove-it pocket. It also includes a zippered sleeping bag compartment with a removable divider and straps for a sleeping pad. To ensure protection from the elements, it comes with an included waterproof raincover made with PFC/PFAS-free DWR and bluesign approved materials, alongside an internal hydration reservoir sleeve.",
+        "brands": [
+          {
+            "id": "lhFb",
+            "name": "Osprey"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://cdn.trychannel3.com/a298bf8b-1b5c-44d6-aa66-eb2afc529169?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=0xCp",
+            "cleaned_url": "https://cdn.trychannel3.com/5bec0069-7146-478e-96ee-bff31d502cff?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=0xCp",
+            "is_main_image": true,
+            "shot_type": "hero",
+            "alt_text": "Atmos AG 65 backpack shown in side view with hip belt and front pocket"
+          },
+          {
+            "url": "https://www.osprey.com/media/catalog/product/cache/d30d9849f326102f12e0e92b779dd408/A/t/AtmosAG65_S22_SideBack_Black-resized.jpg",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/690b6b61-70eb-468d-b50a-dace280b5a7d?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=0xCp",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Backpack internal frame with straps and mesh back panel"
+          },
+          {
+            "url": "https://www.osprey.com/media/catalog/product/cache/d30d9849f326102f12e0e92b779dd408/A/t/AtmosAG65_S22_Side2_Black-resized.jpg",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/c55dc2ac-89f9-40a0-a8af-8be269cbf2ad?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=0xCp",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Green raincover only for backpack"
+          },
+          {
+            "url": "https://www.osprey.com/media/catalog/product/cache/d30d9849f326102f12e0e92b779dd408/a/t/atmosag65_s22_body1_venturiblue.jpg",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/4968b2e0-f325-4e00-bcc1-e82b95821707?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=0xCp",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Person wearing turquoise backpack with red/orange shirt"
+          },
+          {
+            "url": "https://www.osprey.com/media/catalog/product/cache/d30d9849f326102f12e0e92b779dd408/a/t/atmosag65_s22_body2_venturiblue.jpg",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/115814b2-7834-418e-88f7-7b86ca4aeec4?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=0xCp",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Person wearing turquoise backpack viewed from back"
+          }
+        ],
+        "category": {
+          "slug": "hiking-backpacks",
+          "title": "Hiking Backpacks",
+          "path": [
+            {
+              "slug": "luggage-bags",
+              "title": "Luggage & Bags"
+            },
+            {
+              "slug": "backpacks",
+              "title": "Backpacks"
+            },
+            {
+              "slug": "hiking-backpacks",
+              "title": "Hiking Backpacks"
+            }
+          ],
+          "has_children": false
+        },
+        "gender": null,
+        "age": "adult",
+        "materials": [
+          "recycled main, accent and bottom fabrics"
+        ],
+        "key_features": [
+          "Included raincover made with PFC/PFAS-free DWR and bluesign approved materials",
+          "Curved zip access on each side panel",
+          "Floating top lid with lash points",
+          "Fabric reinforced front shove-it pocket",
+          "Tall dual-access side water bottle pockets",
+          "Dual upper/lower side compression straps",
+          "Dual zippered hipbelt pockets",
+          "Dual ice axe loops with upper compression strap capture",
+          "Zippered sleeping bag compartment with removable divider",
+          "Removable sleeping pad straps"
+        ],
+        "colors": [
+          {
+            "hex": "#42423f",
+            "percentage": 0.4351
+          },
+          {
+            "hex": "#282823",
+            "percentage": 0.3898
+          },
+          {
+            "hex": "#131413",
+            "percentage": 0.0877
+          },
+          {
+            "hex": "#a6a6a5",
+            "percentage": 0.0874
+          }
+        ],
+        "offers": [
+          {
+            "url": "https://buy.trychannel3.com/dgJPyIv-0xCp-5l3z0w?o=01M2Q4Q5JAEET7MTG56NQWPV8Z&aid=01M5R97FZVS7SS00N6ZX5VKWQX",
+            "domain": "ascentoutdoors.com",
+            "price": {
+              "price": 370,
+              "compare_at_price": null,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0.07,
+            "dimensions": {
+              "length": null,
+              "width": null,
+              "height": null,
+              "weight": {
+                "number": 3311,
+                "unit": "g"
+              }
+            }
+          }
+        ],
+        "variants": null,
+        "structured_attributes": {
+          "carry-options": [
+            "Backpack strap",
+            "Chest/Waist strap",
+            "Handle",
+            "Shoulder strap"
+          ],
+          "bag-case-closure": [
+            "Zipper"
+          ],
+          "bag-case-material": [
+            "Nylon",
+            "Polyester",
+            "Mesh",
+            "Synthetic"
+          ],
+          "bag-case-features": [
+            "Adjustable size",
+            "Lightweight",
+            "Waterproof"
+          ],
+          "bag-case-storage-features": [
+            "External pockets",
+            "Water bottle holder",
+            "Built-in compartments",
+            "Protective sleeves"
+          ],
+          "pattern": [
+            "Solid"
+          ],
+          "luggage-bag-closure": [
+            "Zipper"
+          ]
+        },
+        "ratings": null
+      },
+      {
+        "id": "3IqeFvr",
+        "title": "Atmos AG 65 Backpack",
+        "description": "This is the Osprey Atmos AG 65 liter backpacking pack, featuring the revolutionary Anti-Gravity (AG) suspension system that provides exceptional, lightweight support by seamlessly connecting the tensioned backpanel to the hipbelt. Designed for long treks, it offers superior comfort via the Fit-on-the-Fly adjustable harness and hipbelt. Storage is made easy with curved zip side access, a floating top lid with lash points, and a dedicated zippered sleeping bag compartment. It also includes an internal hydration reservoir sleeve and an included waterproof raincover made with bluesign approved, PFC/PFAS-free DWR materials to keep your gear dry and accessible.",
+        "brands": [
+          {
+            "id": "lhFb",
+            "name": "Osprey"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://cdn.trychannel3.com/ed787171-b697-49f8-b2e4-391416c77850?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=0xCp",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/ed787171-b697-49f8-b2e4-391416c77850?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=0xCp",
+            "is_main_image": true,
+            "shot_type": "hero",
+            "alt_text": "Blue Osprey Atmos AG 65 backpack viewed from the front."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/8c0089a1-3fd6-4cc4-b4cd-39fbd74a5746?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=0xCp",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "on_model",
+            "alt_text": "Man wearing a green backpack outdoors demonstrating anti-gravity suspension."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/9acfe4a6-1ff7-42b8-91bc-e203428cadd9?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=0xCp",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "on_model",
+            "alt_text": "Man sitting wearing a green backpack, showing organization features."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/e649bef2-86b7-41b4-b7d9-a4e8a2d5029c?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=0xCp",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/e649bef2-86b7-41b4-b7d9-a4e8a2d5029c?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=0xCp",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Green Osprey backpack with integrated raincover on white background."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/f4269739-9414-45dd-9eb9-a0eb85bf2093?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=0xCp",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/f4269739-9414-45dd-9eb9-a0eb85bf2093?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=0xCp",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Blue and olive green Osprey backpack viewed from the front."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/8dfdc34b-56b9-42e7-9159-5e291f028845?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=0xCp",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/8dfdc34b-56b9-42e7-9159-5e291f028845?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=0xCp",
+            "is_main_image": false,
+            "shot_type": "on_model",
+            "alt_text": "Man wearing a blue backpack during outdoor activity."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/faf09200-4372-47fe-aab9-be33abc0e9fd?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=0xCp",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/faf09200-4372-47fe-aab9-be33abc0e9fd?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=0xCp",
+            "is_main_image": false,
+            "shot_type": "on_model",
+            "alt_text": "Man wearing a blue backpack from the back."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/e718f6f2-0a7c-4733-83dc-03f203f2768f?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=0xCp",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "on_model",
+            "alt_text": "Man wearing a green backpack, showing organization features."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/0fb915a2-f1a6-4fb3-af2c-06368ce5f5a8?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=0xCp",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/0fb915a2-f1a6-4fb3-af2c-06368ce5f5a8?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=0xCp",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Blue Osprey Atmos AG 65 backpack viewed from the front."
+          }
+        ],
+        "category": {
+          "slug": "hiking-backpacks",
+          "title": "Hiking Backpacks",
+          "path": [
+            {
+              "slug": "luggage-bags",
+              "title": "Luggage & Bags"
+            },
+            {
+              "slug": "backpacks",
+              "title": "Backpacks"
+            },
+            {
+              "slug": "hiking-backpacks",
+              "title": "Hiking Backpacks"
+            }
+          ],
+          "has_children": false
+        },
+        "gender": null,
+        "age": null,
+        "materials": [
+          "recycled 210D honey comb nylon",
+          "recycled 210D high tenacity nylon",
+          "recycled 500D high tenacity nylon"
+        ],
+        "key_features": [
+          "AntiGravity suspension system uses suspended mesh to provide exceptional ventilation and close to body carrying comfort",
+          "Lightweight streamlined design reduces unnecessary bulk while maintaining durability and performance for extended backpacking trips",
+          "Fit on the fly hipbelt system allows easy adjustments to achieve a secure and personalized fit during movement",
+          "Adjustable torso length system improves load distribution and enhances comfort across a variety of body shapes",
+          "Internal frame construction delivers strong structural support for stable and controlled load carrying on long treks",
+          "Curved side panel zip access provides convenient entry to the main compartment without unpacking gear",
+          "Floating top lid design offers additional storage capacity and versatile external attachment options for gear",
+          "Fabric reinforced front shove it pocket allows quick storage for layers or frequently accessed essentials",
+          "Dual upper and lower compression straps stabilize loads and maintain balance on uneven and technical terrain",
+          "Dual zippered hipbelt pockets provide secure storage and quick access to small items during activity"
+        ],
+        "colors": [
+          {
+            "hex": "#2b5769",
+            "percentage": 0.4593
+          },
+          {
+            "hex": "#13404e",
+            "percentage": 0.3797
+          },
+          {
+            "hex": "#122328",
+            "percentage": 0.0901
+          },
+          {
+            "hex": "#829ca4",
+            "percentage": 0.071
+          }
+        ],
+        "offers": [
+          {
+            "url": "https://buy.trychannel3.com/3IqeFvr-0xCp-5l3z0w?o=01KBPBCCK0SAHCRBJD1TMWJB5H&aid=01M5R97FZVS7SS00N6ZX5VKWQX",
+            "domain": "ascentoutdoors.com",
+            "price": {
+              "price": 370,
+              "compare_at_price": null,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0.07,
+            "dimensions": null
+          }
+        ],
+        "variants": null,
+        "structured_attributes": {
+          "pattern": [
+            "Geometric",
+            "Solid"
+          ],
+          "bag-case-features": [
+            "Waterproof",
+            "Adjustable size",
+            "Lightweight"
+          ],
+          "bag-case-closure": [
+            "Zipper"
+          ],
+          "luggage-bag-closure": [
+            "Zipper"
+          ],
+          "carry-options": [
+            "Backpack strap",
+            "Chest/Waist strap",
+            "Handle",
+            "Shoulder strap"
+          ],
+          "bag-case-material": [
+            "Mesh",
+            "Nylon"
+          ],
+          "bag-case-storage-features": [
+            "Built-in compartments",
+            "External pockets",
+            "Protective sleeves",
+            "Water bottle holder",
+            "Internal padding",
+            "Elastic loops",
+            "Laptop compartment",
+            "Single compartment"
+          ]
+        },
+        "ratings": {
+          "value": 5,
+          "count": 2,
+          "source_count": 1
+        }
+      },
+      {
+        "id": "3FRZAlJ",
+        "title": "Osprey Atmos AG 65 Backpack",
+        "description": "The Osprey Atmos AG 65 is a high-performance backpacking pack designed for comfort and support on long treks. It features the revolutionary Anti-Gravity (AG) system, which seamlessly extends the tensioned backpanel into the hipbelt for lightweight, suspended support. The pack includes a Fit-on-the-Fly harness and hipbelt for a customizable fit, along with versatile storage options such as curved zip side panel access, a floating top lid, and a fabric-reinforced front shove-it pocket. For organization, it offers a zippered sleeping bag compartment with a removable divider and straps for a sleeping pad. It also comes with an included waterproof raincover made with PFC/PFAS-free DWR and bluesign approved materials, and an internal sleeve for a hydration reservoir.",
+        "brands": [
+          {
+            "id": "lhFb",
+            "name": "Osprey"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://cdn.trychannel3.com/452f4355-d870-4f37-85d1-246391c2d0bf?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=Nn6J",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/452f4355-d870-4f37-85d1-246391c2d0bf?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=Nn6J",
+            "is_main_image": true,
+            "shot_type": "hero",
+            "alt_text": "Olive green Osprey Atmos AG 65 backpack on a white background."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/afc976e5-0477-4ecb-902e-17a27784cb6c?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=Nn6J",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "lifestyle",
+            "alt_text": "Man wearing an olive green backpack while hiking outdoors."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/c9510971-d665-41dd-84e0-449c36f11074?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=Nn6J",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "lifestyle",
+            "alt_text": "Man sitting on rocks wearing an olive green backpack outdoors."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/2ebafe2a-7764-4506-8449-f983ee5a1150?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=Nn6J",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/2ebafe2a-7764-4506-8449-f983ee5a1150?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=Nn6J",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Olive green Osprey backpack with integrated raincover on a white background."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/33ff85d2-b133-4c7b-88dd-da0cb52c7879?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=Nn6J",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/33ff85d2-b133-4c7b-88dd-da0cb52c7879?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=Nn6J",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Olive green Osprey backpack viewed from the front, showing harness."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/e8532c67-68fe-4a35-9885-bde4b21f1a65?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=Nn6J",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/e8532c67-68fe-4a35-9885-bde4b21f1a65?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=Nn6J",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Olive green Osprey backpack showing the raincover from the side."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/69a3fa2f-d764-4325-ae99-951a837a3cf1?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=Nn6J",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/69a3fa2f-d764-4325-ae99-951a837a3cf1?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=Nn6J",
+            "is_main_image": false,
+            "shot_type": "on_model",
+            "alt_text": "Man wearing a blue Osprey backpack outdoors."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/f5830185-d585-4cb8-8dc1-c6a10027594f?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=Nn6J",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/f5830185-d585-4cb8-8dc1-c6a10027594f?aid=01M5R97FZVS7SS00N6ZX5VKWQX&mid=Nn6J",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Back view of a blue and green Osprey backpack on a person."
+          }
+        ],
+        "category": {
+          "slug": "hiking-backpacks",
+          "title": "Hiking Backpacks",
+          "path": [
+            {
+              "slug": "luggage-bags",
+              "title": "Luggage & Bags"
+            },
+            {
+              "slug": "backpacks",
+              "title": "Backpacks"
+            },
+            {
+              "slug": "hiking-backpacks",
+              "title": "Hiking Backpacks"
+            }
+          ],
+          "has_children": false
+        },
+        "gender": null,
+        "age": null,
+        "materials": [
+          "recycled 210D honey comb nylon",
+          "recycled 210D high tenacity nylon",
+          "recycled 500D high tenacity nylon"
+        ],
+        "key_features": [
+          "AntiGravity suspension system with 3D-suspended mesh",
+          "Integrated raincover made with PFC/PFAS-free DWR",
+          "Stow-on-the-Go trekking pole attachment system",
+          "Fit-on-the-Fly® adjustable harness and hipbelt",
+          "Curved zip access on each side panel for main compartment",
+          "Internal hydration reservoir sleeve with center back exit port",
+          "Made with 100% recycled main, accent and bottom fabrics",
+          "Floating top lid with lash points",
+          "Fabric reinforced front shove-it pocket",
+          "Tall dual-access side water bottle pockets"
+        ],
+        "colors": [
+          {
+            "hex": "#717c5c",
+            "percentage": 0.4513
+          },
+          {
+            "hex": "#555e43",
+            "percentage": 0.3926
+          },
+          {
+            "hex": "#2b2f22",
+            "percentage": 0.0938
+          },
+          {
+            "hex": "#aeb3a0",
+            "percentage": 0.0622
+          }
+        ],
+        "offers": [
+          {
+            "url": "https://buy.trychannel3.com/3FRZAlJ-Nn6J-5l3z0w?o=01M32M2BHB1JQ3QP0HRXYCZTNM&aid=01M5R97FZVS7SS00N6ZX5VKWQX",
+            "domain": "backcountry.com",
+            "price": {
+              "price": 369.95,
+              "compare_at_price": null,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0.056,
+            "dimensions": {
+              "length": {
+                "number": 14.17,
+                "unit": "in"
+              },
+              "width": {
+                "number": 15.35,
+                "unit": "in"
+              },
+              "height": {
+                "number": 34.65,
+                "unit": "in"
+              },
+              "weight": {
+                "number": 4.69,
+                "unit": "lb"
+              }
+            }
+          },
+          {
+            "url": "https://buy.trychannel3.com/3FRZAlJ-0xCp-5l3z0w?o=01M2Q4SNKCMA9JM3D2QKFPCACR&aid=01M5R97FZVS7SS00N6ZX5VKWQX",
+            "domain": "ascentoutdoors.com",
+            "price": {
+              "price": 370,
+              "compare_at_price": null,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0.07,
+            "dimensions": {
+              "length": null,
+              "width": null,
+              "height": null,
+              "weight": {
+                "number": 3039,
+                "unit": "g"
+              }
+            }
+          }
+        ],
+        "variants": {
+          "options": [
+            {
+              "name": "Color",
+              "values": [
+                {
+                  "label": "Mythical Green",
+                  "exists": true,
+                  "available": null,
+                  "thumbnail_url": "https://cdn.trychannel3.com/452f4355-d870-4f37-85d1-246391c2d0bf",
+                  "product_id": "3FRZAlJ"
+                },
+                {
+                  "label": "Venturi Blue",
+                  "exists": true,
+                  "available": null,
+                  "thumbnail_url": "https://cdn.trychannel3.com/4ceecb0b-eb8c-4514-8c5d-52934b11958c",
+                  "product_id": "NjZzUYg"
+                }
+              ]
+            },
+            {
+              "name": "Size",
+              "values": [
+                {
+                  "label": "L/XL",
+                  "exists": true,
+                  "available": null,
+                  "thumbnail_url": null,
+                  "product_id": null
+                },
+                {
+                  "label": "S/M",
+                  "exists": true,
+                  "available": null,
+                  "thumbnail_url": null,
+                  "product_id": null
+                }
+              ]
+            }
+          ],
+          "selected": [
+            {
+              "name": "Color",
+              "label": "Mythical Green"
+            }
+          ]
+        },
+        "structured_attributes": {
+          "luggage-bag-closure": [
+            "Zipper"
+          ],
+          "bag-case-closure": [
+            "Zipper"
+          ],
+          "bag-case-material": [
+            "Nylon",
+            "Polyester",
+            "Mesh"
+          ],
+          "pattern": [
+            "Solid",
+            "Logo",
+            "Texture"
+          ],
+          "care-instructions": [
+            "Tumble dry"
+          ],
+          "carry-options": [
+            "Backpack strap",
+            "Handle",
+            "Chest/Waist strap",
+            "Shoulder strap",
+            "Detachable strap",
+            "Crossbody strap"
+          ],
+          "bag-case-features": [
+            "Adjustable size",
+            "Lightweight",
+            "Waterproof",
+            "Internal padding",
+            "Anti-theft",
+            "Lockable"
+          ],
+          "bag-case-storage-features": [
+            "Built-in compartments",
+            "External pockets",
+            "Protective sleeves",
+            "Water bottle holder",
+            "Bow holders",
+            "Laptop compartment",
+            "Insulated bottle pocket",
+            "Adjustable dividers",
+            "Internal padding",
+            "Hidden pockets",
+            "Removable pouch"
+          ]
+        },
+        "ratings": {
+          "value": 4.71,
+          "count": 55,
+          "source_count": 1
+        }
+      }
+    ],
+    "next_page_token": "eyJjYWNoZV9rZXkiOiAic2VhcmNoOmM4YTdmYjU1OTY4MmU3NjIiLCAib2Zmc2V0IjogNX0="
+  }
+}

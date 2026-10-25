@@ -1,0 +1,97 @@
+{
+  "model": "claude-sonnet-5-5",
+  "expect": {
+    "same_product": true
+  },
+  "shop_fixture": "channel3/catalog/hrz4MAW.json",
+  "competitor_fixture": "channel3/lookup/bestbuy-com-sony-wh-1000xm5-wireless-noise-06d46e.json",
+  "outcome": "ok",
+  "decision": {
+    "same_product": true,
+    "variant_match": false,
+    "condition_ok": false,
+    "bundle_or_accessory": false,
+    "model_year_mismatch": false,
+    "confidence": 0.5,
+    "reasons": [
+      {
+        "listing": "both",
+        "field": "title",
+        "observation": "Both titles name the Sony WH-1000XM5 wireless noise-canceling over-ear headphones, so they appear to be the same model."
+      },
+      {
+        "listing": "competitor",
+        "field": "title",
+        "observation": "The competitor title says 'Black', but this is the only colour information in that listing."
+      },
+      {
+        "listing": "shop",
+        "field": "variants",
+        "observation": "The shop listing has variants null and no colour named in its title. Its colors field holds only hex values, mostly light grey and beige, which suggests silver or platinum rather than black. The shop colour is ambiguous and may differ from Black."
+      },
+      {
+        "listing": "competitor",
+        "field": "offers[0].condition",
+        "observation": "The competitor offer condition is null, so it cannot be confirmed as new rather than used, refurbished or open-box."
+      },
+      {
+        "listing": "competitor",
+        "field": "linked_offer.condition",
+        "observation": "The linked offer condition is also null, which gives no confirmation of new condition."
+      },
+      {
+        "listing": "competitor",
+        "field": "offers[0].price",
+        "observation": "The competitor price of 228 USD is far below the typical new price of the shop's 398 USD offer. This is not a price judgement, but it makes the missing condition data more significant."
+      },
+      {
+        "listing": "both",
+        "field": "canonical_product_id",
+        "observation": "The canonical_product_id values differ (hrz4MAW vs kYou5j5). This may indicate different variants such as colours, or just separate catalogue entries for the same model."
+      },
+      {
+        "listing": "competitor",
+        "field": "description",
+        "observation": "The competitor listing has no description, key features, brands or structured attributes, so there is no data to rule out a bundle, accessory or different generation. The titles show no sign of one."
+      }
+    ],
+    "customer_message": "Both listings look like the Sony WH-1000XM5, but we couldn't confirm that the colour matches or that the Best Buy offer is new. Please check the colour and condition before we can treat this as a match."
+  },
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 2800,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "iterations": [
+      {
+        "input_tokens": 2800,
+        "output_tokens": 691,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "type": "message",
+        "model": null
+      }
+    ],
+    "output_tokens": 691,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+  },
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"same_product\":true,\"variant_match\":false,\"condition_ok\":false,\"bundle_or_accessory\":false,\"model_year_mismatch\":false,\"confidence\":0.5,\"reasons\":[{\"listing\":\"both\",\"field\":\"title\",\"observation\":\"Both titles name the Sony WH-1000XM5 wireless noise-canceling over-ear headphones, so they appear to be the same model.\"},{\"listing\":\"competitor\",\"field\":\"title\",\"observation\":\"The competitor title says 'Black', but this is the only colour information in that listing.\"},{\"listing\":\"shop\",\"field\":\"variants\",\"observation\":\"The shop listing has variants null and no colour named in its title. Its colors field holds only hex values, mostly light grey and beige, which suggests silver or platinum rather than black. The shop colour is ambiguous and may differ from Black.\"},{\"listing\":\"competitor\",\"field\":\"offers[0].condition\",\"observation\":\"The competitor offer condition is null, so it cannot be confirmed as new rather than used, refurbished or open-box.\"},{\"listing\":\"competitor\",\"field\":\"linked_offer.condition\",\"observation\":\"The linked offer condition is also null, which gives no confirmation of new condition.\"},{\"listing\":\"competitor\",\"field\":\"offers[0].price\",\"observation\":\"The competitor price of 228 USD is far below the typical new price of the shop's 398 USD offer. This is not a price judgement, but it makes the missing condition data more significant.\"},{\"listing\":\"both\",\"field\":\"canonical_product_id\",\"observation\":\"The canonical_product_id values differ (hrz4MAW vs kYou5j5). This may indicate different variants such as colours, or just separate catalogue entries for the same model.\"},{\"listing\":\"competitor\",\"field\":\"description\",\"observation\":\"The competitor listing has no description, key features, brands or structured attributes, so there is no data to rule out a bundle, accessory or different generation. The titles show no sign of one.\"}],\"customer_message\":\"Both listings look like the Sony WH-1000XM5, but we couldn't confirm that the colour matches or that the Best Buy offer is new. Please check the colour and condition before we can treat this as a match.\"}"
+    }
+  ]
+}

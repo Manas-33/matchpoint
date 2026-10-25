@@ -1,0 +1,84 @@
+[
+  {
+    "url": "https://www.bestbuy.com/site/sony-wh-1000xm5-wireless-noise-canceling-headphones-black/6505727.p",
+    "product_id": "kYou5j5",
+    "title": "Sony WH 1000XM5 Wireless Noise Cancelling Over the Ear Headphones Black - Best Buy",
+    "offers": 1,
+    "fields": {
+      "has_offers": true,
+      "price": true,
+      "availability": true,
+      "condition": false,
+      "domain": true,
+      "variants": false
+    }
+  },
+  {
+    "url": "https://www.bestbuy.com/product/sony-wh-1000xm5-wireless-over-ear-headphones-black-with-bluetooth-speaker/JJG2F3TP9K",
+    "error": "InternalServerError\nStatus code: 500\nBody: {\n  \"detail\": \"Product extraction failed\"\n}"
+  },
+  {
+    "url": "https://www.bhphotovideo.com/c/product/1919545-REG/bose_890101_0100_quietcomfort_ultra_wireless_noise.html",
+    "product_id": "p69UwYn",
+    "title": "Bose Quietcomfort Ultra Headphones",
+    "offers": 1,
+    "fields": {
+      "has_offers": true,
+      "price": true,
+      "availability": true,
+      "condition": false,
+      "domain": true,
+      "variants": true
+    }
+  },
+  {
+    "url": "https://www.bose.com/p/refurbished/bose-quietcomfort-ultra-headphones-2nd-gen/QCUH2-HEADPHONEARN-FR.html",
+    "product_id": "5rIX5Ry",
+    "title": "Bose QuietComfort Ultra Headphones (2nd Gen)",
+    "offers": 7,
+    "fields": {
+      "has_offers": true,
+      "price": true,
+      "availability": true,
+      "condition": true,
+      "domain": true,
+      "variants": true
+    }
+  },
+  {
+    "url": "https://www.rei.com/product/201302/osprey-atmos-ag-65-pack-mens",
+    "product_id": "idLpnpp",
+    "title": "Atmos AG 65 Pack - Men's",
+    "offers": 1,
+    "fields": {
+      "has_offers": true,
+      "price": true,
+      "availability": true,
+      "condition": false,
+      "domain": true,
+      "variants": false
+    }
+  },
+  {
+    "url": "https://www.rei.com/product/225589/garmin-forerunner-265",
+    "error": "UnprocessableEntityError\nStatus code: 422\nBody: {\n  \"detail\": \"URL is not a product page\"\n}"
+  },
+  {
+    "url": "https://www.sweetwater.com/store/detail/StratPMBLK--fender-player-series-stratocaster-black-with-maple-fingerboard",
+    "error": "InternalServerError\nStatus code: 500\nBody: {\n  \"detail\": \"Product extraction failed\"\n}"
+  },
+  {
+    "url": "https://www.sweetwater.com/store/detail/StratP2MBK--fender-player-ii-stratocaster-electric-guitar-black-with-maple-fingerboard",
+    "product_id": "0yRC8r4",
+    "title": "Stratocaster Electric Guitar",
+    "offers": 1,
+    "fields": {
+      "has_offers": true,
+      "price": true,
+      "availability": true,
+      "condition": false,
+      "domain": true,
+      "variants": false
+    }
+  }
+]

@@ -1,0 +1,130 @@
+{
+  "url": "https://www.sweetwater.com/store/detail/StratP2MBK--fender-player-ii-stratocaster-electric-guitar-black-with-maple-fingerboard",
+  "product": {
+    "id": "0yRC8r4",
+    "title": "Stratocaster Electric Guitar",
+    "description": "The Fender Player II Stratocaster is an electric guitar that blends classic Fender design with modern playability. It features an alder body, maple neck, and rosewood fingerboard, delivering a balanced and bright tone. Equipped with three Player Series single-coil pickups and a 5-way selector, it offers versatile sound options. The guitar boasts a comfortable Modern \"C\" neck profile, rolled fingerboard edges, and a 2-point synchronized tremolo for expressive performance.",
+    "brands": [
+      {
+        "id": "QEak",
+        "name": "Fender"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://cdn.trychannel3.com/0eb25eab-07ff-4cbc-9472-4a02e4013aee?mid=p3xj",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/0eb25eab-07ff-4cbc-9472-4a02e4013aee?mid=p3xj",
+        "is_main_image": true,
+        "shot_type": "hero",
+        "alt_text": "Black Fender Player II Stratocaster electric guitar, front view."
+      }
+    ],
+    "category": {
+      "slug": "electric-guitars",
+      "title": "Electric Guitars",
+      "path": [
+        {
+          "slug": "arts-entertainment",
+          "title": "Arts & Entertainment"
+        },
+        {
+          "slug": "hobbies-creative-arts",
+          "title": "Hobbies & Creative Arts"
+        },
+        {
+          "slug": "musical-instruments",
+          "title": "Musical Instruments"
+        },
+        {
+          "slug": "string-instruments",
+          "title": "String Instruments"
+        },
+        {
+          "slug": "guitars",
+          "title": "Guitars"
+        },
+        {
+          "slug": "electric-guitars",
+          "title": "Electric Guitars"
+        }
+      ],
+      "has_children": false
+    },
+    "gender": null,
+    "age": null,
+    "materials": [],
+    "key_features": [],
+    "colors": [
+      {
+        "hex": "#161616",
+        "percentage": 0.4197
+      },
+      {
+        "hex": "#f4f5e9",
+        "percentage": 0.2623
+      },
+      {
+        "hex": "#7c7870",
+        "percentage": 0.1373
+      },
+      {
+        "hex": "#cdba9a",
+        "percentage": 0.1093
+      },
+      {
+        "hex": "#2b2b2a",
+        "percentage": 0.0714
+      }
+    ],
+    "offers": [
+      {
+        "url": "https://buy.trychannel3.com/0yRC8r4-p3xj-5l3z0w?o=01KBP9K9H6G4T53EQEK9N5K5BK",
+        "domain": "sweetwater.com",
+        "price": {
+          "price": 99,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": null,
+        "max_commission_rate": 0.014,
+        "dimensions": null
+      }
+    ],
+    "variants": null,
+    "structured_attributes": {
+      "fingerboard-pattern": [
+        "Solid"
+      ],
+      "electric-guitar-bridge-type": [
+        "2-point tremolo"
+      ],
+      "neck-pattern": [
+        "Solid"
+      ],
+      "instrument-material": [
+        "Alder wood"
+      ],
+      "pickup-configuration": [
+        "SSS"
+      ],
+      "instrument-pattern": [
+        "Solid"
+      ],
+      "neck-material": [
+        "Maple wood"
+      ],
+      "fingerboard-material": [
+        "Rosewood"
+      ],
+      "body-shape": [
+        "S-style"
+      ]
+    },
+    "ratings": {
+      "value": 5,
+      "count": 4,
+      "source_count": 1
+    }
+  }
+}

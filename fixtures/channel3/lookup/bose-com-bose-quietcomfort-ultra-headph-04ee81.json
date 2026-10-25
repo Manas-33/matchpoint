@@ -1,0 +1,409 @@
+{
+  "url": "https://www.bose.com/p/refurbished/bose-quietcomfort-ultra-headphones-2nd-gen/QCUH2-HEADPHONEARN-FR.html",
+  "product": {
+    "id": "5rIX5Ry",
+    "title": "Bose QuietComfort Ultra Headphones (2nd Gen)",
+    "description": "Experience immersive, personalized sound with Bose QuietComfort Ultra headphones. These wireless, over-the-ear headphones feature breakthrough spatial audio, creating a more natural and lifelike listening experience. CustomTune technology analyzes your ear's shape to adapt the audio performance for optimal sound. Crafted with premium materials, including soft ear cushions and a pressure-distributing headband, these headphones offer refined comfort and sophisticated design. Advanced Bluetooth 5.3 connectivity allows seamless pairing with your devices, managed through the Bose app, which also provides access to Adjustable EQ settings and setup guidance. With world-class active noise cancelling, you can choose between Quiet Mode for full noise cancellation, Aware Mode to hear your surroundings, or Immersion Mode for a combination of both. Enjoy crystal-clear calls thanks to noise-rejecting microphones. The headphones offer up to 24 hours of battery life, with a quick charge providing 2.5 hours of playback. SimpleSync technology allows you to sync audio with Bose smart soundbars.",
+    "brands": [
+      {
+        "id": "qHHu",
+        "name": "Bose"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://cdn.trychannel3.com/f88572f8-0c6e-4417-8e4c-3ad82c746a57?mid=sx5z",
+        "cleaned_url": "https://cdn.trychannel3.com/d6999268-91aa-4f0a-a718-f00efa515f80?mid=sx5z",
+        "is_main_image": true,
+        "shot_type": "hero",
+        "alt_text": "Bose QuietComfort Ultra headphones in black with gold accents."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/5c3fc7fb-e68a-414b-aff6-ab46fcaace96?mid=sx5z",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/5c3fc7fb-e68a-414b-aff6-ab46fcaace96?mid=sx5z",
+        "is_main_image": false,
+        "shot_type": "angle_view",
+        "alt_text": "Bose QuietComfort Ultra headphones shown from a side angle."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/655bca41-c57a-46ce-ad34-d1f2627844f7?mid=sx5z",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/655bca41-c57a-46ce-ad34-d1f2627844f7?mid=sx5z",
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Bose QuietComfort Ultra over-ear headphones with gold accents."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/d5b0b6ae-895c-49ca-a5b0-2764fdb897f1?mid=sx5z",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/d5b0b6ae-895c-49ca-a5b0-2764fdb897f1?mid=sx5z",
+        "is_main_image": false,
+        "shot_type": "detail",
+        "alt_text": "Left and right earcups of Bose QuietComfort Ultra headphones."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/dc3e1d58-f622-4465-a47c-54c3cb0c9bfc?mid=sx5z",
+        "cleaned_url": null,
+        "is_main_image": false,
+        "shot_type": "lifestyle",
+        "alt_text": "Bose QuietComfort Ultra headphones worn by a woman."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/1d8cf177-bbb2-4e29-b603-e7ada00fb86f?mid=sx5z",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/1d8cf177-bbb2-4e29-b603-e7ada00fb86f?mid=sx5z",
+        "is_main_image": false,
+        "shot_type": "packaging",
+        "alt_text": "Black carrying case for Bose QuietComfort Ultra headphones."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/a3a32332-a2da-41ac-b0c4-926dde10ebfe?mid=sx5z",
+        "cleaned_url": null,
+        "is_main_image": false,
+        "shot_type": "lifestyle",
+        "alt_text": "Woman wearing Bose QuietComfort Ultra headphones."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/118ece88-8387-4f0c-a43d-ea70551d0383?mid=sx5z",
+        "cleaned_url": null,
+        "is_main_image": false,
+        "shot_type": "lifestyle",
+        "alt_text": "Woman wearing Bose QuietComfort Ultra headphones."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/bd1c88d4-d9ea-4e98-9843-9aacb35418dd?mid=sx5z",
+        "cleaned_url": null,
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Bose QuietComfort Ultra headphones resting on rocks."
+      }
+    ],
+    "category": {
+      "slug": "over-ear-headphones",
+      "title": "Over-Ear Headphones",
+      "path": [
+        {
+          "slug": "electronics",
+          "title": "Electronics"
+        },
+        {
+          "slug": "audio",
+          "title": "Audio"
+        },
+        {
+          "slug": "audio-components",
+          "title": "Audio Components"
+        },
+        {
+          "slug": "headphones-headsets",
+          "title": "Headphones & Headsets"
+        },
+        {
+          "slug": "headphones",
+          "title": "Headphones"
+        },
+        {
+          "slug": "over-ear-headphones",
+          "title": "Over-Ear Headphones"
+        }
+      ],
+      "has_children": false
+    },
+    "gender": null,
+    "age": null,
+    "materials": [
+      "luxe materials"
+    ],
+    "key_features": [
+      "CustomTune for premium sound",
+      "Our best noise cancelling",
+      "Plush comfort",
+      "Up to 30 hours (23 with Immersive Audio)",
+      "Spatialized Bose Immersive Audio",
+      "New Cinema Mode",
+      "Clear phone calls",
+      "Customize with the Bose app",
+      "Adjustable EQ and shortcuts",
+      "Plays up to 24 hours"
+    ],
+    "colors": [
+      {
+        "hex": "#ffffff",
+        "percentage": 0.4406
+      },
+      {
+        "hex": "#1b1a18",
+        "percentage": 0.3988
+      },
+      {
+        "hex": "#363531",
+        "percentage": 0.1241
+      }
+    ],
+    "offers": [
+      {
+        "url": "https://buy.trychannel3.com/5rIX5Ry-sx5z-5l3z0w?o=01KRMMVNCMRBKY3WW3WQ9V5ZB8",
+        "domain": "bose.com",
+        "price": {
+          "price": 249,
+          "compare_at_price": 429,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": null,
+        "max_commission_rate": 0.021,
+        "dimensions": {
+          "length": null,
+          "width": null,
+          "height": null,
+          "weight": {
+            "number": 0.56,
+            "unit": "lb"
+          }
+        }
+      },
+      {
+        "url": "https://buy.trychannel3.com/5rIX5Ry-Pu5r-5l3z0w?o=01KR7KJ27XR36SMMB64CHHEQJK",
+        "domain": "pcrichard.com",
+        "price": {
+          "price": 329,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0.028,
+        "dimensions": {
+          "length": null,
+          "width": {
+            "number": 5.5,
+            "unit": "in"
+          },
+          "height": {
+            "number": 7.7,
+            "unit": "in"
+          },
+          "weight": {
+            "number": 1,
+            "unit": "lb"
+          }
+        }
+      },
+      {
+        "url": "https://buy.trychannel3.com/5rIX5Ry-p1PB-5l3z0w?o=01KXZKJ8PQ30A523QG8A5PKNYY",
+        "domain": "bestbuy.com",
+        "price": {
+          "price": 349.99,
+          "compare_at_price": 399.99,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0.005,
+        "dimensions": null
+      },
+      {
+        "url": "https://buy.trychannel3.com/5rIX5Ry-p3xj-5l3z0w?o=01KSQP9DFGQBCNV222RQJ66WR1",
+        "domain": "sweetwater.com",
+        "price": {
+          "price": 369,
+          "compare_at_price": 449,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0.014,
+        "dimensions": null
+      },
+      {
+        "url": "https://buy.trychannel3.com/5rIX5Ry-TgS4-5l3z0w?o=01M4Z4F07SB87GBEESJ0XSKTNB",
+        "domain": "cdw.com",
+        "price": {
+          "price": 449,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0,
+        "dimensions": {
+          "length": null,
+          "width": null,
+          "height": null,
+          "weight": {
+            "number": 9.35,
+            "unit": "oz"
+          }
+        }
+      },
+      {
+        "url": "https://buy.trychannel3.com/5rIX5Ry-nSgk-5l3z0w?o=01KRMGQRP6CMX2NGHG1N3XZVHB",
+        "domain": "rcwilley.com",
+        "price": {
+          "price": 300,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "OutOfStock",
+        "condition": "new",
+        "max_commission_rate": 0.0035,
+        "dimensions": {
+          "length": {
+            "number": 1.67,
+            "unit": "ft"
+          },
+          "width": null,
+          "height": null,
+          "weight": {
+            "number": 1.35,
+            "unit": "lb"
+          }
+        }
+      },
+      {
+        "url": "https://buy.trychannel3.com/5rIX5Ry-DO3T-5l3z0w?o=01KRXJVH0NHP7P5KF8XH9FKG6V",
+        "domain": "abt.com",
+        "price": {
+          "price": 449,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "OutOfStock",
+        "condition": "new",
+        "max_commission_rate": 0.056,
+        "dimensions": null
+      }
+    ],
+    "variants": {
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            {
+              "label": "Black",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/f88572f8-0c6e-4417-8e4c-3ad82c746a57",
+              "product_id": "5rIX5Ry"
+            },
+            {
+              "label": "MIDNIGHT%20VIOLET",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/c9c62c24-d976-471e-8d41-df98514d253a",
+              "product_id": "lZJARyv"
+            },
+            {
+              "label": "on",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/1efb8da0-3baf-4122-bea5-277777c1a8e9",
+              "product_id": "2OmH06C"
+            }
+          ]
+        }
+      ],
+      "selected": [
+        {
+          "name": "Color",
+          "label": "Black"
+        }
+      ]
+    },
+    "structured_attributes": {
+      "headphone-style": [
+        "Closed-back",
+        "Canal"
+      ],
+      "audio-connectivity": [
+        "2.5 mm",
+        "3.5 mm",
+        "USB",
+        "6.35 mm",
+        "Bluetooth"
+      ],
+      "ingress-protection-ip-rating": [
+        "Not rated"
+      ],
+      "maximum-bit-depth": [
+        "16-bit",
+        "48-bit"
+      ],
+      "connectivity-technology": [
+        "Bluetooth",
+        "USB",
+        "Wired",
+        "Wireless",
+        "Wi-Fi"
+      ],
+      "material": [
+        "Aluminum",
+        "Leather",
+        "Plastic",
+        "Synthetic",
+        "Plush",
+        "Faux leather",
+        "Metal"
+      ],
+      "power-source": [
+        "Battery-powered",
+        "USB",
+        "Rechargeable",
+        "Batteries"
+      ],
+      "charging-interface-type": [
+        "USB type-C"
+      ],
+      "microphone-type": [
+        "Built-in",
+        "Noise-canceling"
+      ],
+      "device-interface": [
+        "2.5 mm",
+        "3.5 mm",
+        "USB",
+        "6.35 mm",
+        "Bluetooth",
+        "Wi-Fi",
+        "HDMI"
+      ],
+      "noise-cancellation-technology": [
+        "Active noise cancellation (ANC)",
+        "Passive noise isolation",
+        "Adaptive noise cancellation"
+      ],
+      "earphone-features": [
+        "Awareness mode",
+        "Built-in microphone",
+        "Noise cancellation",
+        "Volume control",
+        "High fidelity audio",
+        "Waterproof"
+      ],
+      "battery-type": [
+        "Rechargeable"
+      ],
+      "audio-component-form-factor": [
+        "Portable/Field",
+        "Desktop"
+      ],
+      "pattern": [
+        "Solid"
+      ],
+      "driver-technology": [
+        "Dynamic driver"
+      ],
+      "headphone-driver-technology": [
+        "Dynamic",
+        "Bone conduction"
+      ],
+      "battery-size": [
+        "≤100Wh",
+        "Built-in battery",
+        "6LR61"
+      ]
+    },
+    "ratings": {
+      "value": 4.66,
+      "count": 4860,
+      "source_count": 5
+    }
+  }
+}
