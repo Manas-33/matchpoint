@@ -1,0 +1,160 @@
+{
+  "canonical_product_id": "CiQXPk8",
+  "product_title": "Garmin Forerunner 265 Gps Running Smartwatch",
+  "history": [
+    {
+      "timestamp": "2026-09-27T00:00:00.000Z",
+      "price": 549.99,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-09-28T00:00:00.000Z",
+      "price": 549.99,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-09-29T00:00:00.000Z",
+      "price": 549.99,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-09-30T00:00:00.000Z",
+      "price": 549.99,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-10-01T00:00:00.000Z",
+      "price": 549.99,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-10-02T00:00:00.000Z",
+      "price": 549.99,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-10-03T00:00:00.000Z",
+      "price": 549.99,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-10-04T00:00:00.000Z",
+      "price": 549.99,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-10-05T00:00:00.000Z",
+      "price": 549.99,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-10-06T00:00:00.000Z",
+      "price": 549.99,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-10-07T00:00:00.000Z",
+      "price": 549.99,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-10-08T00:00:00.000Z",
+      "price": 549.99,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-10-09T00:00:00.000Z",
+      "price": 549.99,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-10-10T00:00:00.000Z",
+      "price": 549.99,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-10-11T00:00:00.000Z",
+      "price": 549.99,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-10-12T00:00:00.000Z",
+      "price": 549.99,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-10-13T00:00:00.000Z",
+      "price": 549.99,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-10-14T00:00:00.000Z",
+      "price": 549.99,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-10-15T00:00:00.000Z",
+      "price": 549.99,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-10-16T00:00:00.000Z",
+      "price": 549.99,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-10-17T00:00:00.000Z",
+      "price": 549.99,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-10-18T00:00:00.000Z",
+      "price": 549.99,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-10-19T00:00:00.000Z",
+      "price": 549.99,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-10-20T00:00:00.000Z",
+      "price": 549.99,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-10-21T00:00:00.000Z",
+      "price": 549.99,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-10-22T00:00:00.000Z",
+      "price": 449.99,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-10-23T00:00:00.000Z",
+      "price": 449.99,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-10-24T00:00:00.000Z",
+      "price": 549.99,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-10-25T00:00:00.000Z",
+      "price": 549.99,
+      "currency": "USD"
+    }
+  ],
+  "statistics": {
+    "mean": 543.09,
+    "std_dev": 25.79,
+    "min_price": 449.99,
+    "max_price": 549.99,
+    "current_price": 549.99,
+    "current_status": "typical",
+    "currency": "USD"
+  }
+}

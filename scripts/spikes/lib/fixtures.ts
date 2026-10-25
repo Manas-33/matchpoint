@@ -6,6 +6,7 @@ const SECRET_KEYS =
   /^(authorization|access_token|refresh_token|id_token|client_secret|x-api-key|api_key|cookie|set-cookie|paypal-auth-assertion|webhook-secret)$/i;
 
 function redact(value: unknown): unknown {
+  if (value instanceof Date) return value.toISOString();
   if (Array.isArray(value)) return value.map(redact);
   if (value && typeof value === "object") {
     return Object.fromEntries(
