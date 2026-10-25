@@ -1,0 +1,339 @@
+{
+  "url": "channel3:2mgv0RC",
+  "product": {
+    "id": "2mgv0RC",
+    "title": "Men's Better Sweater® Vest",
+    "description": "This warm Patagonia fleece vest combines a sweater-knit aesthetic with the easy care of Better Sweater fleece. It comes in a regular fit. Zippered front pockets offer a cozy spot to warm your hands. It is made from 100% recycled polyester knit fleece and is dyed with a low-impact process. The vest features a full-length zipper with a stand-up collar and a zip-through collar. It has two zippered, welt handwarmer pockets and one vertically zippered left-chest security pocket, as well as an interior drop-in pocket. The vest has offset shoulder seams for pack-wearing comfort and long-lasting durability, and flat-seam construction to reduce bulk and eliminate seam chafe. Soft brushed-tricot trim on the armholes and hem adds comfort. It is imported and Fair Trade Certified™ Factory.",
+    "brands": [
+      {
+        "id": "aYBr",
+        "name": "Patagonia"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://cdn.trychannel3.com/f79b2c69-32c8-4c82-a77e-4cd9b43fb4fa?aid=01M5RC3C8PHYENXCSEYGWTCA6R&mid=a0Dd",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/f79b2c69-32c8-4c82-a77e-4cd9b43fb4fa?aid=01M5RC3C8PHYENXCSEYGWTCA6R&mid=a0Dd",
+        "is_main_image": true,
+        "shot_type": "hero",
+        "alt_text": "Patagonia Better Sweater Fleece Vest in heather gray, front view."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/438e01a2-3658-47d2-85a1-b2e190393dde?aid=01M5RC3C8PHYENXCSEYGWTCA6R&mid=a0Dd",
+        "cleaned_url": null,
+        "is_main_image": false,
+        "shot_type": "detail",
+        "alt_text": "Close-up of the textured knit fabric and zipper on the vest."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/3d9cf8cb-6b88-4448-a6fe-34154c39c9b4?aid=01M5RC3C8PHYENXCSEYGWTCA6R&mid=a0Dd",
+        "cleaned_url": null,
+        "is_main_image": false,
+        "shot_type": "detail",
+        "alt_text": "Close-up of the textured knit fabric on the vest."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/508bdb2b-6c50-4820-906c-bb2abdac4dad?aid=01M5RC3C8PHYENXCSEYGWTCA6R&mid=a0Dd",
+        "cleaned_url": null,
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Patagonia Better Sweater Fleece Vest in navy blue, front view."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/f69eee79-ac3d-4c67-b80a-d779369c16e9?aid=01M5RC3C8PHYENXCSEYGWTCA6R&mid=a0Dd",
+        "cleaned_url": null,
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Patagonia Better Sweater Fleece Vest in black, front view."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/ff19749b-5af7-4965-aca4-75b2c55ec8d1?aid=01M5RC3C8PHYENXCSEYGWTCA6R&mid=a0Dd",
+        "cleaned_url": null,
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Patagonia Better Sweater Fleece Vest in dark green with logo, front view."
+      }
+    ],
+    "category": {
+      "slug": "vests",
+      "title": "Vests",
+      "path": [
+        {
+          "slug": "apparel-accessories",
+          "title": "Apparel & Accessories"
+        },
+        {
+          "slug": "clothing",
+          "title": "Clothing"
+        },
+        {
+          "slug": "outerwear",
+          "title": "Outerwear"
+        },
+        {
+          "slug": "vests",
+          "title": "Vests"
+        }
+      ],
+      "has_children": false
+    },
+    "gender": "male",
+    "age": null,
+    "materials": [
+      "recycled polyester knit fleece"
+    ],
+    "key_features": [
+      "Made from warm, soft, long-lasting 100% recycled polyester knit fleece",
+      "Fleece is dyed with a low-impact process that significantly reduces the use of dyestuffs, energy and water compared to conventional dyeing methods",
+      "Full-length zipper with a zip-through, stand-up collar and a kissing-welt zipper garage",
+      "2 zippered, welt handwarmer pockets",
+      "1 vertically zippered left-chest security pocket",
+      "1 deep drop-in pocket on interior makes it easy to stash your phone and cash",
+      "Offset shoulder seams for pack-wearing comfort and long-lasting durability",
+      "Flat-seam construction reduces bulk and helps eliminate seam chafe",
+      "Soft brushed-tricot trim on the armholes and hem for added comfort",
+      "Regular fit"
+    ],
+    "colors": [
+      {
+        "hex": "#a5a9a5",
+        "percentage": 0.9113
+      },
+      {
+        "hex": "#5c5f5c",
+        "percentage": 0.0887
+      }
+    ],
+    "offers": [
+      {
+        "url": "https://buy.trychannel3.com/2mgv0RC-a0Dd-5l3z0w?o=01KSWYE05GCQ83BXWJN6B6D33J&aid=01M5RC3C8PHYENXCSEYGWTCA6R",
+        "domain": "rei.com",
+        "price": {
+          "price": 129,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0,
+        "dimensions": {
+          "length": null,
+          "width": null,
+          "height": null,
+          "weight": {
+            "number": 13.9,
+            "unit": "oz"
+          }
+        }
+      },
+      {
+        "url": "https://buy.trychannel3.com/2mgv0RC-JOor-5l3z0w?o=01KDKVH4RMV6RPVW2JJ8K7Q6BC&aid=01M5RC3C8PHYENXCSEYGWTCA6R",
+        "domain": "geartrade.com",
+        "price": {
+          "price": 60,
+          "compare_at_price": 119,
+          "currency": "USD"
+        },
+        "availability": "OutOfStock",
+        "condition": "used",
+        "max_commission_rate": 0,
+        "dimensions": {
+          "length": null,
+          "width": null,
+          "height": null,
+          "weight": {
+            "number": 2.08,
+            "unit": "lb"
+          }
+        }
+      }
+    ],
+    "variants": {
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            {
+              "label": "Black",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/80a3638c-d9f5-400d-ab91-37af1edd71a4",
+              "product_id": "DjBEzUF"
+            },
+            {
+              "label": "Dolomite Blue",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/44905b0d-648c-4651-ab9e-ac64148101c2",
+              "product_id": "n7PBWcD"
+            },
+            {
+              "label": "Industrial Green",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/c2ad19cd-cb7d-46f4-a6dc-beaef7376e3e",
+              "product_id": "ZJj9DcP"
+            },
+            {
+              "label": "New Navy",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/c4fa1f7f-8130-42cf-8363-b77d7246e6b0",
+              "product_id": "lZE4kEn"
+            },
+            {
+              "label": "Oar Tan",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/3198f41a-7217-4e89-a183-bd579c49fa25",
+              "product_id": "ymdXmOV"
+            },
+            {
+              "label": "Stonewash",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/f79b2c69-32c8-4c82-a77e-4cd9b43fb4fa",
+              "product_id": "2mgv0RC"
+            },
+            {
+              "label": "Trip Brown",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/f916d6b6-c35f-472a-a58c-1f1ddc07207f",
+              "product_id": "SbXJh29"
+            }
+          ]
+        },
+        {
+          "name": "Size",
+          "values": [
+            {
+              "label": "XS",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "Small",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "S",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "Medium",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "M",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "Large",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "L",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "XLarge",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "XL",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "2XLarge",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "XXL",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "3XL",
+              "exists": false,
+              "available": null,
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "XXXL",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            }
+          ]
+        }
+      ],
+      "selected": [
+        {
+          "name": "Color",
+          "label": "Stonewash"
+        }
+      ]
+    },
+    "structured_attributes": {
+      "neckline": [
+        "V-neck",
+        "Collared"
+      ],
+      "outerwear-clothing-features": [
+        "Pockets"
+      ],
+      "care-instructions": [
+        "Hand wash",
+        "Tumble dry"
+      ],
+      "top-length-type": [
+        "Medium"
+      ],
+      "fabric": [
+        "Polyester"
+      ],
+      "pattern": [
+        "Solid"
+      ]
+    },
+    "ratings": {
+      "value": 4.6,
+      "count": 296,
+      "source_count": 1
+    }
+  }
+}

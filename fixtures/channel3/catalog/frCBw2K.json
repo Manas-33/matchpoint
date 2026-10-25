@@ -1,0 +1,455 @@
+{
+  "url": "channel3:frCBw2K",
+  "product": {
+    "id": "frCBw2K",
+    "title": "Men's Nano Puff® Jacket",
+    "description": "The Men's Patagonia Nano Puff Jacket is a packable, lightweight jacket designed for climbing and hiking in cold, wet weather. It features a 100% recycled polyester ripstop shell with a durable water repellent finish and is insulated with 60g PrimaLoft Gold Insulation Eco for warmth without bulk. The design includes brick quilting to stabilize insulation, a low-profile fit for layering, and a center-front zipper with a wicking storm flap. It is equipped with two zippered handwarmer pockets and an internal chest pocket that doubles as a stuff sack. This jacket is Fair Trade Certified and made from recycled materials.",
+    "brands": [
+      {
+        "id": "aYBr",
+        "name": "Patagonia"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://cdn.trychannel3.com/f80d721d-af85-4be3-b122-2a548d19d164?aid=01M5RC3B1EXAC4KMSZ1S2EC7DD&mid=Nn6J",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/f80d721d-af85-4be3-b122-2a548d19d164?aid=01M5RC3B1EXAC4KMSZ1S2EC7DD&mid=Nn6J",
+        "is_main_image": true,
+        "shot_type": "hero",
+        "alt_text": "Men's orange/brown puffy jacket on a plain background."
+      }
+    ],
+    "category": {
+      "slug": "puffer-jackets-2",
+      "title": "Puffer Jackets",
+      "path": [
+        {
+          "slug": "apparel-accessories",
+          "title": "Apparel & Accessories"
+        },
+        {
+          "slug": "clothing",
+          "title": "Clothing"
+        },
+        {
+          "slug": "outerwear",
+          "title": "Outerwear"
+        },
+        {
+          "slug": "coats-jackets",
+          "title": "Coats & Jackets"
+        },
+        {
+          "slug": "puffer-jackets-2",
+          "title": "Puffer Jackets"
+        }
+      ],
+      "has_children": false
+    },
+    "gender": "male",
+    "age": "adult",
+    "materials": [
+      "100% recycled polyester",
+      "PrimaLoft® Gold Insulation Eco"
+    ],
+    "key_features": [
+      "Packable design: Internal zippered chest pocket doubles as a stuffsack",
+      "Water-resistant: 10% recycled polyester ripstop shell with durable water repellent finish",
+      "Sustainable insulation: PrimaLoft Gold Insulation Eco (10% postconsumer recycled polyester)",
+      "Durability: Brick quilting pattern with abrasion-resistant thread",
+      "Comfort features: Center-front zipper with wicking interior storm flap and chin garage",
+      "Mobility: Improved shoulder fit and elbow articulation",
+      "Adjustable fit: Drawcord-adjustable drop-tail hem",
+      "Fair Trade Certified factory",
+      "Lightweight puffer and midlayer jacket for hiking, travel, and everyday use",
+      "Two zippered handwarmer pockets and one zippered internal chest pocket that doubles as a stuffsack"
+    ],
+    "colors": [
+      {
+        "hex": "#c7762d",
+        "percentage": 0.5191
+      },
+      {
+        "hex": "#893c0e",
+        "percentage": 0.2672
+      },
+      {
+        "hex": "#4f200d",
+        "percentage": 0.1154
+      },
+      {
+        "hex": "#a85418",
+        "percentage": 0.0984
+      }
+    ],
+    "offers": [
+      {
+        "url": "https://buy.trychannel3.com/frCBw2K-Nn6J-5l3z0w?o=01M3572ZP879C2F2NGYVGA9HQ0&aid=01M5RC3B1EXAC4KMSZ1S2EC7DD",
+        "domain": "backcountry.com",
+        "price": {
+          "price": 239,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0.056,
+        "dimensions": {
+          "length": null,
+          "width": null,
+          "height": null,
+          "weight": {
+            "number": 13,
+            "unit": "oz"
+          }
+        }
+      },
+      {
+        "url": "https://buy.trychannel3.com/frCBw2K-Jp0g-5l3z0w?o=01M35VQ9JARVA01SK5P717H2DD&aid=01M5RC3B1EXAC4KMSZ1S2EC7DD",
+        "domain": "campmor.com",
+        "price": {
+          "price": 239,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0.02,
+        "dimensions": {
+          "length": null,
+          "width": null,
+          "height": null,
+          "weight": {
+            "number": 369,
+            "unit": "g"
+          }
+        }
+      },
+      {
+        "url": "https://buy.trychannel3.com/frCBw2K-M89b-5l3z0w?o=01M2YH1DKQAM888YNF19MFPCHS&aid=01M5RC3B1EXAC4KMSZ1S2EC7DD",
+        "domain": "wornwear.patagonia.com",
+        "price": {
+          "price": 125,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "OutOfStock",
+        "condition": "used",
+        "max_commission_rate": 0,
+        "dimensions": {
+          "length": null,
+          "width": null,
+          "height": null,
+          "weight": {
+            "number": 11.9,
+            "unit": "oz"
+          }
+        }
+      },
+      {
+        "url": "https://buy.trychannel3.com/frCBw2K-pzJt-5l3z0w?o=01M2GWC5E76S5J5PW1RNW348JD&aid=01M5RC3B1EXAC4KMSZ1S2EC7DD",
+        "domain": "als.com",
+        "price": {
+          "price": 239,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "OutOfStock",
+        "condition": "new",
+        "max_commission_rate": 0.035,
+        "dimensions": {
+          "length": null,
+          "width": null,
+          "height": null,
+          "weight": {
+            "number": 13,
+            "unit": "oz"
+          }
+        }
+      }
+    ],
+    "variants": {
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            {
+              "label": "Abalone Blue / Andes Blue",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/df235a4f-3a40-4272-9e8c-d818d25bbab1",
+              "product_id": "QsDdklC"
+            },
+            {
+              "label": "Black",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/98124c17-2feb-48bd-a104-76c3cca49e0a",
+              "product_id": "1M4DiqL"
+            },
+            {
+              "label": "Basin Green",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/a64461f2-64b4-4351-90c4-7bf32d3957a1",
+              "product_id": "iSJlGkY"
+            },
+            {
+              "label": "Burnished Red",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/32d5bb88-e01d-4a2b-a832-a98e3a4d263c",
+              "product_id": "L6qf11m"
+            },
+            {
+              "label": "Burnished Red / Cave Grey",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/bc311533-60f0-4b50-b5ab-0a678e971c49",
+              "product_id": "ieC3ydl"
+            },
+            {
+              "label": "Cabin Gold / Conifer Green",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/7a0421e7-4e9e-46f7-81d1-e7226ec9763d",
+              "product_id": "OFWwppO"
+            },
+            {
+              "label": "Cilantro",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/ec5174d8-5f16-4584-b553-e524e5af9a31",
+              "product_id": "Xpz4HbF"
+            },
+            {
+              "label": "Conifer Green",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/f78b0267-1f52-4523-bb51-ad968b3a2177",
+              "product_id": "ox2xGkw"
+            },
+            {
+              "label": "Coriander Brown",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/ac9b869b-5b04-41d8-9776-19350e64095d",
+              "product_id": "koyKcof"
+            },
+            {
+              "label": "El Cap Khaki",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/d30bd31a-a525-4393-ba62-d54667671f01",
+              "product_id": "7CZDmKA"
+            },
+            {
+              "label": "Electron Blue",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/54f1e7aa-c155-4229-b199-6067ab02a5d1",
+              "product_id": "XmEtDho"
+            },
+            {
+              "label": "French Red",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/5939d2bd-5d4f-4dc8-b2e9-d6a0cd4cd0ec",
+              "product_id": "IMMUbPj"
+            },
+            {
+              "label": "Metric Orange",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/f8e79852-227e-4e9a-9ebb-86d6e210a182",
+              "product_id": "aRaaagW"
+            },
+            {
+              "label": "Metric Orange / Mojave Khaki",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/af7e7714-ae1f-4c08-b15f-4c7546755240",
+              "product_id": "OE1TIIY"
+            },
+            {
+              "label": "New Adobe",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/b4c68c96-36a0-4bb2-a896-9a81cc0dabd3",
+              "product_id": "eXb7pbw"
+            },
+            {
+              "label": "New color",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/b55288ee-a171-451c-81cc-0842bbbba351",
+              "product_id": "Yd2f0yO"
+            },
+            {
+              "label": "Obsidian Plum",
+              "exists": true,
+              "available": "OutOfStock",
+              "thumbnail_url": "https://cdn.trychannel3.com/cfb77b04-2497-4f51-a117-5357750d0b4b",
+              "product_id": "jZUohuC"
+            },
+            {
+              "label": "Paintbrush Red",
+              "exists": true,
+              "available": "OutOfStock",
+              "thumbnail_url": "https://cdn.trychannel3.com/86fd149d-26b9-47bf-bc08-1163e07c53cf",
+              "product_id": "Gr8hGfK"
+            },
+            {
+              "label": "Paintbrush Red null",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/664164f7-a301-4109-88a9-86e06a88eaad",
+              "product_id": "Lq5Nb5J"
+            },
+            {
+              "label": "Pufferfish Gold",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/4cade6ac-764a-4372-9173-355d10cb1632",
+              "product_id": "hCduvpf"
+            },
+            {
+              "label": "Pufferfish Gold / Pitch Blue",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/f80d721d-af85-4be3-b122-2a548d19d164",
+              "product_id": "frCBw2K"
+            },
+            {
+              "label": "Roots Red",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/942f6797-0dd2-4028-ad21-a8473060fd7f",
+              "product_id": "ESlHklt"
+            },
+            {
+              "label": "Sage Khaki",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/e3fe12cf-2511-4e83-8ebd-28e0d07c7592",
+              "product_id": "XdW48K4"
+            },
+            {
+              "label": "Sleet Green",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/64a7fb23-3743-439b-a5f5-9b3482d40420",
+              "product_id": "jOBpgBR"
+            },
+            {
+              "label": "Tidepool Blue",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/8f254c3b-e14a-40d9-91d3-9949cbb9710d",
+              "product_id": "7J8CCM2"
+            }
+          ]
+        },
+        {
+          "name": "Size",
+          "values": [
+            {
+              "label": "XS",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "S",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "M",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "L",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "XL",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "XXL",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            },
+            {
+              "label": "3XL",
+              "exists": true,
+              "available": "InStock",
+              "thumbnail_url": null,
+              "product_id": null
+            }
+          ]
+        }
+      ],
+      "selected": [
+        {
+          "name": "Color",
+          "label": "Pufferfish Gold / Pitch Blue"
+        }
+      ]
+    },
+    "structured_attributes": {
+      "pattern": [
+        "Brick"
+      ],
+      "outerwear-clothing-features": [
+        "Insulated",
+        "Lightweight",
+        "Pockets",
+        "Windproof",
+        "Waterproof",
+        "UV protection"
+      ],
+      "outerwear-length-type": [
+        "Hip length"
+      ],
+      "fabric": [
+        "Polyester"
+      ],
+      "sleeve-length-type": [
+        "Long"
+      ],
+      "front-closure-style": [
+        "Zip"
+      ],
+      "clothing-features": [
+        "Moisture wicking",
+        "Lightweight",
+        "Insulated",
+        "Water resistant"
+      ],
+      "neckline": [
+        "Collared"
+      ]
+    },
+    "ratings": {
+      "value": 4.2,
+      "count": 69,
+      "source_count": 2
+    }
+  }
+}

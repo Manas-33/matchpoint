@@ -1,0 +1,66 @@
+{
+  "picked_at": "2026-10-25T02:07:10.319Z",
+  "criteria": "Channel3 search filtered to approved stores; complete variant data (every option has values, selected variant named); in stock and not used at an approved store; has an image.",
+  "products": [
+    {
+      "id": "mgo7x7F",
+      "title": "Bose QuietComfort Ultra Headphones (2nd Gen)",
+      "source": "preferred"
+    },
+    {
+      "id": "3FRZAlJ",
+      "title": "Osprey Atmos AG 65 Backpack",
+      "source": "preferred"
+    },
+    {
+      "id": "frCBw2K",
+      "title": "Men's Nano Puff® Jacket",
+      "source": "Patagonia Nano Puff jacket"
+    },
+    {
+      "id": "9G5eqUx",
+      "title": "Hoka Clifton 11 Running Shoes",
+      "source": "Hoka Clifton running shoes"
+    },
+    {
+      "id": "rI0wMmK",
+      "title": "Shure SM58 Microphone Kit",
+      "source": "Shure SM58 microphone"
+    },
+    {
+      "id": "AM73BFE",
+      "title": "Arc'teryx Atom Jacket Men's",
+      "source": "Arc'teryx jacket"
+    },
+    {
+      "id": "9KcTGLh",
+      "title": "Smartwool Hike Light Cushion Crew Socks",
+      "source": "Smartwool merino socks"
+    },
+    {
+      "id": "qW2Da5V",
+      "title": "Classic™ Series 4.5 Quart Tilt-head Stand Mixer",
+      "source": "KitchenAid stand mixer"
+    },
+    {
+      "id": "2mgv0RC",
+      "title": "Men's Better Sweater® Vest",
+      "source": "Patagonia Better Sweater fleece"
+    },
+    {
+      "id": "LyBLX6n",
+      "title": "Men's Thermoball™ Jacket",
+      "source": "The North Face ThermoBall jacket"
+    },
+    {
+      "id": "jeBHh66",
+      "title": "Men's Moab 3 Hiking Shoes",
+      "source": "Merrell Moab hiking shoes"
+    },
+    {
+      "id": "hDKW5mO",
+      "title": "Garmin Forerunner 970",
+      "source": "Garmin Forerunner GPS running watch"
+    }
+  ]
+}

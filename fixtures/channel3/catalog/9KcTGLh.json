@@ -1,0 +1,221 @@
+{
+  "url": "channel3:9KcTGLh",
+  "product": {
+    "id": "9KcTGLh",
+    "title": "Smartwool Hike Light Cushion Crew Socks",
+    "description": "These Men's Smartwool Hike Light Cushion Mid Crew Socks in Nightfall Blue are designed for hiking and everyday comfort. They feature Indestructawool technology for extended durability in high-wear zones and updated mesh zones to reduce pressure. The socks utilize a 4-Degree Elite Fit System to ensure a precise fit and are crafted from a soft Merino wool blend. They are designed with a mid-crew height and a comfort welt to stay in place, along with a virtually seamless toe for enhanced comfort.",
+    "brands": [
+      {
+        "id": "VEsJ",
+        "name": "Smartwool"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://cdn.trychannel3.com/1b73e9ac-f85b-403c-9d70-e48fee85b046?aid=01M5RC3BX2QZ7QC9YCGBM7E7Z7&mid=fsxO",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/1b73e9ac-f85b-403c-9d70-e48fee85b046?aid=01M5RC3BX2QZ7QC9YCGBM7E7Z7&mid=fsxO",
+        "is_main_image": true,
+        "shot_type": "hero",
+        "alt_text": "Single Smartwool hike light cushion mid crew sock in blue and grey."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/0cb20118-b4bd-441c-adfa-956e43bfc442?aid=01M5RC3BX2QZ7QC9YCGBM7E7Z7&mid=fsxO",
+        "cleaned_url": null,
+        "is_main_image": false,
+        "shot_type": "detail",
+        "alt_text": "Close-up detail of the cuff and upper knit of the blue and grey sock."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/ee9bb8d4-a235-4e77-bc10-ae36ac303e79?aid=01M5RC3BX2QZ7QC9YCGBM7E7Z7&mid=fsxO",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/ee9bb8d4-a235-4e77-bc10-ae36ac303e79?aid=01M5RC3BX2QZ7QC9YCGBM7E7Z7&mid=fsxO",
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Single Smartwool hike light cushion mid crew sock in blue and grey."
+      }
+    ],
+    "category": {
+      "slug": "crew-socks",
+      "title": "Crew Socks",
+      "path": [
+        {
+          "slug": "apparel-accessories",
+          "title": "Apparel & Accessories"
+        },
+        {
+          "slug": "clothing",
+          "title": "Clothing"
+        },
+        {
+          "slug": "underwear-socks",
+          "title": "Underwear & Socks"
+        },
+        {
+          "slug": "socks",
+          "title": "Socks"
+        },
+        {
+          "slug": "crew-socks",
+          "title": "Crew Socks"
+        }
+      ],
+      "has_children": false
+    },
+    "gender": "male",
+    "age": null,
+    "materials": [
+      "56% Merino wool",
+      "35% recycled nylon",
+      "6% nylon",
+      "3% elastane"
+    ],
+    "key_features": [
+      "Crew length",
+      "Light cushioning",
+      "Updated mesh zones for added breathability",
+      "Merino wool/nylon blend",
+      "Machine wash/tumble dry low",
+      "Indestructawool technology with extended durability zones",
+      "Updated mesh zones to ensure less pressure",
+      "4-Degree Elite Fit System",
+      "Virtually Seamless toe for enhanced comfort",
+      "Mid-crew height with a comfort welt stay put fit"
+    ],
+    "colors": [
+      {
+        "hex": "#61647e",
+        "percentage": 0.8158
+      },
+      {
+        "hex": "#2e3247",
+        "percentage": 0.0983
+      },
+      {
+        "hex": "#a1a3b2",
+        "percentage": 0.0859
+      }
+    ],
+    "offers": [
+      {
+        "url": "https://buy.trychannel3.com/9KcTGLh-fsxO-5l3z0w?o=01M4AT9STYXP38R21EFBHKMZVY&aid=01M5RC3BX2QZ7QC9YCGBM7E7Z7",
+        "domain": "zappos.com",
+        "price": {
+          "price": 25,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0.05,
+        "dimensions": null
+      },
+      {
+        "url": "https://buy.trychannel3.com/9KcTGLh-jcD4-5l3z0w?o=01M0TGYDX7PGATHMKYSYKJEVPX&aid=01M5RC3BX2QZ7QC9YCGBM7E7Z7",
+        "domain": "dillards.com",
+        "price": {
+          "price": 25,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0,
+        "dimensions": null
+      }
+    ],
+    "variants": {
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            {
+              "label": "Chestnut",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/fe88a88b-f207-4d45-b436-e05a74bc942e",
+              "product_id": "AjW5QNZ"
+            },
+            {
+              "label": "Dark Sage",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/6dc954c9-f7ad-4832-8d2b-29cb40fd99fd",
+              "product_id": "Y14NifD"
+            },
+            {
+              "label": "Military Olive/Fossil",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/8a1d5a98-2c7c-4c53-aea7-14453d77ac22",
+              "product_id": "oHvcZYR"
+            },
+            {
+              "label": "Nightfall Blue",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/1b73e9ac-f85b-403c-9d70-e48fee85b046",
+              "product_id": "9KcTGLh"
+            }
+          ]
+        }
+      ],
+      "selected": [
+        {
+          "name": "Color",
+          "label": "Nightfall Blue"
+        }
+      ]
+    },
+    "structured_attributes": {
+      "sock-toe-style": [
+        "Seamless",
+        "Standard seam"
+      ],
+      "sock-cushioning": [
+        "Light",
+        "Heavy"
+      ],
+      "activity": [
+        "Hiking",
+        "Training",
+        "Walking",
+        "Running"
+      ],
+      "sock-cushioning-level": [
+        "Light cushioning"
+      ],
+      "cushioning-level": [
+        "Light cushion",
+        "Heavy cushion"
+      ],
+      "clothing-features": [
+        "Breathable design",
+        "Lightweight"
+      ],
+      "pattern": [
+        "Solid",
+        "Graphic"
+      ],
+      "fabric": [
+        "Merino",
+        "Nylon",
+        "Spandex",
+        "Polyester",
+        "Wool",
+        "Angora"
+      ],
+      "toe-coverage": [
+        "Full toe"
+      ],
+      "accessory-size": [
+        "Medium (M)",
+        "Large (L)",
+        "Double extra large (XXL)"
+      ]
+    },
+    "ratings": {
+      "value": 4.83,
+      "count": 380,
+      "source_count": 2
+    }
+  }
+}

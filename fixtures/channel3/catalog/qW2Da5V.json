@@ -1,0 +1,494 @@
+{
+  "url": "channel3:qW2Da5V",
+  "product": {
+    "id": "qW2Da5V",
+    "title": "Classic™ Series 4.5 Quart Tilt-head Stand Mixer",
+    "description": "The KitchenAid Classic Series 4.5 Quart Tilt-Head Stand Mixer is a durable and versatile appliance designed to handle a wide range of baking and cooking tasks. With its 10-speed settings, it can gently knead dough, thoroughly mix ingredients, and whip cream to perfection. The tilt-head design provides easy access to the bowl for adding ingredients, and the 4.5-quart stainless steel bowl is large enough to mix up to 8 dozen cookies in a single batch. The mixer is built with a robust metal construction and features over 10 optional hub-powered attachments (sold separately) to expand its functionality, allowing you to make everything from pasta to ice cream. The mixer is dishwasher-safe, making cleanup a breeze.",
+    "brands": [
+      {
+        "id": "gFHk",
+        "name": "KitchenAid"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://cdn.trychannel3.com/63bd57b5-6bb2-44f9-a325-cf6dc1450eeb?aid=01M5RC3C25HAA4RM4S092S3QZS&mid=cZlC",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/63bd57b5-6bb2-44f9-a325-cf6dc1450eeb?aid=01M5RC3C25HAA4RM4S092S3QZS&mid=cZlC",
+        "is_main_image": true,
+        "shot_type": "hero",
+        "alt_text": "White KitchenAid Classic tilt-head stand mixer with stainless steel bowl."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/75e7f243-efc1-4bb4-ba60-83360e84ecbc?aid=01M5RC3C25HAA4RM4S092S3QZS&mid=cZlC",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/75e7f243-efc1-4bb4-ba60-83360e84ecbc?aid=01M5RC3C25HAA4RM4S092S3QZS&mid=cZlC",
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "White KitchenAid tilt-head stand mixer with stainless steel bowl."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/cd10681b-e277-45a3-946c-c0df32614f57?aid=01M5RC3C25HAA4RM4S092S3QZS&mid=cZlC",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/cd10681b-e277-45a3-946c-c0df32614f57?aid=01M5RC3C25HAA4RM4S092S3QZS&mid=cZlC",
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "White KitchenAid stand mixer with whisk and attachments in a lifestyle setting."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/f9b01353-df36-4d32-92c9-abebbb5d3215?aid=01M5RC3C25HAA4RM4S092S3QZS&mid=cZlC",
+        "cleaned_url": null,
+        "is_main_image": false,
+        "shot_type": "lifestyle",
+        "alt_text": "Person using a stand mixer to whip frosting for cupcakes."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/9993df5f-3872-4070-a956-d99f577748ee?aid=01M5RC3C25HAA4RM4S092S3QZS&mid=cZlC",
+        "cleaned_url": null,
+        "is_main_image": false,
+        "shot_type": "lifestyle",
+        "alt_text": "Person using a stand mixer to pour liquid over ingredients."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/2c60cd72-d1a4-4ba7-82f6-ee9ce36f620f?aid=01M5RC3C25HAA4RM4S092S3QZS&mid=cZlC",
+        "cleaned_url": null,
+        "is_main_image": false,
+        "shot_type": "lifestyle",
+        "alt_text": "Person mixing food in a bowl with a stand mixer and various ingredients."
+      }
+    ],
+    "category": {
+      "slug": "stand-mixers",
+      "title": "Stand Mixers",
+      "path": [
+        {
+          "slug": "home-garden",
+          "title": "Home & Garden"
+        },
+        {
+          "slug": "kitchen-dining",
+          "title": "Kitchen & Dining"
+        },
+        {
+          "slug": "kitchen-appliances",
+          "title": "Kitchen Appliances"
+        },
+        {
+          "slug": "food-mixers-blenders",
+          "title": "Food Mixers & Blenders"
+        },
+        {
+          "slug": "food-mixers",
+          "title": "Food Mixers"
+        },
+        {
+          "slug": "stand-mixers",
+          "title": "Stand Mixers"
+        }
+      ],
+      "has_children": false
+    },
+    "gender": null,
+    "age": null,
+    "materials": [
+      "stainless steel",
+      "metal"
+    ],
+    "key_features": [
+      "4.5 Quart Stainless Steel Bowl",
+      "Tilt-Head Design for easy access",
+      "10 speeds for a wide variety of recipes",
+      "Durable metal construction",
+      "Compatible with 10+ optional hub-powered attachments",
+      "Direct Drive Transmission",
+      "8 Cups Flour Power Ratings",
+      "White Finish",
+      "Revolutionary planetary mixing action",
+      "Coated flat beater"
+    ],
+    "colors": [
+      {
+        "hex": "#b8b8b8",
+        "percentage": 0.403
+      },
+      {
+        "hex": "#949494",
+        "percentage": 0.2475
+      },
+      {
+        "hex": "#696969",
+        "percentage": 0.1361
+      },
+      {
+        "hex": "#4a4a4a",
+        "percentage": 0.1094
+      },
+      {
+        "hex": "#f2f2f2",
+        "percentage": 0.1041
+      }
+    ],
+    "offers": [
+      {
+        "url": "https://buy.trychannel3.com/qW2Da5V-cZlC-5l3z0w?o=01M3NHGQNNW59ET8C51QZSQXB7&aid=01M5RC3C25HAA4RM4S092S3QZS",
+        "domain": "farmandfleet.com",
+        "price": {
+          "price": 299.99,
+          "compare_at_price": 399.99,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0.021,
+        "dimensions": null
+      },
+      {
+        "url": "https://buy.trychannel3.com/qW2Da5V-XRWM-5l3z0w?o=01KS36PX6DJV6P1BHTWGEZHJ3M&aid=01M5RC3C25HAA4RM4S092S3QZS",
+        "domain": "jossandmain.com",
+        "price": {
+          "price": 300,
+          "compare_at_price": 400,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0.049,
+        "dimensions": {
+          "length": {
+            "number": 14.13,
+            "unit": "in"
+          },
+          "width": {
+            "number": 8.75,
+            "unit": "in"
+          },
+          "height": {
+            "number": 13.9,
+            "unit": "in"
+          },
+          "weight": {
+            "number": 25,
+            "unit": "lb"
+          }
+        }
+      },
+      {
+        "url": "https://buy.trychannel3.com/qW2Da5V-DO3T-5l3z0w?o=01M2SV57S0S7P7CEG2QHBKAV8D&aid=01M5RC3C25HAA4RM4S092S3QZS",
+        "domain": "abt.com",
+        "price": {
+          "price": 343.43,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0.056,
+        "dimensions": {
+          "length": {
+            "number": 14.1,
+            "unit": "in"
+          },
+          "width": {
+            "number": 8.7,
+            "unit": "in"
+          },
+          "height": {
+            "number": 13.9,
+            "unit": "in"
+          },
+          "weight": {
+            "number": 25,
+            "unit": "lb"
+          }
+        }
+      },
+      {
+        "url": "https://buy.trychannel3.com/qW2Da5V-dMiw-5l3z0w?o=01KXK18MHS09H4MNR1B39EAK8E&aid=01M5RC3C25HAA4RM4S092S3QZS",
+        "domain": "containerstore.com",
+        "price": {
+          "price": 399.99,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0.07,
+        "dimensions": {
+          "length": {
+            "number": 14,
+            "unit": "in"
+          },
+          "width": {
+            "number": 8.7,
+            "unit": "in"
+          },
+          "height": {
+            "number": 13.9,
+            "unit": "in"
+          },
+          "weight": {
+            "number": 25,
+            "unit": "lb"
+          }
+        }
+      },
+      {
+        "url": "https://buy.trychannel3.com/qW2Da5V-jw51-5l3z0w?o=01M2S1F4F4BCWD4TXNMKH40KV5&aid=01M5RC3C25HAA4RM4S092S3QZS",
+        "domain": "kitchenaid.com",
+        "price": {
+          "price": 399.99,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0.042,
+        "dimensions": null
+      },
+      {
+        "url": "https://buy.trychannel3.com/qW2Da5V-7Nxp-5l3z0w?o=01M1QR866P76554ZKFEKTVEPA3&aid=01M5RC3C25HAA4RM4S092S3QZS",
+        "domain": "tractorsupply.com",
+        "price": {
+          "price": 399.99,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0.03,
+        "dimensions": {
+          "length": {
+            "number": 14.1,
+            "unit": "in"
+          },
+          "width": {
+            "number": 8.8,
+            "unit": "in"
+          },
+          "height": {
+            "number": 13.9,
+            "unit": "in"
+          },
+          "weight": {
+            "number": 27,
+            "unit": "lb"
+          }
+        }
+      },
+      {
+        "url": "https://buy.trychannel3.com/qW2Da5V-w4H1-5l3z0w?o=01M3QX2VW82X67X24ETPEP7DPX&aid=01M5RC3C25HAA4RM4S092S3QZS",
+        "domain": "birchlane.com",
+        "price": {
+          "price": 400,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0.049,
+        "dimensions": null
+      },
+      {
+        "url": "https://buy.trychannel3.com/qW2Da5V-iYXV-5l3z0w?o=01M4YWJCF8D9JGXJ44ZQBB23BM&aid=01M5RC3C25HAA4RM4S092S3QZS",
+        "domain": "katom.com",
+        "price": {
+          "price": 441.85,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0.07,
+        "dimensions": {
+          "length": {
+            "number": 14.17,
+            "unit": "in"
+          },
+          "width": {
+            "number": 8.7,
+            "unit": "in"
+          },
+          "height": {
+            "number": 13.83,
+            "unit": "in"
+          },
+          "weight": {
+            "number": 25,
+            "unit": "lb"
+          }
+        }
+      },
+      {
+        "url": "https://buy.trychannel3.com/qW2Da5V-VEoQ-5l3z0w?o=01KCHADSW3958DX9S59RVFBPYZ&aid=01M5RC3C25HAA4RM4S092S3QZS",
+        "domain": "fromrebel.com",
+        "price": {
+          "price": 209.96,
+          "compare_at_price": 299.95,
+          "currency": "USD"
+        },
+        "availability": "OutOfStock",
+        "condition": "new",
+        "max_commission_rate": 0.105,
+        "dimensions": null
+      },
+      {
+        "url": "https://buy.trychannel3.com/qW2Da5V-RnUy-5l3z0w?o=01M2ZXJ9JFTNSV1VBM54K5S4G3&aid=01M5RC3C25HAA4RM4S092S3QZS",
+        "domain": "beachcamera.com",
+        "price": {
+          "price": 248,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "OutOfStock",
+        "condition": "new",
+        "max_commission_rate": 0.028,
+        "dimensions": {
+          "length": {
+            "number": 14.1,
+            "unit": "in"
+          },
+          "width": {
+            "number": 8.7,
+            "unit": "in"
+          },
+          "height": {
+            "number": 13.9,
+            "unit": "in"
+          },
+          "weight": {
+            "number": 22,
+            "unit": "lb"
+          }
+        }
+      },
+      {
+        "url": "https://buy.trychannel3.com/qW2Da5V-Qqxu-5l3z0w?o=01KSWPB0FY37H2HCTD3AG6T203&aid=01M5RC3C25HAA4RM4S092S3QZS",
+        "domain": "lowes.com",
+        "price": {
+          "price": 299.99,
+          "compare_at_price": 329.99,
+          "currency": "USD"
+        },
+        "availability": "OutOfStock",
+        "condition": "new",
+        "max_commission_rate": 0.021,
+        "dimensions": {
+          "length": {
+            "number": 14.1,
+            "unit": "in"
+          },
+          "width": {
+            "number": 8.7,
+            "unit": "in"
+          },
+          "height": {
+            "number": 13.9,
+            "unit": "in"
+          },
+          "weight": {
+            "number": 22,
+            "unit": "lb"
+          }
+        }
+      },
+      {
+        "url": "https://buy.trychannel3.com/qW2Da5V-Qoqa-5l3z0w?o=01M1MKYCWBFJ4NQA263HXZZ4TP&aid=01M5RC3C25HAA4RM4S092S3QZS",
+        "domain": "jcpenney.com",
+        "price": {
+          "price": 319.99,
+          "compare_at_price": 500,
+          "currency": "USD"
+        },
+        "availability": "OutOfStock",
+        "condition": "new",
+        "max_commission_rate": 0.042,
+        "dimensions": {
+          "length": null,
+          "width": {
+            "number": 8.8,
+            "unit": "in"
+          },
+          "height": null,
+          "weight": {
+            "number": 27,
+            "unit": "lb"
+          }
+        }
+      },
+      {
+        "url": "https://buy.trychannel3.com/qW2Da5V-p1PB-5l3z0w?o=01KXQ7A4KWBEJPJ4N7NP6PXNGE&aid=01M5RC3C25HAA4RM4S092S3QZS",
+        "domain": "bestbuy.com",
+        "price": {
+          "price": 389,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "OutOfStock",
+        "condition": "new",
+        "max_commission_rate": 0.005,
+        "dimensions": null
+      }
+    ],
+    "variants": {
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            {
+              "label": "Onyx Black",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/fc6211b9-970c-4ae0-b99e-e072b839a7b4",
+              "product_id": "JxpkHd0"
+            },
+            {
+              "label": "White",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/63bd57b5-6bb2-44f9-a325-cf6dc1450eeb",
+              "product_id": "qW2Da5V"
+            }
+          ]
+        }
+      ],
+      "selected": [
+        {
+          "name": "Color",
+          "label": "White"
+        }
+      ]
+    },
+    "structured_attributes": {
+      "pattern": [
+        "Solid"
+      ],
+      "power-source": [
+        "AC-powered"
+      ],
+      "cleaning-instructions": [
+        "Dishwasher safe",
+        "Hand wash only"
+      ],
+      "speed-settings": [
+        "Multiple",
+        "Variable"
+      ],
+      "material": [
+        "Metal",
+        "Stainless steel",
+        "Plastic",
+        "Wood",
+        "Nylon"
+      ],
+      "blender-jar-material": [
+        "Plastic",
+        "Stainless steel"
+      ],
+      "blade-material": [
+        "Stainless steel"
+      ]
+    },
+    "ratings": {
+      "value": 4.8,
+      "count": 133531,
+      "source_count": 11
+    }
+  }
+}
