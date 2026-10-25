@@ -1,0 +1,63 @@
+{
+  "url": "https://www.bestbuy.com/site/sony-wh-1000xm5-wireless-noise-canceling-headphones-black/6505727.p",
+  "product": {
+    "id": "kYou5j5",
+    "title": "Sony WH 1000XM5 Wireless Noise Cancelling Over the Ear Headphones Black - Best Buy",
+    "description": null,
+    "brands": [],
+    "images": [
+      {
+        "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6505/6505727_rd.jpg;maxHeight=1920;maxWidth=900?format=webp",
+        "cleaned_url": null,
+        "is_main_image": true,
+        "shot_type": null,
+        "alt_text": null
+      },
+      {
+        "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6505/6505727_rd.jpg;maxHeight=128;maxWidth=56?format=webp",
+        "cleaned_url": null,
+        "is_main_image": false,
+        "shot_type": null,
+        "alt_text": null
+      },
+      {
+        "url": "https://pisces.bbystatic.com/prescaled/180/320/image2/BestBuy_US/images/videos/1318231283.jpg;maxHeight=128;maxWidth=56?format=webp",
+        "cleaned_url": null,
+        "is_main_image": false,
+        "shot_type": null,
+        "alt_text": null
+      },
+      {
+        "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6505/6505727_rd.jpg;maxHeight=128;maxWidth=56?format=webp",
+        "cleaned_url": null,
+        "is_main_image": false,
+        "shot_type": null,
+        "alt_text": null
+      }
+    ],
+    "category": null,
+    "gender": null,
+    "age": null,
+    "materials": null,
+    "key_features": null,
+    "colors": [],
+    "offers": [
+      {
+        "url": "https://buy.trychannel3.com/kYou5j5-lookup-5l3z0w",
+        "domain": "bestbuy.com",
+        "price": {
+          "price": 228,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": null,
+        "max_commission_rate": 0.005,
+        "dimensions": null
+      }
+    ],
+    "variants": null,
+    "structured_attributes": {},
+    "ratings": null
+  }
+}

@@ -1,0 +1,1261 @@
+{
+  "query": "Nike Pegasus 41 running shoes",
+  "response": {
+    "products": [
+      {
+        "id": "VrW9U1C",
+        "title": "Nike Pegasus 41 Running Shoes",
+        "description": "Men's Nike Pegasus 41 running shoes featuring a breathable engineered mesh upper, Nike Swoosh overlays, cushioned collar and sockliner, Nike ReactX foam with dual-unit Zoom Air cushioning, and a waffle-patterned rubber outsole for durable grip. Comes in white/blue/black with a responsive ride and imported construction. Size 7.0. In stock.",
+        "brands": [
+          {
+            "id": "MpZS",
+            "name": "Nike"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://cdn.trychannel3.com/908c567d-03c5-4f54-87b5-7a08d834b68e?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=NlEl",
+            "cleaned_url": null,
+            "is_main_image": true,
+            "shot_type": "hero",
+            "alt_text": "White Nike Pegasus 41 running shoe viewed from the side against a white background."
+          }
+        ],
+        "category": {
+          "slug": "athletic-shoes",
+          "title": "Athletic Shoes",
+          "path": [
+            {
+              "slug": "apparel-accessories",
+              "title": "Apparel & Accessories"
+            },
+            {
+              "slug": "shoes",
+              "title": "Shoes"
+            },
+            {
+              "slug": "athletic-shoes",
+              "title": "Athletic Shoes"
+            }
+          ],
+          "has_children": false
+        },
+        "gender": "male",
+        "age": null,
+        "materials": [],
+        "key_features": [
+          "Low-profile performance road running sneakers",
+          "Upgraded breathable engineered mesh for lightweight support",
+          "Nike Swoosh overlays with branding at tongue and midsole",
+          "Cushioned collar, tongue, and sockliner",
+          "Nike ReactX foam and dual-unit Zoom Air cushioning",
+          "Waffle-patterned rubber outsole with modified heel"
+        ],
+        "colors": [
+          {
+            "hex": "#c0bfc3",
+            "percentage": 0.7773
+          },
+          {
+            "hex": "#9d9ca1",
+            "percentage": 0.1428
+          },
+          {
+            "hex": "#4e4c4f",
+            "percentage": 0.0799
+          }
+        ],
+        "offers": [
+          {
+            "url": "https://buy.trychannel3.com/VrW9U1C-NlEl-5l3z0w?o=01KKTFM2MEC6XJ2P7HPWQFNZJF&aid=01M5R97D95PSPSN5C5B2X0N3HQ",
+            "domain": "jdsports.com",
+            "price": {
+              "price": 140,
+              "compare_at_price": 145,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0.05,
+            "dimensions": null
+          }
+        ],
+        "variants": null,
+        "structured_attributes": {
+          "heel-height-type": [
+            "Flat"
+          ],
+          "upper-material": [
+            "Mesh"
+          ],
+          "footwear-material": [
+            "Mesh",
+            "Rubber"
+          ],
+          "footwear-cut": [
+            "Low cut"
+          ],
+          "pattern": [
+            "Texture"
+          ],
+          "sneaker-style": [
+            "Athletic"
+          ],
+          "shoe-features": [
+            "Breathable design",
+            "Cushioned",
+            "Lightweight"
+          ],
+          "shoe-collar-height": [
+            "Low-top"
+          ],
+          "closure-type": [
+            "Lace-up"
+          ],
+          "activity": [
+            "Running"
+          ],
+          "occasion-style": [
+            "Casual"
+          ],
+          "outsole-material": [
+            "Rubber"
+          ]
+        },
+        "ratings": null
+      },
+      {
+        "id": "TbVwCCs",
+        "title": "Nike Pegasus 41 Men's Running Shoe",
+        "description": "The Men's Nike Pegasus 41 is a low-profile performance road running shoe designed for ultra-streamlined performance and comfort. It features a lightweight, breathable engineered mesh upper, a plush collar, tongue, and a supersoft sockliner. The shoe is powered by a combination of Nike ReactX foam and dual-unit Zoom Air cushioning for high energy return and responsiveness. The design is completed with a waffle-patterned rubber outsole and a modified heel for enhanced gripping power and seamless transitions.",
+        "brands": [
+          {
+            "id": "MpZS",
+            "name": "Nike"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://cdn.trychannel3.com/fa427f25-fd02-428d-bf7f-7ef17145a429?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fsxO",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/fa427f25-fd02-428d-bf7f-7ef17145a429?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fsxO",
+            "is_main_image": true,
+            "shot_type": "hero",
+            "alt_text": "Side profile of a black Nike running shoe."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/65d08fee-2900-4301-bfa5-fcca7ffdc722?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fsxO",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/65d08fee-2900-4301-bfa5-fcca7ffdc722?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fsxO",
+            "is_main_image": false,
+            "shot_type": "lifestyle",
+            "alt_text": "Front view of a pair of black Nike running shoes."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/80762fcf-7ba3-4f29-9044-327c273d6400?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fsxO",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/80762fcf-7ba3-4f29-9044-327c273d6400?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fsxO",
+            "is_main_image": false,
+            "shot_type": "detail",
+            "alt_text": "Close-up of the outsole tread pattern of a black running shoe."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/8abcf654-a731-479a-8139-7c7fa1977bfa?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fsxO",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/8abcf654-a731-479a-8139-7c7fa1977bfa?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fsxO",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Side profile of a black Nike running shoe."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/4d47e90d-504c-4f23-a1a9-4197ce023b9e?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fsxO",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/4d47e90d-504c-4f23-a1a9-4197ce023b9e?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fsxO",
+            "is_main_image": false,
+            "shot_type": "lifestyle",
+            "alt_text": "A pair of black Nike running shoes viewed from the front."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/a3b73b42-d661-4a70-af31-17acec11a0f8?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fsxO",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Close-up of the side and laces of a black Nike running shoe."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/d21fbd94-c15c-4d76-a080-dfd02c919cce?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fsxO",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "detail",
+            "alt_text": "Close-up of the sole and midsole of a black Nike running shoe."
+          },
+          {
+            "url": "https://dks.scene7.com/is/image/GolfGalaxy/FD2722001_BlackBlackAnthracite_DET-alt2?wid=1441&qlt=70&hei=1441&fit=constrain&fmt=webp&op_sharpen=1",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Side profile of a black Nike running shoe."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/fe911632-e691-4160-9742-700d3cf9f47b?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fsxO",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Top-down view of a black Nike running shoe."
+          }
+        ],
+        "category": {
+          "slug": "athletic-shoes",
+          "title": "Athletic Shoes",
+          "path": [
+            {
+              "slug": "apparel-accessories",
+              "title": "Apparel & Accessories"
+            },
+            {
+              "slug": "shoes",
+              "title": "Shoes"
+            },
+            {
+              "slug": "athletic-shoes",
+              "title": "Athletic Shoes"
+            }
+          ],
+          "has_children": false
+        },
+        "gender": "male",
+        "age": "adult",
+        "materials": [
+          "engineered mesh",
+          "ReactX foam",
+          "Rubber"
+        ],
+        "key_features": [
+          "Upgraded breathable engineered mesh upper for reduced weight and increased breathability",
+          "All-new ReactX foam midsole for a 13% more responsive ride",
+          "Air Zoom units for energized propulsion",
+          "Signature waffle-inspired rubber outsole for traction and flexibility",
+          "Plush collar, tongue, and sockliner for a secure fit",
+          "MR-10 Last for consistent fit",
+          "ReactX foam reduces carbon footprint by at least 43% compared to prior React foam",
+          "Low-profile performance road running sneakers",
+          "Waffle-patterned rubber outsole with a modified heel",
+          "Weight: 10.5 oz"
+        ],
+        "colors": [
+          {
+            "hex": "#212123",
+            "percentage": 0.918
+          },
+          {
+            "hex": "#636365",
+            "percentage": 0.082
+          }
+        ],
+        "offers": [
+          {
+            "url": "https://buy.trychannel3.com/TbVwCCs-fsxO-5l3z0w?o=01M4CGE8Z8XHXWZMRXGHD4MHX9&aid=01M5R97D95PSPSN5C5B2X0N3HQ",
+            "domain": "zappos.com",
+            "price": {
+              "price": 72.5,
+              "compare_at_price": 145,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0.05,
+            "dimensions": {
+              "length": null,
+              "width": null,
+              "height": null,
+              "weight": {
+                "number": 10.6,
+                "unit": "oz"
+              }
+            }
+          },
+          {
+            "url": "https://buy.trychannel3.com/TbVwCCs-NlEl-5l3z0w?o=01M4N891ZD07XNTMYRX2300TM4&aid=01M5R97D95PSPSN5C5B2X0N3HQ",
+            "domain": "jdsports.com",
+            "price": {
+              "price": 120,
+              "compare_at_price": 145,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0.05,
+            "dimensions": {
+              "length": null,
+              "width": null,
+              "height": null,
+              "weight": {
+                "number": 10.5,
+                "unit": "oz"
+              }
+            }
+          },
+          {
+            "url": "https://buy.trychannel3.com/TbVwCCs-61sn-5l3z0w?o=01M4KSSAJPMQ9C76HRX7GDM8V1&aid=01M5R97D95PSPSN5C5B2X0N3HQ",
+            "domain": "finishline.com",
+            "price": {
+              "price": 120,
+              "compare_at_price": 145,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0.05,
+            "dimensions": {
+              "length": null,
+              "width": null,
+              "height": null,
+              "weight": {
+                "number": 10.5,
+                "unit": "oz"
+              }
+            }
+          },
+          {
+            "url": "https://buy.trychannel3.com/TbVwCCs-fdOw-5l3z0w?o=01M53053H4390NDGAGFGVTCMY4&aid=01M5R97D95PSPSN5C5B2X0N3HQ",
+            "domain": "dickssportinggoods.com",
+            "price": {
+              "price": 144.99,
+              "compare_at_price": null,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0,
+            "dimensions": {
+              "length": null,
+              "width": null,
+              "height": null,
+              "weight": {
+                "number": 297,
+                "unit": "g"
+              }
+            }
+          }
+        ],
+        "variants": {
+          "options": [
+            {
+              "name": "Size",
+              "values": [
+                {
+                  "label": "6",
+                  "exists": true,
+                  "available": null,
+                  "thumbnail_url": null,
+                  "product_id": null
+                },
+                {
+                  "label": "6.5",
+                  "exists": true,
+                  "available": null,
+                  "thumbnail_url": null,
+                  "product_id": null
+                },
+                {
+                  "label": "7",
+                  "exists": true,
+                  "available": null,
+                  "thumbnail_url": null,
+                  "product_id": null
+                },
+                {
+                  "label": "7.5",
+                  "exists": true,
+                  "available": null,
+                  "thumbnail_url": null,
+                  "product_id": null
+                },
+                {
+                  "label": "8",
+                  "exists": true,
+                  "available": null,
+                  "thumbnail_url": null,
+                  "product_id": null
+                },
+                {
+                  "label": "8.5",
+                  "exists": true,
+                  "available": null,
+                  "thumbnail_url": null,
+                  "product_id": null
+                },
+                {
+                  "label": "9",
+                  "exists": true,
+                  "available": null,
+                  "thumbnail_url": null,
+                  "product_id": null
+                },
+                {
+                  "label": "9.5",
+                  "exists": true,
+                  "available": null,
+                  "thumbnail_url": null,
+                  "product_id": null
+                },
+                {
+                  "label": "10",
+                  "exists": true,
+                  "available": null,
+                  "thumbnail_url": null,
+                  "product_id": null
+                },
+                {
+                  "label": "10.5",
+                  "exists": true,
+                  "available": null,
+                  "thumbnail_url": null,
+                  "product_id": null
+                },
+                {
+                  "label": "11",
+                  "exists": true,
+                  "available": null,
+                  "thumbnail_url": null,
+                  "product_id": null
+                },
+                {
+                  "label": "11.5",
+                  "exists": true,
+                  "available": null,
+                  "thumbnail_url": null,
+                  "product_id": null
+                },
+                {
+                  "label": "12",
+                  "exists": true,
+                  "available": null,
+                  "thumbnail_url": null,
+                  "product_id": null
+                },
+                {
+                  "label": "12.5",
+                  "exists": true,
+                  "available": null,
+                  "thumbnail_url": null,
+                  "product_id": null
+                },
+                {
+                  "label": "13",
+                  "exists": true,
+                  "available": null,
+                  "thumbnail_url": null,
+                  "product_id": null
+                },
+                {
+                  "label": "14",
+                  "exists": true,
+                  "available": null,
+                  "thumbnail_url": null,
+                  "product_id": null
+                },
+                {
+                  "label": "15",
+                  "exists": true,
+                  "available": null,
+                  "thumbnail_url": null,
+                  "product_id": null
+                },
+                {
+                  "label": "16",
+                  "exists": true,
+                  "available": null,
+                  "thumbnail_url": null,
+                  "product_id": null
+                },
+                {
+                  "label": "17.0",
+                  "exists": true,
+                  "available": null,
+                  "thumbnail_url": null,
+                  "product_id": null
+                },
+                {
+                  "label": "18.0",
+                  "exists": true,
+                  "available": null,
+                  "thumbnail_url": null,
+                  "product_id": null
+                }
+              ]
+            }
+          ],
+          "selected": []
+        },
+        "structured_attributes": {
+          "shoe-collar-height": [
+            "Low-top"
+          ],
+          "pattern": [
+            "Solid",
+            "Texture"
+          ],
+          "footwear-cut": [
+            "Low cut"
+          ],
+          "ankle-collar-style": [
+            "Low cut"
+          ],
+          "activity": [
+            "Running"
+          ],
+          "shoe-features": [
+            "Breathable design",
+            "Cushioned",
+            "Lightweight",
+            "Sustainable sourcing"
+          ],
+          "toe-style": [
+            "Round"
+          ],
+          "closure-type": [
+            "Lace-up"
+          ],
+          "upper-material": [
+            "Mesh"
+          ],
+          "footwear-material": [
+            "Mesh",
+            "Rubber"
+          ],
+          "heel-height-type": [
+            "Low",
+            "Flat"
+          ],
+          "sneaker-style": [
+            "Athletic"
+          ],
+          "outsole-material": [
+            "Rubber"
+          ],
+          "occasion-style": [
+            "Casual"
+          ],
+          "shoe-fit": [
+            "Regular",
+            "Wide"
+          ],
+          "footwear-support-type": [
+            "Neutral"
+          ],
+          "pronation-support": [
+            "Neutral"
+          ]
+        },
+        "ratings": {
+          "value": 4.61,
+          "count": 1233,
+          "source_count": 2
+        }
+      },
+      {
+        "id": "mqeOvAh",
+        "title": "Men's Nike Pegasus 41 Running Shoes",
+        "description": "Experience the ultimate combination of comfort and performance with the Nike Men's Pegasus 41 running shoes. These road running shoes feature an upgraded breathable engineered mesh upper for reduced weight and increased airflow. The all-new ReactX foam midsole is 13% more responsive than previous technology, providing an energized ride, while incorporated Air Zoom units further enhance responsiveness. Finished with a signature waffle-inspired rubber outsole for exceptional traction and flexibility, these shoes are designed for daily performance and versatility.",
+        "brands": [
+          {
+            "id": "MpZS",
+            "name": "Nike"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://cdn.trychannel3.com/ec498d5a-7581-448c-9d24-46470ec5d866?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fdOw",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/ec498d5a-7581-448c-9d24-46470ec5d866?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fdOw",
+            "is_main_image": true,
+            "shot_type": "hero",
+            "alt_text": "Side profile of the white and green Nike Pegasus 41 running shoe."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/924eb7a4-1d00-4143-a86f-779ad28d03fd?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fdOw",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/924eb7a4-1d00-4143-a86f-779ad28d03fd?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fdOw",
+            "is_main_image": false,
+            "shot_type": "lifestyle",
+            "alt_text": "Front view of a pair of white and green Nike running shoes."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/91713835-e3f3-451d-9956-84ce11ff1b0a?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fdOw",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "lifestyle",
+            "alt_text": "Woman running outdoors wearing yellow and green running shoes."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/6ff403a1-6dcd-4a94-aae9-26afbdd7445e?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fdOw",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/6ff403a1-6dcd-4a94-aae9-26afbdd7445e?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fdOw",
+            "is_main_image": false,
+            "shot_type": "detail",
+            "alt_text": "Close-up of the outsole tread pattern of the running shoe."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/f5760e98-3e93-48cb-bf21-70a8c335d033?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fdOw",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "lifestyle",
+            "alt_text": "Woman running outdoors wearing white and green running shoes."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/de4eae8a-8f6c-46c3-94de-3ce32f8dd115?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fdOw",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/de4eae8a-8f6c-46c3-94de-3ce32f8dd115?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fdOw",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Side view of the white and green Nike Pegasus 41 running shoe."
+          },
+          {
+            "url": "https://dks.scene7.com/is/image/GolfGalaxy/FD2722120_WhiteBlackVoltIceBarlyVlt_BCK?wid=1441&qlt=70&hei=1441&fit=constrain&fmt=webp&op_sharpen=1",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/a787c149-5404-4c5e-896f-1bf4022f0869?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fdOw",
+            "is_main_image": false,
+            "shot_type": "detail",
+            "alt_text": "Detail shot of the heel and midsole of the running shoe."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/3decce50-c936-4442-ac26-573050e32893?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fdOw",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/3decce50-c936-4442-ac26-573050e32893?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fdOw",
+            "is_main_image": false,
+            "shot_type": "lifestyle",
+            "alt_text": "Side view of a pair of white and green running shoes."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/a1b2b67b-d75a-4451-8c4d-9e7d67bbba3d?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fdOw",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Front view of a white and light green Nike Pegasus 41 running shoe."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/6852ea89-7bac-48ce-9841-d3dcc0a72149?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fdOw",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "detail",
+            "alt_text": "Close-up detail of the side profile of the green and white running shoe."
+          }
+        ],
+        "category": {
+          "slug": "athletic-shoes",
+          "title": "Athletic Shoes",
+          "path": [
+            {
+              "slug": "apparel-accessories",
+              "title": "Apparel & Accessories"
+            },
+            {
+              "slug": "shoes",
+              "title": "Shoes"
+            },
+            {
+              "slug": "athletic-shoes",
+              "title": "Athletic Shoes"
+            }
+          ],
+          "has_children": false
+        },
+        "gender": "male",
+        "age": "adult",
+        "materials": [
+          "mesh",
+          "rubber"
+        ],
+        "key_features": [
+          "Upgraded breathable engineered mesh upper",
+          "All-new ReactX foam midsole for increased responsiveness",
+          "Air Zoom units for an energized ride",
+          "Signature waffle-inspired rubber outsole for traction and flexibility",
+          "Reduced carbon footprint manufacturing process",
+          "Low-profile performance road running sneakers",
+          "Nike Swoosh logo overlays on the lateral and medial",
+          "Cushioned collar, tongue, and sockliner for ultimate comfort",
+          "Weight: 10.5 oz",
+          "Offset: 10 mm heel-to-toe drop"
+        ],
+        "colors": [
+          {
+            "hex": "#ccccc8",
+            "percentage": 0.3762
+          },
+          {
+            "hex": "#dae2cb",
+            "percentage": 0.2804
+          },
+          {
+            "hex": "#a6b089",
+            "percentage": 0.2443
+          },
+          {
+            "hex": "#3e4331",
+            "percentage": 0.0991
+          }
+        ],
+        "offers": [
+          {
+            "url": "https://buy.trychannel3.com/mqeOvAh-fdOw-5l3z0w?o=01M0TQCF71V13N7AK5865JQSXJ&aid=01M5R97D95PSPSN5C5B2X0N3HQ",
+            "domain": "dickssportinggoods.com",
+            "price": {
+              "price": 29.97,
+              "compare_at_price": 144.99,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0,
+            "dimensions": {
+              "length": null,
+              "width": null,
+              "height": null,
+              "weight": {
+                "number": 297,
+                "unit": "g"
+              }
+            }
+          },
+          {
+            "url": "https://buy.trychannel3.com/mqeOvAh-NlEl-5l3z0w?o=01M304MJ62RTJCY89RWPTG8TGH&aid=01M5R97D95PSPSN5C5B2X0N3HQ",
+            "domain": "jdsports.com",
+            "price": {
+              "price": 140,
+              "compare_at_price": null,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0.05,
+            "dimensions": {
+              "length": null,
+              "width": null,
+              "height": null,
+              "weight": {
+                "number": 10.5,
+                "unit": "oz"
+              }
+            }
+          },
+          {
+            "url": "https://buy.trychannel3.com/mqeOvAh-61sn-5l3z0w?o=01M3CSQS02J76HK5X5YF01DWZ7&aid=01M5R97D95PSPSN5C5B2X0N3HQ",
+            "domain": "finishline.com",
+            "price": {
+              "price": 140,
+              "compare_at_price": null,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0.05,
+            "dimensions": {
+              "length": null,
+              "width": null,
+              "height": null,
+              "weight": {
+                "number": 10.5,
+                "unit": "oz"
+              }
+            }
+          }
+        ],
+        "variants": null,
+        "structured_attributes": {
+          "activity": [
+            "Running"
+          ],
+          "outsole-material": [
+            "Rubber"
+          ],
+          "closure-type": [
+            "Lace-up"
+          ],
+          "heel-height-type": [
+            "Low"
+          ],
+          "shoe-features": [
+            "Breathable design",
+            "Cushioned",
+            "Lightweight"
+          ],
+          "footwear-material": [
+            "Mesh",
+            "Synthetic"
+          ],
+          "pattern": [
+            "Solid"
+          ],
+          "occasion-style": [
+            "Casual"
+          ],
+          "footwear-cut": [
+            "Low cut"
+          ],
+          "shoe-collar-height": [
+            "Low-top"
+          ],
+          "pronation-support": [
+            "Neutral"
+          ],
+          "toe-style": [
+            "Round"
+          ],
+          "sneaker-style": [
+            "Athletic"
+          ],
+          "shoe-fit": [
+            "Regular"
+          ],
+          "footwear-support-type": [
+            "Neutral"
+          ],
+          "upper-material": [
+            "Mesh"
+          ]
+        },
+        "ratings": {
+          "value": 4.57,
+          "count": 1527,
+          "source_count": 2
+        }
+      },
+      {
+        "id": "ibuj5Zb",
+        "title": "Nike Men's Pegasus 41 Running Shoes",
+        "description": "Experience revolutionary comfort and performance with the Nike Air Zoom Pegasus 41 running shoes. Featuring two Zoom Air units and Nike ReactX foam, these shoes provide a bouncy, energized feel for every stride. The engineered mesh upper offers a comfortable fit, while the broadened forefoot and heel enhance stability. A midfoot band and strap ensure a secure, adaptable fit for all arch types. Designed with sustainability in mind, Nike ReactX foam reduces carbon footprint by at least 43%.",
+        "brands": [
+          {
+            "id": "MpZS",
+            "name": "Nike"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://cdn.trychannel3.com/7fcc7827-0cae-4694-bf79-c1d2fc796675?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fdOw",
+            "cleaned_url": null,
+            "is_main_image": true,
+            "shot_type": "hero",
+            "alt_text": "White Nike Pegasus 41 running shoe viewed from the side."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/c014dfa1-5d35-4069-a041-0e80e4bfb020?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fdOw",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/c014dfa1-5d35-4069-a041-0e80e4bfb020?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fdOw",
+            "is_main_image": false,
+            "shot_type": "detail",
+            "alt_text": "Front and back view of the white/silver running shoe sole."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/e1c266a4-a4f6-4854-8104-5b1eb744e63b?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fdOw",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "lifestyle",
+            "alt_text": "Woman running outdoors wearing white running shoes."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/430c7095-fb69-4fd9-a545-186b8a9dee9e?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fdOw",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/430c7095-fb69-4fd9-a545-186b8a9dee9e?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fdOw",
+            "is_main_image": false,
+            "shot_type": "detail",
+            "alt_text": "Close-up of the outsole tread pattern of a black running shoe."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/3a859024-415a-4f5c-b8f5-dc7e816ce77b?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fdOw",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "lifestyle",
+            "alt_text": "Woman running outdoors wearing a white running shoe."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/b696c99a-7ccb-42ce-babb-2316a7b72ce0?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fdOw",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/b696c99a-7ccb-42ce-babb-2316a7b72ce0?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fdOw",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "White Nike Pegasus 41 running shoe viewed from the side."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/524b490c-ea5b-46b0-903c-6bd38778ae38?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fdOw",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/524b490c-ea5b-46b0-903c-6bd38778ae38?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fdOw",
+            "is_main_image": false,
+            "shot_type": "detail",
+            "alt_text": "Front and back view of the sole and outsole of the shoe."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/728079f3-9aef-4a39-9204-88e60f3970e5?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fdOw",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "lifestyle",
+            "alt_text": "A pair of white/silver Nike running shoes side by side."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/15363e91-f432-4bdf-9600-9bff2eba5d0e?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fdOw",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "on_model",
+            "alt_text": "Close-up of the upper and lacing of a white running shoe."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/42514789-05b0-4b7e-97a5-15ec6c94e6da?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fdOw",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "detail",
+            "alt_text": "Close-up of the midsole and outsole of a white running shoe."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/a5c62053-6916-4d0a-b79e-92583e8d8dc0?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fdOw",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/a5c62053-6916-4d0a-b79e-92583e8d8dc0?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fdOw",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "White Nike Pegasus 41 running shoe viewed from the side."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/c8c05660-9b63-463e-a713-265807996642?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fdOw",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/c8c05660-9b63-463e-a713-265807996642?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=fdOw",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Black Nike Pegasus 41 running shoe viewed from the side."
+          }
+        ],
+        "category": {
+          "slug": "athletic-shoes",
+          "title": "Athletic Shoes",
+          "path": [
+            {
+              "slug": "apparel-accessories",
+              "title": "Apparel & Accessories"
+            },
+            {
+              "slug": "shoes",
+              "title": "Shoes"
+            },
+            {
+              "slug": "athletic-shoes",
+              "title": "Athletic Shoes"
+            }
+          ],
+          "has_children": false
+        },
+        "gender": "male",
+        "age": "adult",
+        "materials": [
+          "Engineered mesh",
+          "ReactX foam",
+          "Rubber"
+        ],
+        "key_features": [
+          "Upgraded breathable engineered mesh upper",
+          "All-new ReactX foam midsole for increased responsiveness",
+          "Air Zoom units for an energized ride",
+          "Signature waffle-inspired rubber outsole for traction and flexibility",
+          "Plush collar, tongue, and sockliner for secure fit",
+          "Reduced carbon footprint by at least 43% in midsoles compared to prior React foam",
+          "Engineered mesh upper creates an inviting feel and fit.",
+          "Broadened forefoot and heel width leave space for the springy Zoom Air engine to deliver a cushioned ride.",
+          "Implemented midfoot band offers a more secure but forgiving sensation.",
+          "Midfoot strap provides a molded fit that is shaped for all-sized arches."
+        ],
+        "colors": [
+          {
+            "hex": "#d0d4d3",
+            "percentage": 0.7902
+          },
+          {
+            "hex": "#921920",
+            "percentage": 0.1178
+          },
+          {
+            "hex": "#b89a99",
+            "percentage": 0.092
+          }
+        ],
+        "offers": [
+          {
+            "url": "https://buy.trychannel3.com/ibuj5Zb-fdOw-5l3z0w?o=01M34314YWKJYHX6GMKNX0P0TV&aid=01M5R97D95PSPSN5C5B2X0N3HQ",
+            "domain": "dickssportinggoods.com",
+            "price": {
+              "price": 29.97,
+              "compare_at_price": 144.99,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0,
+            "dimensions": {
+              "length": null,
+              "width": null,
+              "height": null,
+              "weight": {
+                "number": 297,
+                "unit": "g"
+              }
+            }
+          },
+          {
+            "url": "https://buy.trychannel3.com/ibuj5Zb-YikB-5l3z0w?o=01KR7V2YVXSNG5M3043X2PH4YM&aid=01M5R97D95PSPSN5C5B2X0N3HQ",
+            "domain": "champssports.com",
+            "price": {
+              "price": 99.99,
+              "compare_at_price": 145,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0.056,
+            "dimensions": null
+          }
+        ],
+        "variants": null,
+        "structured_attributes": {
+          "footwear-material": [
+            "Mesh",
+            "Rubber"
+          ],
+          "activity": [
+            "Running",
+            "Track & field",
+            "Walking"
+          ],
+          "shoe-fit": [
+            "Wide",
+            "Regular"
+          ],
+          "shoe-features": [
+            "Cushioned",
+            "Breathable design",
+            "Eco friendly",
+            "Lightweight"
+          ],
+          "heel-height-type": [
+            "Flat"
+          ],
+          "footwear-support-type": [
+            "Neutral"
+          ],
+          "closure-type": [
+            "Lace-up"
+          ],
+          "pattern": [
+            "Solid"
+          ],
+          "outsole-material": [
+            "Rubber"
+          ]
+        },
+        "ratings": {
+          "value": 4.57,
+          "count": 1105,
+          "source_count": 1
+        }
+      },
+      {
+        "id": "KkJmQMt",
+        "title": "Pegasus 41 Road Running Shoes",
+        "description": "Experience the unstoppable energy of the Nike Pegasus 41 Road Running Shoes, designed for both performance and style. Highlighted by the iconic swoosh logo creating an authentic touch. Whether you are a seasoned road runner or a newcomer to the pavement, the responsive cushioning delivers an energised ride, elevating your game to new heights. The improved engineered mesh upper sheds weight while boosting breathability, ensuring your feet remain cool and light. The ReactX foam midsole, featuring Air Zoom units at the forefoot and heel, provides lightweight energy return that propels you forward.",
+        "brands": [
+          {
+            "id": "MpZS",
+            "name": "Nike"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://cdn.trychannel3.com/c0fcda84-6c02-4526-a81c-185da3d0db94?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=iY9V",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/c0fcda84-6c02-4526-a81c-185da3d0db94?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=iY9V",
+            "is_main_image": true,
+            "shot_type": "hero",
+            "alt_text": "Front view of a pair of black Nike Pegasus 41 running shoes."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/f93a6e0b-a48d-4c16-bc56-0afdb03aea5f?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=iY9V",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "lifestyle",
+            "alt_text": "Woman running outdoors wearing athletic shoes."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/09340f8a-520d-439c-925c-b85cf4ec1df7?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=iY9V",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/09340f8a-520d-439c-925c-b85cf4ec1df7?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=iY9V",
+            "is_main_image": false,
+            "shot_type": "detail",
+            "alt_text": "Close-up of the black outsole tread pattern of a running shoe."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/bbc5ab55-87c3-4b20-bc35-10e023f4019c?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=iY9V",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/bbc5ab55-87c3-4b20-bc35-10e023f4019c?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=iY9V",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Rear view of a pair of black Nike Pegasus 41 running shoes."
+          },
+          {
+            "url": "https://dks.scene7.com/is/image/GolfGalaxy/FD2722001_BlackBlackAnthracite_DET?wid=1441&qlt=70&hei=1441&fit=constrain&fmt=webp&op_sharpen=1",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "on_model",
+            "alt_text": "Close-up of a person tying the laces of a black Nike running shoe."
+          },
+          {
+            "url": "https://dks.scene7.com/is/image/GolfGalaxy/FD2722001_BlackBlackAnthracite_DET-alt1?wid=1441&qlt=70&hei=1441&fit=constrain&fmt=webp&op_sharpen=1",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "detail",
+            "alt_text": "Detail of the rear and outsole of a black running shoe."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/b7c5d206-4d0a-41da-876c-c7006e100b0c?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=iY9V",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/b7c5d206-4d0a-41da-876c-c7006e100b0c?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=iY9V",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Side profile view of a black Nike Pegasus 41 running shoe."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/be867f3b-ce31-492f-ba92-dd7680bbd377?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=iY9V",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "detail",
+            "alt_text": "Back view of a black Nike Pegasus 41 running shoe."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/cb21d692-034f-4ce0-8093-016de407f6f5?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=iY9V",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/cb21d692-034f-4ce0-8093-016de407f6f5?aid=01M5R97D95PSPSN5C5B2X0N3HQ&mid=iY9V",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Side profile view of a black Nike Pegasus 41 running shoe."
+          }
+        ],
+        "category": {
+          "slug": "athletic-shoes",
+          "title": "Athletic Shoes",
+          "path": [
+            {
+              "slug": "apparel-accessories",
+              "title": "Apparel & Accessories"
+            },
+            {
+              "slug": "shoes",
+              "title": "Shoes"
+            },
+            {
+              "slug": "athletic-shoes",
+              "title": "Athletic Shoes"
+            }
+          ],
+          "has_children": false
+        },
+        "gender": "male",
+        "age": "adult",
+        "materials": [
+          "Engineered mesh",
+          "ReactX foam",
+          "Rubber"
+        ],
+        "key_features": [
+          "Upgraded breathable engineered mesh upper for decreased weight and increased breathability",
+          "All-new ReactX foam midsole for a more responsive and energized ride",
+          "Air Zoom units in forefoot and heel for cushioning",
+          "Signature waffle-inspired rubber outsole for exceptional traction and flexibility",
+          "Reduced carbon footprint by at least 43% in the midsoles compared to previous React foam",
+          "Upper: engineered mesh. Lining: textile. Sole: rubber."
+        ],
+        "colors": [
+          {
+            "hex": "#131313",
+            "percentage": 0.6153
+          },
+          {
+            "hex": "#2b2a2b",
+            "percentage": 0.3028
+          },
+          {
+            "hex": "#7f7f7f",
+            "percentage": 0.0819
+          }
+        ],
+        "offers": [
+          {
+            "url": "https://buy.trychannel3.com/KkJmQMt-iY9V-5l3z0w?o=01KPAGHBMFF8X9TJXKZFFGZY75&aid=01M5R97D95PSPSN5C5B2X0N3HQ",
+            "domain": "lovellsports.com",
+            "price": {
+              "price": 90,
+              "compare_at_price": 180,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0,
+            "dimensions": null
+          },
+          {
+            "url": "https://buy.trychannel3.com/KkJmQMt-fdOw-5l3z0w?o=01M4CMHET464DG12Y03EXXKAG1&aid=01M5R97D95PSPSN5C5B2X0N3HQ",
+            "domain": "dickssportinggoods.com",
+            "price": {
+              "price": 144.99,
+              "compare_at_price": null,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0,
+            "dimensions": {
+              "length": null,
+              "width": null,
+              "height": null,
+              "weight": {
+                "number": 297,
+                "unit": "g"
+              }
+            }
+          }
+        ],
+        "variants": null,
+        "structured_attributes": {
+          "shoe-features": [
+            "Breathable design",
+            "Cushioned",
+            "Lightweight"
+          ],
+          "pattern": [
+            "Logo",
+            "Texture",
+            "Solid"
+          ],
+          "footwear-material": [
+            "Mesh",
+            "Rubber",
+            "Synthetic"
+          ],
+          "occasion-style": [
+            "Casual"
+          ],
+          "closure-type": [
+            "Lace-up"
+          ],
+          "activity": [
+            "Running",
+            "Track & field"
+          ],
+          "sneaker-style": [
+            "Athletic"
+          ],
+          "upper-material": [
+            "Mesh"
+          ],
+          "toe-style": [
+            "Round"
+          ],
+          "outsole-material": [
+            "Rubber"
+          ],
+          "shoe-fit": [
+            "Regular"
+          ],
+          "pronation-support": [
+            "Neutral"
+          ],
+          "footwear-support-type": [
+            "Neutral"
+          ],
+          "heel-height-type": [
+            "Flat"
+          ]
+        },
+        "ratings": {
+          "value": 4.56,
+          "count": 1100,
+          "source_count": 1
+        }
+      }
+    ],
+    "next_page_token": "eyJjYWNoZV9rZXkiOiAic2VhcmNoOjI3ZjQ3NTBhMTk1NGQyNjIiLCAib2Zmc2V0IjogNX0="
+  }
+}

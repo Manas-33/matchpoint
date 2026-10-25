@@ -1,0 +1,859 @@
+{
+  "query": "Sony WH-1000XM5 wireless noise cancelling headphones",
+  "response": {
+    "products": [
+      {
+        "id": "hrz4MAW",
+        "title": "WH-1000XM5 Over-Ear Noise Cancelling Bluetooth Headphones",
+        "description": "The Sony WH-1000XM5 are premium over-ear noise-cancelling Bluetooth headphones designed for distraction-free listening and exceptional call clarity. They feature two processors controlling multiple microphones for industry-leading noise cancellation, with an Auto NC Optimizer that adjusts based on the environment. The headphones are equipped with 30mm driver units for superior sound quality and offer a long battery life of up to 30 hours, featuring quick charging capabilities. They support Google Assistant, Amazon Alexa, and Siri, and are compatible with 360 Reality Audio via the Sony Headphones Connect app.",
+        "brands": [
+          {
+            "id": "PURH",
+            "name": "Sony"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://cdn.trychannel3.com/e9a73fc7-ad8b-48f9-b4ab-f0582ece3c85?aid=01M5R979Q83HESGKSW14HEBQ17&mid=hFQq",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/e9a73fc7-ad8b-48f9-b4ab-f0582ece3c85?aid=01M5R979Q83HESGKSW14HEBQ17&mid=hFQq",
+            "is_main_image": true,
+            "shot_type": "hero",
+            "alt_text": "White Sony WH-1000XM5 over-ear headphones on a white background."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/04da6d08-41b1-44f0-84bf-86a0e01670af?aid=01M5R979Q83HESGKSW14HEBQ17&mid=hFQq",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/04da6d08-41b1-44f0-84bf-86a0e01670af?aid=01M5R979Q83HESGKSW14HEBQ17&mid=hFQq",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "White over-ear headphones side view against a white background."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/9c8cec1e-ca6a-4435-893a-b4c006cfc3b1?aid=01M5R979Q83HESGKSW14HEBQ17&mid=hFQq",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "White over-ear headphones shown from the front view."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/08380875-4297-4b4d-8098-57a401b0087f?aid=01M5R979Q83HESGKSW14HEBQ17&mid=hFQq",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "White over-ear headphones shown from the front view."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/591016f7-ac0a-4367-be71-a30ab312de36?aid=01M5R979Q83HESGKSW14HEBQ17&mid=hFQq",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/591016f7-ac0a-4367-be71-a30ab312de36?aid=01M5R979Q83HESGKSW14HEBQ17&mid=hFQq",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "White neckband headphones with boom mic viewed from the front."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/ed771c62-1c0c-44a5-87e0-dcb7c3d85d06?aid=01M5R979Q83HESGKSW14HEBQ17&mid=hFQq",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/ed771c62-1c0c-44a5-87e0-dcb7c3d85d06?aid=01M5R979Q83HESGKSW14HEBQ17&mid=hFQq",
+            "is_main_image": false,
+            "shot_type": "packaging",
+            "alt_text": "Sony WH-1000XM5 headphones in their protective storage case."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/9f220231-dd25-4ba2-b3d8-c0196ad9bedc?aid=01M5R979Q83HESGKSW14HEBQ17&mid=hFQq",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "lifestyle",
+            "alt_text": "Woman wearing white over-ear headphones while relaxing on a couch."
+          }
+        ],
+        "category": {
+          "slug": "headphones",
+          "title": "Headphones",
+          "path": [
+            {
+              "slug": "electronics",
+              "title": "Electronics"
+            },
+            {
+              "slug": "audio",
+              "title": "Audio"
+            },
+            {
+              "slug": "audio-components",
+              "title": "Audio Components"
+            },
+            {
+              "slug": "headphones-headsets",
+              "title": "Headphones & Headsets"
+            },
+            {
+              "slug": "headphones",
+              "title": "Headphones"
+            }
+          ],
+          "has_children": true
+        },
+        "gender": null,
+        "age": null,
+        "materials": [
+          "leather"
+        ],
+        "key_features": [
+          "Industry-leading active noise cancelling with Auto NC Optimizer",
+          "30-hour battery life with quick charging (3 mins for 3 hours, 10 mins for 5 hours)",
+          "Specially designed 30mm driver unit for superior sound quality",
+          "Soft leather ear cushions for all-day comfort",
+          "Integrated voice assistants: Google Assistant, Amazon Alexa, and Siri",
+          "360 Reality Audio support via Sony Headphones Connect app",
+          "DSEE driver for powerful audio delivery"
+        ],
+        "colors": [
+          {
+            "hex": "#b9b7ac",
+            "percentage": 0.5299
+          },
+          {
+            "hex": "#dddcd0",
+            "percentage": 0.2368
+          },
+          {
+            "hex": "#fffffe",
+            "percentage": 0.1342
+          },
+          {
+            "hex": "#8f8d84",
+            "percentage": 0.0991
+          }
+        ],
+        "offers": [
+          {
+            "url": "https://buy.trychannel3.com/hrz4MAW-hFQq-5l3z0w?o=01M5P7NZB9PZAC1WQ1WT5FHY7Q&aid=01M5R979Q83HESGKSW14HEBQ17",
+            "domain": "6ave.com",
+            "price": {
+              "price": 398,
+              "compare_at_price": null,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0.018,
+            "dimensions": {
+              "length": {
+                "number": 12,
+                "unit": "in"
+              },
+              "width": {
+                "number": 10,
+                "unit": "in"
+              },
+              "height": {
+                "number": 4,
+                "unit": "in"
+              },
+              "weight": {
+                "number": 1.6,
+                "unit": "lb"
+              }
+            }
+          }
+        ],
+        "variants": null,
+        "structured_attributes": {
+          "earphone-features": [
+            "Built-in microphone",
+            "Noise cancellation",
+            "High fidelity audio"
+          ],
+          "microphone-type": [
+            "Built-in"
+          ],
+          "headphone-style": [
+            "Closed-back"
+          ],
+          "driver-technology": [
+            "Dynamic driver"
+          ],
+          "charging-interface-type": [
+            "USB type-C"
+          ],
+          "headphone-driver-technology": [
+            "Dynamic"
+          ],
+          "noise-cancellation-technology": [
+            "Active noise cancellation (ANC)",
+            "Adaptive noise cancellation"
+          ],
+          "device-interface": [
+            "USB",
+            "Bluetooth"
+          ],
+          "pattern": [
+            "Solid"
+          ],
+          "material": [
+            "Leather"
+          ],
+          "audio-connectivity": [
+            "Bluetooth",
+            "USB"
+          ],
+          "power-source": [
+            "Rechargeable",
+            "USB"
+          ],
+          "battery-type": [
+            "Rechargeable"
+          ],
+          "battery-size": [
+            "Built-in battery"
+          ],
+          "connectivity-technology": [
+            "Bluetooth",
+            "USB",
+            "Wireless"
+          ]
+        },
+        "ratings": {
+          "value": 4,
+          "count": 1,
+          "source_count": 1
+        }
+      },
+      {
+        "id": "rmAiFzV",
+        "title": "WH-1000XM5 Wireless Over-Ear Noise Canceling Headphones",
+        "description": "The Sony WH-1000XM5 wireless over-ear headphones are designed for an immersive, distraction-free listening experience. They feature industry-leading noise cancellation powered by dual processors and eight microphones, ensuring clear calls and a focused sound environment. A redesigned 30mm driver delivers rich bass and detailed highs, while High-Resolution Audio support and intelligent sound upscaling enhance audio depth. The headphones include adaptive features that adjust to the environment, multipoint connectivity for multiple devices, and a lightweight design with soft-fit leather for all-day comfort. They offer up to 30 hours of battery life and come with a collapsible carrying case for convenient storage.",
+        "brands": [
+          {
+            "id": "PURH",
+            "name": "Sony"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://cdn.trychannel3.com/4f720029-203f-499b-a3b0-5048696b12d5?aid=01M5R979Q83HESGKSW14HEBQ17&mid=K6RA",
+            "cleaned_url": "https://cdn.trychannel3.com/617fe0b7-cc75-413b-b2ec-3d8ed4241a6b?aid=01M5R979Q83HESGKSW14HEBQ17&mid=K6RA",
+            "is_main_image": true,
+            "shot_type": "hero",
+            "alt_text": "Light grey Sony WH-1000XM5 over-ear headphones on a white background."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/f719cbb7-876b-4ba2-abad-76e0f318103e?aid=01M5R979Q83HESGKSW14HEBQ17&mid=K6RA",
+            "cleaned_url": "https://cdn.trychannel3.com/11bb2688-6ccf-4660-818a-fd26a8d5c09b?aid=01M5R979Q83HESGKSW14HEBQ17&mid=K6RA",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Black Sony WH-1000XM5 over-ear headphones on a white background."
+          }
+        ],
+        "category": {
+          "slug": "over-ear-headphones",
+          "title": "Over-Ear Headphones",
+          "path": [
+            {
+              "slug": "electronics",
+              "title": "Electronics"
+            },
+            {
+              "slug": "audio",
+              "title": "Audio"
+            },
+            {
+              "slug": "audio-components",
+              "title": "Audio Components"
+            },
+            {
+              "slug": "headphones-headsets",
+              "title": "Headphones & Headsets"
+            },
+            {
+              "slug": "headphones",
+              "title": "Headphones"
+            },
+            {
+              "slug": "over-ear-headphones",
+              "title": "Over-Ear Headphones"
+            }
+          ],
+          "has_children": false
+        },
+        "gender": null,
+        "age": null,
+        "materials": [
+          "leather"
+        ],
+        "key_features": [
+          "Industry-leading noise cancellation optimized to you",
+          "4 beamforming microphones for crystal clear hands-free calling",
+          "Ultra-comfortable, lightweight design with soft fit leather",
+          "Redesigned collapsible case made for easy storage in a bag",
+          "Up to 30 hours of battery life",
+          "Multipoint connectivity and voice assistant compatibility"
+        ],
+        "colors": [
+          {
+            "hex": "#aca99f",
+            "percentage": 0.3834
+          },
+          {
+            "hex": "#d0cec5",
+            "percentage": 0.3439
+          },
+          {
+            "hex": "#ffffff",
+            "percentage": 0.1651
+          },
+          {
+            "hex": "#8a877f",
+            "percentage": 0.1076
+          }
+        ],
+        "offers": [
+          {
+            "url": "https://buy.trychannel3.com/rmAiFzV-K6RA-5l3z0w?o=01M1HVWXNVVMC46RX7MGP1A5VH&aid=01M5R979Q83HESGKSW14HEBQ17",
+            "domain": "macys.com",
+            "price": {
+              "price": 300.41,
+              "compare_at_price": 398,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0.056,
+            "dimensions": null
+          }
+        ],
+        "variants": null,
+        "structured_attributes": {
+          "audio-connectivity": [
+            "USB"
+          ],
+          "microphone-type": [
+            "Omnidirectional"
+          ],
+          "battery-type": [
+            "Rechargeable"
+          ],
+          "noise-cancellation-technology": [
+            "Active noise cancellation (ANC)"
+          ],
+          "headphone-driver-technology": [
+            "Dynamic"
+          ],
+          "power-source": [
+            "Rechargeable"
+          ],
+          "earphone-features": [
+            "Built-in microphone",
+            "Noise cancellation"
+          ],
+          "headphone-style": [
+            "Closed-back"
+          ],
+          "driver-technology": [
+            "Dynamic driver"
+          ],
+          "battery-size": [
+            "Built-in battery"
+          ],
+          "connectivity-technology": [
+            "Bluetooth",
+            "USB",
+            "Wired"
+          ],
+          "material": [
+            "Leather"
+          ],
+          "pattern": [
+            "Solid"
+          ],
+          "device-interface": [
+            "USB"
+          ]
+        },
+        "ratings": {
+          "value": 4.5,
+          "count": 2303,
+          "source_count": 1
+        }
+      },
+      {
+        "id": "3GYVjuP",
+        "title": "Sony WH-1000XM5 Wireless Noise Canceling Headphones",
+        "description": "Sony WH-1000XM5 Wireless Noise Canceling Headphones are premium over-ear headphones designed for high-fidelity audio and industry-leading noise cancellation. Utilizing two processors and eight microphones, they effectively filter out high and midrange sounds for a distraction-free listening experience. They feature 30mm dynamic drivers for Hi-Res Audio, four beamforming microphones with Precise Voice Pickup for clear hands-free calls, and offer up to 30 hours of battery life with ANC enabled. Additional smart features include Speak-to-Chat, wear detection for instant pause and play, and multipoint connection for seamless switching between devices.",
+        "brands": [
+          {
+            "id": "PURH",
+            "name": "Sony"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://cdn.trychannel3.com/a3b8b014-b3b2-40be-b363-b3402bb7e855?aid=01M5R979Q83HESGKSW14HEBQ17&mid=oOY7",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/a3b8b014-b3b2-40be-b363-b3402bb7e855?aid=01M5R979Q83HESGKSW14HEBQ17&mid=oOY7",
+            "is_main_image": true,
+            "shot_type": "hero",
+            "alt_text": "Black Sony WH-1000XM5 headphones shown from above on a white background."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/e2b3b0f3-d9b7-4153-a76a-c047b16ef7bb?aid=01M5R979Q83HESGKSW14HEBQ17&mid=oOY7",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/e2b3b0f3-d9b7-4153-a76a-c047b16ef7bb?aid=01M5R979Q83HESGKSW14HEBQ17&mid=oOY7",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Blue Sony WH-1000XM5 headphones shown from above on a white background."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/f138859a-f9d5-4f07-96af-723fa6a593ac?aid=01M5R979Q83HESGKSW14HEBQ17&mid=oOY7",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/f138859a-f9d5-4f07-96af-723fa6a593ac?aid=01M5R979Q83HESGKSW14HEBQ17&mid=oOY7",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Black Sony WH-1000XM5 headphones with the carrying case shown from the side."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/fd764fb5-3ccf-4f04-859c-e3e5bb84cd18?aid=01M5R979Q83HESGKSW14HEBQ17&mid=oOY7",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/fd764fb5-3ccf-4f04-859c-e3e5bb84cd18?aid=01M5R979Q83HESGKSW14HEBQ17&mid=oOY7",
+            "is_main_image": false,
+            "shot_type": "packaging",
+            "alt_text": "Black headphone carrying case with headphones inside shown from the front."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/27eb5a0a-02f9-4a1f-a673-0bbf8e1bf4ad?aid=01M5R979Q83HESGKSW14HEBQ17&mid=oOY7",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/27eb5a0a-02f9-4a1f-a673-0bbf8e1bf4ad?aid=01M5R979Q83HESGKSW14HEBQ17&mid=oOY7",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "White Sony WH-1000XM5 headphones shown from above on a white background."
+          }
+        ],
+        "category": {
+          "slug": "over-ear-headphones",
+          "title": "Over-Ear Headphones",
+          "path": [
+            {
+              "slug": "electronics",
+              "title": "Electronics"
+            },
+            {
+              "slug": "audio",
+              "title": "Audio"
+            },
+            {
+              "slug": "audio-components",
+              "title": "Audio Components"
+            },
+            {
+              "slug": "headphones-headsets",
+              "title": "Headphones & Headsets"
+            },
+            {
+              "slug": "headphones",
+              "title": "Headphones"
+            },
+            {
+              "slug": "over-ear-headphones",
+              "title": "Over-Ear Headphones"
+            }
+          ],
+          "has_children": false
+        },
+        "gender": null,
+        "age": null,
+        "materials": [],
+        "key_features": [
+          "8-Microphone Active Noise Cancelation",
+          "30mm Dynamic Drivers",
+          "Up to 30 Hours of Playback with ANC On",
+          "4x Beamforming Mics for Clear Calls",
+          "LDAC and Hi-Res Audio Support",
+          "Speak-to-Chat",
+          "Wear Detection for Instant Pause & Play",
+          "Multipoint Seamless Device Switching",
+          "Lightweight and Comfortable Design",
+          "Swift Pair and Google Fast Pair"
+        ],
+        "colors": [
+          {
+            "hex": "#434546",
+            "percentage": 0.3082
+          },
+          {
+            "hex": "#2b2d2c",
+            "percentage": 0.2553
+          },
+          {
+            "hex": "#141414",
+            "percentage": 0.2364
+          },
+          {
+            "hex": "#ffffff",
+            "percentage": 0.1716
+          }
+        ],
+        "offers": [
+          {
+            "url": "https://buy.trychannel3.com/3GYVjuP-oOY7-5l3z0w?o=01M54HZX5FVPQF6CBB7Q1AGWZV&aid=01M5R979Q83HESGKSW14HEBQ17",
+            "domain": "hsn.com",
+            "price": {
+              "price": 399.99,
+              "compare_at_price": null,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0.056,
+            "dimensions": null
+          }
+        ],
+        "variants": null,
+        "structured_attributes": {
+          "noise-cancellation-technology": [
+            "Active noise cancellation (ANC)"
+          ],
+          "microphone-type": [
+            "Built-in",
+            "Noise-canceling"
+          ],
+          "earphone-features": [
+            "Built-in microphone",
+            "High fidelity audio",
+            "Noise cancellation"
+          ],
+          "power-source": [
+            "Rechargeable",
+            "Battery-powered"
+          ],
+          "device-interface": [
+            "USB"
+          ],
+          "battery-type": [
+            "Rechargeable"
+          ],
+          "connectivity-technology": [
+            "Bluetooth",
+            "Wireless"
+          ],
+          "headphone-driver-technology": [
+            "Dynamic"
+          ],
+          "charging-interface-type": [
+            "USB type-C"
+          ],
+          "driver-technology": [
+            "Dynamic driver"
+          ],
+          "audio-connectivity": [
+            "USB"
+          ],
+          "battery-size": [
+            "Built-in battery"
+          ],
+          "pattern": [
+            "Solid"
+          ]
+        },
+        "ratings": null
+      },
+      {
+        "id": "IY1VB5D",
+        "title": "WH-1000XM5 Wireless Noise Cancelling Over-the-Ear Headphones",
+        "description": "The Sony WH-1000XM5 are wireless over-the-ear headphones designed for an immersive audio experience. They feature advanced multiple microphone noise canceling to block out ambient high and mid-frequency sounds, along with a precision-engineered driver for high-fidelity sound quality. Designed for comfort, they include soft leather accents for a low-pressure fit. Key technical specifications include up to 30 hours of battery life on a single charge and Precise Voice Pickup Technology for clear communication during calls.",
+        "brands": [
+          {
+            "id": "PURH",
+            "name": "Sony"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://cdn.trychannel3.com/f55b1fab-f845-40cf-b2b5-88c16631a631?aid=01M5R979Q83HESGKSW14HEBQ17&mid=K6RA",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/f55b1fab-f845-40cf-b2b5-88c16631a631?aid=01M5R979Q83HESGKSW14HEBQ17&mid=K6RA",
+            "is_main_image": true,
+            "shot_type": "hero",
+            "alt_text": "Black over-the-ear headphones and charging stand."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/34bab773-9af0-4191-96c6-dd6deb8b635d?aid=01M5R979Q83HESGKSW14HEBQ17&mid=K6RA",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/34bab773-9af0-4191-96c6-dd6deb8b635d?aid=01M5R979Q83HESGKSW14HEBQ17&mid=K6RA",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Black Sony WH-1000XM5 headphones front view."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/7bf0044b-400c-4ba7-ad08-fe3a33652713?aid=01M5R979Q83HESGKSW14HEBQ17&mid=K6RA",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Black over-the-ear headphones shown from a front angle."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/3f1ed913-8eea-48e5-b6fa-191becfb4b13?aid=01M5R979Q83HESGKSW14HEBQ17&mid=K6RA",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Black over-the-ear headphones in a carrying case."
+          }
+        ],
+        "category": {
+          "slug": "over-ear-headphones",
+          "title": "Over-Ear Headphones",
+          "path": [
+            {
+              "slug": "electronics",
+              "title": "Electronics"
+            },
+            {
+              "slug": "audio",
+              "title": "Audio"
+            },
+            {
+              "slug": "audio-components",
+              "title": "Audio Components"
+            },
+            {
+              "slug": "headphones-headsets",
+              "title": "Headphones & Headsets"
+            },
+            {
+              "slug": "headphones",
+              "title": "Headphones"
+            },
+            {
+              "slug": "over-ear-headphones",
+              "title": "Over-Ear Headphones"
+            }
+          ],
+          "has_children": false
+        },
+        "gender": null,
+        "age": null,
+        "materials": [
+          "leather"
+        ],
+        "key_features": [
+          "Active Noise Cancelation from airplane noise to people’s voices",
+          "Precision-engineered driver unit for natural sound quality",
+          "Precise Voice Pickup Technology for crystal clear hands-free calling",
+          "Up to 30 hours of battery life",
+          "Quick charging: 3 hours of charge in 3 minutes with USB-PD compatible AC adapter",
+          "Lightweight design with soft fit leather",
+          "Multiple microphone noise canceling to block high and mid frequency sounds",
+          "Wireless connectivity"
+        ],
+        "colors": [
+          {
+            "hex": "#3f4445",
+            "percentage": 0.2986
+          },
+          {
+            "hex": "#262828",
+            "percentage": 0.2624
+          },
+          {
+            "hex": "#0c0e0e",
+            "percentage": 0.2394
+          },
+          {
+            "hex": "#ffffff",
+            "percentage": 0.171
+          }
+        ],
+        "offers": [
+          {
+            "url": "https://buy.trychannel3.com/IY1VB5D-K6RA-5l3z0w?o=01M49437XCCX97TN879KB7P534&aid=01M5R979Q83HESGKSW14HEBQ17",
+            "domain": "macys.com",
+            "price": {
+              "price": 229.99,
+              "compare_at_price": 259.99,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0.056,
+            "dimensions": null
+          },
+          {
+            "url": "https://buy.trychannel3.com/IY1VB5D-p1PB-5l3z0w?o=01M1PMTG0NPQ7297FCAZSQR0RF&aid=01M5R979Q83HESGKSW14HEBQ17",
+            "domain": "bestbuy.com",
+            "price": {
+              "price": 259.99,
+              "compare_at_price": null,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0.004,
+            "dimensions": null
+          }
+        ],
+        "variants": null,
+        "structured_attributes": {
+          "battery-type": [
+            "Rechargeable"
+          ],
+          "headphone-driver-technology": [
+            "Dynamic"
+          ],
+          "charging-interface-type": [
+            "USB type-C"
+          ],
+          "connectivity-technology": [
+            "Bluetooth",
+            "USB",
+            "Wireless"
+          ],
+          "noise-cancellation-technology": [
+            "Active noise cancellation (ANC)"
+          ],
+          "earphone-features": [
+            "Built-in microphone",
+            "Noise cancellation",
+            "High fidelity audio"
+          ],
+          "material": [
+            "Leather"
+          ],
+          "driver-technology": [
+            "Dynamic driver"
+          ],
+          "microphone-type": [
+            "Built-in"
+          ],
+          "audio-connectivity": [
+            "USB"
+          ],
+          "headphone-style": [
+            "Closed-back"
+          ],
+          "power-source": [
+            "Rechargeable"
+          ],
+          "device-interface": [
+            "Bluetooth",
+            "USB"
+          ],
+          "pattern": [
+            "Solid"
+          ],
+          "battery-size": [
+            "Built-in battery"
+          ]
+        },
+        "ratings": null
+      },
+      {
+        "id": "p0Oa6hH",
+        "title": "WH-1000XM5 Wireless Noise-Canceling Over-Ear Headphones",
+        "description": "The Sony WH-1000XM5 are premium wireless over-ear headphones designed for industry-leading noise cancellation. They feature an Integrated Processor V1 and HD Noise-Canceling Processor QN1 with eight microphones to effectively eliminate ambient sound. The headphones are equipped with 30mm carbon fiber composite driver units for high-resolution audio and support LDAC, SBC, and AAC codecs. Key features include Multipoint Bluetooth 5.2 for dual-device pairing, Speak-to-Chat technology, and Adaptive Sound Control. They offer up to 30 hours of battery life and are designed for comfort with a lightweight headband and soft-fit leather ear cushions. This specific bundle includes a 2-year product repair and replacement protection plan.",
+        "brands": [
+          {
+            "id": "PURH",
+            "name": "Sony"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://cdn.trychannel3.com/05102448-96e1-42bf-af07-e78183e02b31?aid=01M5R979Q83HESGKSW14HEBQ17&mid=p1PB",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/a1cc0eed-ad48-471f-8955-eeee9d9a97ba?aid=01M5R979Q83HESGKSW14HEBQ17&mid=p1PB",
+            "is_main_image": true,
+            "shot_type": "hero",
+            "alt_text": "White charging case for Sony WH-1000XM5 headphones."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/0b485fa1-610d-4c4e-9bc0-3e1f9f129190?aid=01M5R979Q83HESGKSW14HEBQ17&mid=p1PB",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "White charging case for Sony WH-1000XM5 headphones and warranty."
+          }
+        ],
+        "category": {
+          "slug": "over-ear-headphones",
+          "title": "Over-Ear Headphones",
+          "path": [
+            {
+              "slug": "electronics",
+              "title": "Electronics"
+            },
+            {
+              "slug": "audio",
+              "title": "Audio"
+            },
+            {
+              "slug": "audio-components",
+              "title": "Audio Components"
+            },
+            {
+              "slug": "headphones-headsets",
+              "title": "Headphones & Headsets"
+            },
+            {
+              "slug": "headphones",
+              "title": "Headphones"
+            },
+            {
+              "slug": "over-ear-headphones",
+              "title": "Over-Ear Headphones"
+            }
+          ],
+          "has_children": false
+        },
+        "gender": null,
+        "age": null,
+        "materials": [
+          "leather"
+        ],
+        "key_features": [
+          "Industry-leading noise cancellation with advanced microphones and processors",
+          "30mm drivers with support for High-Resolution Audio Wireless",
+          "Up to 30 hours of battery life on a single charge",
+          "Multipoint Bluetooth 5.2 connection for seamless switching between two devices",
+          "Speak-to-Chat technology and Adaptive Sound Control",
+          "Precision beamforming microphones for clear hands-free calling",
+          "Includes a 2-year product repair and replacement protection plan"
+        ],
+        "colors": [
+          {
+            "hex": "#b4adaa",
+            "percentage": 0.5186
+          },
+          {
+            "hex": "#d5cdcb",
+            "percentage": 0.2648
+          },
+          {
+            "hex": "#3e3c35",
+            "percentage": 0.1314
+          },
+          {
+            "hex": "#8c8781",
+            "percentage": 0.0852
+          }
+        ],
+        "offers": [
+          {
+            "url": "https://buy.trychannel3.com/p0Oa6hH-p1PB-5l3z0w?o=01M236WGH3VKVA7BPSSG84T0GJ&aid=01M5R979Q83HESGKSW14HEBQ17",
+            "domain": "bestbuy.com",
+            "price": {
+              "price": 299.99,
+              "compare_at_price": null,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0.004,
+            "dimensions": null
+          }
+        ],
+        "variants": null,
+        "structured_attributes": {
+          "audio-connectivity": [
+            "Bluetooth"
+          ],
+          "pattern": [
+            "Solid"
+          ],
+          "connectivity-technology": [
+            "Bluetooth"
+          ]
+        },
+        "ratings": null
+      }
+    ],
+    "next_page_token": "eyJjYWNoZV9rZXkiOiAic2VhcmNoOjczZWFkZTM0NDJjZmM3MGMiLCAib2Zmc2V0IjogNX0="
+  }
+}

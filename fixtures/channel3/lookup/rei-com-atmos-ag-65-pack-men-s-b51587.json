@@ -1,0 +1,70 @@
+{
+  "url": "https://www.rei.com/product/201302/osprey-atmos-ag-65-pack-mens",
+  "product": {
+    "id": "idLpnpp",
+    "title": "Atmos AG 65 Pack - Men's",
+    "description": null,
+    "brands": [],
+    "images": [
+      {
+        "url": "https://www.rei.com/media/0e7ab213-b6cb-4870-9461-e51db6119f82.jpg?size=1500",
+        "cleaned_url": null,
+        "is_main_image": true,
+        "shot_type": null,
+        "alt_text": null
+      },
+      {
+        "url": "https://www.rei.com/media/0e7ab213-b6cb-4870-9461-e51db6119f82.jpg?size=784x588",
+        "cleaned_url": null,
+        "is_main_image": false,
+        "shot_type": null,
+        "alt_text": null
+      },
+      {
+        "url": "https://www.rei.com/media/color/201302.jpg?colorId=321&size=40",
+        "cleaned_url": null,
+        "is_main_image": false,
+        "shot_type": null,
+        "alt_text": null
+      },
+      {
+        "url": "https://www.rei.com/media/color/201302.jpg?colorId=179933&size=40",
+        "cleaned_url": null,
+        "is_main_image": false,
+        "shot_type": null,
+        "alt_text": null
+      },
+      {
+        "url": "https://www.rei.com/media/color/201302.jpg?colorId=176766&size=40",
+        "cleaned_url": null,
+        "is_main_image": false,
+        "shot_type": null,
+        "alt_text": null
+      }
+    ],
+    "category": null,
+    "gender": null,
+    "age": null,
+    "materials": null,
+    "key_features": null,
+    "colors": [],
+    "offers": [
+      {
+        "url": "https://buy.trychannel3.com/idLpnpp-lookup-5l3z0w",
+        "domain": "rei.com",
+        "price": {
+          "price": 370,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": null,
+        "max_commission_rate": 0,
+        "dimensions": null
+      }
+    ],
+    "variants": null,
+    "structured_attributes": {},
+    "ratings": null
+  }
+}

@@ -1,0 +1,666 @@
+{
+  "query": "Garmin Forerunner 265 GPS watch",
+  "response": {
+    "products": [
+      {
+        "id": "CiQXPk8",
+        "title": "Forerunner 265 GPS Running Smartwatch",
+        "description": "The Garmin Forerunner 265 is a high-performance GPS running smartwatch designed to help athletes train brilliantly. It features a vibrant AMOLED touchscreen display and a lightweight 46mm design. Key training tools include a training readiness score—based on sleep quality, recovery, and HRV status—and personalized daily suggested workouts via the Garmin Connect app. With over 30 built-in activity profiles, multi-band GNSS with SatIQ technology for superior positioning, and up to 13 days of battery life in smartwatch mode, it is built for endurance and precision. Additional features include Garmin Pay for contactless payments, music storage for phone-free listening, and advanced health monitoring including a morning report on sleep and recovery.",
+        "brands": [
+          {
+            "id": "ntqy",
+            "name": "Garmin"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://cdn.trychannel3.com/3d23ea34-82f1-4410-a36a-6229767c5147?aid=01M5R97F6G019WFWQDK92WGW3P&mid=fdOw",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/3d23ea34-82f1-4410-a36a-6229767c5147?aid=01M5R97F6G019WFWQDK92WGW3P&mid=fdOw",
+            "is_main_image": true,
+            "shot_type": "hero",
+            "alt_text": "Garmin Forerunner 265 smartwatch displaying running metrics on screen."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/b6996b50-e962-4c23-b8b7-f0720fac14ea?aid=01M5R97F6G019WFWQDK92WGW3P&mid=fdOw",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/b6996b50-e962-4c23-b8b7-f0720fac14ea?aid=01M5R97F6G019WFWQDK92WGW3P&mid=fdOw",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Garmin Forerunner 265 smartwatch screen showing workout suggestions."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/e4c77c5c-c217-4024-bebd-d931057bcaad?aid=01M5R97F6G019WFWQDK92WGW3P&mid=fdOw",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/e4c77c5c-c217-4024-bebd-d931057bcaad?aid=01M5R97F6G019WFWQDK92WGW3P&mid=fdOw",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Close-up detail of the black silicone strap for the Garmin watch."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/e3d87bba-da41-4f38-b877-9b543643f308?aid=01M5R97F6G019WFWQDK92WGW3P&mid=fdOw",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/e3d87bba-da41-4f38-b877-9b543643f308?aid=01M5R97F6G019WFWQDK92WGW3P&mid=fdOw",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Garmin Forerunner 265 smartwatch screen showing Spotify interface."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/3890de5b-3823-4222-b9fd-e1971fe12911?aid=01M5R97F6G019WFWQDK92WGW3P&mid=fdOw",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/3890de5b-3823-4222-b9fd-e1971fe12911?aid=01M5R97F6G019WFWQDK92WGW3P&mid=fdOw",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Back view of the Garmin Forerunner 265 GPS running smartwatch."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/7c3e2d53-0513-4411-906e-2803dccad5e1?aid=01M5R97F6G019WFWQDK92WGW3P&mid=fdOw",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/7c3e2d53-0513-4411-906e-2803dccad5e1?aid=01M5R97F6G019WFWQDK92WGW3P&mid=fdOw",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Close-up of the black watch strap marked with RUN."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/83623b19-f3ff-48fe-a8af-7b61ab962529?aid=01M5R97F6G019WFWQDK92WGW3P&mid=fdOw",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "lifestyle",
+            "alt_text": "Woman running outdoors wearing a smartwatch during a sunny run."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/52cd13fb-3228-4c98-a2fe-06b06ca89326?aid=01M5R97F6G019WFWQDK92WGW3P&mid=fdOw",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "lifestyle",
+            "alt_text": "Two people jogging outdoors wearing running watches."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/43192b0a-7041-4709-b77e-9232dfed900a?aid=01M5R97F6G019WFWQDK92WGW3P&mid=fdOw",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "lifestyle",
+            "alt_text": "Two people running through a tunnel or underpass."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/db803515-564a-4be8-9a33-57c195aaf83b?aid=01M5R97F6G019WFWQDK92WGW3P&mid=fdOw",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "lifestyle",
+            "alt_text": "Two people running on a paved urban street."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/f86da7c5-b6d9-45a6-9894-3d53ba8103d5?aid=01M5R97F6G019WFWQDK92WGW3P&mid=fdOw",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/f86da7c5-b6d9-45a6-9894-3d53ba8103d5?aid=01M5R97F6G019WFWQDK92WGW3P&mid=fdOw",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Garmin Forerunner 265 smartwatch face displaying stats and time on a black band."
+          }
+        ],
+        "category": {
+          "slug": "smart-watches",
+          "title": "Smart Watches",
+          "path": [
+            {
+              "slug": "apparel-accessories",
+              "title": "Apparel & Accessories"
+            },
+            {
+              "slug": "jewelry",
+              "title": "Jewelry"
+            },
+            {
+              "slug": "smart-watches",
+              "title": "Smart Watches"
+            }
+          ],
+          "has_children": false
+        },
+        "gender": "female",
+        "age": null,
+        "materials": [
+          "silicone"
+        ],
+        "key_features": [
+          "Brilliant AMOLED touchscreen display with traditional button controls",
+          "46 mm lightweight design",
+          "Up to 13 days of battery life in smartwatch mode; up to 20 hours in GPS mode",
+          "Morning report providing sleep, recovery, and training outlook",
+          "Personalized daily suggested workouts via Garmin Connect app",
+          "Training readiness score based on sleep, recovery, training load, and HRV status",
+          "30+ built-in activity profiles (running, triathlons, cycling, open-water swimming, etc.)",
+          "Multi-band GNSS with SatIQ technology for high positioning accuracy",
+          "Garmin Pay contactless payments",
+          "Music storage for Spotify, Amazon Music, or Deezer"
+        ],
+        "colors": [
+          {
+            "hex": "#0f0d0e",
+            "percentage": 0.3806
+          },
+          {
+            "hex": "#494849",
+            "percentage": 0.2999
+          },
+          {
+            "hex": "#2b2728",
+            "percentage": 0.2471
+          },
+          {
+            "hex": "#859089",
+            "percentage": 0.0724
+          }
+        ],
+        "offers": [
+          {
+            "url": "https://buy.trychannel3.com/CiQXPk8-fdOw-5l3z0w?o=01M3DBMDJ9BFQ487H1HZXYE6K0&aid=01M5R97F6G019WFWQDK92WGW3P",
+            "domain": "dickssportinggoods.com",
+            "price": {
+              "price": 449.99,
+              "compare_at_price": null,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0,
+            "dimensions": null
+          }
+        ],
+        "variants": null,
+        "structured_attributes": {
+          "jewelry-material": [
+            "Suede"
+          ]
+        },
+        "ratings": {
+          "value": 4.64,
+          "count": 495,
+          "source_count": 1
+        }
+      },
+      {
+        "id": "hdo6igl",
+        "title": "Forerunner 265 GPS Smartwatch",
+        "description": "The Garmin Forerunner 265 is a high-performance GPS running smartwatch designed for athletes. It features a 1.3” AMOLED touchscreen display for vibrant clarity of metrics and notifications. This bundle includes the smartwatch, a USB-C charging/data cable, documentation, and a 26-month extended protection plan. Key fitness capabilities include tracking for VO2 Max, heart rate, and training readiness, with a battery life of up to 13-15 days in smartwatch mode.",
+        "brands": [
+          {
+            "id": "ntqy",
+            "name": "Garmin"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://cdn.trychannel3.com/72649e3e-6c4a-43b7-8792-2777c568aff4?aid=01M5R97F6G019WFWQDK92WGW3P&mid=p1PB",
+            "cleaned_url": null,
+            "is_main_image": true,
+            "shot_type": "hero",
+            "alt_text": "Garmin Forerunner 265 GPS smartwatch face display on a black band."
+          }
+        ],
+        "category": {
+          "slug": "smart-watches",
+          "title": "Smart Watches",
+          "path": [
+            {
+              "slug": "apparel-accessories",
+              "title": "Apparel & Accessories"
+            },
+            {
+              "slug": "jewelry",
+              "title": "Jewelry"
+            },
+            {
+              "slug": "smart-watches",
+              "title": "Smart Watches"
+            }
+          ],
+          "has_children": false
+        },
+        "gender": null,
+        "age": null,
+        "materials": [],
+        "key_features": [
+          "1.3” AMOLED touchscreen display",
+          "Up to 13-15 days battery life in smartwatch mode",
+          "Morning Report and Training Readiness features",
+          "Water resistant",
+          "Tracks VO2 Max, cadence, heart rate, and sleep stages",
+          "Compatible with Android and Apple iOS"
+        ],
+        "colors": [
+          {
+            "hex": "#151618",
+            "percentage": 0.3969
+          },
+          {
+            "hex": "#302d2c",
+            "percentage": 0.2338
+          },
+          {
+            "hex": "#474442",
+            "percentage": 0.1324
+          },
+          {
+            "hex": "#b1b29f",
+            "percentage": 0.1291
+          },
+          {
+            "hex": "#6d6d6a",
+            "percentage": 0.1077
+          }
+        ],
+        "offers": [
+          {
+            "url": "https://buy.trychannel3.com/hdo6igl-p1PB-5l3z0w?o=01M1MV8G2GY587RMZ6EDQGED70&aid=01M5R97F6G019WFWQDK92WGW3P",
+            "domain": "bestbuy.com",
+            "price": {
+              "price": 459.99,
+              "compare_at_price": 489.94,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0.004,
+            "dimensions": null
+          }
+        ],
+        "variants": null,
+        "structured_attributes": {
+          "pattern": [
+            "Solid"
+          ]
+        },
+        "ratings": null
+      },
+      {
+        "id": "F0ge5JJ",
+        "title": "Forerunner 265 GPS Smartwatch",
+        "description": "The Garmin Forerunner 265 is a high-performance GPS running smartwatch featuring a brilliant 1.3\" AMOLED touchscreen display. Designed for athletes, it includes comprehensive training readiness scores, a race widget for personalized daily workouts, and multi-band GPS for precise tracking. This specific bundle includes the smartwatch, a charging cable, a tempered glass screen protector, a 3-pack of silicone dust covers, and a 2-year extended warranty. It offers up to 13 days of battery life in smartwatch mode and supports over 30 activity profiles, including triathlons, cycling, and swimming.",
+        "brands": [
+          {
+            "id": "ntqy",
+            "name": "Garmin"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://cdn.trychannel3.com/f2de8b82-2b2e-4aec-bb11-118fd683d82b?aid=01M5R97F6G019WFWQDK92WGW3P&mid=p1PB",
+            "cleaned_url": "https://cdn.trychannel3.com/11b60de5-d67d-4504-9999-617ca745e7bb?aid=01M5R97F6G019WFWQDK92WGW3P&mid=p1PB",
+            "is_main_image": true,
+            "shot_type": "hero",
+            "alt_text": "Garmin Forerunner 265 smartwatch face displaying workout stats."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/f9b523bd-cbed-42b6-a090-10c11921dff6?aid=01M5R97F6G019WFWQDK92WGW3P&mid=p1PB",
+            "cleaned_url": "https://cdn.trychannel3.com/6013b14f-ca34-4965-88f1-70ea49a23748?aid=01M5R97F6G019WFWQDK92WGW3P&mid=p1PB",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Front view of a black Garmin Forerunner 265 smartwatch with a steel link band."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/eb3a5bb9-8e72-4ee1-a919-466025fe5527?aid=01M5R97F6G019WFWQDK92WGW3P&mid=p1PB",
+            "cleaned_url": "https://cdn.trychannel3.com/88644640-ca04-4587-8eb5-50e954ea2d58?aid=01M5R97F6G019WFWQDK92WGW3P&mid=p1PB",
+            "is_main_image": false,
+            "shot_type": "packaging",
+            "alt_text": "Garmin Forerunner 265 watch packaging showing 2-year extended protection."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/da908c09-1573-4a36-b066-642cce6a4686?aid=01M5R97F6G019WFWQDK92WGW3P&mid=p1PB",
+            "cleaned_url": "https://cdn.trychannel3.com/eaeda2fd-695f-4a0b-b262-09b1235cbc1b?aid=01M5R97F6G019WFWQDK92WGW3P&mid=p1PB",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Garmin Forerunner 265 smartwatch displaying running metrics like time, distance, and pace."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/e36af4b8-4e78-4b9d-9302-81579ac0437f?aid=01M5R97F6G019WFWQDK92WGW3P&mid=p1PB",
+            "cleaned_url": "https://cdn.trychannel3.com/8fd65cb1-8259-4ef1-9e64-6230f95855f5?aid=01M5R97F6G019WFWQDK92WGW3P&mid=p1PB",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Garmin Forerunner 265 smartwatch face showing running metrics with a teal strap."
+          }
+        ],
+        "category": {
+          "slug": "smart-watches",
+          "title": "Smart Watches",
+          "path": [
+            {
+              "slug": "apparel-accessories",
+              "title": "Apparel & Accessories"
+            },
+            {
+              "slug": "jewelry",
+              "title": "Jewelry"
+            },
+            {
+              "slug": "smart-watches",
+              "title": "Smart Watches"
+            }
+          ],
+          "has_children": false
+        },
+        "gender": null,
+        "age": null,
+        "materials": [],
+        "key_features": [
+          "1.3\" colorful AMOLED touchscreen display",
+          "Up to 13 days of battery life in smartwatch mode and 20 hours in GPS mode",
+          "Multi-band GPS and satellite tracking",
+          "Training readiness score based on sleep, recovery, and HRV status",
+          "Race widget with personalized daily suggested workouts",
+          "Over 30 activity profiles including triathlons, cycling, and swimming",
+          "Water resistant"
+        ],
+        "colors": [
+          {
+            "hex": "#2a3032",
+            "percentage": 0.2699
+          },
+          {
+            "hex": "#101315",
+            "percentage": 0.2463
+          },
+          {
+            "hex": "#64cccb",
+            "percentage": 0.1641
+          },
+          {
+            "hex": "#96d5d5",
+            "percentage": 0.1313
+          },
+          {
+            "hex": "#475858",
+            "percentage": 0.1149
+          },
+          {
+            "hex": "#5aa6a4",
+            "percentage": 0.0734
+          }
+        ],
+        "offers": [
+          {
+            "url": "https://buy.trychannel3.com/F0ge5JJ-p1PB-5l3z0w?o=01M1MX1SVEDAMW0MY3KAAWB5NS&aid=01M5R97F6G019WFWQDK92WGW3P",
+            "domain": "bestbuy.com",
+            "price": {
+              "price": 464.99,
+              "compare_at_price": null,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0.004,
+            "dimensions": null
+          }
+        ],
+        "variants": null,
+        "structured_attributes": {
+          "jewelry-material": [
+            "Stainless steel"
+          ],
+          "pattern": [
+            "Solid"
+          ]
+        },
+        "ratings": null
+      },
+      {
+        "id": "uUCneNW",
+        "title": "Forerunner 265 GPS Smartwatch",
+        "description": "The Garmin Forerunner 265 is a high-performance GPS running smartwatch featuring a vibrant AMOLED touchscreen display. Designed for athletes, it includes a training readiness score based on sleep quality, recovery, and HRV status to help optimize workouts. The watch provides personalized daily suggested workouts via a race widget and offers more than 30 activity profiles, including triathlons, cycling, and swimming. It boasts a battery life of up to 13 days in smartwatch mode and multi-band GPS for precise tracking. This specific bundle include an extended 2-year warranty.",
+        "brands": [
+          {
+            "id": "ntqy",
+            "name": "Garmin"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://cdn.trychannel3.com/4c37a9f6-1096-43c1-a1a7-5f1296a8ebf9?aid=01M5R97F6G019WFWQDK92WGW3P&mid=p1PB",
+            "cleaned_url": null,
+            "is_main_image": true,
+            "shot_type": "hero",
+            "alt_text": "Forerunner 265 GPS smartwatch face screen display and strap."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/d7af2f4f-911d-4890-8a15-5a6b95e7b053?aid=01M5R97F6G019WFWQDK92WGW3P&mid=p1PB",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/d7af2f4f-911d-4890-8a15-5a6b95e7b053?aid=01M5R97F6G019WFWQDK92WGW3P&mid=p1PB",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Forerunner 265 GPS smartwatch face screen details."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/0f690092-bbf4-4037-b67b-3fafb0e730b9?aid=01M5R97F6G019WFWQDK92WGW3P&mid=p1PB",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/0f690092-bbf4-4037-b67b-3fafb0e730b9?aid=01M5R97F6G019WFWQDK92WGW3P&mid=p1PB",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Forerunner 265 smartwatch showing training metrics."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/3f0b1508-81f6-443a-b387-e87e27817d61?aid=01M5R97F6G019WFWQDK92WGW3P&mid=p1PB",
+            "cleaned_url": null,
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Forerunner 265 smartwatch showing training readiness."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/2bc60eb7-7fec-429c-9a32-0ccdd6a5bf0f?aid=01M5R97F6G019WFWQDK92WGW3P&mid=p1PB",
+            "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/2bc60eb7-7fec-429c-9a32-0ccdd6a5bf0f?aid=01M5R97F6G019WFWQDK92WGW3P&mid=p1PB",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Forerunner 265 smartwatch displaying daily training suggestions."
+          }
+        ],
+        "category": {
+          "slug": "smart-watches",
+          "title": "Smart Watches",
+          "path": [
+            {
+              "slug": "apparel-accessories",
+              "title": "Apparel & Accessories"
+            },
+            {
+              "slug": "jewelry",
+              "title": "Jewelry"
+            },
+            {
+              "slug": "smart-watches",
+              "title": "Smart Watches"
+            }
+          ],
+          "has_children": false
+        },
+        "gender": null,
+        "age": null,
+        "materials": [],
+        "key_features": [
+          "AMOLED touchscreen display",
+          "Up to 13 days of battery life in smartwatch mode",
+          "Multi-band GPS",
+          "Morning report with HRV status and training readiness",
+          "Race widget with personalized daily suggested workouts",
+          "Over 30 activity profiles including triathlons, cycling, and swimming",
+          "Water resistant"
+        ],
+        "colors": [
+          {
+            "hex": "#2b3133",
+            "percentage": 0.2638
+          },
+          {
+            "hex": "#101316",
+            "percentage": 0.2437
+          },
+          {
+            "hex": "#66cccb",
+            "percentage": 0.175
+          },
+          {
+            "hex": "#4a595a",
+            "percentage": 0.1217
+          },
+          {
+            "hex": "#a7d7d6",
+            "percentage": 0.1205
+          },
+          {
+            "hex": "#5ea3a3",
+            "percentage": 0.0753
+          }
+        ],
+        "offers": [
+          {
+            "url": "https://buy.trychannel3.com/uUCneNW-p1PB-5l3z0w?o=01M1RVT14WBGTTAWWNVS191FRJ&aid=01M5R97F6G019WFWQDK92WGW3P",
+            "domain": "bestbuy.com",
+            "price": {
+              "price": 459.99,
+              "compare_at_price": 489.94,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0.004,
+            "dimensions": null
+          }
+        ],
+        "variants": null,
+        "structured_attributes": {
+          "pattern": [
+            "Solid"
+          ]
+        },
+        "ratings": null
+      },
+      {
+        "id": "0uA82NW",
+        "title": "Forerunner 265 GPS Smartwatch",
+        "description": "The Forerunner 265 is a high-performance GPS running smartwatch featuring a brilliant AMOLED touchscreen display. This bundle includes the smartwatch in Aqua/Black, along with a charging dock, a USB Type C charging and sync cable, and a 3-pack of silicone dust covers. Designed for athletes, it offers training readiness scores, HRV status, a race widget for personalized workouts, wrist-based running power, and over 30 activity profiles. It provides comprehensive health insights and boasts a battery life of up to 13 days in smartwatch mode.",
+        "brands": [
+          {
+            "id": "ntqy",
+            "name": "Garmin"
+          },
+          {
+            "id": "XSjU",
+            "name": "Deco Essentials"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://cdn.trychannel3.com/b66ffb2a-b17b-4b9c-945d-2c27f8a44de3?aid=01M5R97F6G019WFWQDK92WGW3P&mid=p1PB",
+            "cleaned_url": "https://cdn.trychannel3.com/4003df19-2600-4138-a7c7-8b44ca2ab89b?aid=01M5R97F6G019WFWQDK92WGW3P&mid=p1PB",
+            "is_main_image": true,
+            "shot_type": "hero",
+            "alt_text": "Garmin Forerunner 265 watch with charging accessories and dust cover."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/0827a72e-7f35-410b-8855-61a3a764cfb6?aid=01M5R97F6G019WFWQDK92WGW3P&mid=p1PB",
+            "cleaned_url": "https://cdn.trychannel3.com/f3fc3326-de0a-49a4-91e7-995a80a558e4?aid=01M5R97F6G019WFWQDK92WGW3P&mid=p1PB",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Garmin Forerunner 265 Smartwatch watch face showing metrics."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/36fee76f-bc4c-4a83-924f-b8fdd5ccded9?aid=01M5R97F6G019WFWQDK92WGW3P&mid=p1PB",
+            "cleaned_url": "https://cdn.trychannel3.com/015774ef-46f6-4d0d-8e15-0879710e0061?aid=01M5R97F6G019WFWQDK92WGW3P&mid=p1PB",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Garmin Forerunner 265 Smartwatch showing running metrics on screen."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/016c8956-317f-4895-a36f-edf0886c40b2?aid=01M5R97F6G019WFWQDK92WGW3P&mid=p1PB",
+            "cleaned_url": "https://cdn.trychannel3.com/fccee03b-5223-4736-a765-d7f8ee878ff0?aid=01M5R97F6G019WFWQDK92WGW3P&mid=p1PB",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Garmin Forerunner 265 Smartwatch displaying training readiness status."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/e5a654a9-6d5f-4a2c-b4b6-6cf627fcfb05?aid=01M5R97F6G019WFWQDK92WGW3P&mid=p1PB",
+            "cleaned_url": "https://cdn.trychannel3.com/c718150c-8655-42f8-a90a-86779ec91cb1?aid=01M5R97F6G019WFWQDK92WGW3P&mid=p1PB",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Garmin Forerunner 265 Smartwatch displaying daily training suggestions."
+          },
+          {
+            "url": "https://cdn.trychannel3.com/aec8c822-4329-41b4-88e5-6bef05b73002?aid=01M5R97F6G019WFWQDK92WGW3P&mid=p1PB",
+            "cleaned_url": "https://cdn.trychannel3.com/64eb625c-b875-4db0-954c-baea9ac84e30?aid=01M5R97F6G019WFWQDK92WGW3P&mid=p1PB",
+            "is_main_image": false,
+            "shot_type": "hero",
+            "alt_text": "Garmin Forerunner 265 Smartwatch screen showing Spotify interface."
+          }
+        ],
+        "category": {
+          "slug": "smart-watches",
+          "title": "Smart Watches",
+          "path": [
+            {
+              "slug": "apparel-accessories",
+              "title": "Apparel & Accessories"
+            },
+            {
+              "slug": "jewelry",
+              "title": "Jewelry"
+            },
+            {
+              "slug": "smart-watches",
+              "title": "Smart Watches"
+            }
+          ],
+          "has_children": false
+        },
+        "gender": null,
+        "age": null,
+        "materials": [],
+        "key_features": [
+          "Brilliant AMOLED touchscreen display",
+          "Up to 13 days of battery life in smartwatch mode",
+          "Morning report with HRV status, training readiness, and weather",
+          "Race widget and personalized daily suggested workouts",
+          "Wrist-based running power and multi-band GPS",
+          "Over 30 activity profiles including triathlons, cycling, and swimming"
+        ],
+        "colors": [
+          {
+            "hex": "#2a3032",
+            "percentage": 0.2712
+          },
+          {
+            "hex": "#0f1315",
+            "percentage": 0.2448
+          },
+          {
+            "hex": "#64cccb",
+            "percentage": 0.1662
+          },
+          {
+            "hex": "#96d5d5",
+            "percentage": 0.1304
+          },
+          {
+            "hex": "#475757",
+            "percentage": 0.1142
+          },
+          {
+            "hex": "#5ba5a4",
+            "percentage": 0.0732
+          }
+        ],
+        "offers": [
+          {
+            "url": "https://buy.trychannel3.com/0uA82NW-p1PB-5l3z0w?o=01M1MX7WZ46BFW58F7Z4YW5AM7&aid=01M5R97F6G019WFWQDK92WGW3P",
+            "domain": "bestbuy.com",
+            "price": {
+              "price": 459.99,
+              "compare_at_price": null,
+              "currency": "USD"
+            },
+            "availability": "InStock",
+            "condition": "new",
+            "max_commission_rate": 0.004,
+            "dimensions": null
+          }
+        ],
+        "variants": null,
+        "structured_attributes": {
+          "pattern": [
+            "Solid"
+          ]
+        },
+        "ratings": null
+      }
+    ],
+    "next_page_token": "eyJjYWNoZV9rZXkiOiAic2VhcmNoOjQ2YTY5NWQ0ZjVmNmNhMTMiLCAib2Zmc2V0IjogNX0="
+  }
+}

@@ -1,10 +1,27 @@
 // Phase 0 Channel3 lookup test: resolve real competitor URLs with `lookup` and check the
 // offer fields Matchpoint relies on (price, availability, condition, domain, variants).
 // Usage: npm run spike:c3:lookup [-- <url> <url> ...]
-// With no URLs it searches volatile categories and looks up real retailer offer URLs from the results.
+// With no URLs it looks up COMPETITOR_URLS. It also searches volatile categories once to pick
+// catalog products for the price-tracking test (skipped when that fixture already exists).
+import { createHash } from "node:crypto";
+import { existsSync } from "node:fs";
 import type { Channel3Api } from "@channel3/sdk";
 import { channel3Client, reportChannel3Error } from "./lib/channel3.js";
 import { saveFixture, slug } from "./lib/fixtures.js";
+
+// Real retailer product pages, as a customer would paste them. Several are deliberate
+// hard cases for the match engine: a bundle, a refurbished unit and a newer model generation.
+const COMPETITOR_URLS = [
+  "https://www.bestbuy.com/site/sony-wh-1000xm5-wireless-noise-canceling-headphones-black/6505727.p",
+  "https://www.bestbuy.com/product/sony-wh-1000xm5-wireless-over-ear-headphones-black-with-bluetooth-speaker/JJG2F3TP9K",
+  "https://www.bhphotovideo.com/c/product/1919545-REG/bose_890101_0100_quietcomfort_ultra_wireless_noise.html",
+  "https://www.bose.com/p/refurbished/bose-quietcomfort-ultra-headphones-2nd-gen/QCUH2-HEADPHONEARN-FR.html",
+  "https://www.rei.com/product/201302/osprey-atmos-ag-65-pack-mens",
+  "https://www.rei.com/product/225589/garmin-forerunner-265",
+  "https://www.sweetwater.com/store/detail/StratPMBLK--fender-player-series-stratocaster-black-with-maple-fingerboard",
+  "https://www.sweetwater.com/store/detail/StratP2MBK--fender-player-ii-stratocaster-electric-guitar-black-with-maple-fingerboard",
+];
+const MIN_OK = 5;
 
 const QUERIES = [
   "Sony WH-1000XM5 wireless noise cancelling headphones",
@@ -16,41 +33,21 @@ const QUERIES = [
   "Osprey Atmos AG 65 backpack",
   "Fender Player Stratocaster electric guitar",
 ];
-const LOOKUPS = 5;
 // Marketplaces aren't "approved stores" for a price match, so prefer real retailers.
 const MARKETPLACES = /(^|\.)(amazon|ebay|walmart|aliexpress|etsy|temu)\./;
 
 const client = channel3Client();
 
-async function discoverUrls() {
-  const candidates: { productId: string; title: string; url: string; domain: string }[] = [];
+async function findTrackingCandidates() {
+  if (existsSync("fixtures/channel3/tracking-candidates.json")) return;
+  const candidates: { productId: string; title: string; domain: string }[] = [];
   for (const query of QUERIES) {
     const page = await client.products.search({ query, limit: 5 });
     saveFixture(`channel3/search/${slug(query)}`, { query, response: page.response });
-    for (const product of page.data) {
-      const offer =
-        product.offers?.find((o) => !MARKETPLACES.test(o.domain)) ?? product.offers?.[0];
-      if (offer) {
-        candidates.push({ productId: product.id, title: product.title, url: offer.url, domain: offer.domain });
-        break;
-      }
-    }
+    const product = page.data.find((p) => p.offers?.some((o) => !MARKETPLACES.test(o.domain)));
+    if (product) candidates.push({ productId: product.id, title: product.title, domain: product.offers![0].domain });
   }
-  // Candidates for the price-tracking test: catalog products with at least one offer.
   saveFixture("channel3/tracking-candidates", candidates);
-  const urls = candidates.slice(0, LOOKUPS).map((c) => c.url);
-  // One extra lookup of the same product at a second store gives the Claude test a true pair.
-  const pair = await secondStoreUrl(candidates);
-  return pair ? [...urls, pair] : urls;
-}
-
-async function secondStoreUrl(candidates: { productId: string; domain: string }[]) {
-  for (const c of candidates) {
-    const product = await client.products.retrieve({ product_id: c.productId });
-    const other = product.offers?.find((o) => o.domain !== c.domain && !MARKETPLACES.test(o.domain));
-    if (other) return other.url;
-  }
-  return undefined;
 }
 
 function checkFields(product: Channel3Api.Product) {
@@ -66,16 +63,18 @@ function checkFields(product: Channel3Api.Product) {
 }
 
 async function main() {
+  await findTrackingCandidates();
   const args = process.argv.slice(2).filter((a) => a.startsWith("http"));
-  const urls = args.length > 0 ? args : await discoverUrls();
+  const urls = args.length > 0 ? args : COMPETITOR_URLS;
   const summary = [];
 
   for (const url of urls) {
     console.log(`\nlookup ${url}`);
     try {
-      const { product } = await client.products.lookup({ url });
+      const { product } = await client.products.lookup({ url, realtime_fetch: true });
       const domain = new URL(url).hostname.replace(/^www\./, "");
-      saveFixture(`channel3/lookup/${slug(domain)}-${slug(product.title).slice(0, 30)}`, { url, product });
+      const hash = createHash("sha1").update(url).digest("hex").slice(0, 6);
+      saveFixture(`channel3/lookup/${slug(domain)}-${slug(product.title).slice(0, 30)}-${hash}`, { url, product });
       const fields = checkFields(product);
       console.log(`  ${product.id}  ${product.title}`);
       for (const o of product.offers ?? []) {
@@ -99,7 +98,7 @@ async function main() {
   );
   console.log(`\n${ok.length}/${urls.length} lookups succeeded.`);
   if (missing.length) console.log(`Fields never populated: ${missing.join(", ")}`);
-  if (ok.length < Math.min(LOOKUPS, urls.length)) process.exit(1);
+  if (ok.length < Math.min(MIN_OK, urls.length)) process.exit(1);
   console.log("PASS: lookup returns the offer fields we rely on.");
 }
 
