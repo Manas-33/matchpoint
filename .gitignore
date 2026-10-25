@@ -1,0 +1,11 @@
+# Private hackathon strategy and research (never commit)
+notes/
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+
+# Dependencies and OS files
+node_modules/
+.DS_Store
