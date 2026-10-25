@@ -7,7 +7,6 @@ import {
   CheckoutPaymentIntent,
   Client,
   Environment,
-  LogLevel,
   OAuthAuthorizationController,
   OrdersController,
   PaymentsController,
@@ -127,12 +126,12 @@ const header = (headers: Headers, name: string) => headers.get(name) ?? undefine
 function livePayPal(clientId: string, clientSecret: string, webhookId: string | undefined): PayPalService {
   // The SDK defaults to no timeout and no retries (DEFAULT_CONFIGURATION / DEFAULT_RETRY_CONFIG).
   // Only GETs are retried here; POSTs carry PayPal-Request-Id and are retried by callers that own the key.
+  // No `logging` option: any value turns on console logging of every request (at the given level).
   const client = new Client({
     clientCredentialsAuthCredentials: { oAuthClientId: clientId, oAuthClientSecret: clientSecret },
     environment: Environment.Sandbox,
     timeout: 30_000,
     httpClientOptions: { retryConfig: { maxNumberOfRetries: 2, maximumRetryWaitTime: 10 } },
-    logging: { logLevel: LogLevel.Error },
   });
   const orders = new OrdersController(client);
   const payments = new PaymentsController(client);
