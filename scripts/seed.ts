@@ -18,8 +18,8 @@ import { hasCompleteVariants, isFullySelected, newInStockOffers, toProductRow } 
 import { closeDb, getDb, schema } from "@/lib/db";
 import { getEnv } from "@/lib/env";
 import { hasFixture, loadFixture, saveFixture } from "@/lib/fixtures";
-import { formatCents } from "@/lib/money";
-import { DEFAULT_APPROVED_DOMAINS, DEFAULT_POLICY } from "@/lib/policy";
+import { dollarsToCents, formatCents } from "@/lib/money";
+import { DEFAULT_APPROVED_DOMAINS, DEFAULT_POLICY, lowestMatchPriceCents } from "@/lib/policy";
 
 const args = new Set(process.argv.slice(2));
 const PICK = args.has("--pick");
@@ -169,7 +169,12 @@ async function main() {
     throw new Error("No fixtures/seed/catalog.json yet: run `npm run seed -- --pick` in live mode first.");
   }
   const products = await loadProducts(c3, catalog, live);
-  const rows = products.map(toProductRow);
+  const pricingPolicy = {
+    approvedDomains: domains,
+    marginFloorBps: latestPolicy?.marginFloorBps ?? DEFAULT_POLICY.marginFloorBps,
+    maxDiscountBps: latestPolicy?.maxDiscountBps ?? DEFAULT_POLICY.maxDiscountBps,
+  };
+  const rows = products.map((p) => toProductRow(p, pricingPolicy));
 
   // 2. Approved-stores Collection
   let collection: Collection | undefined;
@@ -224,11 +229,15 @@ async function main() {
   const [policy] = await db.select().from(schema.policies).orderBy(desc(schema.policies.version)).limit(1);
   const [{ count }] = await db.select({ count: sql<number>`count(*)::int` }).from(schema.products);
   console.log(`\nProducts (${rows.length} seeded, ${count} in the database):`);
+  console.log(`  ${"shop".padStart(10)}  ${"cost".padStart(9)}  ${"match >=".padStart(9)}`);
   for (const [i, r] of rows.entries()) {
     const variant = r.variant?.map((v) => `${v.name}: ${v.label}`).join(", ") || "-";
-    const stores = newInStockOffers(products[i], policy.approvedDomains).map((o) => o.domain);
+    const stores = newInStockOffers(products[i], policy.approvedDomains)
+      .map((o) => `${o.domain} ${formatCents(dollarsToCents(o.price.price))}`)
+      .join(", ");
+    const floor = lowestMatchPriceCents(r.shopPriceCents, r.unitCostCents, policy);
     console.log(
-      `  ${formatCents(r.shopPriceCents).padStart(10)}  cost ${formatCents(r.unitCostCents).padStart(9)}  ${r.title.slice(0, 55).padEnd(55)}  [${variant}]  approved: ${stores.join(", ")}`,
+      `  ${formatCents(r.shopPriceCents).padStart(10)}  ${formatCents(r.unitCostCents).padStart(9)}  ${formatCents(floor).padStart(9)}  ${r.title.slice(0, 45).padEnd(45)}  [${variant}]  approved: ${stores}`,
     );
   }
   console.log(

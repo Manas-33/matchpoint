@@ -2,7 +2,8 @@
 import type { Product } from "./channel3";
 import type { NewProduct, VariantSelection } from "./db/schema";
 import { slug } from "./fixtures";
-import { dollarsToCents, type Cents } from "./money";
+import { applyBps, dollarsToCents, type Cents } from "./money";
+import { lowestMatchPriceCents, type MatchLimits } from "./policy";
 
 const decode = (s: string) => {
   try {
@@ -58,22 +59,45 @@ export function newInStockOffers(p: Product, domains?: string[]) {
 // Electronics carry thinner margins than outdoor gear, instruments and kitchenware.
 const COST_RATIO_BPS: Record<string, number> = { electronics: 7500 };
 const DEFAULT_COST_RATIO_BPS = 6000;
+// Without an MSRP, list this far above the cheapest approved store.
+const NO_MSRP_MARKUP_BPS = 1000;
 
-// The shop lists at the median current price (rounded up to end in .99), so some approved stores are
-// cheaper (price-match candidates) and some dearer. Unit cost is a fixed share of the shop price.
-export function shopPricing(p: Product): { shopPriceCents: Cents; unitCostCents: Cents } {
+export type PricingPolicy = MatchLimits & { approvedDomains: string[] };
+
+const costRatioBps = (p: Product) => COST_RATIO_BPS[p.category?.path?.[0]?.slug ?? ""] ?? DEFAULT_COST_RATIO_BPS;
+// Prices end in .99: the next one up from `cents`, and the next one strictly below it.
+const ninetyNineAtOrAbove = (cents: Cents) => Math.ceil((cents + 1) / 100) * 100 - 1;
+const ninetyNineBelow = (cents: Cents) => Math.floor((cents - 100) / 100) * 100 + 99;
+
+// MSRP: the highest compare-at ("was") price among in-stock, not-used offers.
+export function msrpCents(p: Product): Cents | undefined {
   const prices = newInStockOffers(p)
-    .map((o) => dollarsToCents(o.price.price))
-    .sort((a, b) => a - b);
-  if (prices.length === 0) throw new Error(`Product ${p.id} has no in-stock offer to price from`);
-  const mid = Math.floor(prices.length / 2);
-  const median = prices.length % 2 ? prices[mid] : Math.round((prices[mid - 1] + prices[mid]) / 2);
-  const shopPriceCents = Math.ceil((median + 1) / 100) * 100 - 1;
-  const ratio = COST_RATIO_BPS[p.category?.path?.[0]?.slug ?? ""] ?? DEFAULT_COST_RATIO_BPS;
-  return { shopPriceCents, unitCostCents: Math.round((shopPriceCents * ratio) / 10_000) };
+    .map((o) => o.price.compare_at_price)
+    .filter((v): v is number => typeof v === "number" && v > 0)
+    .map(dollarsToCents);
+  return prices.length ? Math.max(...prices) : undefined;
 }
 
-export function toProductRow(p: Product): NewProduct {
+// Like an independent shop, list at MSRP (or a bit above the cheapest approved store when there's no
+// MSRP), so approved stores undercut the shop and a price match is possible. The price is then lowered,
+// one .99 step at a time, until the cheapest approved store is within the policy's margin floor and
+// maximum discount. Unit cost is a fixed share of the shop price.
+export function shopPricing(p: Product, policy: PricingPolicy): { shopPriceCents: Cents; unitCostCents: Cents } {
+  const approved = newInStockOffers(p, policy.approvedDomains).map((o) => dollarsToCents(o.price.price));
+  if (approved.length === 0) throw new Error(`Product ${p.id} has no in-stock offer at an approved store`);
+  const cheapest = Math.min(...approved);
+  const ratio = costRatioBps(p);
+  const msrp = msrpCents(p);
+
+  let shop = msrp && msrp > cheapest ? msrp : ninetyNineAtOrAbove(applyBps(cheapest, 10_000 + NO_MSRP_MARKUP_BPS));
+  while (shop > cheapest && lowestMatchPriceCents(shop, applyBps(shop, ratio), policy) > cheapest) {
+    shop = ninetyNineBelow(shop);
+  }
+  if (shop <= cheapest) throw new Error(`Product ${p.id}: no shop price leaves its cheapest approved store matchable`);
+  return { shopPriceCents: shop, unitCostCents: applyBps(shop, ratio) };
+}
+
+export function toProductRow(p: Product, policy: PricingPolicy): NewProduct {
   const image = p.images?.find((i) => i.is_main_image) ?? p.images?.[0];
   const variant: VariantSelection = variantSelection(p).map((s) => ({ name: s.name, label: decode(s.label) }));
   return {
@@ -85,7 +109,7 @@ export function toProductRow(p: Product): NewProduct {
     variant,
     variantOptions: variantOptions(p),
     imageUrl: image?.cleaned_url ?? image?.url ?? null,
-    ...shopPricing(p),
+    ...shopPricing(p, policy),
     currency: "USD",
     channel3Snapshot: p,
   };

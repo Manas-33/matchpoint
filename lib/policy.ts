@@ -1,4 +1,5 @@
 import type { NewPolicy } from "./db/schema";
+import type { Cents } from "./money";
 
 // Major retailers the shop matches and protects against: national and specialty chains across the
 // shop's categories. Marketplaces (Amazon, eBay, Walmart marketplace sellers) are deliberately absent.
@@ -34,3 +35,17 @@ export const DEFAULT_POLICY = {
   glitchAction: "decline",
   unknownConditionAction: "review",
 } satisfies Omit<NewPolicy, "version">;
+
+export type MatchLimits = Pick<NewPolicy, "marginFloorBps" | "maxDiscountBps">;
+
+// The lowest price the shop can match at: it keeps the margin floor over unit cost and is at most the
+// maximum discount below the shop price. Rounded up to the cent, so the limits are never crossed.
+export function lowestMatchPriceCents(
+  shopPriceCents: Cents,
+  unitCostCents: Cents,
+  { marginFloorBps, maxDiscountBps }: MatchLimits,
+): Cents {
+  const marginFloor = Math.ceil((unitCostCents * 10_000) / (10_000 - marginFloorBps));
+  const maxDiscount = Math.ceil((shopPriceCents * (10_000 - maxDiscountBps)) / 10_000);
+  return Math.max(marginFloor, maxDiscount);
+}
