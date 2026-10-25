@@ -1,0 +1,98 @@
+{
+  "model": "claude-sonnet-5-5",
+  "expect": {
+    "same_product": true,
+    "condition_ok": false
+  },
+  "shop_fixture": "channel3/catalog/mgo7x7F.json",
+  "competitor_fixture": "channel3/lookup/bose-com-bose-quietcomfort-ultra-headph-04ee81.json",
+  "outcome": "ok",
+  "decision": {
+    "same_product": true,
+    "variant_match": true,
+    "condition_ok": false,
+    "bundle_or_accessory": false,
+    "model_year_mismatch": false,
+    "confidence": 0.85,
+    "reasons": [
+      {
+        "listing": "both",
+        "field": "title",
+        "observation": "Both listings are titled 'Bose QuietComfort Ultra Headphones (2nd Gen)' from brand Bose, so they are the same model and generation."
+      },
+      {
+        "listing": "both",
+        "field": "variants.selected",
+        "observation": "Both listings have the selected Color option set to Black, so the variant matches."
+      },
+      {
+        "listing": "competitor",
+        "field": "url",
+        "observation": "The competitor URL path contains '/refurbished/' and ends in '-FR.html', which indicates a factory-refurbished item rather than a new one."
+      },
+      {
+        "listing": "competitor",
+        "field": "linked_offer.condition",
+        "observation": "The linked bose.com offer has condition null, so condition is not stated in the data. The refurbished URL is the only signal, and it points to non-new."
+      },
+      {
+        "listing": "competitor",
+        "field": "linked_offer.price.compare_at_price",
+        "observation": "The linked offer's compare_at_price is 429, versus 449 on the shop's new bose.com offer. The lower price is consistent with a refurbished unit, though this is only supporting evidence."
+      },
+      {
+        "listing": "both",
+        "field": "canonical_product_id",
+        "observation": "The canonical IDs differ (mgo7x7F vs 5rIX5Ry). Both are the Black variant of the same variant group, so this likely reflects the separate refurbished listing rather than a different model."
+      },
+      {
+        "listing": "shop",
+        "field": "offers[0].condition",
+        "observation": "The shop's own bose.com offer is marked 'new', so the condition of the two offers differs."
+      },
+      {
+        "listing": "both",
+        "field": "category.slug",
+        "observation": "Both listings are in the over-ear-headphones category, and neither is an accessory, bundle or multipack."
+      }
+    ],
+    "customer_message": "The competitor's listing is the same Bose QuietComfort Ultra (2nd Gen) in Black, but its page appears to be for a refurbished unit rather than a new one, so it isn't a like-for-like match."
+  },
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 6152,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "iterations": [
+      {
+        "input_tokens": 6152,
+        "output_tokens": 700,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "type": "message",
+        "model": null
+      }
+    ],
+    "output_tokens": 700,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+  },
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"same_product\":true,\"variant_match\":true,\"condition_ok\":false,\"bundle_or_accessory\":false,\"model_year_mismatch\":false,\"confidence\":0.85,\"reasons\":[{\"listing\":\"both\",\"field\":\"title\",\"observation\":\"Both listings are titled 'Bose QuietComfort Ultra Headphones (2nd Gen)' from brand Bose, so they are the same model and generation.\"},{\"listing\":\"both\",\"field\":\"variants.selected\",\"observation\":\"Both listings have the selected Color option set to Black, so the variant matches.\"},{\"listing\":\"competitor\",\"field\":\"url\",\"observation\":\"The competitor URL path contains '/refurbished/' and ends in '-FR.html', which indicates a factory-refurbished item rather than a new one.\"},{\"listing\":\"competitor\",\"field\":\"linked_offer.condition\",\"observation\":\"The linked bose.com offer has condition null, so condition is not stated in the data. The refurbished URL is the only signal, and it points to non-new.\"},{\"listing\":\"competitor\",\"field\":\"linked_offer.price.compare_at_price\",\"observation\":\"The linked offer's compare_at_price is 429, versus 449 on the shop's new bose.com offer. The lower price is consistent with a refurbished unit, though this is only supporting evidence.\"},{\"listing\":\"both\",\"field\":\"canonical_product_id\",\"observation\":\"The canonical IDs differ (mgo7x7F vs 5rIX5Ry). Both are the Black variant of the same variant group, so this likely reflects the separate refurbished listing rather than a different model.\"},{\"listing\":\"shop\",\"field\":\"offers[0].condition\",\"observation\":\"The shop's own bose.com offer is marked 'new', so the condition of the two offers differs.\"},{\"listing\":\"both\",\"field\":\"category.slug\",\"observation\":\"Both listings are in the over-ear-headphones category, and neither is an accessory, bundle or multipack.\"}],\"customer_message\":\"The competitor's listing is the same Bose QuietComfort Ultra (2nd Gen) in Black, but its page appears to be for a refurbished unit rather than a new one, so it isn't a like-for-like match.\"}"
+    }
+  ]
+}

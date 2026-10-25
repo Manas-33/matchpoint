@@ -1,0 +1,303 @@
+{
+  "url": "channel3:mgo7x7F",
+  "product": {
+    "id": "mgo7x7F",
+    "title": "Bose QuietComfort Ultra Headphones (2nd Gen)",
+    "description": "Experience immersive, personalized sound with the Bose QuietComfort Ultra headphones. Featuring breakthrough spatial audio, these wireless headphones create a natural, live-sounding music experience by placing audio in front of you. CustomTune technology analyzes your ear's unique shape to adapt the audio performance for a perfect fit. Crafted with premium materials, including soft ear cushions and an evenly distributing headband, these headphones offer refined comfort. Sleek metal arms add a statement of sophisticated design. Connect seamlessly with advanced Bluetooth 5.3 and manage devices, settings, and features like Adjustable EQ via the Bose app. Enjoy crystal-clear calls with noise-rejecting microphones that focus on your voice.",
+    "brands": [
+      {
+        "id": "qHHu",
+        "name": "Bose"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://cdn.trychannel3.com/3859af48-5788-4f59-a4a5-56d1c9a9e362?aid=01M5R9KWKK2DCV9TZR6WXJX9XM&mid=sx5z",
+        "cleaned_url": "https://cdn.trychannel3.com/ec4a48a5-d866-4b3a-a074-b3ca56c5fbda?aid=01M5R9KWKK2DCV9TZR6WXJX9XM&mid=sx5z",
+        "is_main_image": true,
+        "shot_type": "hero",
+        "alt_text": "Bose QuietComfort Ultra Headphones in black, angled view."
+      },
+      {
+        "url": "https://assets.bosecreative.com/transform/b00f3267-506a-4b63-888c-71305f418a9c/QCUHII26-BoseBlack_SF_PDP_E-Comm_Gallery_2_1500x1120?format=avif&quality=95&io=width:816,height:667,transform:fit&io=width:816,height:667,transform:fit",
+        "cleaned_url": null,
+        "is_main_image": false,
+        "shot_type": "on_model",
+        "alt_text": "Man wearing black Bose QuietComfort Ultra Headphones."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/5f8ec2af-d426-4987-8b2c-0c0a9f36409a?aid=01M5R9KWKK2DCV9TZR6WXJX9XM&mid=sx5z",
+        "cleaned_url": null,
+        "is_main_image": false,
+        "shot_type": "on_model",
+        "alt_text": "Rear view of a man wearing black Bose QuietComfort Ultra Headphones."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/9adfac77-d47c-4110-a5c4-33fae35994be?aid=01M5R9KWKK2DCV9TZR6WXJX9XM&mid=sx5z",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/9adfac77-d47c-4110-a5c4-33fae35994be?aid=01M5R9KWKK2DCV9TZR6WXJX9XM&mid=sx5z",
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Front view of black Bose QuietComfort Ultra Headphones."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/c6db4b34-e3c0-45f6-962d-a0a155d087ef?aid=01M5R9KWKK2DCV9TZR6WXJX9XM&mid=sx5z",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/c6db4b34-e3c0-45f6-962d-a0a155d087ef?aid=01M5R9KWKK2DCV9TZR6WXJX9XM&mid=sx5z",
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Rear view of black Bose QuietComfort Ultra Headphones with a cable."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/32e863a3-31bb-450a-b7c9-d935fccd7eda?aid=01M5R9KWKK2DCV9TZR6WXJX9XM&mid=sx5z",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/32e863a3-31bb-450a-b7c9-d935fccd7eda?aid=01M5R9KWKK2DCV9TZR6WXJX9XM&mid=sx5z",
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Side profile view of black Bose QuietComfort Ultra Headphones."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/0da5c7b9-2cc4-40ec-b448-62d62f300700?aid=01M5R9KWKK2DCV9TZR6WXJX9XM&mid=sx5z",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/0da5c7b9-2cc4-40ec-b448-62d62f300700?aid=01M5R9KWKK2DCV9TZR6WXJX9XM&mid=sx5z",
+        "is_main_image": false,
+        "shot_type": "angle_view",
+        "alt_text": "Top-down view of black Bose QuietComfort Ultra Headphones."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/dfeb761e-9556-465e-99ec-fdc37fa1d713?aid=01M5R9KWKK2DCV9TZR6WXJX9XM&mid=sx5z",
+        "cleaned_url": null,
+        "is_main_image": false,
+        "shot_type": "packaging",
+        "alt_text": "Black Bose carrying case with a zipper."
+      }
+    ],
+    "category": {
+      "slug": "over-ear-headphones",
+      "title": "Over-Ear Headphones",
+      "path": [
+        {
+          "slug": "electronics",
+          "title": "Electronics"
+        },
+        {
+          "slug": "audio",
+          "title": "Audio"
+        },
+        {
+          "slug": "audio-components",
+          "title": "Audio Components"
+        },
+        {
+          "slug": "headphones-headsets",
+          "title": "Headphones & Headsets"
+        },
+        {
+          "slug": "headphones",
+          "title": "Headphones"
+        },
+        {
+          "slug": "over-ear-headphones",
+          "title": "Over-Ear Headphones"
+        }
+      ],
+      "has_children": false
+    },
+    "gender": null,
+    "age": "adult",
+    "materials": [
+      "Plastic",
+      "Aluminum",
+      "Protein Leather"
+    ],
+    "key_features": [
+      "CustomTune for premium sound",
+      "Our best noise cancelling",
+      "Plush comfort",
+      "Up to 30 hours (23 with Immersive Audio)",
+      "Spatialized Bose Immersive Audio",
+      "New Cinema Mode",
+      "Clear phone calls",
+      "Customize with the Bose app",
+      "Up to 24 hours of battery life",
+      "Smarter connections with Bluetooth Multi-Point and Google Fast Pair"
+    ],
+    "colors": [
+      {
+        "hex": "#272727",
+        "percentage": 0.525
+      },
+      {
+        "hex": "#ffffff",
+        "percentage": 0.1758
+      },
+      {
+        "hex": "#494949",
+        "percentage": 0.1395
+      },
+      {
+        "hex": "#0d0d0d",
+        "percentage": 0.111
+      }
+    ],
+    "offers": [
+      {
+        "url": "https://buy.trychannel3.com/mgo7x7F-sx5z-5l3z0w?o=01M2JZZVYRVQNHD7CBPTTFGYPP&aid=01M5R9KWKK2DCV9TZR6WXJX9XM",
+        "domain": "bose.com",
+        "price": {
+          "price": 279.00000000000006,
+          "compare_at_price": 449,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0.021,
+        "dimensions": {
+          "length": null,
+          "width": null,
+          "height": null,
+          "weight": {
+            "number": 0.264,
+            "unit": "lb"
+          }
+        }
+      },
+      {
+        "url": "https://buy.trychannel3.com/mgo7x7F-CgP5-5l3z0w?o=01M2AVXD649SHSTQW2TJFFBRDY&aid=01M5R9KWKK2DCV9TZR6WXJX9XM",
+        "domain": "electronics.woot.com",
+        "price": {
+          "price": 299,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": null,
+        "max_commission_rate": 0.091,
+        "dimensions": null
+      },
+      {
+        "url": "https://buy.trychannel3.com/mgo7x7F-p1PB-5l3z0w?o=01KYC9KT8PG7JRPRFH65XFE1K2&aid=01M5R9KWKK2DCV9TZR6WXJX9XM",
+        "domain": "bestbuy.com",
+        "price": {
+          "price": 397,
+          "compare_at_price": 399,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0.005,
+        "dimensions": null
+      }
+    ],
+    "variants": {
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            {
+              "label": "Black",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/3859af48-5788-4f59-a4a5-56d1c9a9e362",
+              "product_id": "mgo7x7F"
+            },
+            {
+              "label": "MIDNIGHT%20VIOLET",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/c9c62c24-d976-471e-8d41-df98514d253a",
+              "product_id": "lZJARyv"
+            },
+            {
+              "label": "on",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/1efb8da0-3baf-4122-bea5-277777c1a8e9",
+              "product_id": "2OmH06C"
+            }
+          ]
+        }
+      ],
+      "selected": [
+        {
+          "name": "Color",
+          "label": "Black"
+        }
+      ]
+    },
+    "structured_attributes": {
+      "audio-connectivity": [
+        "USB",
+        "Bluetooth",
+        "2.5 mm",
+        "3.5 mm"
+      ],
+      "maximum-bit-depth": [
+        "16-bit"
+      ],
+      "driver-technology": [
+        "Dynamic and balanced armature hybrid"
+      ],
+      "connectivity-technology": [
+        "USB",
+        "Bluetooth",
+        "Wired",
+        "Wireless"
+      ],
+      "earphone-features": [
+        "Built-in microphone",
+        "Noise cancellation",
+        "Volume control",
+        "Awareness mode"
+      ],
+      "audio-component-form-factor": [
+        "Desktop"
+      ],
+      "power-source": [
+        "Battery-powered",
+        "USB",
+        "Rechargeable"
+      ],
+      "device-interface": [
+        "USB",
+        "6.35 mm",
+        "3.5 mm",
+        "2.5 mm",
+        "Bluetooth"
+      ],
+      "headphone-style": [
+        "Closed-back"
+      ],
+      "microphone-type": [
+        "Built-in",
+        "Noise-canceling"
+      ],
+      "pattern": [
+        "Solid"
+      ],
+      "noise-cancellation-technology": [
+        "Active noise cancellation (ANC)"
+      ],
+      "material": [
+        "Plastic",
+        "Aluminum",
+        "Leather",
+        "Metal",
+        "Foam"
+      ],
+      "battery-type": [
+        "Rechargeable"
+      ],
+      "charging-interface-type": [
+        "USB type-C"
+      ],
+      "battery-size": [
+        "Built-in battery"
+      ],
+      "ingress-protection-ip-rating": [
+        "Not rated"
+      ]
+    },
+    "ratings": {
+      "value": 4.56,
+      "count": 5129,
+      "source_count": 4
+    }
+  }
+}

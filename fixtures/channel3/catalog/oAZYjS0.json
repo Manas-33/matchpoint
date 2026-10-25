@@ -1,0 +1,171 @@
+{
+  "url": "channel3:oAZYjS0",
+  "product": {
+    "id": "oAZYjS0",
+    "title": "Atmos AG 65 Backpacking Backpack",
+    "description": "The Osprey Atmos AG 65L is a high-performance men's backpacking pack designed for superior comfort and load distribution. It features an advanced mesh back structure that ventilates and conforms to the body's shape, effectively reducing restriction and enhancing airflow. This pack is highly versatile, offering a stretchable front panel for expanded storage, a removable top lid with a built-in FlapJacket cover, and an adjustable hipbelt. Technical specifications include a 65L to 68L gear capacity depending on size, an internal LightWire aluminum frame, and construction from 100% recycled nylon. Additional functional details include a zippered sleeping bag compartment, hydration reservoir compatibility, compression straps, and trekking pole attachments.",
+    "brands": [
+      {
+        "id": "lhFb",
+        "name": "Osprey"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://cdn.trychannel3.com/9a45e6c2-b777-41c1-9611-9e467d27c882?aid=01M5R9KWV8Y63WSY0T16QCNVMB&mid=98k8",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/9a45e6c2-b777-41c1-9611-9e467d27c882?aid=01M5R9KWV8Y63WSY0T16QCNVMB&mid=98k8",
+        "is_main_image": true,
+        "shot_type": "hero",
+        "alt_text": "Front view of a black Osprey Atmos AG 65L backpack."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/d18d3d3b-a99b-4a59-848a-6e8f50352910?aid=01M5R9KWV8Y63WSY0T16QCNVMB&mid=98k8",
+        "cleaned_url": null,
+        "is_main_image": false,
+        "shot_type": "lifestyle",
+        "alt_text": "Man sitting in grass with blue and red backpacks."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/f260cc94-5c27-4b5f-b5f4-f79132e58c01?aid=01M5R9KWV8Y63WSY0T16QCNVMB&mid=98k8",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/f260cc94-5c27-4b5f-b5f4-f79132e58c01?aid=01M5R9KWV8Y63WSY0T16QCNVMB&mid=98k8",
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Front view of a black Osprey Atmos AG 65L backpack."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/10ec6766-a903-4da7-9db6-2be85a593384?aid=01M5R9KWV8Y63WSY0T16QCNVMB&mid=98k8",
+        "cleaned_url": null,
+        "is_main_image": false,
+        "shot_type": "lifestyle",
+        "alt_text": "Back view of a black Osprey Atmos AG 65L backpack showing harness."
+      }
+    ],
+    "category": {
+      "slug": "hiking-backpacks",
+      "title": "Hiking Backpacks",
+      "path": [
+        {
+          "slug": "luggage-bags",
+          "title": "Luggage & Bags"
+        },
+        {
+          "slug": "backpacks",
+          "title": "Backpacks"
+        },
+        {
+          "slug": "hiking-backpacks",
+          "title": "Hiking Backpacks"
+        }
+      ],
+      "has_children": false
+    },
+    "gender": null,
+    "age": "adult",
+    "materials": [
+      "100% recycled nylon"
+    ],
+    "key_features": [
+      "Comfortable Mesh Ventilates and Follows Body Shape",
+      "Stretchable for Expansion to Allow Storage Capacity",
+      "Top Section Removal with Built-in Cover Replacement",
+      "Hipbelt Pulls Out and Recedes Back In",
+      "Zippered Pockets Easy to Reach at Sides",
+      "Internal LightWire aluminum frame",
+      "Hydration reservoir compatible",
+      "Sleeping bag compartment",
+      "AntiGravity suspension system",
+      "Fit-on-the-Fly® harness and hipbelt"
+    ],
+    "colors": [
+      {
+        "hex": "#414141",
+        "percentage": 0.6911
+      },
+      {
+        "hex": "#232423",
+        "percentage": 0.2398
+      },
+      {
+        "hex": "#989998",
+        "percentage": 0.0691
+      }
+    ],
+    "offers": [
+      {
+        "url": "https://buy.trychannel3.com/oAZYjS0-98k8-5l3z0w?o=01KBPA0FFD6J9VFEZYRXFNWHT5&aid=01M5R9KWV8Y63WSY0T16QCNVMB",
+        "domain": "scheels.com",
+        "price": {
+          "price": 370,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0.04,
+        "dimensions": null
+      },
+      {
+        "url": "https://buy.trychannel3.com/oAZYjS0-fdOw-5l3z0w?o=01M43TPKE4NHTTEV7XAJHTHRMQ&aid=01M5R9KWV8Y63WSY0T16QCNVMB",
+        "domain": "dickssportinggoods.com",
+        "price": {
+          "price": 370,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0,
+        "dimensions": {
+          "length": null,
+          "width": null,
+          "height": null,
+          "weight": {
+            "number": 4.56,
+            "unit": "lb"
+          }
+        }
+      }
+    ],
+    "variants": null,
+    "structured_attributes": {
+      "bag-case-storage-features": [
+        "Built-in compartments",
+        "External pockets",
+        "Protective sleeves",
+        "Water bottle holder",
+        "Laptop compartment",
+        "Removable pouch",
+        "Internal padding"
+      ],
+      "carry-options": [
+        "Backpack strap",
+        "Handle",
+        "Crossbody strap",
+        "Shoulder strap"
+      ],
+      "bag-case-features": [
+        "Lightweight",
+        "Waterproof",
+        "Adjustable size"
+      ],
+      "bag-case-material": [
+        "Nylon",
+        "Polyester"
+      ],
+      "pattern": [
+        "Solid"
+      ],
+      "bag-case-closure": [
+        "Zipper"
+      ],
+      "luggage-bag-closure": [
+        "Zipper"
+      ]
+    },
+    "ratings": {
+      "value": 4.71,
+      "count": 66,
+      "source_count": 1
+    }
+  }
+}

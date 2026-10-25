@@ -1,14 +1,15 @@
-// Phase 0 Claude test: compare two saved Channel3 lookups and return a schema-valid
-// same-product judgment via structured outputs. Money maths stays out of the model.
-// Usage: npm run spike:claude [-- <shop-lookup.json> <competitor-lookup.json>]
-// With no args it runs every pair it can build from fixtures/channel3/lookup/:
-// the same canonical product at two stores (expect a match) and two different products (expect no match).
+// Phase 0 Claude test: compare the shop's catalog listing with a saved competitor lookup and
+// return a schema-valid same-product judgment via structured outputs. Money maths stays out of the model.
+// Usage: npm run spike:claude [-- <shop.json> <competitor-lookup.json>]
+// With no args it runs PAIRS: real lookups against Channel3 catalog products, with expected answers.
 import Anthropic from "@anthropic-ai/sdk";
 import { betaZodOutputFormat } from "@anthropic-ai/sdk/helpers/beta/zod";
 import { z } from "zod";
 import type { Channel3Api } from "@channel3/sdk";
+import { existsSync } from "node:fs";
+import { channel3Client } from "./lib/channel3.js";
 import { requireEnv } from "./lib/env.js";
-import { listFixtures, loadFixture, saveFixture } from "./lib/fixtures.js";
+import { loadFixture, saveFixture } from "./lib/fixtures.js";
 
 requireEnv("ANTHROPIC_API_KEY");
 
@@ -45,8 +46,17 @@ Every reason must cite a specific field of a listing. When data is missing or am
 // Only the fields that bear on identity; prices and URLs stay for context but the model never computes with them.
 function listing(fx: LookupFixture) {
   const p = fx.product;
+  const host = fx.url.startsWith("http") ? new URL(fx.url).hostname.replace(/^www\./, "") : null;
+  const offers = (p.offers ?? []).map((o) => ({
+    domain: o.domain,
+    price: o.price,
+    availability: o.availability,
+    condition: o.condition ?? null,
+  }));
   return {
     url: fx.url,
+    // The offer at the store the link points to; the others are the same canonical product elsewhere.
+    linked_offer: host ? (offers.find((o) => o.domain === host) ?? null) : null,
     canonical_product_id: p.id,
     title: p.title,
     brands: p.brands,
@@ -56,12 +66,7 @@ function listing(fx: LookupFixture) {
     colors: p.colors,
     variants: p.variants,
     structured_attributes: p.structured_attributes,
-    offers: (p.offers ?? []).map((o) => ({
-      domain: o.domain,
-      price: o.price,
-      availability: o.availability,
-      condition: o.condition ?? null,
-    })),
+    offers,
   };
 }
 
@@ -92,28 +97,46 @@ async function judge(client: Anthropic, shop: LookupFixture, competitor: LookupF
   return { outcome: "ok" as const, decision: check.data, response };
 }
 
-function pairs(): { name: string; shop: string; competitor: string; expect?: boolean }[] {
-  const args = process.argv.slice(2).filter((a) => a.endsWith(".json"));
-  if (args.length === 2) return [{ name: "custom", shop: args[0], competitor: args[1] }];
+type Expect = Partial<Pick<SameProductDecision, "same_product" | "variant_match" | "condition_ok" | "model_year_mismatch">>;
+type Pair = { name: string; shop: string; competitor: string; expect: Expect };
 
-  const files = listFixtures("channel3/lookup").map((f) => `channel3/lookup/${f}`);
-  const byProduct = new Map<string, string[]>();
-  for (const f of files) {
-    const id = loadFixture<LookupFixture>(f).product.id;
-    byProduct.set(id, [...(byProduct.get(id) ?? []), f]);
+// shop = a Channel3 catalog product the demo shop stocks; competitor = a real retailer link run through lookup.
+const PAIRS: { name: string; shopId: string; competitor: string; expect: Expect }[] = [
+  { name: "sony-xm5-bestbuy", shopId: "hrz4MAW", competitor: "bestbuy-com-sony-wh-1000xm5-wireless-noise-06d46e", expect: { same_product: true } },
+  // B&H's title drops "(2nd Gen)" and Channel3 gives it a different canonical ID; the description says 2nd Gen.
+  { name: "bose-qcu2-bhphoto", shopId: "mgo7x7F", competitor: "bhphotovideo-com-bose-quietcomfort-ultra-headph-b0f61c", expect: { same_product: true } },
+  // The link is Bose's refurbished page, but Channel3 reports condition null.
+  { name: "bose-qcu2-refurbished", shopId: "mgo7x7F", competitor: "bose-com-bose-quietcomfort-ultra-headph-04ee81", expect: { same_product: true, condition_ok: false } },
+  { name: "osprey-atmos-rei", shopId: "oAZYjS0", competitor: "rei-com-atmos-ag-65-pack-men-s-b51587", expect: { same_product: true } },
+  // Sweetwater's page is the maple-fingerboard Player II, but extraction lost the title and says rosewood.
+  { name: "strat-player2-sweetwater", shopId: "d4PJDa4", competitor: "sweetwater-com-stratocaster-electric-guitar-0a0795", expect: {} },
+  { name: "different-product", shopId: "hrz4MAW", competitor: "rei-com-atmos-ag-65-pack-men-s-b51587", expect: { same_product: false } },
+];
+
+async function shopFixture(id: string): Promise<string> {
+  const path = `channel3/catalog/${id}.json`;
+  if (!existsSync(`fixtures/${path}`)) {
+    const product = await channel3Client().products.retrieve({ product_id: id });
+    saveFixture(path, { url: `channel3:${id}`, product });
   }
-  const out: { name: string; shop: string; competitor: string; expect?: boolean }[] = [];
-  const same = [...byProduct.values()].find((fs) => fs.length >= 2);
-  if (same) out.push({ name: "same-product", shop: same[0], competitor: same[1], expect: true });
-  const distinct = [...byProduct.values()].map((fs) => fs[0]);
-  if (distinct.length >= 2) out.push({ name: "different-product", shop: distinct[0], competitor: distinct[1], expect: false });
+  return path;
+}
+
+async function pairs(): Promise<Pair[]> {
+  const args = process.argv.slice(2).filter((a) => a.endsWith(".json"));
+  if (args.length === 2) return [{ name: "custom", shop: args[0], competitor: args[1], expect: {} }];
+  const out: Pair[] = [];
+  for (const p of PAIRS) {
+    out.push({ name: p.name, shop: await shopFixture(p.shopId), competitor: `channel3/lookup/${p.competitor}.json`, expect: p.expect });
+  }
   return out;
 }
 
 async function main() {
-  const todo = pairs();
-  if (todo.length === 0) {
-    console.error("BLOCKED: no lookup fixtures. Run `npm run spike:c3:lookup` first, or pass two lookup JSON paths.");
+  const todo = await pairs();
+  const missing = todo.flatMap((p) => [p.shop, p.competitor]).filter((f) => !existsSync(`fixtures/${f.replace(/^fixtures\//, "")}`));
+  if (missing.length) {
+    console.error(`BLOCKED: missing fixtures ${missing.join(", ")}. Run \`npm run spike:c3:lookup\` first.`);
     process.exit(2);
   }
   const client = new Anthropic();
@@ -126,6 +149,7 @@ async function main() {
     const result = await judge(client, shop, competitor);
     saveFixture(`claude/${pair.name}`, {
       model: MODEL,
+      expect: pair.expect,
       shop_fixture: pair.shop,
       competitor_fixture: pair.competitor,
       outcome: result.outcome,
@@ -143,10 +167,9 @@ async function main() {
     console.log(`  same_product=${d.same_product} variant_match=${d.variant_match} condition_ok=${d.condition_ok} bundle=${d.bundle_or_accessory} model_year_mismatch=${d.model_year_mismatch} confidence=${d.confidence}`);
     for (const r of d.reasons) console.log(`  - [${r.listing}.${r.field}] ${r.observation}`);
     console.log(`  customer: ${d.customer_message}`);
-    if (pair.expect !== undefined && d.same_product !== pair.expect) {
-      console.log(`  UNEXPECTED: expected same_product=${pair.expect}`);
-      failures++;
-    }
+    const wrong = Object.entries(pair.expect).filter(([k, v]) => d[k as keyof Expect] !== v);
+    for (const [k, v] of wrong) console.log(`  UNEXPECTED: expected ${k}=${v}`);
+    if (wrong.length) failures++;
   }
 
   if (failures) process.exit(1);

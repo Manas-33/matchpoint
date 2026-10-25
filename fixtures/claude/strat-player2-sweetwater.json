@@ -1,0 +1,100 @@
+{
+  "model": "claude-sonnet-5-5",
+  "expect": {},
+  "shop_fixture": "channel3/catalog/d4PJDa4.json",
+  "competitor_fixture": "channel3/lookup/sweetwater-com-stratocaster-electric-guitar-0a0795.json",
+  "outcome": "ok",
+  "decision": {
+    "same_product": true,
+    "variant_match": false,
+    "condition_ok": false,
+    "bundle_or_accessory": false,
+    "model_year_mismatch": false,
+    "confidence": 0.3,
+    "reasons": [
+      {
+        "listing": "both",
+        "field": "description",
+        "observation": "Both descriptions name the Fender Player II Stratocaster with an alder body, maple neck, SSS pickups and a 2-point synchronized tremolo, so they appear to be the same model family."
+      },
+      {
+        "listing": "both",
+        "field": "canonical_product_id",
+        "observation": "The IDs differ (d4PJDa4 for the shop, 0yRC8r4 for the competitor). Channel3 treats these as separate catalog entries, which often means different variants."
+      },
+      {
+        "listing": "competitor",
+        "field": "url",
+        "observation": "The URL slug says 'black-with-maple-fingerboard' (StratP2MBK). The competitor's own description and structured_attributes say the fingerboard is rosewood, so its data conflicts with itself."
+      },
+      {
+        "listing": "shop",
+        "field": "variants",
+        "observation": "The shop listing has variants null, and its title and description give no colour. Its structured attributes list a rosewood fingerboard, so the colour and fingerboard of the shop's variant cannot be confirmed against the competitor's black/maple-slug item."
+      },
+      {
+        "listing": "competitor",
+        "field": "title",
+        "observation": "The title is generic ('Stratocaster Electric Guitar') and omits 'Player II' and any colour, so it does not identify the exact model on its own."
+      },
+      {
+        "listing": "competitor",
+        "field": "linked_offer.condition",
+        "observation": "Condition is null, so it cannot be confirmed as new rather than used, refurbished or open-box."
+      },
+      {
+        "listing": "competitor",
+        "field": "offers[0].price",
+        "observation": "The listed price of 99 USD is far below the shop's 849.99 USD for the same model family. This may point to a data error or a non-guitar item, but I am not judging price. It lowers my confidence in the listing data."
+      },
+      {
+        "listing": "both",
+        "field": "variants",
+        "observation": "Both listings have variants null, so no selected size, colour or finish can be compared directly. The fingerboard conflict in the competitor's data remains unresolved."
+      }
+    ],
+    "customer_message": "The competitor's listing looks like a Fender Player II Stratocaster, but we can't confirm it's the same colour and fingerboard as ours, and its condition isn't stated. We can't verify this as a match from the listing data."
+  },
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 3921,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "iterations": [
+      {
+        "input_tokens": 3921,
+        "output_tokens": 1305,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "type": "message",
+        "model": null
+      }
+    ],
+    "output_tokens": 1305,
+    "output_tokens_details": {
+      "thinking_tokens": 516
+    },
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+  },
+  "content": [
+    {
+      "type": "thinking",
+      "thinking": "",
+      "signature": "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"
+    },
+    {
+      "type": "text",
+      "text": "{\"same_product\":true,\"variant_match\":false,\"condition_ok\":false,\"bundle_or_accessory\":false,\"model_year_mismatch\":false,\"confidence\":0.3,\"reasons\":[{\"listing\":\"both\",\"field\":\"description\",\"observation\":\"Both descriptions name the Fender Player II Stratocaster with an alder body, maple neck, SSS pickups and a 2-point synchronized tremolo, so they appear to be the same model family.\"},{\"listing\":\"both\",\"field\":\"canonical_product_id\",\"observation\":\"The IDs differ (d4PJDa4 for the shop, 0yRC8r4 for the competitor). Channel3 treats these as separate catalog entries, which often means different variants.\"},{\"listing\":\"competitor\",\"field\":\"url\",\"observation\":\"The URL slug says 'black-with-maple-fingerboard' (StratP2MBK). The competitor's own description and structured_attributes say the fingerboard is rosewood, so its data conflicts with itself.\"},{\"listing\":\"shop\",\"field\":\"variants\",\"observation\":\"The shop listing has variants null, and its title and description give no colour. Its structured attributes list a rosewood fingerboard, so the colour and fingerboard of the shop's variant cannot be confirmed against the competitor's black/maple-slug item.\"},{\"listing\":\"competitor\",\"field\":\"title\",\"observation\":\"The title is generic ('Stratocaster Electric Guitar') and omits 'Player II' and any colour, so it does not identify the exact model on its own.\"},{\"listing\":\"competitor\",\"field\":\"linked_offer.condition\",\"observation\":\"Condition is null, so it cannot be confirmed as new rather than used, refurbished or open-box.\"},{\"listing\":\"competitor\",\"field\":\"offers[0].price\",\"observation\":\"The listed price of 99 USD is far below the shop's 849.99 USD for the same model family. This may point to a data error or a non-guitar item, but I am not judging price. It lowers my confidence in the listing data.\"},{\"listing\":\"both\",\"field\":\"variants\",\"observation\":\"Both listings have variants null, so no selected size, colour or finish can be compared directly. The fingerboard conflict in the competitor's data remains unresolved.\"}],\"customer_message\":\"The competitor's listing looks like a Fender Player II Stratocaster, but we can't confirm it's the same colour and fingerboard as ours, and its condition isn't stated. We can't verify this as a match from the listing data.\"}"
+    }
+  ]
+}
