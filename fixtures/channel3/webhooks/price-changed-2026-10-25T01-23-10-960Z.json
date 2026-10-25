@@ -1,0 +1,34 @@
+{
+  "received_at": "2026-10-25T01:23:10.960Z",
+  "headers": {
+    "host": "nonmetallurgical-glossily-myron.ngrok-free.dev",
+    "user-agent": "Svix-Webhooks/rolling (sender-9YMgn; +https://www.svix.com/http-sender/)",
+    "content-length": "191",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "svix-id": "msg_3LAKNLE137AP1pDxNdoLotouP0R",
+    "svix-signature": "v1,EGZHInlWHLK8r7YFhGI1B9NxHKkquzQ13PB6yFDzEaA=",
+    "svix-timestamp": "1792891390",
+    "webhook-test": "true",
+    "x-forwarded-for": "54.148.139.208",
+    "x-forwarded-host": "nonmetallurgical-glossily-myron.ngrok-free.dev",
+    "x-forwarded-proto": "https",
+    "x-loop-prevention": "1",
+    "accept-encoding": "gzip"
+  },
+  "verification": {
+    "verified": true,
+    "scheme": "svix-hmac-sha256"
+  },
+  "raw_body": "{\"buy_url\":\"string\",\"canonical_product_id\":\"string\",\"currency\":\"string\",\"domain\":\"string\",\"new_price\":3.14,\"old_price\":3.14,\"timestamp\":\"2026-10-20T01:47:49.434643902\",\"type\":\"price.changed\"}",
+  "event": {
+    "buy_url": "string",
+    "canonical_product_id": "string",
+    "currency": "string",
+    "domain": "string",
+    "new_price": 3.14,
+    "old_price": 3.14,
+    "timestamp": "2026-10-20T01:47:49.434643902",
+    "type": "price.changed"
+  }
+}

@@ -13,7 +13,8 @@ What the spikes showed against the live APIs (Oct 2026). Fixtures for each point
 - **Search offer URLs are affiliate redirects** (`buy.trychannel3.com/…`), not retailer URLs.
 - **Price history is per product, not per store.** Points are `{timestamp, price, currency}` with no domain, daily, up to 90 days, and they include outliers ($29 points for a $449 headphone). `current_status` said "typical" throughout. The glitch check needs its own outlier handling and can't use `min_price` directly; per-store "approved store dropped its price" has to come from offers or `price.changed`, not history.
 - **SDK differs from its README:** class `Channel3`, snake_case fields, `priceTracking.retrieveHistory`, `products.findSimilar`. Timestamps deserialize to `Date`.
-- **Webhooks:** the event catalog is still unpublished; signing is unknown.
+- **Webhooks are Svix-signed** (`svix-id`, `svix-timestamp`, `svix-signature`, secret `whsec_…`). A dashboard test event verified with the standard Svix HMAC check (`webhooks/price-changed-…`, marked by a `webhook-test` header).
+- **`price.changed` is flat, not wrapped in `data`** as the guide shows: `{type, canonical_product_id, domain, old_price, new_price, currency, buy_url, timestamp}`. It carries the store `domain`, so per-store drops for price protection come from here. The test event's values are placeholders; a real one is still to capture.
 
 ## Claude (claude-sonnet-5-5, structured outputs)
 
