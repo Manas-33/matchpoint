@@ -1,0 +1,111 @@
+{
+  "id": "0VR4998765084373W",
+  "intent": "CAPTURE",
+  "status": "COMPLETED",
+  "payment_source": {
+    "paypal": {
+      "email_address": "sb-8auvn53530028@personal.example.com",
+      "account_id": "KH84TAYN2YYPJ",
+      "account_status": "VERIFIED",
+      "name": {
+        "given_name": "John",
+        "surname": "Doe"
+      },
+      "address": {
+        "country_code": "US"
+      }
+    }
+  },
+  "purchase_units": [
+    {
+      "reference_id": "spike",
+      "amount": {
+        "currency_code": "USD",
+        "value": "120.00"
+      },
+      "payee": {
+        "email_address": "sb-eks7053539431@business.example.com",
+        "merchant_id": "VTSVYYAL7K77Q",
+        "display_data": {
+          "brand_name": "Matchpoint Demo Shop"
+        }
+      },
+      "description": "Matchpoint Phase 0 spike: matched price",
+      "invoice_id": "spike-1792890606596",
+      "payments": {
+        "captures": [
+          {
+            "id": "2S321369LL635443S",
+            "status": "COMPLETED",
+            "amount": {
+              "currency_code": "USD",
+              "value": "120.00"
+            },
+            "final_capture": true,
+            "seller_protection": {
+              "status": "ELIGIBLE",
+              "dispute_categories": [
+                "ITEM_NOT_RECEIVED",
+                "UNAUTHORIZED_TRANSACTION"
+              ]
+            },
+            "seller_receivable_breakdown": {
+              "gross_amount": {
+                "currency_code": "USD",
+                "value": "120.00"
+              },
+              "paypal_fee": {
+                "currency_code": "USD",
+                "value": "4.68"
+              },
+              "net_amount": {
+                "currency_code": "USD",
+                "value": "115.32"
+              }
+            },
+            "invoice_id": "spike-1792890606596",
+            "links": [
+              {
+                "href": "https://api.sandbox.paypal.com/v2/payments/captures/2S321369LL635443S",
+                "rel": "self",
+                "method": "GET"
+              },
+              {
+                "href": "https://api.sandbox.paypal.com/v2/payments/captures/2S321369LL635443S/refund",
+                "rel": "refund",
+                "method": "POST"
+              },
+              {
+                "href": "https://api.sandbox.paypal.com/v2/checkout/orders/0VR4998765084373W",
+                "rel": "up",
+                "method": "GET"
+              }
+            ],
+            "create_time": "2026-10-25T01:19:24Z",
+            "update_time": "2026-10-25T01:19:24Z"
+          }
+        ]
+      }
+    }
+  ],
+  "payer": {
+    "name": {
+      "given_name": "John",
+      "surname": "Doe"
+    },
+    "email_address": "sb-8auvn53530028@personal.example.com",
+    "payer_id": "KH84TAYN2YYPJ",
+    "address": {
+      "country_code": "US"
+    }
+  },
+  "create_time": "2026-10-25T01:10:07Z",
+  "update_time": "2026-10-25T01:19:25Z",
+  "links": [
+    {
+      "href": "https://api.sandbox.paypal.com/v2/checkout/orders/0VR4998765084373W",
+      "rel": "self",
+      "method": "GET"
+    }
+  ]
+}

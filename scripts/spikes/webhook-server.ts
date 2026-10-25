@@ -3,7 +3,9 @@
 //   POST /channel3/webhook  saves the raw price.changed payload (verifies if signed)
 // Usage: npm run spike:webhooks   then   cloudflared tunnel --url http://localhost:8787
 import { createHmac, timingSafeEqual } from "node:crypto";
+import { existsSync, readFileSync } from "node:fs";
 import { createServer, type IncomingHttpHeaders } from "node:http";
+import { parse } from "dotenv";
 import { OAuthAuthorizationController } from "@paypal/paypal-server-sdk";
 import "./lib/env.js";
 import { PAYPAL_API, paypalClient } from "./lib/paypal.js";
@@ -28,7 +30,8 @@ async function paypalAccessToken(): Promise<string> {
 // PayPal's verify endpoint re-hashes webhook_event, so we splice in the raw body
 // instead of re-serialising the parsed JSON (key order or number formatting could differ).
 async function verifyPaypal(headers: IncomingHttpHeaders, rawBody: string) {
-  const webhookId = process.env.PAYPAL_WEBHOOK_ID;
+  // Re-read .env so the webhook ID can be added while the receiver is running.
+  const webhookId = (existsSync(".env") && parse(readFileSync(".env")).PAYPAL_WEBHOOK_ID) || process.env.PAYPAL_WEBHOOK_ID;
   if (!webhookId) return { verified: false, reason: "PAYPAL_WEBHOOK_ID not set" };
   const fields = {
     auth_algo: header(headers, "paypal-auth-algo"),

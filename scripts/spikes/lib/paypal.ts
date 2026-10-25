@@ -12,6 +12,6 @@ export function paypalClient() {
     },
     environment: Environment.Sandbox, // sandbox only
     timeout: 30_000,
-    logging: { logLevel: LogLevel.Warn },
+    logging: { logLevel: LogLevel.Error },
   });
 }
