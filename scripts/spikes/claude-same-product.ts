@@ -12,7 +12,7 @@ import { listFixtures, loadFixture, saveFixture } from "./lib/fixtures.js";
 
 requireEnv("ANTHROPIC_API_KEY");
 
-const MODEL = "claude-opus-5-5";
+const MODEL = process.env.ANTHROPIC_MODEL || "claude-sonnet-5-5";
 
 export const SameProductDecision = z.object({
   same_product: z.boolean().describe("Both listings are the same manufacturer product (same model)."),

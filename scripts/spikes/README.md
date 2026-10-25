@@ -9,7 +9,7 @@ Copy `.env.example` to `.env` and fill in sandbox/test keys first. A script with
 | `npm run spike:webhooks` | `PAYPAL_WEBHOOK_ID` (+ optional `CHANNEL3_WEBHOOK_SECRET`) | Receives `/paypal/webhook` (signature verified with PayPal) and `/channel3/webhook` (raw `price.changed`) |
 | `npm run spike:c3:lookup` | `CHANNEL3_API_KEY` | `lookup` on real retailer URLs; checks price, availability, condition, domain, variants |
 | `npm run spike:c3:track` | `CHANNEL3_API_KEY` | Starts tracking 5–10 catalog products, lists subscriptions, reads price history |
-| `npm run spike:claude` | `ANTHROPIC_API_KEY`, lookup fixtures | Structured-output same-product decision on two saved lookups |
+| `npm run spike:claude` | `ANTHROPIC_API_KEY`, lookup fixtures (`ANTHROPIC_MODEL` optional, default `claude-sonnet-5-5`) | Structured-output same-product decision on two saved lookups |
 
 Order: lookup → track → claude. For webhooks, run the receiver and a tunnel in two terminals:
 
