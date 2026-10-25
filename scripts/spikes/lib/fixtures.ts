@@ -2,7 +2,8 @@ import { mkdirSync, readFileSync, readdirSync, writeFileSync, existsSync } from 
 import { dirname, join } from "node:path";
 
 const ROOT = "fixtures";
-const SECRET_KEYS = /^(authorization|access_token|x-api-key|paypal-auth-assertion|webhook-secret)$/i;
+const SECRET_KEYS =
+  /^(authorization|access_token|refresh_token|id_token|client_secret|x-api-key|api_key|cookie|set-cookie|paypal-auth-assertion|webhook-secret)$/i;
 
 function redact(value: unknown): unknown {
   if (Array.isArray(value)) return value.map(redact);
