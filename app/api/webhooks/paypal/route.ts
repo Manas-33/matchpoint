@@ -1,5 +1,6 @@
-import { reconcileCaptureCompleted } from "@/lib/checkout";
-import { getDb } from "@/lib/db";
+import { enrolSafely, reconcileCaptureCompleted } from "@/lib/checkout";
+import { eq } from "drizzle-orm";
+import { getDb, schema } from "@/lib/db";
 import { dbLedgerStore, handlePayPalWebhook } from "@/lib/ledger";
 import { getPayPal } from "@/lib/paypal";
 
@@ -15,6 +16,12 @@ export async function POST(req: Request) {
       onCaptureCompleted: async (capture) => {
         const orderId = await reconcileCaptureCompleted(capture);
         if (orderId) console.log(JSON.stringify({ msg: "paypal webhook reconciled order", orderId, captureId: capture.id }));
+        // Enrol the captured order in price protection (idempotent; covers a capture route that died).
+        const [order] = await getDb()
+          .select({ id: schema.orders.id })
+          .from(schema.orders)
+          .where(eq(schema.orders.paypalCaptureId, capture.id));
+        if (order) await enrolSafely(order.id);
       },
     });
     console.log(JSON.stringify({ msg: "paypal webhook", transmissionId, ...outcome }));
