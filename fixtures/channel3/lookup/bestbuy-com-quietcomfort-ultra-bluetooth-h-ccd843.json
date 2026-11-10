@@ -1,0 +1,197 @@
+{
+  "url": "https://www.bestbuy.com/product/bose-quietcomfort-ultra-bluetooth-headphones-2nd-gen-bundle-with-fast-charger-noise-cancelling-black/J3R856SRXQ",
+  "product": {
+    "id": "B3XwdAU",
+    "title": "QuietComfort Ultra Bluetooth Headphones (2nd Gen)",
+    "description": "Experience immersive sound with the Bose QuietComfort Ultra Bluetooth Headphones (2nd Gen). These over-ear wireless headphones feature Bose's best noise cancellation and spatialized audio for a natural listening experience. They include CustomTune technology that personalizes audio based on your ear shape, provide up to 30 hours of battery life, and are designed for comfort with plush cushions and a refined metal headband. This bundle also includes a fast charger.",
+    "brands": [
+      {
+        "id": "qHHu",
+        "name": "Bose"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://cdn.trychannel3.com/1297dfbb-3009-4847-aa70-2564e8014d37?mid=p1PB",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/1297dfbb-3009-4847-aa70-2564e8014d37?mid=p1PB",
+        "is_main_image": true,
+        "shot_type": "hero",
+        "alt_text": "Black Bose over-ear headphones and charging case on white background."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/94eb66f9-0f7f-4cc3-be25-8f9b8209bf82?mid=p1PB",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/94eb66f9-0f7f-4cc3-be25-8f9b8209bf82?mid=p1PB",
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Back view of black Bose headphones with a microphone."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/27096426-5fb4-47b1-b099-a32858b68f29?mid=p1PB",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/27096426-5fb4-47b1-b099-a32858b68f29?mid=p1PB",
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Black Bose over-ear headphones assembled."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/9b5617a4-fab7-4a24-825f-a40634b7a08c?mid=p1PB",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/9b5617a4-fab7-4a24-825f-a40634b7a08c?mid=p1PB",
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Black Bose headphones with cable and charging case."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/7861304c-8950-409d-b83d-3feb08b1538b?mid=p1PB",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/7861304c-8950-409d-b83d-3feb08b1538b?mid=p1PB",
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Black Bose over-ear headphones components shown."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/947f694f-a408-46b4-a803-9cf42cf81b6d?mid=p1PB",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/947f694f-a408-46b4-a803-9cf42cf81b6d?mid=p1PB",
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Black Bose over-ear headphones with a cable shown."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/2a583201-26ff-433e-8d99-6b116df66000?mid=p1PB",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/2a583201-26ff-433e-8d99-6b116df66000?mid=p1PB",
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Brown Bose over-ear headphones on a dark red background."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/e2b0690e-6785-4187-98bd-e48bd4d3125e?mid=p1PB",
+        "cleaned_url": "https://cdn.trychannel3.com/1c985adb-1cc2-4ebd-a535-120de16d4d76?mid=p1PB",
+        "is_main_image": false,
+        "shot_type": "on_model",
+        "alt_text": "Man wearing a purple Bose headphone."
+      }
+    ],
+    "category": {
+      "slug": "over-ear-headphones",
+      "title": "Over-Ear Headphones",
+      "path": [
+        {
+          "slug": "electronics",
+          "title": "Electronics"
+        },
+        {
+          "slug": "audio",
+          "title": "Audio"
+        },
+        {
+          "slug": "audio-components",
+          "title": "Audio Components"
+        },
+        {
+          "slug": "headphones-headsets",
+          "title": "Headphones & Headsets"
+        },
+        {
+          "slug": "headphones",
+          "title": "Headphones"
+        },
+        {
+          "slug": "over-ear-headphones",
+          "title": "Over-Ear Headphones"
+        }
+      ],
+      "has_children": false
+    },
+    "gender": null,
+    "age": null,
+    "materials": [
+      "metal"
+    ],
+    "key_features": [
+      "Breakthrough spatialized audio for immersive sound",
+      "Bose's best noise cancellation",
+      "Cinema Mode for movie-like immersion",
+      "Up to 30 hours of battery life (23 with Immersive Audio)",
+      "Built-in noise-rejecting microphones",
+      "Bluetooth multipoint connectivity",
+      "Plush cushions and refined metal headband for comfort"
+    ],
+    "colors": [
+      {
+        "hex": "#343434",
+        "percentage": 0.5428
+      },
+      {
+        "hex": "#171717",
+        "percentage": 0.2442
+      },
+      {
+        "hex": "#fdfdfd",
+        "percentage": 0.1426
+      },
+      {
+        "hex": "#797979",
+        "percentage": 0.0704
+      }
+    ],
+    "offers": [
+      {
+        "url": "https://buy.trychannel3.com/B3XwdAU-p1PB-5l3z0w?o=01KYTD6Z6F46XW5NF223WD80BR",
+        "domain": "bestbuy.com",
+        "price": {
+          "price": 452.99,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": null,
+        "max_commission_rate": 0.005,
+        "dimensions": null
+      }
+    ],
+    "variants": null,
+    "structured_attributes": {
+      "device-interface": [
+        "USB"
+      ],
+      "power-source": [
+        "Rechargeable"
+      ],
+      "connectivity-technology": [
+        "Bluetooth",
+        "Wired"
+      ],
+      "pattern": [
+        "Solid"
+      ],
+      "headphone-style": [
+        "Closed-back"
+      ],
+      "noise-cancellation-technology": [
+        "Active noise cancellation (ANC)"
+      ],
+      "microphone-type": [
+        "Built-in",
+        "Noise-canceling"
+      ],
+      "charging-interface-type": [
+        "USB type-C"
+      ],
+      "earphone-features": [
+        "Built-in microphone",
+        "Noise cancellation"
+      ],
+      "battery-size": [
+        "Built-in battery"
+      ],
+      "material": [
+        "Metal"
+      ],
+      "battery-type": [
+        "Rechargeable"
+      ],
+      "audio-connectivity": [
+        "Bluetooth",
+        "USB"
+      ]
+    },
+    "ratings": null
+  }
+}

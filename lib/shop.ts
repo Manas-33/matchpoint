@@ -86,9 +86,10 @@ export async function getActivePolicy() {
 
 export async function getOrderWithProduct(orderId: string) {
   const [row] = await getDb()
-    .select({ order: schema.orders, product: schema.products })
+    .select({ order: schema.orders, product: schema.products, match: schema.matchRequests })
     .from(schema.orders)
     .innerJoin(schema.products, eq(schema.orders.productId, schema.products.id))
+    .leftJoin(schema.matchRequests, eq(schema.orders.matchRequestId, schema.matchRequests.id))
     .where(eq(schema.orders.id, orderId))
     .limit(1);
   return row ?? null;

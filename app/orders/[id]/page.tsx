@@ -9,7 +9,7 @@ import { formatCents } from "@/lib/money";
 import { getActivePolicy, getCaptureLedger, getOrderWithProduct, productImages, variantLabel } from "@/lib/shop";
 import { AutoRefresh } from "../../_components/auto-refresh";
 import { DatabaseError } from "../../_components/database-error";
-import { CheckIcon, ShieldIcon } from "../../_components/icons";
+import { CheckIcon, ShieldIcon, TagIcon } from "../../_components/icons";
 
 type LedgerEvent = typeof schema.ledgerEvents.$inferSelect;
 
@@ -41,7 +41,7 @@ async function Order({ params }: Pick<PageProps<"/orders/[id]">, "params">) {
     return <DatabaseError error={err} />;
   }
   if (!data.row) notFound();
-  const { order, product } = data.row;
+  const { order, product, match } = data.row;
   const { policy, ledger } = data;
 
   const paid = order.status === "completed" || order.status === "partially_refunded" || order.status === "refunded";
@@ -92,8 +92,21 @@ async function Order({ params }: Pick<PageProps<"/orders/[id]">, "params">) {
             <p className="font-medium leading-snug">{product.title}</p>
             <p className="text-sm text-muted">{variantLabel(product.variant)}</p>
           </div>
-          <p className="font-semibold tabular-nums">{price}</p>
+          <div className="flex flex-col items-end gap-0.5">
+            <p className="font-semibold tabular-nums">{price}</p>
+            {match && order.pricePaidCents < product.shopPriceCents && (
+              <p className="text-sm text-muted tabular-nums line-through">{formatCents(product.shopPriceCents, order.currency)}</p>
+            )}
+          </div>
         </div>
+        {match && (
+          <p className="mt-4 flex items-center gap-2 rounded-xl bg-accent-soft px-3 py-2 text-sm font-medium text-accent">
+            <TagIcon className="size-4 shrink-0" />
+            Price matched to {match.competitorDomain}
+            {order.pricePaidCents < product.shopPriceCents &&
+              ` · you saved ${formatCents(product.shopPriceCents - order.pricePaidCents, order.currency)}`}
+          </p>
+        )}
         <dl className="mt-6 grid gap-x-6 gap-y-3 border-t border-line pt-5 text-sm sm:grid-cols-2">
           <Detail label="Order" value={order.id.slice(0, 8).toUpperCase()} mono />
           {order.capturedAt && <Detail label="Paid" value={dateTimeFormat.format(order.capturedAt)} />}

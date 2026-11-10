@@ -36,7 +36,8 @@ type Status =
   | { kind: "unavailable"; message: string }
   | { kind: "error"; message: string };
 
-type Props = { productSlug: string; currency: string } & ({ mode: "live"; clientId: string } | { mode: "demo" });
+// matchRequestId: pay the matched price of that (server-checked) match request instead of the list price.
+type Props = { productSlug: string; currency: string; matchRequestId?: string; label?: string } & ({ mode: "live"; clientId: string } | { mode: "demo" });
 
 async function postJson<T>(url: string, body?: unknown): Promise<T> {
   const res = await fetch(url, {
@@ -54,7 +55,7 @@ export function PayPalCheckout(props: Props) {
   const container = useRef<HTMLDivElement>(null);
   const initialized = useRef(false);
   const clientId = props.mode === "live" ? props.clientId : null;
-  const { productSlug, currency } = props;
+  const { productSlug, currency, matchRequestId } = props;
   const [status, setStatus] = useState<Status>(props.mode === "demo" ? { kind: "ready" } : { kind: "loading" });
   const busy = status.kind === "paying" || status.kind === "capturing";
 
@@ -62,9 +63,10 @@ export function PayPalCheckout(props: Props) {
   const createOrder = useCallback(async () => {
     const { paypalOrderId } = await postJson<{ paypalOrderId: string }>("/api/checkout/orders", {
       productSlug,
+      matchRequestId,
     });
     return { orderId: paypalOrderId };
-  }, [productSlug]);
+  }, [productSlug, matchRequestId]);
 
   const capture = useCallback(
     async (paypalOrderId: string) => {
@@ -155,7 +157,7 @@ export function PayPalCheckout(props: Props) {
             className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-[#ffc439] font-semibold text-[#111] transition hover:brightness-95"
           >
             <LockIcon className="size-4" />
-            Pay with PayPal <span className="font-normal opacity-70">(demo)</span>
+            {props.label ?? "Pay with PayPal"} <span className="font-normal opacity-70">(demo)</span>
           </button>
         )}
       </div>

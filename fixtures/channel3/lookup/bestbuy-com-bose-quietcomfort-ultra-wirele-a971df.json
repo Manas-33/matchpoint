@@ -1,0 +1,382 @@
+{
+  "url": "https://www.bestbuy.com/product/bose-quietcomfort-ultra-headphones-2nd-gen-black/6642778/openbox",
+  "product": {
+    "id": "GrrCAIt",
+    "title": "Bose QuietComfort Ultra Wireless Noise-Canceling Headphones (2nd Gen)",
+    "description": "The Bose QuietComfort Ultra Headphones (2nd Gen) in Black are premium over-ear wireless noise-cancelling headphones designed for high-fidelity listening across various activities including music, travel, commuting, and gaming. They feature advanced active noise cancellation with multiple modes (Quiet, Aware, Custom, and Wind Block) and CustomTune™ technology that personalizes sound and ANC based on the listener's ear shape. These headphones introduce Bose TrueSpatial™ Immersive Audio with Still, Motion, and Cinema modes to enhance the spatial presentation of stereo content. Connectivity is handled via Bluetooth 5.4 with Snapdragon Sound support, including aptX Adaptive and aptX Lossless for CD-quality wireless audio, alongside USB-C digital audio and a 2.5mm-to-3.5mm analog cable. They offer up to 30 hours of battery life with ANC enabled, with a quick-charge feature providing 2.5 hours of playback from a 15-minute charge. The design includes plush synthetic-leather ear cushions, a padded headband, and polished metal components, all foldable for portability in the included hard carrying case.",
+    "brands": [
+      {
+        "id": "qHHu",
+        "name": "Bose"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://cdn.trychannel3.com/743375e8-a041-4e68-a150-f18f11f55f5e?mid=p1PB",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/743375e8-a041-4e68-a150-f18f11f55f5e?mid=p1PB",
+        "is_main_image": true,
+        "shot_type": "on_model",
+        "alt_text": "Hand holding black Bose QuietComfort Ultra headphones."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/379bf4c4-f663-4c90-b5aa-c1d17cc94e6a?mid=p1PB",
+        "cleaned_url": null,
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Black Bose QuietComfort Ultra over-ear headphones displayed."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/329e99ec-ba2a-4ac4-8fd3-dfc31e19056d?mid=p1PB",
+        "cleaned_url": null,
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Black Bose QuietComfort Ultra headphones shown from above."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/ca1dcf31-505f-494d-b05a-206114d724e9?mid=p1PB",
+        "cleaned_url": "https://cdn.trychannel3.com/cleaned/v1/ca1dcf31-505f-494d-b05a-206114d724e9?mid=p1PB",
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Black Bose QuietComfort Ultra headphones shown from the back."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/42f0634d-ddf3-4d29-a0f1-20dcd356887c?mid=p1PB",
+        "cleaned_url": null,
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Black Bose QuietComfort Ultra headphones shown from the front."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/07d01606-ae97-4c97-ac27-b22aba349aea?mid=p1PB",
+        "cleaned_url": null,
+        "is_main_image": false,
+        "shot_type": "lifestyle",
+        "alt_text": "Man wearing black Bose headphones in a dark setting."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/db120f42-84e6-4a42-86a1-499073f1b277?mid=p1PB",
+        "cleaned_url": null,
+        "is_main_image": false,
+        "shot_type": "lifestyle",
+        "alt_text": "Bronze Bose QuietComfort Ultra headphones in a lifestyle shot."
+      },
+      {
+        "url": "https://cdn.trychannel3.com/df312782-03b4-4098-8cf0-bfbed9055333?mid=p1PB",
+        "cleaned_url": null,
+        "is_main_image": false,
+        "shot_type": "hero",
+        "alt_text": "Black Bose QuietComfort Ultra headphones shown from the front."
+      }
+    ],
+    "category": {
+      "slug": "over-ear-headphones",
+      "title": "Over-Ear Headphones",
+      "path": [
+        {
+          "slug": "electronics",
+          "title": "Electronics"
+        },
+        {
+          "slug": "audio",
+          "title": "Audio"
+        },
+        {
+          "slug": "audio-components",
+          "title": "Audio Components"
+        },
+        {
+          "slug": "headphones-headsets",
+          "title": "Headphones & Headsets"
+        },
+        {
+          "slug": "headphones",
+          "title": "Headphones"
+        },
+        {
+          "slug": "over-ear-headphones",
+          "title": "Over-Ear Headphones"
+        }
+      ],
+      "has_children": false
+    },
+    "gender": null,
+    "age": "adult",
+    "materials": [
+      "metal"
+    ],
+    "key_features": [
+      "Bose's strongest active noise cancellation and adjustable \"aware\" modes",
+      "Bluetooth 5.4 and 30 hours of battery life",
+      "immersive audio processing with head-tracking for spatialized 3D sound",
+      "aptX Adaptive for high fidelity with low latency",
+      "multipoint connection for pairing to two devices",
+      "four preset listening modes plus up to seven custom modes in the Bose app",
+      "lightweight, over-ear design with premium materials",
+      "on-board controls for easy music and call management",
+      "improved durability and comfort with durable materials",
+      "USB-C charging and wired listening option"
+    ],
+    "colors": [
+      {
+        "hex": "#481313",
+        "percentage": 0.2848
+      },
+      {
+        "hex": "#492d2d",
+        "percentage": 0.2596
+      },
+      {
+        "hex": "#2a1213",
+        "percentage": 0.219
+      },
+      {
+        "hex": "#292224",
+        "percentage": 0.1595
+      },
+      {
+        "hex": "#85574b",
+        "percentage": 0.0771
+      }
+    ],
+    "offers": [
+      {
+        "url": "https://buy.trychannel3.com/GrrCAIt-p1PB-5l3z0w?o=01KY24CXKGHTVW6E6QC2VQ948X",
+        "domain": "bestbuy.com",
+        "price": {
+          "price": 359.99,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0.005,
+        "dimensions": null
+      },
+      {
+        "url": "https://buy.trychannel3.com/GrrCAIt-Pu5r-5l3z0w?o=01KR7AFBC6V456WBMWPA891PD3",
+        "domain": "pcrichard.com",
+        "price": {
+          "price": 369,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0.028,
+        "dimensions": null
+      },
+      {
+        "url": "https://buy.trychannel3.com/GrrCAIt-RnUy-5l3z0w?o=01M3KBNQ11V435BM2K4WCMQVPC",
+        "domain": "beachcamera.com",
+        "price": {
+          "price": 399,
+          "compare_at_price": 449,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0.028,
+        "dimensions": {
+          "length": null,
+          "width": null,
+          "height": null,
+          "weight": {
+            "number": 250,
+            "unit": "g"
+          }
+        }
+      },
+      {
+        "url": "https://buy.trychannel3.com/GrrCAIt-ZQQu-5l3z0w?o=01M694X21G03XG2GZFKX96JXGN",
+        "domain": "focuscamera.com",
+        "price": {
+          "price": 449,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0.021,
+        "dimensions": null
+      },
+      {
+        "url": "https://buy.trychannel3.com/GrrCAIt-Fn95-5l3z0w?o=01KJ9T9806WNEKJJHQZHZYM3TS",
+        "domain": "crutchfield.com",
+        "price": {
+          "price": 449,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "InStock",
+        "condition": "new",
+        "max_commission_rate": 0,
+        "dimensions": null
+      },
+      {
+        "url": "https://buy.trychannel3.com/GrrCAIt-Bteb-5l3z0w?o=01M6RCTFPK75GB41EJRRYVYG3K",
+        "domain": "dell.com",
+        "price": {
+          "price": 449,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "OutOfStock",
+        "condition": "new",
+        "max_commission_rate": 0.012536,
+        "dimensions": {
+          "length": {
+            "number": 8.1,
+            "unit": "in"
+          },
+          "width": {
+            "number": 6.3,
+            "unit": "in"
+          },
+          "height": {
+            "number": 1.8,
+            "unit": "in"
+          },
+          "weight": {
+            "number": 9.28,
+            "unit": "oz"
+          }
+        }
+      },
+      {
+        "url": "https://buy.trychannel3.com/GrrCAIt-yqJJ-5l3z0w?o=01M2GCCVFAQ0XME79BQT2RY5HP",
+        "domain": "microcenter.com",
+        "price": {
+          "price": 449.99,
+          "compare_at_price": null,
+          "currency": "USD"
+        },
+        "availability": "OutOfStock",
+        "condition": "new",
+        "max_commission_rate": 0,
+        "dimensions": null
+      }
+    ],
+    "variants": {
+      "options": [
+        {
+          "name": "Color",
+          "values": [
+            {
+              "label": "Black",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/743375e8-a041-4e68-a150-f18f11f55f5e",
+              "product_id": "GrrCAIt"
+            },
+            {
+              "label": "Driftwood Sand",
+              "exists": true,
+              "available": null,
+              "thumbnail_url": "https://cdn.trychannel3.com/7e826474-b172-4cc6-b7bf-879ed3f5074c",
+              "product_id": "OX5W9Pj"
+            }
+          ]
+        }
+      ],
+      "selected": [
+        {
+          "name": "Color",
+          "label": "Black"
+        }
+      ]
+    },
+    "structured_attributes": {
+      "material": [
+        "Aluminum",
+        "Nylon",
+        "Silicone",
+        "Leather",
+        "Metal",
+        "Plastic",
+        "Faux leather",
+        "Plush",
+        "Foam"
+      ],
+      "audio-component-form-factor": [
+        "Desktop",
+        "Portable/Field"
+      ],
+      "microphone-type": [
+        "Noise-canceling",
+        "Condenser",
+        "Built-in"
+      ],
+      "pattern": [
+        "Solid"
+      ],
+      "charging-interface-type": [
+        "USB type-C"
+      ],
+      "audio-connectivity": [
+        "USB",
+        "3.5 mm",
+        "2.5 mm",
+        "Bluetooth"
+      ],
+      "connectivity-technology": [
+        "Bluetooth",
+        "USB",
+        "Wi-Fi",
+        "Wireless",
+        "Wired"
+      ],
+      "battery-type": [
+        "Rechargeable",
+        "Contained-undetachable"
+      ],
+      "battery-size": [
+        "≤100Wh",
+        "Built-in battery"
+      ],
+      "headphone-style": [
+        "Closed-back",
+        "Open-back"
+      ],
+      "earphone-features": [
+        "Built-in microphone",
+        "Noise cancellation",
+        "Volume control",
+        "High fidelity audio"
+      ],
+      "power-source": [
+        "Battery-powered",
+        "Rechargeable",
+        "USB",
+        "Batteries"
+      ],
+      "noise-cancellation-technology": [
+        "Active noise cancellation (ANC)"
+      ],
+      "driver-technology": [
+        "Dynamic driver",
+        "Dynamic and balanced armature hybrid"
+      ],
+      "device-interface": [
+        "USB",
+        "DVI-I",
+        "3.5 mm",
+        "2.5 mm",
+        "Bluetooth"
+      ],
+      "headphone-driver-technology": [
+        "Dynamic"
+      ],
+      "ingress-protection-ip-rating": [
+        "Not rated"
+      ],
+      "maximum-bit-depth": [
+        "16-bit"
+      ]
+    },
+    "ratings": {
+      "value": 4.64,
+      "count": 2290,
+      "source_count": 5
+    }
+  }
+}
