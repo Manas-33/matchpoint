@@ -24,6 +24,8 @@ export interface Channel3Service {
   findSimilar(productId: string, limit?: number): Promise<Product[]>;
   priceHistory(productId: string): Promise<PriceHistory>;
   startTracking(productId: string): Promise<Subscription>;
+  // Canonical product IDs with an active price-tracking subscription.
+  listTrackedProductIds(): Promise<string[]>;
   // Create the approved-stores Collection, or replace its stores if it already exists.
   upsertApprovedStores(domains: string[]): Promise<Collection>;
 }
@@ -81,6 +83,13 @@ function liveChannel3(apiKey: string): Channel3Service {
       (await call(client.products.findSimilar({ product_id: productId, limit }))).data,
     priceHistory: (productId) => call(client.priceTracking.retrieveHistory({ canonical_product_id: productId })),
     startTracking: (productId) => call(client.priceTracking.start({ canonical_product_id: productId })),
+    async listTrackedProductIds() {
+      const ids: string[] = [];
+      for await (const sub of await call(client.priceTracking.listSubscriptions())) {
+        if (sub.subscription_status === "active") ids.push(sub.canonical_product_id);
+      }
+      return ids;
+    },
     async upsertApprovedStores(domains) {
       const clauses = [{ website_ids: domains }];
       const description = "Stores the shop will price-match and price-protect against.";
@@ -173,6 +182,12 @@ function demoChannel3(): Channel3Service {
       return reviveDates(
         recorded ?? { canonical_product_id: productId, subscription_status: "active", created_at: new Date() },
       );
+    },
+    async listTrackedProductIds() {
+      if (!hasFixture("channel3/tracking/subscriptions")) return [];
+      return loadFixture<Subscription[]>("channel3/tracking/subscriptions")
+        .filter((s) => s.subscription_status === "active")
+        .map((s) => s.canonical_product_id);
     },
     async upsertApprovedStores() {
       const path = "channel3/collections/approved-stores";
