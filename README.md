@@ -4,7 +4,7 @@
 
 Built for the [PayPal AI Hackathon](https://paypalaihackathon.devpost.com). The product is described in [IDEA.md](IDEA.md) and the build plan in [PLAN.md](PLAN.md).
 
-> **Status:** project scaffold (Phase 1). The shop, checkout, match engine and price protection come in later phases.
+> **Status:** shop and checkout (Phase 2): catalog, product pages, PayPal checkout at list price and a webhook-fed ledger. The match engine and price protection come in later phases.
 
 ## How it works
 
@@ -55,7 +55,7 @@ npm run seed
 npm run dev
 ```
 
-Open http://localhost:3000. The home page shows the run mode, the seeded catalog and the active policy.
+Open http://localhost:3000 for the demo shop, Larkspur & Co.: the catalog, product pages and checkout. Pay with a PayPal sandbox personal account (Sandbox > Accounts on developer.paypal.com).
 
 ### Demo mode
 
@@ -70,6 +70,18 @@ npm run dev:demo
 ```
 
 The environment is validated at startup ([`lib/env.ts`](lib/env.ts)): live mode refuses to start without the PayPal, Channel3 and Anthropic keys, and says which one is missing.
+
+### Checkout and PayPal webhooks
+
+Checkout uses the [PayPal JS SDK v6](https://developer.paypal.com/docsai/payments/methods/paypal/sdk/js/v6/paypal-checkout) (`web-sdk/v6/core`, initialised with the client ID). The browser only names the product: `POST /api/checkout/orders` creates the PayPal order at the price in the database, and `POST /api/checkout/orders/:paypalOrderId/capture` captures it after the buyer approves, checks the captured amount and stores the capture ID in `orders`. In demo mode the PayPal button is replaced by a simulated one.
+
+PayPal sends payment events to `POST /api/webhooks/paypal`. Every delivery's signature is checked with PayPal (`verify-webhook-signature`, using `PAYPAL_WEBHOOK_ID`), and `PAYMENT.CAPTURE.COMPLETED` and `PAYMENT.CAPTURE.REFUNDED` are stored in `ledger_events` with a `verified` flag, once per PayPal event ID: redeliveries are ignored. Unverified deliveries are kept, flagged, and refused (HTTP 400) so PayPal retries; a later verified delivery of the same event replaces the row. To receive them locally:
+
+1. Expose port 3000 with a tunnel, e.g. `ngrok http 3000`.
+2. On developer.paypal.com, open the sandbox app, add a webhook with the URL `https://<tunnel host>/api/webhooks/paypal`, and subscribe to *Payment capture completed* and *Payment capture refunded* (or all events).
+3. Put the webhook's ID in `.env` as `PAYPAL_WEBHOOK_ID` and restart `npm run dev`.
+
+`npm run webhooks:replay` re-sends the recorded deliveries in [`fixtures/paypal/webhooks/`](fixtures/paypal/webhooks) to the local route with their original signatures. They verify only against the webhook they were signed for, so with any other `PAYPAL_WEBHOOK_ID` they are stored as unverified and refused, which is what should happen.
 
 ### Seed data
 
@@ -88,6 +100,7 @@ The chosen product IDs are in [`fixtures/seed/catalog.json`](fixtures/seed/catal
 | `npm run db:up` / `npm run db:down` | Start or stop local Postgres (Docker, port 5433) |
 | `npm run db:generate` / `npm run db:migrate` | Generate a migration from `lib/db/schema.ts` / apply migrations |
 | `npm run seed` / `npm run seed:demo` | Seed the shop from Channel3 or from fixtures |
+| `npm run webhooks:replay [url]` | Re-send the recorded PayPal webhook deliveries to the webhook route |
 | `npm run spike:*` | Phase 0 proof-of-concept tests (see [`scripts/spikes/`](scripts/spikes/README.md)) |
 
 ## Project layout
@@ -103,6 +116,10 @@ lib/email.ts         Evidence emails (Resend or log)
 lib/money.ts         Integer-cents helpers
 lib/catalog.ts       Catalog rules and shop pricing
 lib/policy.ts        Default policy and approved stores
+lib/shop.ts          Catalog, policy and order reads for the storefront
+lib/checkout.ts      Create and capture PayPal orders at the database price
+lib/ledger.ts        PayPal webhook verification and deduplication into ledger_events
+app/api/             Checkout and PayPal webhook routes
 scripts/seed.ts      npm run seed
 scripts/spikes/      Phase 0 proof-of-concept tests and findings
 fixtures/            Recorded API responses (secrets redacted), used by demo mode and tests

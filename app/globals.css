@@ -1,24 +1,65 @@
 @import "tailwindcss";
 
+/* Larkspur & Co. storefront: warm paper neutrals, a forest-green accent, amber for price protection. */
 :root {
-  --background: #fafaf9;
-  --foreground: #1c1917;
+  --background: #f6f3ec;
+  --foreground: #1f1d18;
+  --surface: #ffffff;
+  --surface-2: #efebe1;
+  --muted: #6d675b;
+  --line: #e2dccd;
+  --accent: #1f4d3a;
+  --accent-ink: #ffffff;
+  --accent-soft: #e3ede6;
+  --amber: #9a5b13;
+  --amber-soft: #f7ead3;
+  --danger: #a3261d;
+  --danger-soft: #fbe6e3;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #12110e;
+    --foreground: #f1ede4;
+    --surface: #1b1a16;
+    --surface-2: #24221d;
+    --muted: #a69f90;
+    --line: #2f2c25;
+    --accent: #86c7a1;
+    --accent-ink: #0f1f17;
+    --accent-soft: #1b2b22;
+    --amber: #e3ac5c;
+    --amber-soft: #2d2416;
+    --danger: #f08b80;
+    --danger-soft: #2f1a17;
+  }
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0c0a09;
-    --foreground: #f5f5f4;
-  }
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-accent-soft: var(--accent-soft);
+  --color-amber: var(--amber);
+  --color-amber-soft: var(--amber-soft);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: var(--font-fraunces), ui-serif, Georgia, serif;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-family: var(--font-sans);
+}
+
+/* Product photos are cut out on white; keep them on white in dark mode too, inside a soft frame. */
+.product-frame {
+  background: #ffffff;
 }
