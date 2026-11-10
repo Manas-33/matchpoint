@@ -37,7 +37,14 @@ type Status =
   | { kind: "error"; message: string };
 
 // matchRequestId: pay the matched price of that (server-checked) match request instead of the list price.
-type Props = { productSlug: string; currency: string; matchRequestId?: string; label?: string } & ({ mode: "live"; clientId: string } | { mode: "demo" });
+type Props = {
+  productSlug: string;
+  currency: string;
+  matchRequestId?: string;
+  // With a match: "value" pays the list price for the value-match counter-offer instead of the cash match.
+  matchOption?: "match" | "value";
+  label?: string;
+} & ({ mode: "live"; clientId: string } | { mode: "demo" });
 
 async function postJson<T>(url: string, body?: unknown): Promise<T> {
   const res = await fetch(url, {
@@ -55,7 +62,7 @@ export function PayPalCheckout(props: Props) {
   const container = useRef<HTMLDivElement>(null);
   const initialized = useRef(false);
   const clientId = props.mode === "live" ? props.clientId : null;
-  const { productSlug, currency, matchRequestId } = props;
+  const { productSlug, currency, matchRequestId, matchOption } = props;
   const [status, setStatus] = useState<Status>(props.mode === "demo" ? { kind: "ready" } : { kind: "loading" });
   const busy = status.kind === "paying" || status.kind === "capturing";
 
@@ -64,9 +71,10 @@ export function PayPalCheckout(props: Props) {
     const { paypalOrderId } = await postJson<{ paypalOrderId: string }>("/api/checkout/orders", {
       productSlug,
       matchRequestId,
+      option: matchOption,
     });
     return { orderId: paypalOrderId };
-  }, [productSlug, matchRequestId]);
+  }, [productSlug, matchRequestId, matchOption]);
 
   const capture = useCallback(
     async (paypalOrderId: string) => {

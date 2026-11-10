@@ -6,15 +6,16 @@ import { getClaude, type JudgmentResult } from "../claude";
 import { getDb, schema } from "../db";
 import type { Product } from "../db/schema";
 import { MissingFixtureError } from "../fixtures";
-import { lowestMatchPriceCents } from "../policy";
+import { DEFAULT_VALUE_OFFERS, lowestMatchPriceCents } from "../policy";
 import { getActivePolicy } from "../shop";
-import { dollarsToCents } from "../money";
+import { dollarsToCents, formatCents } from "../money";
 import {
   domainOf,
   evaluateMatch,
   linkedOffer,
   summarizeHistory,
   unverifiedVerdict, type HistoryStats, type Verdict } from "./rules";
+import { chooseValueOffer, VALUE_OFFER_CODE, type ValueOffer } from "./value-offer";
 
 export type MatchStep = "lookup" | "compare" | "history" | "rules";
 export const MATCH_STEPS: MatchStep[] = ["lookup", "compare", "history", "rules"];
@@ -39,6 +40,8 @@ export type MatchResult = Verdict & {
   competitorTitle: string | null;
   history: Pick<HistoryStats, "typicalCents" | "daysAtOrBelow" | "windowDays" | "currentStatus" | "series"> | null;
   alternatives: Alternative[];
+  // Value match: offered before the cash match (null when no allowed alternative beats cash for the shop).
+  valueOffer: ValueOffer | null;
   policyVersion: number;
   model: string | null;
   mode: "live" | "demo";
@@ -181,7 +184,24 @@ export async function runMatch(
     onStep("rules", "done");
   }
 
-  // 5. Save the decision and every piece of evidence behind it.
+  // Value match: the counter-offer to make before cash, priced from the shop's allowed alternatives.
+  const valueOffer =
+    verdict.decision === "match" && verdict.matchedPriceCents != null
+      ? chooseValueOffer(DEFAULT_VALUE_OFFERS, product.shopPriceCents - verdict.matchedPriceCents, product.shopPriceCents, product.unitCostCents)
+      : null;
+
+  // 5. Save the decision and every piece of evidence behind it. The counter-offer is saved alongside the
+  // checks so checkout can honour exactly what was offered.
+  const valueOfferReason = valueOffer
+    ? [
+        {
+          code: VALUE_OFFER_CODE,
+          message: `Offered ${valueOffer.title} (worth ${formatCents(valueOffer.customerValueCents)}, costs the shop ${formatCents(valueOffer.shopCostCents)}) before ${formatCents(valueOffer.insteadOfCents)} off in cash.`,
+          source: "policy.value_offers",
+          offer: valueOffer,
+        },
+      ]
+    : [];
   const [saved] = await getDb()
     .insert(schema.matchRequests)
     .values({
@@ -193,7 +213,7 @@ export async function runMatch(
       model: judgment?.model ?? null,
       modelOutput: judgment,
       decision: verdict.decision,
-      reasons: verdict.checks,
+      reasons: [...verdict.checks, ...valueOfferReason],
       competitorPriceCents: verdict.competitorPriceCents,
       matchedPriceCents: verdict.matchedPriceCents,
       policyId: policy.id,
@@ -234,6 +254,7 @@ export async function runMatch(
       ? { typicalCents: h.typicalCents, daysAtOrBelow: h.daysAtOrBelow, windowDays: h.windowDays, currentStatus: h.currentStatus, series: h.series }
       : null,
     alternatives,
+    valueOffer,
     policyVersion: policy.version,
     model: judgment?.model ?? null,
     mode: c3.mode,

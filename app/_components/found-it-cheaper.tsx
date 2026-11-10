@@ -218,56 +218,10 @@ function Progress({ steps }: { steps: StepState }) {
 
 function Decision({ result, props, onReset }: { result: MatchResult; props: Props; onReset: () => void }) {
   const fmt = (c: number) => formatCents(c, result.currency);
-  const store = result.competitorDomain ?? "that store";
   const failing = result.checks.filter((c) => c.status === "fail" || c.status === "review");
 
   if (result.decision === "match" && result.matchedPriceCents != null) {
-    const price = fmt(result.matchedPriceCents);
-    return (
-      <div className="mt-4 flex flex-col gap-4">
-        <div className="rounded-xl bg-accent-soft p-4">
-          <p className="text-sm font-medium text-accent">Price matched to {store}</p>
-          <div className="mt-1 flex flex-wrap items-baseline gap-x-3 gap-y-1">
-            <span className="text-3xl font-semibold tabular-nums">{price}</span>
-            <span className="text-muted tabular-nums line-through">{fmt(result.shopPriceCents)}</span>
-            {result.savingsCents != null && result.savingsCents > 0 && (
-              <span className="rounded-full bg-accent px-2.5 py-0.5 text-xs font-medium text-accent-ink">
-                You save {fmt(result.savingsCents)}
-              </span>
-            )}
-          </div>
-          {result.customerMessage && <p className="mt-2 text-sm leading-relaxed">{result.customerMessage}</p>}
-        </div>
-        <Evidence checks={result.checks} result={result} />
-        <div className="flex flex-col gap-2">
-          <p className="text-sm font-medium">Pay {price} with PayPal</p>
-          {props.payment.mode === "live" ? (
-            <PayPalCheckout
-              mode="live"
-              clientId={props.payment.clientId}
-              productSlug={props.productSlug}
-              currency={props.currency}
-              matchRequestId={result.matchRequestId}
-            />
-          ) : (
-            <PayPalCheckout
-              mode="demo"
-              productSlug={props.productSlug}
-              currency={props.currency}
-              matchRequestId={result.matchRequestId}
-              label={`Pay ${price} with PayPal`}
-            />
-          )}
-          {props.protectionDays != null && (
-            <p className="flex items-center gap-2 text-xs text-muted">
-              <ShieldIcon className="size-3.5 shrink-0 text-amber" />
-              Still covered by our {props.protectionDays}-day price protection at {price}.
-            </p>
-          )}
-        </div>
-        <Footer result={result} onReset={onReset} />
-      </div>
-    );
+    return <Matched result={result} props={props} onReset={onReset} />;
   }
 
   if (result.decision === "decline") {
@@ -325,6 +279,120 @@ function Decision({ result, props, onReset }: { result: MatchResult; props: Prop
       <Evidence checks={failing.length ? failing : result.checks} result={result} />
       <Footer result={result} onReset={onReset} />
     </div>
+  );
+}
+
+function Matched({ result, props, onReset }: { result: MatchResult; props: Props; onReset: () => void }) {
+  const fmt = (c: number) => formatCents(c, result.currency);
+  const store = result.competitorDomain ?? "that store";
+  const offer = result.valueOffer;
+  // The agent offers the value match first; the cash match is always one click away.
+  const [choice, setChoice] = useState<"value" | "match">(offer ? "value" : "match");
+  const matched = fmt(result.matchedPriceCents!);
+  const payCents = choice === "value" ? result.shopPriceCents : result.matchedPriceCents!;
+  const pay = fmt(payCents);
+
+  return (
+    <div className="mt-4 flex flex-col gap-4">
+      <div className="rounded-xl bg-accent-soft p-4">
+        <p className="text-sm font-medium text-accent">Price matched to {store}</p>
+        <div className="mt-1 flex flex-wrap items-baseline gap-x-3 gap-y-1">
+          <span className="text-3xl font-semibold tabular-nums">{matched}</span>
+          <span className="text-muted tabular-nums line-through">{fmt(result.shopPriceCents)}</span>
+          {result.savingsCents != null && result.savingsCents > 0 && (
+            <span className="rounded-full bg-accent px-2.5 py-0.5 text-xs font-medium text-accent-ink">
+              You save {fmt(result.savingsCents)}
+            </span>
+          )}
+        </div>
+        {result.customerMessage && <p className="mt-2 text-sm leading-relaxed">{result.customerMessage}</p>}
+      </div>
+      <Evidence checks={result.checks} result={result} />
+
+      {offer && (
+        <fieldset className="flex flex-col gap-2">
+          <legend className="mb-2 text-sm font-medium">Or get more for your money</legend>
+          <Option
+            selected={choice === "value"}
+            onSelect={() => setChoice("value")}
+            title={`${offer.kind === "store_credit" ? `${fmt(offer.customerValueCents)} store credit` : offer.title}, worth ${fmt(offer.customerValueCents)}`}
+            detail={`${offer.description} You pay our price, ${fmt(result.shopPriceCents)}.`}
+            badge={`${fmt(offer.customerValueCents)} value`}
+          />
+          <Option
+            selected={choice === "match"}
+            onSelect={() => setChoice("match")}
+            title={`Price match: ${matched}`}
+            detail={`${fmt(result.savingsCents ?? 0)} off, matching ${store}.`}
+            badge={`${fmt(result.savingsCents ?? 0)} off`}
+          />
+        </fieldset>
+      )}
+
+      <div className="flex flex-col gap-2">
+        <p className="text-sm font-medium">
+          Pay {pay} with PayPal{choice === "value" && offer ? ` and get ${offer.kind === "store_credit" ? `${fmt(offer.customerValueCents)} store credit` : offer.title.toLowerCase()}` : ""}
+        </p>
+        {/* Keyed by the choice so the PayPal button is set up again for the new amount. */}
+        {props.payment.mode === "live" ? (
+          <PayPalCheckout
+            key={choice}
+            mode="live"
+            clientId={props.payment.clientId}
+            productSlug={props.productSlug}
+            currency={props.currency}
+            matchRequestId={result.matchRequestId}
+            matchOption={choice}
+          />
+        ) : (
+          <PayPalCheckout
+            key={choice}
+            mode="demo"
+            productSlug={props.productSlug}
+            currency={props.currency}
+            matchRequestId={result.matchRequestId}
+            matchOption={choice}
+            label={`Pay ${pay} with PayPal`}
+          />
+        )}
+        {props.protectionDays != null && (
+          <p className="flex items-center gap-2 text-xs text-muted">
+            <ShieldIcon className="size-3.5 shrink-0 text-amber" />
+            Still covered by our {props.protectionDays}-day price protection at {pay}.
+          </p>
+        )}
+      </div>
+      <Footer result={result} onReset={onReset} />
+    </div>
+  );
+}
+
+function Option({
+  selected,
+  onSelect,
+  title,
+  detail,
+  badge,
+}: {
+  selected: boolean;
+  onSelect: () => void;
+  title: string;
+  detail: string;
+  badge: string;
+}) {
+  return (
+    <label
+      className={`flex cursor-pointer items-start gap-3 rounded-xl border p-3 transition ${
+        selected ? "border-accent bg-accent-soft/50" : "border-line hover:border-accent/60"
+      }`}
+    >
+      <input type="radio" name="match-option" checked={selected} onChange={onSelect} className="mt-1 accent-[var(--accent)]" />
+      <span className="flex min-w-0 flex-1 flex-col gap-0.5">
+        <span className="text-sm font-medium">{title}</span>
+        <span className="text-xs leading-relaxed text-muted">{detail}</span>
+      </span>
+      <span className="shrink-0 rounded-full bg-surface-2 px-2 py-0.5 text-xs font-medium tabular-nums">{badge}</span>
+    </label>
   );
 }
 

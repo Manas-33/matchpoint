@@ -5,6 +5,7 @@ import { connection } from "next/server";
 import { Suspense } from "react";
 import { z } from "zod";
 import type { schema } from "@/lib/db";
+import { savedValueOffer } from "@/lib/match/value-offer";
 import { formatCents } from "@/lib/money";
 import { getActivePolicy, getCaptureLedger, getOrderWithProduct, productImages, variantLabel } from "@/lib/shop";
 import { AutoRefresh } from "../../_components/auto-refresh";
@@ -42,6 +43,9 @@ async function Order({ params }: Pick<PageProps<"/orders/[id]">, "params">) {
   }
   if (!data.row) notFound();
   const { order, product, match } = data.row;
+  // A matched order paid at the list price took the value-match counter-offer instead of cash.
+  const valueOffer = match ? savedValueOffer(match.reasons) : null;
+  const tookValueOffer = !!valueOffer && match?.matchedPriceCents != null && order.pricePaidCents > match.matchedPriceCents;
   const { policy, ledger } = data;
 
   const paid = order.status === "completed" || order.status === "partially_refunded" || order.status === "refunded";
@@ -99,7 +103,17 @@ async function Order({ params }: Pick<PageProps<"/orders/[id]">, "params">) {
             )}
           </div>
         </div>
-        {match && (
+        {match && tookValueOffer && valueOffer && (
+          <p className="mt-4 flex items-start gap-2 rounded-xl bg-accent-soft px-3 py-2 text-sm text-accent">
+            <TagIcon className="mt-0.5 size-4 shrink-0" />
+            <span>
+              <span className="font-medium">Includes {valueOffer.title.toLowerCase()}</span> (worth{" "}
+              {formatCents(valueOffer.customerValueCents, order.currency)}), our alternative to matching{" "}
+              {match.competitorDomain}.
+            </span>
+          </p>
+        )}
+        {match && !tookValueOffer && (
           <p className="mt-4 flex items-center gap-2 rounded-xl bg-accent-soft px-3 py-2 text-sm font-medium text-accent">
             <TagIcon className="size-4 shrink-0" />
             Price matched to {match.competitorDomain}
