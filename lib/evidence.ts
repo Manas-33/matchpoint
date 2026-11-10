@@ -71,9 +71,12 @@ export function explanation(e: Evidence): string {
   const now = formatCents(e.event.newPriceCents, e.event.currency);
   const amount = formatCents(e.refund.amountCents, e.refund.currency);
   const when = e.refund.approvedBy === "owner" ? "The shop owner approved it" : "It was under the auto-refund cap, so it went out automatically";
+  const seen = e.simulated
+    ? `a simulated price drop (demo replay) put the same item at ${now} at ${e.event.domain}, where it is in stock`
+    : `${e.event.domain} listed the same item for ${now}, in stock`;
   return `You paid ${paid} at ${SHOP.name} on ${dateFormat.format(e.order.capturedAt ?? e.order.createdAt)}. On ${dateFormat.format(
     e.observedAt,
-  )}, ${e.event.domain} listed the same item for ${now}, in stock. That is within your protection window, so we refunded ${amount} to your PayPal account. ${when}.`;
+  )}, ${seen}. That is within your protection window, so we refunded ${amount} to your PayPal account. ${when}.`;
 }
 
 export function renderEvidenceEmail(e: Evidence, appUrl: string) {
