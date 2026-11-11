@@ -28,7 +28,7 @@ console.log(`list_products("bose") -> ${product.title}, ${product.price}, ${prod
 const match = (await client.callTool({
   name: "request_price_match",
   arguments: { product: product.product_id, competitor_url: competitorUrl, buyer_email: "buyer@example.com" },
-})) as ToolResult;
+}, undefined, { timeout: 150_000 })) as ToolResult;
 console.log(`request_price_match ->\n${text(match)}\n`);
 const matchId = match.structuredContent?.match_id as string | undefined;
 

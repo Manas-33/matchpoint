@@ -10,8 +10,8 @@ import { createMatchpointMcpServer } from "@/lib/mcp/tools";
 // A price match waits on Channel3 and Claude.
 export const maxDuration = 120;
 
-// 30 requests a minute per key; a price match is a handful of requests (initialize, list, call).
-const limiter = ((globalThis as { matchpointMcpLimiter?: RateLimiter }).matchpointMcpLimiter ??= new RateLimiter(30, 60_000));
+// 60 requests a minute per key; one price match is a handful (initialize, list, call).
+const limiter = ((globalThis as { matchpointMcpLimiter?: RateLimiter }).matchpointMcpLimiter ??= new RateLimiter(60, 60_000));
 
 const rpcError = (status: number, message: string, headers: Record<string, string> = {}) =>
   Response.json({ jsonrpc: "2.0", error: { code: -32001, message }, id: null }, { status, headers });
@@ -36,4 +36,8 @@ async function handle(req: Request): Promise<Response> {
   }
 }
 
-export { handle as GET, handle as POST, handle as DELETE };
+// No server-initiated stream and no sessions: clients that try to open one get 405, as the spec allows.
+const methodNotAllowed = () =>
+  Response.json({ jsonrpc: "2.0", error: { code: -32000, message: "Method not allowed: POST JSON-RPC requests to this endpoint." }, id: null }, { status: 405, headers: { Allow: "POST" } });
+
+export { handle as POST, methodNotAllowed as GET, methodNotAllowed as DELETE };
