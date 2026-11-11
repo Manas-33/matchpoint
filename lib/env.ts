@@ -28,6 +28,10 @@ const schema = z
     // Without a Resend key, email falls back to logging (always the case in demo mode).
     RESEND_API_KEY: optional,
     EMAIL_FROM: z.string().default("Matchpoint Demo Shop <onboarding@resend.dev>"),
+
+    // Shopper-agent MCP endpoint (/api/mcp): comma-separated `name:key` pairs. Demo mode accepts
+    // mp_demo_key when unset; live mode turns the endpoint off without keys.
+    MCP_API_KEYS: optional,
   })
   .superRefine((env, ctx) => {
     if (env.DEMO_MODE) return;

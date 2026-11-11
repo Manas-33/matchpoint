@@ -120,9 +120,13 @@ export async function getProductById(id: string): Promise<Product | null> {
 
 type StepListener = (step: MatchStep, status: "running" | "done") => void;
 
+// Who asked: the product page, or a shopping agent over MCP (named by its API key).
+export type MatchOrigin = { source: "web" } | { source: "agent"; agentName: string };
+
 export async function runMatch(
   { productId, competitorUrl }: { productId: string; competitorUrl: string },
   onStep: StepListener = () => {},
+  origin: MatchOrigin = { source: "web" },
 ): Promise<MatchResult> {
   const [product, policy] = await Promise.all([getProductById(productId), getActivePolicy()]);
   if (!product) throw new MatchError("PRODUCT_NOT_FOUND", "That product isn't in the catalog", 404);
@@ -217,6 +221,8 @@ export async function runMatch(
       competitorPriceCents: verdict.competitorPriceCents,
       matchedPriceCents: verdict.matchedPriceCents,
       policyId: policy.id,
+      source: origin.source,
+      agentName: origin.source === "agent" ? origin.agentName : null,
     })
     .returning({ id: schema.matchRequests.id });
 
@@ -236,6 +242,7 @@ export async function runMatch(
       competitorPriceCents: verdict.competitorPriceCents,
       matchedPriceCents: verdict.matchedPriceCents,
       policyVersion: policy.version,
+      source: origin.source,
     }),
   );
 
