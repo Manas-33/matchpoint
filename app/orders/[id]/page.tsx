@@ -4,6 +4,8 @@ import { notFound } from "next/navigation";
 import { connection } from "next/server";
 import { Suspense } from "react";
 import { z } from "zod";
+import { getOrderRefunds } from "@/lib/price-protection";
+import { isSimulated } from "@/lib/protection";
 import type { schema } from "@/lib/db";
 import { savedValueOffer } from "@/lib/match/value-offer";
 import { formatCents } from "@/lib/money";
@@ -36,8 +38,10 @@ async function Order({ params }: Pick<PageProps<"/orders/[id]">, "params">) {
   let data;
   try {
     const [row, policy] = await Promise.all([getOrderWithProduct(id), getActivePolicy()]);
-    const ledger = row?.order.paypalCaptureId ? await getCaptureLedger(row.order.paypalCaptureId) : [];
-    data = { row, policy, ledger };
+    const [ledger, refunds] = row?.order.paypalCaptureId
+      ? await Promise.all([getCaptureLedger(row.order.paypalCaptureId), getOrderRefunds(id)])
+      : [[], []];
+    data = { row, policy, ledger, refunds };
   } catch (err) {
     return <DatabaseError error={err} />;
   }
@@ -46,7 +50,7 @@ async function Order({ params }: Pick<PageProps<"/orders/[id]">, "params">) {
   // A matched order paid at the list price took the value-match counter-offer instead of cash.
   const valueOffer = match ? savedValueOffer(match.reasons) : null;
   const tookValueOffer = !!valueOffer && match?.matchedPriceCents != null && order.pricePaidCents > match.matchedPriceCents;
-  const { policy, ledger } = data;
+  const { policy, ledger, refunds } = data;
 
   const paid = order.status === "completed" || order.status === "partially_refunded" || order.status === "refunded";
   const price = formatCents(order.pricePaidCents, order.currency);
@@ -139,6 +143,21 @@ async function Order({ params }: Pick<PageProps<"/orders/[id]">, "params">) {
               before then, we refund the difference to your PayPal. Refunds up to{" "}
               {formatCents(policy.autoRefundCapCents)} are automatic; above that, the owner signs off.
             </p>
+            {refunds.length > 0 && (
+              <ul className="mt-3 flex flex-col gap-1.5 text-sm">
+                {refunds.map(({ refund, event }) => (
+                  <li key={refund.id}>
+                    <Link href={`/evidence/${refund.id}`} className="font-medium text-amber underline-offset-4 hover:underline">
+                      {formatCents(refund.amountCents)} refund {refund.status === "completed" ? "issued" : refund.status.replace("_", " ")}
+                    </Link>{" "}
+                    <span className="text-muted">
+                      · {event.domain} at {formatCents(event.newPriceCents)}
+                      {isSimulated(event) ? " (simulated drop)" : ""}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            )}
           </div>
         </section>
       )}

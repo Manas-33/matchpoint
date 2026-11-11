@@ -7,6 +7,7 @@ import { getEnv } from "./env";
 import { formatCents } from "./money";
 import { getPayPal, PayPalApiError, type CapturedOrder } from "./paypal";
 import { savedValueOffer } from "./match/value-offer";
+import { enrolProtection } from "./price-protection";
 import { getProductBySlug, variantLabel } from "./shop";
 
 type OrderStatus = (typeof schema.orderStatus.enumValues)[number];
@@ -174,7 +175,18 @@ export async function captureCheckoutOrder(paypalOrderId: string) {
   console.log(
     JSON.stringify({ msg: "checkout order captured", orderId: order.id, paypalOrderId, captureId: captured.captureId, captureStatus: captured.captureStatus }),
   );
+  if ((updated?.status ?? status) === "completed") await enrolSafely(order.id);
   return { orderId: order.id, status: updated?.status ?? status, captureId: captured.captureId };
+}
+
+// Price protection starts at capture. A failure here must not fail the payment: it's logged, and the
+// PayPal capture webhook (or `npm run protection:backfill`) enrols the order again.
+export async function enrolSafely(orderId: string) {
+  try {
+    await enrolProtection(orderId);
+  } catch (err) {
+    console.error(JSON.stringify({ msg: "protection enrolment failed", orderId, error: String(err) }));
+  }
 }
 
 // A verified PAYMENT.CAPTURE.COMPLETED fills in an order the capture route didn't finish (the buyer
