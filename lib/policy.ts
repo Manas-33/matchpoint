@@ -49,3 +49,42 @@ export function lowestMatchPriceCents(
   const maxDiscount = Math.ceil((shopPriceCents * (10_000 - maxDiscountBps)) / 10_000);
   return Math.max(marginFloor, maxDiscount);
 }
+
+// Value match: alternatives the shop allows instead of a cash price match. Before giving cash off, the
+// agent offers the one that costs the shop least, as long as it's worth at least the cash discount to the
+// customer. Kept in code for now; the policy page (PLAN.md Phase 5) can move it into the policies table.
+export type ValueOfferRule =
+  | {
+      id: string;
+      kind: "store_credit";
+      title: string;
+      description: string;
+      // Credit given per dollar of cash discount, in basis points (12500: $1.25 of credit per $1).
+      creditBps: number;
+    }
+  | {
+      id: string;
+      kind: "service";
+      title: string;
+      description: string;
+      valueCents: Cents; // what the customer would pay for it
+      shopCostCents: Cents; // what it costs the shop to provide
+    };
+
+export const DEFAULT_VALUE_OFFERS: ValueOfferRule[] = [
+  {
+    id: "store-credit",
+    kind: "store_credit",
+    title: "Store credit",
+    description: "Spend it on anything in the shop, any time.",
+    creditBps: 12_500,
+  },
+  {
+    id: "gear-care",
+    kind: "service",
+    title: "A year of free gear care",
+    description: "Cleaning, a check-up and small repairs in store for 12 months.",
+    valueCents: 4000,
+    shopCostCents: 800,
+  },
+];

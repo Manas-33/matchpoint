@@ -7,11 +7,12 @@ import { z } from "zod";
 import { getOrderRefunds } from "@/lib/price-protection";
 import { isSimulated } from "@/lib/protection";
 import type { schema } from "@/lib/db";
+import { savedValueOffer } from "@/lib/match/value-offer";
 import { formatCents } from "@/lib/money";
 import { getActivePolicy, getCaptureLedger, getOrderWithProduct, productImages, variantLabel } from "@/lib/shop";
 import { AutoRefresh } from "../../_components/auto-refresh";
 import { DatabaseError } from "../../_components/database-error";
-import { CheckIcon, ShieldIcon } from "../../_components/icons";
+import { CheckIcon, ShieldIcon, TagIcon } from "../../_components/icons";
 
 type LedgerEvent = typeof schema.ledgerEvents.$inferSelect;
 
@@ -45,7 +46,10 @@ async function Order({ params }: Pick<PageProps<"/orders/[id]">, "params">) {
     return <DatabaseError error={err} />;
   }
   if (!data.row) notFound();
-  const { order, product } = data.row;
+  const { order, product, match } = data.row;
+  // A matched order paid at the list price took the value-match counter-offer instead of cash.
+  const valueOffer = match ? savedValueOffer(match.reasons) : null;
+  const tookValueOffer = !!valueOffer && match?.matchedPriceCents != null && order.pricePaidCents > match.matchedPriceCents;
   const { policy, ledger, refunds } = data;
 
   const paid = order.status === "completed" || order.status === "partially_refunded" || order.status === "refunded";
@@ -96,8 +100,31 @@ async function Order({ params }: Pick<PageProps<"/orders/[id]">, "params">) {
             <p className="font-medium leading-snug">{product.title}</p>
             <p className="text-sm text-muted">{variantLabel(product.variant)}</p>
           </div>
-          <p className="font-semibold tabular-nums">{price}</p>
+          <div className="flex flex-col items-end gap-0.5">
+            <p className="font-semibold tabular-nums">{price}</p>
+            {match && order.pricePaidCents < product.shopPriceCents && (
+              <p className="text-sm text-muted tabular-nums line-through">{formatCents(product.shopPriceCents, order.currency)}</p>
+            )}
+          </div>
         </div>
+        {match && tookValueOffer && valueOffer && (
+          <p className="mt-4 flex items-start gap-2 rounded-xl bg-accent-soft px-3 py-2 text-sm text-accent">
+            <TagIcon className="mt-0.5 size-4 shrink-0" />
+            <span>
+              <span className="font-medium">Includes {valueOffer.title.toLowerCase()}</span> (worth{" "}
+              {formatCents(valueOffer.customerValueCents, order.currency)}), our alternative to matching{" "}
+              {match.competitorDomain}.
+            </span>
+          </p>
+        )}
+        {match && !tookValueOffer && (
+          <p className="mt-4 flex items-center gap-2 rounded-xl bg-accent-soft px-3 py-2 text-sm font-medium text-accent">
+            <TagIcon className="size-4 shrink-0" />
+            Price matched to {match.competitorDomain}
+            {order.pricePaidCents < product.shopPriceCents &&
+              ` · you saved ${formatCents(product.shopPriceCents - order.pricePaidCents, order.currency)}`}
+          </p>
+        )}
         <dl className="mt-6 grid gap-x-6 gap-y-3 border-t border-line pt-5 text-sm sm:grid-cols-2">
           <Detail label="Order" value={order.id.slice(0, 8).toUpperCase()} mono />
           {order.capturedAt && <Detail label="Paid" value={dateTimeFormat.format(order.capturedAt)} />}

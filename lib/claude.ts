@@ -6,12 +6,19 @@ import { betaZodOutputFormat } from "@anthropic-ai/sdk/helpers/beta/zod";
 import type { Channel3Api } from "@channel3/sdk";
 import { z } from "zod";
 import { getEnv } from "./env";
+import { normalizeUrl } from "./channel3";
 import { listFixtures, loadFixture } from "./fixtures";
 
 export const SameProductDecision = z.object({
   same_product: z.boolean().describe("Both listings are the same manufacturer product (same model)."),
   variant_match: z.boolean().describe("Size, colour, capacity and other variant options match."),
-  condition_ok: z.boolean().describe("The competitor offer is new, not used/refurbished/open-box."),
+  // Three-way (Phase 0 finding): Channel3 usually reports condition as null, so "unknown" must be distinct
+  // from "not new", and the shop policy decides what unknown means.
+  condition: z
+    .enum(["new", "not_new", "unknown"])
+    .describe(
+      "The competitor offer's condition. new: a regular new retail listing with no sign otherwise. not_new: any sign it is used, refurbished, renewed, open-box, pre-owned or a demo unit in the URL path, title or description, even if an offer's condition field says new. unknown: no listing says either way and nothing points to new.",
+    ),
   bundle_or_accessory: z
     .boolean()
     .describe("Either listing is a bundle, multipack, accessory or part rather than the product itself."),
@@ -32,6 +39,15 @@ export const SameProductDecision = z.object({
 });
 export type SameProductDecision = z.infer<typeof SameProductDecision>;
 
+// Phase 0 recordings used a boolean condition_ok, which came back false whenever condition was unknown.
+const LegacyDecision = SameProductDecision.omit({ condition: true }).extend({ condition_ok: z.boolean() });
+function parseRecordedDecision(raw: unknown): SameProductDecision {
+  const current = SameProductDecision.safeParse(raw);
+  if (current.success) return current.data;
+  const { condition_ok, ...rest } = LegacyDecision.parse(raw);
+  return { ...rest, condition: condition_ok ? "new" : "unknown" };
+}
+
 // A listing as Claude sees it: the Channel3 product plus the URL it came from (a retailer link,
 // or `channel3:<id>` for the shop's own catalog product).
 export type Listing = { url: string; product: Channel3Api.Product };
@@ -43,7 +59,9 @@ export type JudgmentResult =
 
 const SYSTEM = `You verify price-match requests for an independent shop.
 You get two product listings from Channel3: the shop's own listing and a competitor's listing.
-Judge only whether they are the same product, the same variant, and an acceptable condition, and flag bundles, accessories and model-year differences.
+Judge only whether they are the same product, the same variant, and the competitor offer's condition, and flag bundles, accessories and model-year differences.
+Different canonical_product_id values do not mean different products: Channel3 lists one product under several IDs.
+Channel3 merges used, refurbished and open-box pages into the new product's record, so the offers' condition field often says "new" for them. The competitor URL path, title and description are the reliable signal for condition: when they mark the item as open-box, refurbished, used or similar, the condition is not_new.
 Do not decide prices, discounts or whether the match is approved: deterministic code does that.
 Every reason must cite a specific field of a listing. When data is missing or ambiguous, say so and lower your confidence.`;
 
@@ -88,7 +106,7 @@ function liveClaude(apiKey: string, model: string): ClaudeService {
         max_tokens: 16000,
         betas: ["server-side-fallback-2026-07-01"],
         fallbacks: "default",
-        output_config: { effort: "high", format: betaZodOutputFormat(SameProductDecision) },
+        output_config: { effort: "medium", format: betaZodOutputFormat(SameProductDecision) },
         system: SYSTEM,
         messages: [
           {
@@ -125,7 +143,7 @@ function recordedJudgments() {
     const rec = loadFixture<RecordedJudgment>(`claude/${file}`);
     const shop = loadFixture<Listing>(rec.shop_fixture.replace(/^fixtures\//, ""));
     const competitor = loadFixture<Listing>(rec.competitor_fixture.replace(/^fixtures\//, ""));
-    byKey.set(`${shop.product.id} ${competitor.url}`, rec);
+    byKey.set(`${shop.product.id} ${normalizeUrl(competitor.url)}`, rec);
   }
   return byKey;
 }
@@ -136,11 +154,11 @@ function demoClaude(): ClaudeService {
     mode: "demo",
     async judgeSameProduct(shop, competitor) {
       index ??= recordedJudgments();
-      const rec = index.get(`${shop.product.id} ${competitor.url}`);
+      const rec = index.get(`${shop.product.id} ${normalizeUrl(competitor.url)}`);
       if (!rec?.decision) {
         return { outcome: "review", reason: "demo mode: no recorded judgment for this pair", model: "demo" };
       }
-      return { outcome: "ok", decision: SameProductDecision.parse(rec.decision), model: rec.model, usage: rec.usage };
+      return { outcome: "ok", decision: parseRecordedDecision(rec.decision), model: rec.model, usage: rec.usage };
     },
   };
 }

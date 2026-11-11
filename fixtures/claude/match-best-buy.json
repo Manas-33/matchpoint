@@ -1,0 +1,87 @@
+{
+  "model": "claude-sonnet-5-5",
+  "shop_fixture": "fixtures/channel3/catalog/mgo7x7F.json",
+  "competitor_fixture": "fixtures/channel3/lookup/bestbuy-com-bose-quietcomfort-ultra-wirele-cdd2a9.json",
+  "outcome": "ok",
+  "decision": {
+    "same_product": true,
+    "variant_match": true,
+    "condition": "new",
+    "bundle_or_accessory": false,
+    "model_year_mismatch": false,
+    "confidence": 0.93,
+    "reasons": [
+      {
+        "listing": "both",
+        "field": "title",
+        "observation": "Both titles name the Bose QuietComfort Ultra Headphones (2nd Gen); the competitor title only adds 'Wireless Noise-Canceling', which is descriptive."
+      },
+      {
+        "listing": "both",
+        "field": "brands",
+        "observation": "Both listings share the brand Bose (id qHHu)."
+      },
+      {
+        "listing": "both",
+        "field": "variants.selected",
+        "observation": "Both have Color: Black selected, so the variant matches."
+      },
+      {
+        "listing": "competitor",
+        "field": "url",
+        "observation": "The URL path 'bose-quietcomfort-ultra-headphones-2nd-gen-black' confirms the 2nd Gen model in Black and has no open-box, refurbished or used markers."
+      },
+      {
+        "listing": "competitor",
+        "field": "linked_offer.condition",
+        "observation": "The linked bestbuy.com offer is marked new, and the title and description contain no used, refurbished or open-box wording."
+      },
+      {
+        "listing": "both",
+        "field": "canonical_product_id",
+        "observation": "The IDs differ (mgo7x7F vs GrrCAIt), but Channel3 lists one product under several IDs, and the matching title, brand and color outweigh this."
+      },
+      {
+        "listing": "shop",
+        "field": "variants.options",
+        "observation": "The shop's color options include odd labels ('on', 'MIDNIGHT%20VIOLET'), but the selected Black variant is clear, so this does not affect the match."
+      },
+      {
+        "listing": "both",
+        "field": "description",
+        "observation": "The descriptions differ slightly (Bluetooth 5.3 vs 5.4), which looks like a data inconsistency rather than a different generation, since both are the 2nd Gen. This slightly lowers confidence."
+      }
+    ],
+    "customer_message": "The competitor's listing is the same Bose QuietComfort Ultra Headphones (2nd Gen) in Black, and it is sold new. It is a like-for-like product for price-match purposes."
+  },
+  "usage": {
+    "input_tokens": 6404,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "iterations": [
+      {
+        "input_tokens": 6404,
+        "output_tokens": 688,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "type": "message",
+        "model": null
+      }
+    ],
+    "output_tokens": 688,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard"
+  }
+}

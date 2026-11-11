@@ -2,6 +2,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { connection } from "next/server";
 import { Suspense } from "react";
+import { getEnv } from "@/lib/env";
+import { demoCasesFor } from "@/lib/match/demo-cases";
 import { formatCents } from "@/lib/money";
 import { getActivePolicy, getProductBySlug, productDetails, productImages, productVariantOptions } from "@/lib/shop";
 import { DatabaseError } from "../../_components/database-error";
@@ -36,6 +38,7 @@ async function ProductDetail({ params }: Pick<PageProps<"/products/[slug]">, "pa
   const { product, policy } = data;
   if (!product) notFound();
 
+  const env = getEnv();
   const details = productDetails(product);
   const options = productVariantOptions(product);
 
@@ -108,7 +111,15 @@ async function ProductDetail({ params }: Pick<PageProps<"/products/[slug]">, "pa
             </ul>
           </div>
 
-          <FoundItCheaper approvedDomains={policy?.approvedDomains ?? []} />
+          <FoundItCheaper
+            productId={product.id}
+            productSlug={product.slug}
+            currency={product.currency}
+            approvedDomains={policy?.approvedDomains ?? []}
+            protectionDays={policy?.protectionDays ?? null}
+            payment={env.DEMO_MODE || !env.PAYPAL_CLIENT_ID ? { mode: "demo" } : { mode: "live", clientId: env.PAYPAL_CLIENT_ID }}
+            demoLinks={demoCasesFor(product.channel3ProductId, env.DEMO_MODE)}
+          />
         </div>
       </div>
 

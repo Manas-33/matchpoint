@@ -3,86 +3,6 @@
   "product_title": "Bose Quietcomfort Ultra Headphones (2nd Gen)",
   "history": [
     {
-      "timestamp": "2026-07-28T00:00:00.000Z",
-      "price": 449,
-      "currency": "USD"
-    },
-    {
-      "timestamp": "2026-07-29T00:00:00.000Z",
-      "price": 397,
-      "currency": "USD"
-    },
-    {
-      "timestamp": "2026-07-30T00:00:00.000Z",
-      "price": 449,
-      "currency": "USD"
-    },
-    {
-      "timestamp": "2026-07-31T00:00:00.000Z",
-      "price": 399,
-      "currency": "USD"
-    },
-    {
-      "timestamp": "2026-08-01T00:00:00.000Z",
-      "price": 399,
-      "currency": "USD"
-    },
-    {
-      "timestamp": "2026-08-02T00:00:00.000Z",
-      "price": 399,
-      "currency": "USD"
-    },
-    {
-      "timestamp": "2026-08-03T00:00:00.000Z",
-      "price": 399,
-      "currency": "USD"
-    },
-    {
-      "timestamp": "2026-08-04T00:00:00.000Z",
-      "price": 399,
-      "currency": "USD"
-    },
-    {
-      "timestamp": "2026-08-05T00:00:00.000Z",
-      "price": 397,
-      "currency": "USD"
-    },
-    {
-      "timestamp": "2026-08-06T00:00:00.000Z",
-      "price": 397,
-      "currency": "USD"
-    },
-    {
-      "timestamp": "2026-08-07T00:00:00.000Z",
-      "price": 399,
-      "currency": "USD"
-    },
-    {
-      "timestamp": "2026-08-08T00:00:00.000Z",
-      "price": 397,
-      "currency": "USD"
-    },
-    {
-      "timestamp": "2026-08-09T00:00:00.000Z",
-      "price": 399,
-      "currency": "USD"
-    },
-    {
-      "timestamp": "2026-08-10T00:00:00.000Z",
-      "price": 399,
-      "currency": "USD"
-    },
-    {
-      "timestamp": "2026-08-11T00:00:00.000Z",
-      "price": 399,
-      "currency": "USD"
-    },
-    {
-      "timestamp": "2026-08-12T00:00:00.000Z",
-      "price": 449,
-      "currency": "USD"
-    },
-    {
       "timestamp": "2026-08-13T00:00:00.000Z",
       "price": 397,
       "currency": "USD"
@@ -451,14 +371,94 @@
       "timestamp": "2026-10-25T00:00:00.000Z",
       "price": 299,
       "currency": "USD"
+    },
+    {
+      "timestamp": "2026-10-26T00:00:00.000Z",
+      "price": 299,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-10-27T00:00:00.000Z",
+      "price": 299,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-10-28T00:00:00.000Z",
+      "price": 279,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-10-29T00:00:00.000Z",
+      "price": 316.99,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-10-30T00:00:00.000Z",
+      "price": 315.99,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-10-31T00:00:00.000Z",
+      "price": 369,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-11-01T00:00:00.000Z",
+      "price": 299,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-11-02T00:00:00.000Z",
+      "price": 369,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-11-03T00:00:00.000Z",
+      "price": 323.99,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-11-04T00:00:00.000Z",
+      "price": 399,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-11-05T00:00:00.000Z",
+      "price": 397,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-11-06T00:00:00.000Z",
+      "price": 328.99,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-11-07T00:00:00.000Z",
+      "price": 314.99,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-11-08T00:00:00.000Z",
+      "price": 328.99,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-11-09T00:00:00.000Z",
+      "price": 299,
+      "currency": "USD"
+    },
+    {
+      "timestamp": "2026-11-10T00:00:00.000Z",
+      "price": 449,
+      "currency": "USD"
     }
   ],
   "statistics": {
-    "mean": 364.32,
-    "std_dev": 105.19,
+    "mean": 351.68,
+    "std_dev": 104.87,
     "min_price": 29,
     "max_price": 449,
-    "current_price": 299,
+    "current_price": 449,
     "current_status": "typical",
     "currency": "USD"
   }

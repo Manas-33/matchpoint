@@ -164,8 +164,11 @@ function demoChannel3(): Channel3Service {
       if (!hasFixture(path)) throw new MissingFixtureError(`Channel3 search "${query}"`);
       return loadFixture<SearchFixture>(path).response.products.slice(0, options.limit ?? 20);
     },
-    // No recorded `similar` responses yet: answer with the other results of the search that found the product.
+    // Recorded `similar` responses (channel3/similar/<id>) first; otherwise the other results of the search
+    // that found the product.
     async findSimilar(productId, limit = 10) {
+      const recorded = `channel3/similar/${productId}`;
+      if (hasFixture(recorded)) return loadFixture<{ products: Product[] }>(recorded).products.slice(0, limit);
       const s = searchFixtures().find((fx) => fx.response.products.some((p) => p.id === productId));
       if (!s) throw new MissingFixtureError(`Channel3 similar products for ${productId}`);
       return s.response.products.filter((p) => p.id !== productId).slice(0, limit);

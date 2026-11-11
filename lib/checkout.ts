@@ -6,6 +6,7 @@ import { getDb, schema } from "./db";
 import { getEnv } from "./env";
 import { formatCents } from "./money";
 import { getPayPal, PayPalApiError, type CapturedOrder } from "./paypal";
+import { savedValueOffer } from "./match/value-offer";
 import { enrolProtection } from "./price-protection";
 import { getProductBySlug, variantLabel } from "./shop";
 
@@ -13,7 +14,13 @@ type OrderStatus = (typeof schema.orderStatus.enumValues)[number];
 
 export class CheckoutError extends Error {
   constructor(
-    readonly code: "PRODUCT_NOT_FOUND" | "ORDER_NOT_FOUND" | "INSTRUMENT_DECLINED" | "AMOUNT_MISMATCH" | "PAYPAL_ERROR",
+    readonly code:
+      | "PRODUCT_NOT_FOUND"
+      | "ORDER_NOT_FOUND"
+      | "MATCH_NOT_VALID"
+      | "INSTRUMENT_DECLINED"
+      | "AMOUNT_MISMATCH"
+      | "PAYPAL_ERROR",
     message: string,
     readonly httpStatus: number,
   ) {
@@ -32,19 +39,61 @@ export function checkoutErrorResponse(err: unknown) {
 // PayPal's description field is limited to 127 characters.
 const orderDescription = (title: string, variant: string) => (variant ? `${title} (${variant})` : title).slice(0, 127);
 
-export async function createCheckoutOrder(productSlug: string) {
+// A matched price is honoured for this long after the decision.
+export const MATCH_VALID_MS = 24 * 60 * 60 * 1000;
+
+// What the customer chose after a match: the cash price match, or the value-match counter-offer
+// (pay the list price and get the alternative instead).
+export type MatchOption = "match" | "value";
+
+// The price for this checkout: the list price, or, for an approved match request on this product, the
+// matched price or the list price with the counter-offer. The browser only names the match request and
+// the option; the amount always comes from the database.
+async function checkoutPrice(product: { id: string; shopPriceCents: number }, matchRequestId?: string, option: MatchOption = "match") {
+  if (!matchRequestId) return { amountCents: product.shopPriceCents, match: null, valueOffer: null };
+  const [match] = await getDb()
+    .select()
+    .from(schema.matchRequests)
+    .where(eq(schema.matchRequests.id, matchRequestId))
+    .limit(1);
+  if (
+    !match ||
+    match.productId !== product.id ||
+    match.decision !== "match" ||
+    match.matchedPriceCents == null ||
+    Date.now() - match.createdAt.getTime() > MATCH_VALID_MS
+  ) {
+    throw new CheckoutError("MATCH_NOT_VALID", "That price match isn't valid any more. Please check the link again.", 409);
+  }
+  if (option === "value") {
+    const valueOffer = savedValueOffer(match.reasons);
+    if (!valueOffer) throw new CheckoutError("MATCH_NOT_VALID", "There's no alternative offer on that price match.", 409);
+    return { amountCents: product.shopPriceCents, match, valueOffer };
+  }
+  return { amountCents: match.matchedPriceCents, match, valueOffer: null };
+}
+
+export async function createCheckoutOrder(productSlug: string, matchRequestId?: string, option: MatchOption = "match") {
   const product = await getProductBySlug(productSlug);
   if (!product) throw new CheckoutError("PRODUCT_NOT_FOUND", "That product isn't in the catalog", 404);
+  const { amountCents, match, valueOffer } = await checkoutPrice(product, matchRequestId, option);
 
-  // Our order ID doubles as PayPal's invoice_id and the idempotency key.
+  // Our order ID doubles as PayPal's invoice_id and the idempotency key. A matched order names the store
+  // in its description and carries the match request ID as the purchase unit's reference_id.
   const id = randomUUID();
   const appUrl = getEnv().APP_URL;
+  const description = orderDescription(product.title, variantLabel(product.variant));
   const created = await getPayPal().createOrder({
-    amountCents: product.shopPriceCents,
+    amountCents,
     currency: product.currency,
-    description: orderDescription(product.title, variantLabel(product.variant)),
+    description: (valueOffer
+      ? `${description.slice(0, 70)} + ${valueOffer.title} (price-match alternative)`
+      : match
+        ? `${description.slice(0, 90)} - price matched to ${match.competitorDomain}`
+        : description
+    ).slice(0, 127),
     invoiceId: id,
-    referenceId: product.id,
+    referenceId: match ? `match-${match.id}` : product.id,
     requestId: `order-${id}`,
     returnUrl: `${appUrl}/orders/${id}`,
     cancelUrl: `${appUrl}/products/${product.slug}`,
@@ -54,12 +103,13 @@ export async function createCheckoutOrder(productSlug: string) {
     id,
     paypalOrderId: created.orderId,
     productId: product.id,
-    pricePaidCents: product.shopPriceCents,
+    matchRequestId: match?.id ?? null,
+    pricePaidCents: amountCents,
     currency: product.currency,
     status: "created",
   });
   console.log(
-    JSON.stringify({ msg: "checkout order created", orderId: id, paypalOrderId: created.orderId, product: product.slug, amount: formatCents(product.shopPriceCents) }),
+    JSON.stringify({ msg: "checkout order created", orderId: id, paypalOrderId: created.orderId, product: product.slug, amount: formatCents(amountCents), matchRequestId: match?.id, option: match ? option : undefined }),
   );
   return { orderId: id, paypalOrderId: created.orderId };
 }
