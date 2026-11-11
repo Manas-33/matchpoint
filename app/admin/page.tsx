@@ -19,13 +19,19 @@ export default function ConsoleOverview() {
           <p className="text-xs font-medium uppercase tracking-[0.16em] text-muted">Merchant console</p>
           <h1 className="font-display text-3xl font-semibold tracking-tight">Overview</h1>
         </div>
-        <Link
-          href="/admin/protection"
-          className="flex items-center gap-1.5 rounded-xl border border-line px-3 py-2 text-sm font-medium hover:bg-surface-2"
-        >
-          Price protection console
-          <ArrowRightIcon className="size-4" />
-        </Link>
+        <nav className="flex flex-wrap gap-2">
+          <Link href="/admin/policy" className="flex items-center gap-1.5 rounded-xl border border-line px-3 py-2 text-sm font-medium hover:bg-surface-2">
+            Policy
+            <ArrowRightIcon className="size-4" />
+          </Link>
+          <Link
+            href="/admin/protection"
+            className="flex items-center gap-1.5 rounded-xl border border-line px-3 py-2 text-sm font-medium hover:bg-surface-2"
+          >
+            Price protection console
+            <ArrowRightIcon className="size-4" />
+          </Link>
+        </nav>
       </header>
       <Suspense fallback={<div className="h-96 animate-pulse rounded-3xl bg-surface-2" />}>
         <Overview />

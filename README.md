@@ -50,6 +50,7 @@ npm run dev:demo
 | http://localhost:3000 | The shop. |
 | http://localhost:3000/products/bose-quietcomfort-ultra-headphones-2nd-gen-mgo7x7f | **Found it cheaper?** Pick a recorded link under the box: *Best Buy* is matched ($359.99, with a store-credit counter-offer first), *Best Buy open-box* is declined on condition, *Crutchfield one-day low* is declined as a pricing glitch. Then check out with the simulated PayPal button. |
 | http://localhost:3000/admin | Merchant console: sales covered by protection vs refunds paid, match counts, and recent decisions with a **via agent** badge. Each links to its evidence. |
+| http://localhost:3000/admin/policy | The owner's rules: margin floor, maximum discount, protection window, refund cap, glitch and condition handling, approved stores. Each save is a new version. Set the maximum discount to 10% and the same Best Buy link is declined under the new version; set it back and it matches again. |
 | http://localhost:3000/admin/protection | Price protection: replay a recorded price drop (labelled **simulated**) on a protected order and watch the partial refund and its evidence page. |
 
 To try the shopper-agent side from a terminal, with the dev server running:
@@ -196,12 +197,13 @@ One engine serves both doors: `POST /api/match` and the MCP tool `request_price_
 ## Project layout
 
 ```
-app/                    Pages: shop, checkout, orders, /admin console, /matches and /evidence pages
+app/                    Pages: shop, checkout, orders, /admin console (overview, policy, protection), /matches and /evidence pages
 app/api/match           POST /api/match (JSON, or NDJSON progress with ?stream=1)
 app/api/mcp             Shopper-agent MCP endpoint
 app/api/checkout        Create and capture orders; /return captures after PayPal approval
 app/api/webhooks        PayPal and Channel3 webhooks
 lib/match/              Match engine, policy rules, value-match counter-offer, demo cases
+lib/policy-admin.ts     Policy page: form validation and saving a new policy version
 lib/mcp/                MCP tools, API keys and rate limit
 lib/price-protection.ts Enrolment, price events, refunds; lib/protection.ts is the pure evaluator
 lib/paypal.ts           PayPal Server SDK client (and the demo-mode stand-in)
