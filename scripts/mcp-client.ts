@@ -9,7 +9,7 @@ import "./load-env";
 const url = process.argv[2] ?? `${process.env.APP_URL ?? "http://localhost:3000"}/api/mcp`;
 const competitorUrl =
   process.argv[3] ?? "https://www.bestbuy.com/product/bose-quietcomfort-ultra-headphones-2nd-gen-black/J7C5V6W7LP";
-const key = process.env.MCP_API_KEY ?? process.env.MCP_API_KEYS?.split(",")[0]?.split(":").pop() ?? "mp_demo_key";
+const key = process.env.MCP_API_KEY || process.env.MCP_API_KEYS?.split(",")[0]?.split(":").pop()?.trim() || "mp_demo_key";
 
 type ToolResult = { content: { type: string; text?: string }[]; structuredContent?: Record<string, unknown>; isError?: boolean };
 const text = (r: ToolResult) => r.content.map((c) => c.text ?? "").join("\n");
