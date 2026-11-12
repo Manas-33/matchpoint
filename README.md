@@ -14,7 +14,9 @@
 [![Postgres](https://img.shields.io/badge/Postgres-Drizzle-4169E1?style=flat-square&logo=postgresql&logoColor=white)](lib/db/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-lightgrey?style=flat-square)](LICENSE)
 
-<img src="docs/screenshots/home.png" alt="Larkspur & Co., the demo shop: local service, big-store prices, guaranteed" width="880">
+<a href="docs/media/matchpoint-launch.mp4"><img src="docs/media/matchpoint-launch.gif" alt="Matchpoint: your customer found it $48 cheaper, so did their AI agent. Verify, offer, settle, protect." width="880"></a>
+
+<sub>▶ <a href="docs/media/matchpoint-launch.mp4">Watch the 48-second launch video</a></sub>
 
 </div>
 
@@ -57,6 +59,8 @@ Built for the [PayPal AI Hackathon](https://paypalaihackathon.devpost.com). The 
 
 ## See it
 
+**The launch video.** Matchpoint in 48 seconds: [docs/media/matchpoint-launch.mp4](docs/media/matchpoint-launch.mp4).
+
 **A match, with a counter-offer.** The Bose QuietComfort Ultra is $407.99 at Larkspur. Best Buy has it at $359.99. Matchpoint checks nine things, then offers $60 of store credit before $48 off:
 
 <p align="center"><img src="docs/screenshots/match.png" alt="Price matched to bestbuy.com: $359.99, you save $48. Or get $60 store credit and pay $407.99" width="560"></p>
@@ -76,7 +80,7 @@ Built for the [PayPal AI Hackathon](https://paypalaihackathon.devpost.com). The 
 </tr>
 </table>
 
-More: the [protection console](docs/screenshots/protection.png), the [order page](docs/screenshots/order.png) and the [product page](docs/screenshots/product.png).
+More: the [shop's home page](docs/screenshots/home.png), the [protection console](docs/screenshots/protection.png), the [order page](docs/screenshots/order.png) and the [product page](docs/screenshots/product.png).
 
 ## How it works
 
@@ -328,7 +332,7 @@ matchpoint/
 │   └── db/                  # Drizzle schema (migrations in drizzle/)
 ├── fixtures/                # recorded API responses, secrets redacted, for demo mode and tests
 ├── scripts/                 # seed, recording, replay, MCP check; Phase 0 spikes
-└── docs/screenshots/        # README images
+└── docs/                    # README screenshots and the launch video
 ```
 
 Further reading: [IDEA.md](IDEA.md) · [PLAN.md](PLAN.md) · [scripts/spikes/FINDINGS.md](scripts/spikes/FINDINGS.md)
