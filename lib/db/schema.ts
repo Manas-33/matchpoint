@@ -48,6 +48,8 @@ export const refundApprover = pgEnum("refund_approver", ["auto", "owner"]);
 export const glitchAction = pgEnum("glitch_action", ["match_typical", "decline"]);
 // Channel3 usually reports condition as null on live links; the policy decides what unknown means.
 export const unknownConditionAction = pgEnum("unknown_condition_action", ["allow", "review", "decline"]);
+// Who asked for a price match: a shopper on the product page, or a shopping agent over MCP.
+export const matchSource = pgEnum("match_source", ["web", "agent"]);
 
 export type VariantSelection = { name: string; label: string }[];
 export type DecisionReason = { code: string; message: string; source?: string };
@@ -128,6 +130,9 @@ export const matchRequests = pgTable(
     policyId: uuid("policy_id")
       .notNull()
       .references(() => policies.id),
+    source: matchSource("source").notNull().default("web"),
+    // For agent requests: the name the MCP API key was issued under.
+    agentName: text("agent_name"),
     createdAt: createdAt(),
   },
   (t) => [index("match_requests_product_idx").on(t.productId)],

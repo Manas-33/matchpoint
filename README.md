@@ -1,33 +1,23 @@
 # Matchpoint
 
-**An AI pricing agent for independent shops.** It matches a competitor's price at checkout and protects the customer if the price drops after the sale. Every decision is checked against real product data from [Channel3](https://docs.trychannel3.com) and settled in [PayPal](https://developer.paypal.com).
+**The independent shop's negotiating agent for the age of AI shoppers.** When a customer, or the customer's own AI agent, finds a product cheaper somewhere else, Matchpoint:
 
-Built for the [PayPal AI Hackathon](https://paypalaihackathon.devpost.com). The product is described in [IDEA.md](IDEA.md) and the build plan in [PLAN.md](PLAN.md).
+1. **verifies the claim** against real product data from [Channel3](https://docs.trychannel3.com): same product, variant and condition, at an approved store, in stock, and not a one-day pricing glitch;
+2. **makes the cheapest acceptable counter-offer**: a *value match* such as store credit when that costs the shop less, or a cash price match as a last resort;
+3. **settles it in [PayPal](https://developer.paypal.com)**: an order created on the server at the agreed price, which the buyer approves;
+4. **protects the sale**: if an approved store drops its price within the protection window, it refunds the difference automatically with a PayPal partial refund and emails the evidence.
 
-> **Status:** shop and checkout (Phase 2): catalog, product pages, PayPal checkout at list price and a webhook-fed ledger. The match engine and price protection come in later phases.
+Built for the [PayPal AI Hackathon](https://paypalaihackathon.devpost.com). The demo shop is *Larkspur & Co.*, an outdoor and audio shop in Portland. The product is described in [IDEA.md](IDEA.md) and the build plan in [PLAN.md](PLAN.md).
 
-## How it works
+Money maths and policy checks run in plain code, with amounts in integer cents. Claude only judges whether two listings are the same product, citing the listing fields it read.
 
-- **Match at checkout:** a customer pastes a competitor's link. Matchpoint resolves it with Channel3, checks it's the same product, variant and condition at an approved store, applies the shop's policy, and either creates a PayPal order at the matched price or declines with a reason.
-- **Protect after the sale:** when an approved store drops its price within the protection window, Matchpoint issues a PayPal partial refund automatically (up to a cap) and emails the customer an evidence card.
+## Run it in demo mode (no keys, about 5 minutes)
 
-Money maths and policy checks run in plain code, with amounts as integer cents. Claude only judges whether two listings are the same product and writes explanations.
+Demo mode answers every Channel3, PayPal and Claude call from the recorded responses in [`fixtures/`](fixtures), so it needs no API keys and no accounts. You need Node.js 22.12 or later and Docker.
 
-## Tech stack
-
-| Area | Choice |
-|---|---|
-| App | Next.js 16 (App Router, TypeScript), Tailwind CSS |
-| Database | Postgres with Drizzle ORM; money as integer cents, rates as basis points |
-| Payments | PayPal Orders v2 and Refunds via [`@paypal/paypal-server-sdk`](https://github.com/paypal/PayPal-TypeScript-Server-SDK) (APIMatic-generated), sandbox only |
-| Product data | Channel3 via [`@channel3/sdk`](https://docs.trychannel3.com): lookup, search, price history and tracking, Collections |
-| AI | Claude via `@anthropic-ai/sdk`, structured outputs (model set by `ANTHROPIC_MODEL`, default `claude-sonnet-5-5`) |
-| Email | Resend, or logged to the console without a key |
-| Tests | Vitest, with recorded fixtures |
-
-## Setup
-
-You need Node.js 22.12 or later and Docker (for local Postgres).
+```bash
+git clone https://github.com/Manas-33/matchpoint.git && cd matchpoint
+```
 
 ```bash
 npm install
@@ -36,8 +26,6 @@ npm install
 ```bash
 cp .env.example .env
 ```
-
-Fill in the sandbox keys in `.env` (PayPal, Channel3, Anthropic), or set `DEMO_MODE=true` to run without any keys. Then start Postgres, create the tables and seed the shop:
 
 ```bash
 npm run db:up
@@ -48,20 +36,6 @@ npm run db:migrate
 ```
 
 ```bash
-npm run seed
-```
-
-```bash
-npm run dev
-```
-
-Open http://localhost:3000 for the demo shop, Larkspur & Co.: the catalog, product pages and checkout. Pay with a PayPal sandbox personal account (Sandbox > Accounts on developer.paypal.com).
-
-### Demo mode
-
-With `DEMO_MODE=true`, Channel3, PayPal and Claude calls are answered from the recorded responses in [`fixtures/`](fixtures) and email is only logged, so the app works with no API keys and no network access to those services. Use the demo variants of the commands:
-
-```bash
 npm run seed:demo
 ```
 
@@ -69,74 +43,189 @@ npm run seed:demo
 npm run dev:demo
 ```
 
-The environment is validated at startup ([`lib/env.ts`](lib/env.ts)): live mode refuses to start without the PayPal, Channel3 and Anthropic keys, and says which one is missing.
+`db:up` starts Postgres in Docker on port 5433, which is what `.env.example` points at. Then open:
 
-### Checkout and PayPal webhooks
+| Page | What to try |
+|---|---|
+| http://localhost:3000 | The shop. |
+| http://localhost:3000/products/bose-quietcomfort-ultra-headphones-2nd-gen-mgo7x7f | **Found it cheaper?** Pick a recorded link under the box: *Best Buy* is matched ($359.99, with a store-credit counter-offer first), *Best Buy open-box* is declined on condition, *Crutchfield one-day low* is declined as a pricing glitch. Then check out with the simulated PayPal button. |
+| http://localhost:3000/admin | Merchant console: sales covered by protection vs refunds paid, match counts, and recent decisions with a **via agent** badge. Each links to its evidence. |
+| http://localhost:3000/admin/policy | The owner's rules: margin floor, maximum discount, protection window, refund cap, glitch and condition handling, approved stores. Each save is a new version. Set the maximum discount to 10% and the same Best Buy link is declined under the new version; set it back and it matches again. |
+| http://localhost:3000/admin/protection | Price protection: replay a recorded price drop (labelled **simulated**) on a protected order and watch the partial refund and its evidence page. |
 
-Checkout uses the [PayPal JS SDK v6](https://developer.paypal.com/docsai/payments/methods/paypal/sdk/js/v6/paypal-checkout) (`web-sdk/v6/core`, initialised with the client ID). The browser only names the product: `POST /api/checkout/orders` creates the PayPal order at the price in the database, and `POST /api/checkout/orders/:paypalOrderId/capture` captures it after the buyer approves, checks the captured amount and stores the capture ID in `orders`. In demo mode the PayPal button is replaced by a simulated one.
+To try the shopper-agent side from a terminal, with the dev server running:
 
-PayPal sends payment events to `POST /api/webhooks/paypal`. Every delivery's signature is checked with PayPal (`verify-webhook-signature`, using `PAYPAL_WEBHOOK_ID`), and `PAYMENT.CAPTURE.COMPLETED` and `PAYMENT.CAPTURE.REFUNDED` are stored in `ledger_events` with a `verified` flag, once per PayPal event ID: redeliveries are ignored. Unverified deliveries are kept, flagged, and refused (HTTP 400) so PayPal retries; a later verified delivery of the same event replaces the row. To receive them locally:
+```bash
+npm run mcp:try -- http://localhost:3000/api/mcp
+```
 
-1. Expose port 3000 with a tunnel, e.g. `ngrok http 3000`.
-2. On developer.paypal.com, open the sandbox app, add a webhook with the URL `https://<tunnel host>/api/webhooks/paypal`, and subscribe to *Payment capture completed* and *Payment capture refunded* (or all events).
-3. Put the webhook's ID in `.env` as `PAYPAL_WEBHOOK_ID` and restart `npm run dev`.
+It connects over MCP, lists products, asks for a price match on the Bose headphones and prints the verdict, the evidence and the approval link.
 
-`npm run webhooks:replay` re-sends the recorded deliveries in [`fixtures/paypal/webhooks/`](fixtures/paypal/webhooks) to the local route with their original signatures. They verify only against the webhook they were signed for, so with any other `PAYPAL_WEBHOOK_ID` they are stored as unverified and refused, which is what should happen.
+## Let an AI agent ask for a price match (MCP)
 
-### Seed data
+`/api/mcp` is a [Model Context Protocol](https://modelcontextprotocol.io) server over Streamable HTTP (stateless, JSON responses). Any MCP client can use it.
 
-`npm run seed` stores 12 Channel3 catalog products with complete variant data, each with a shop price and a unit cost. Like an independent shop, it lists at MSRP (Channel3's compare-at price) where there is one, and otherwise 10% above the cheapest approved store, ending in .99. The price is lowered if needed so the cheapest approved store is always cheaper than the shop but still matchable under the margin floor and maximum discount. It creates the "Matchpoint approved stores" Collection in Channel3 and the default policy (version 1): 18 approved stores, 15% margin floor, 20% maximum discount, 14-day protection window, automatic refunds up to $50.
+| Tool | What it does |
+|---|---|
+| `list_products` | The catalog, with product IDs, prices and variants. Optional `query`. |
+| `request_price_match` | `product`, `competitor_url`, optional `buyer_email` and `option` (`match` or `value`). Runs the same match engine as the product page and returns the decision, every check with the evidence it read, Claude's cited reasons, any value-match offer and, when matched, a **PayPal approval link** for an order created on the server at the agreed price. The agent cannot pay: the buyer opens the link and approves the payment. |
+| `get_match_status` | `match_id`. The decision, the order and payment status, and price protection. |
 
-The chosen product IDs are in [`fixtures/seed/catalog.json`](fixtures/seed/catalog.json), so live and demo mode seed the same catalog. `npm run seed -- --pick` re-checks the chosen products against live Channel3 data and replaces any that no longer qualify (delete `fixtures/seed/catalog.json` to choose all of them from scratch). `--record` refreshes the recorded fixtures, and `--reset` empties every table first. Condition (New / Used) never counts as variant data. Re-running the seed is safe: products are upserted and an existing policy is never overwritten.
+Requests need `Authorization: Bearer <key>` (or `X-API-Key`). Keys come from `MCP_API_KEYS` as comma-separated `name:key` pairs. The name is saved on each match request and shown in the console. Demo mode accepts `mp_demo_key` when `MCP_API_KEYS` is empty. Each key is limited to 60 requests a minute.
+
+### Connect Claude Desktop
+
+Claude Desktop starts local servers over stdio, so [`mcp-remote`](https://www.npmjs.com/package/mcp-remote) bridges it to the HTTP endpoint. Node.js must be on your `PATH`.
+
+1. Start the app (`npm run dev:demo`, or `npm run dev` with keys) and note the port.
+2. In Claude Desktop open **Settings → Developer → Edit Config** and add this to `claude_desktop_config.json` (change the port and key if yours differ):
+
+   ```json
+   {
+     "mcpServers": {
+       "larkspur-price-match": {
+         "command": "npx",
+         "args": ["-y", "mcp-remote", "http://localhost:3000/api/mcp", "--transport", "http-only", "--header", "Authorization:${MATCHPOINT_AUTH}"],
+         "env": { "MATCHPOINT_AUTH": "Bearer mp_demo_key" }
+       }
+     }
+   }
+   ```
+
+   The key is passed through `env` because spaces inside `args` aren't passed through reliably on every platform.
+3. Quit and reopen Claude Desktop. *larkspur-price-match* appears under the tools (search and tools) menu with three tools.
+4. Ask, for example: *"I found the Bose QuietComfort Ultra (2nd Gen) for $359.99 at https://www.bestbuy.com/product/bose-quietcomfort-ultra-headphones-2nd-gen-black/J7C5V6W7LP. Ask Larkspur & Co. to match it."* Claude calls `list_products`, then `request_price_match`, and returns the verdict with the approval link. Open the link to pay (in demo mode it simulates the PayPal approval and shows the order), then ask Claude for the status.
+
+In live mode the link is PayPal's sandbox approval page. After approval PayPal returns the buyer to `/api/checkout/return`, which captures the payment, enrols it in price protection and shows the order.
+
+## Live sandbox setup
+
+Set `DEMO_MODE=false` (the default) in `.env` and fill in these keys. Live mode refuses to start without the first three and says which one is missing ([`lib/env.ts`](lib/env.ts)).
+
+| Key | Where to get it |
+|---|---|
+| `PAYPAL_CLIENT_ID`, `PAYPAL_CLIENT_SECRET` | [developer.paypal.com](https://developer.paypal.com) → Apps & Credentials → **Sandbox** → create an app. |
+| `CHANNEL3_API_KEY` | [trychannel3.com](https://trychannel3.com/dashboard) → API keys. |
+| `ANTHROPIC_API_KEY` | [console.anthropic.com](https://console.anthropic.com) → API keys. `ANTHROPIC_MODEL` defaults to `claude-sonnet-5-5`. |
+| `PAYPAL_WEBHOOK_ID` (optional) | After adding `https://<public host>/api/webhooks/paypal` as a webhook on the sandbox app (see below). |
+| `CHANNEL3_WEBHOOK_SECRET` (optional) | The `whsec_...` signing secret of a Channel3 webhook endpoint pointing at `https://<public host>/api/webhooks/channel3`. |
+| `MCP_API_KEYS` | Your own `name:key` pairs for agents, e.g. `claude-desktop:<long random string>`. |
+| `RESEND_API_KEY` (optional) | [resend.com](https://resend.com). Without it, evidence emails are logged. |
+
+Then seed from live Channel3 data (this also creates the "Matchpoint approved stores" Collection in your Channel3 account) and start the app:
+
+```bash
+npm run seed
+```
+
+```bash
+npm run dev
+```
+
+Pay with a PayPal sandbox **personal** account: developer.paypal.com → Sandbox → Accounts. Live prices move, so a link that matched yesterday may decline today (the recorded demo cases don't change).
+
+**Webhooks.** Expose the app with a tunnel (e.g. `ngrok http 3000`), set `APP_URL` to the tunnel URL, and add the two webhook URLs above. PayPal deliveries are verified with `verify-webhook-signature` and stored once per event ID in `ledger_events`; Channel3 deliveries are verified with their Svix signature. Without webhooks, the protection console's **Run price check now** (or `npm run protection:check`) polls Channel3 instead. `npm run webhooks:replay` re-sends the recorded PayPal deliveries.
+
+## Architecture
+
+```mermaid
+flowchart LR
+  shopper["Shopper<br/>product page"] -->|POST /api/match| engine
+  agent["Shopper's AI agent<br/>(Claude Desktop, ...)"] -->|MCP /api/mcp<br/>API key + rate limit| engine
+
+  subgraph app["Matchpoint (Next.js)"]
+    engine["Match engine<br/>lib/match/engine.ts"]
+    rules["Policy rules + glitch check<br/>(integer cents)"]
+    value["Value-match counter-offer"]
+    checkout["Checkout<br/>lib/checkout.ts"]
+    protection["Price protection<br/>evaluator + refunds"]
+    console["Console /admin<br/>evidence pages"]
+  end
+
+  engine -->|lookup, price history, similar| c3[(Channel3)]
+  engine -->|same-product judgment<br/>structured output| claude[(Claude)]
+  engine --> rules --> value --> checkout
+  checkout -->|Orders v2: create, capture| paypal[(PayPal)]
+  checkout -->|enrol on capture, start tracking| protection
+  c3 -->|price.changed webhook / poll| protection
+  protection -->|partial refund| paypal
+  paypal -->|verified webhooks| ledger[(Postgres<br/>matches, orders, protections,<br/>refunds, ledger)]
+  engine --> ledger
+  protection --> ledger
+  ledger --> console
+```
+
+One engine serves both doors: `POST /api/match` and the MCP tool `request_price_match` call the same `runMatch` function and the same `createCheckoutOrder`; the only difference recorded is `match_requests.source` (`web` or `agent`) and the agent's key name.
+
+## What each technology does
+
+**Channel3** ([`lib/channel3.ts`](lib/channel3.ts), via `@channel3/sdk`)
+- **Lookup** (`products.lookup`): resolves the competitor URL the shopper pasted into a canonical product with every store's **offers** (price, availability, condition).
+- **Offers**: the linked store's offer gives the competitor price and stock; seeding uses offers and compare-at prices to set shop prices.
+- **Price history** with `statistics.current_status` (`low` / `typical` / `high`): the glitch check declines prices seen on one day well below the 30-day typical price.
+- **Price tracking and webhooks**: captured orders start tracking (`priceTracking.start`), and `price.changed` webhooks (Svix-verified) trigger the protection evaluator; a poll of history and offers is the fallback.
+- **Collections**: the shop's approved stores are kept as a Channel3 Collection ("Matchpoint approved stores").
+- **`similar`**: on a decline, suggests similar products the shop stocks.
+
+**PayPal** ([`lib/paypal.ts`](lib/paypal.ts), [`lib/checkout.ts`](lib/checkout.ts))
+- **Orders v2** (create, capture) through [`@paypal/paypal-server-sdk`](https://github.com/paypal/PayPal-TypeScript-Server-SDK), the APIMatic-generated Server SDK. The integration was built with the **APIMatic PayPal Context Plugin**. Amounts always come from the database, never the browser or the agent, and the captured amount is checked against the order.
+- **Partial refunds** for price protection, with a stable `PayPal-Request-Id` per protection and price drop so a retry can't pay twice.
+- **Verified webhooks**: `PAYMENT.CAPTURE.COMPLETED` and `PAYMENT.CAPTURE.REFUNDED` are verified with `verify-webhook-signature` and de-duplicated into `ledger_events`.
+- **PayPal JS SDK v6** for the buttons on the shop's checkout page; agents get the order's approval link instead.
+
+**Claude** ([`lib/claude.ts`](lib/claude.ts), via `@anthropic-ai/sdk`)
+- Model from `ANTHROPIC_MODEL` (default `claude-sonnet-5-5`).
+- **Structured outputs**: the same-product judgment is parsed against a Zod schema (same product, variant, condition, bundle, model year, confidence, and reasons that each cite a listing field). Low confidence or an unusable answer sends the request to review; it never approves a match by itself.
+
+**Also:** Next.js 16 (App Router, TypeScript), Tailwind CSS, Postgres with Drizzle ORM, the MCP TypeScript SDK (`@modelcontextprotocol/sdk`), Resend for email, Vitest.
 
 ## Scripts
 
 | Command | What it does |
 |---|---|
 | `npm run dev` / `npm run dev:demo` | Start the app in live or demo mode |
-| `npm run build` / `npm start` | Production build and server |
-| `npm test` | Unit tests (Vitest), no network or keys needed |
+| `npm test` | Unit tests (Vitest); database tests run when Postgres is reachable, in rolled-back transactions |
 | `npm run lint` / `npm run typecheck` | ESLint and TypeScript |
 | `npm run db:up` / `npm run db:down` | Start or stop local Postgres (Docker, port 5433) |
-| `npm run db:generate` / `npm run db:migrate` | Generate a migration from `lib/db/schema.ts` / apply migrations |
-| `npm run seed` / `npm run seed:demo` | Seed the shop from Channel3 or from fixtures |
-| `npm run webhooks:replay [url]` | Re-send the recorded PayPal webhook deliveries to the webhook route |
-| `npm run spike:*` | Phase 0 proof-of-concept tests (see [`scripts/spikes/`](scripts/spikes/README.md)) |
+| `npm run db:migrate` / `npm run db:generate` | Apply migrations / generate one from `lib/db/schema.ts` |
+| `npm run seed` / `npm run seed:demo` | Seed the shop from Channel3 or from fixtures (`-- --reset` empties every table first) |
+| `npm run mcp:try -- [url] [competitor link]` | Use the MCP endpoint as an agent would |
+| `npm run match:record` | Re-record the demo match cases |
+| `npm run protection:check` / `protection:replay -- <protectionId>` / `protection:backfill` | Poll prices, replay a simulated drop, enrol missed orders |
+| `npm run webhooks:replay [url]` | Re-send the recorded PayPal webhook deliveries |
 
 ## Project layout
 
 ```
-app/                 Next.js App Router pages
-lib/env.ts           Environment validation (Zod)
-lib/db/              Drizzle schema and client; migrations are in drizzle/
-lib/paypal.ts        Orders, captures, partial refunds, webhook verification
-lib/channel3.ts      Lookup, search, price history, tracking, Collections, webhook verification
-lib/claude.ts        Same-product judgment (structured output)
-lib/email.ts         Evidence emails (Resend or log)
-lib/money.ts         Integer-cents helpers
-lib/catalog.ts       Catalog rules and shop pricing
-lib/policy.ts        Default policy and approved stores
-lib/shop.ts          Catalog, policy and order reads for the storefront
-lib/checkout.ts      Create and capture PayPal orders at the database price
-lib/ledger.ts        PayPal webhook verification and deduplication into ledger_events
-app/api/             Checkout and PayPal webhook routes
-scripts/seed.ts      npm run seed
-scripts/spikes/      Phase 0 proof-of-concept tests and findings
-fixtures/            Recorded API responses (secrets redacted), used by demo mode and tests
+app/                    Pages: shop, checkout, orders, /admin console (overview, policy, protection), /matches and /evidence pages
+app/api/match           POST /api/match (JSON, or NDJSON progress with ?stream=1)
+app/api/mcp             Shopper-agent MCP endpoint
+app/api/checkout        Create and capture orders; /return captures after PayPal approval
+app/api/webhooks        PayPal and Channel3 webhooks
+lib/match/              Match engine, policy rules, value-match counter-offer, demo cases
+lib/policy-admin.ts     Policy page: form validation and saving a new policy version
+lib/mcp/                MCP tools, API keys and rate limit
+lib/price-protection.ts Enrolment, price events, refunds; lib/protection.ts is the pure evaluator
+lib/paypal.ts           PayPal Server SDK client (and the demo-mode stand-in)
+lib/channel3.ts         Channel3 client (and the demo-mode stand-in)
+lib/claude.ts           Same-product judgment
+lib/db/                 Drizzle schema; migrations in drizzle/
+fixtures/               Recorded API responses (secrets redacted) for demo mode and tests
+scripts/                Seed, recording, replay and MCP scripts; Phase 0 spikes
 ```
 
-## Architecture
+## Known limitations
 
-_To come: diagram of the match engine, protection evaluator, PayPal webhooks and ledger._
+- **Replayed and simulated price drops are labelled.** The protection console's replay injects a recorded Channel3 payload with a made-up lower price. It's marked *SIMULATED* in the console, on the evidence page, in the email and in the PayPal refund note. The *Crutchfield one-day low* demo case is also constructed by hand and only offered in demo mode.
+- **Price tracking only covers products in Channel3's catalog.** Lookup works on any product URL, but only catalog products can be tracked or passed to `similar`, so price protection covers products Channel3 can verify and track.
+- PayPal runs in the **sandbox** only.
+- Live prices change: the recorded Best Buy match in demo mode no longer matches live, because Best Buy's price has since gone up.
+- The console and admin routes have no login; it's a single-shop demo.
+- The MCP rate limit is in memory, per app instance.
 
-## Evaluation
+## Commission disclosure
 
-_To come: match precision and recall, false-match and false-refund rates on a labelled test set._
-
-## Known limits
-
-- Price protection covers products that Channel3 can verify and track.
-- PayPal runs in the sandbox only.
+Channel3 product data includes buy links (`buy.trychannel3.com`) that are affiliate links: a purchase through one may earn a commission. Matchpoint doesn't send shoppers through those links: it links only to the shop's own pages and to the competitor URL the shopper gave it. If you add Channel3 buy links to your storefront, show a commission disclosure next to them.
 
 ## License
 

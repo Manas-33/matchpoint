@@ -65,11 +65,11 @@ describe("shop pricing", () => {
   const apparel = { slug: "jackets", title: "Jackets", path: [{ slug: "apparel", title: "Apparel" }] };
 
   it("lists at MSRP when the cheapest approved store stays matchable", () => {
-    // Bose 2nd Gen: compare-at $449 at bose.com; the only approved store is Best Buy at $397.
+    // Bose 2nd Gen: compare-at $449 at bose.com; the only approved store is Best Buy at $359.99.
     expect(msrpCents(catalog("mgo7x7F"))).toBe(44900);
     const bose = shopPricing(catalog("mgo7x7F"), DEFAULT_POLICY);
-    expect(bose).toEqual({ shopPriceCents: 44900, unitCostCents: 33675 }); // electronics cost 75%
-    expect(lowestMatchPriceCents(bose.shopPriceCents, bose.unitCostCents, DEFAULT_POLICY)).toBeLessThanOrEqual(39700);
+    expect(bose).toEqual({ shopPriceCents: 40799, unitCostCents: 30599 }); // electronics cost 75%
+    expect(lowestMatchPriceCents(bose.shopPriceCents, bose.unitCostCents, DEFAULT_POLICY)).toBeLessThanOrEqual(35999);
   });
 
   it("takes MSRP from in-stock offers only", () => {
@@ -144,7 +144,7 @@ describe("product rows", () => {
       slug: "bose-quietcomfort-ultra-headphones-2nd-gen-mgo7x7f",
       brand: "Bose",
       variant: [{ name: "Color", label: "Black" }],
-      shopPriceCents: 44900,
+      shopPriceCents: 40799,
     });
     expect(Number.isInteger(row.shopPriceCents) && Number.isInteger(row.unitCostCents)).toBe(true);
   });

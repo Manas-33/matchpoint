@@ -73,7 +73,16 @@ async function checkoutPrice(product: { id: string; shopPriceCents: number }, ma
   return { amountCents: match.matchedPriceCents, match, valueOffer: null };
 }
 
-export async function createCheckoutOrder(productSlug: string, matchRequestId?: string, option: MatchOption = "match") {
+// Orders created for a shopping agent: the buyer approves on PayPal's own page (no JS SDK popup), so
+// PayPal sends them back to the return route, which captures the payment and shows the order.
+export type AgentCheckout = { buyerEmail?: string };
+
+export async function createCheckoutOrder(
+  productSlug: string,
+  matchRequestId?: string,
+  option: MatchOption = "match",
+  agent?: AgentCheckout,
+) {
   const product = await getProductBySlug(productSlug);
   if (!product) throw new CheckoutError("PRODUCT_NOT_FOUND", "That product isn't in the catalog", 404);
   const { amountCents, match, valueOffer } = await checkoutPrice(product, matchRequestId, option);
@@ -95,7 +104,7 @@ export async function createCheckoutOrder(productSlug: string, matchRequestId?: 
     invoiceId: id,
     referenceId: match ? `match-${match.id}` : product.id,
     requestId: `order-${id}`,
-    returnUrl: `${appUrl}/orders/${id}`,
+    returnUrl: agent ? `${appUrl}/api/checkout/return?orderId=${id}` : `${appUrl}/orders/${id}`,
     cancelUrl: `${appUrl}/products/${product.slug}`,
   });
 
@@ -106,12 +115,14 @@ export async function createCheckoutOrder(productSlug: string, matchRequestId?: 
     matchRequestId: match?.id ?? null,
     pricePaidCents: amountCents,
     currency: product.currency,
+    // PayPal's payer email replaces this at capture.
+    buyerEmail: agent?.buyerEmail ?? null,
     status: "created",
   });
   console.log(
     JSON.stringify({ msg: "checkout order created", orderId: id, paypalOrderId: created.orderId, product: product.slug, amount: formatCents(amountCents), matchRequestId: match?.id, option: match ? option : undefined }),
   );
-  return { orderId: id, paypalOrderId: created.orderId };
+  return { orderId: id, paypalOrderId: created.orderId, approveUrl: created.approveUrl, amountCents, currency: product.currency };
 }
 
 const captureStatus = (status: string): OrderStatus =>
