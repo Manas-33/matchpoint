@@ -41,7 +41,6 @@ Built for the [PayPal AI Hackathon](https://paypalaihackathon.devpost.com). The 
 - [Live sandbox setup](#live-sandbox-setup)
 - [Project structure](#project-structure)
 - [Built with](#built-with)
-- [Known limitations](#known-limitations)
 
 ---
 
@@ -257,7 +256,7 @@ Then try:
 
 | Page | What to try |
 |---|---|
-| [`/products/bose-quietcomfort-ultra-headphones-2nd-gen-mgo7x7f`](http://localhost:3000/products/bose-quietcomfort-ultra-headphones-2nd-gen-mgo7x7f) | Under **Found it cheaper?**, click a recorded link: *Best Buy* matches with a store-credit counter-offer, *Best Buy open-box* declines on condition, *Crutchfield one-day low* declines as a glitch. Check out with the simulated PayPal button. |
+| [`/products/bose-quietcomfort-ultra-headphones-2nd-gen-mgo7x7f`](http://localhost:3000/products/bose-quietcomfort-ultra-headphones-2nd-gen-mgo7x7f) | Under **Found it cheaper?**, click a recorded link: *Best Buy* matches with a store-credit counter-offer, *Best Buy open-box* declines on condition, *Crutchfield one-day low* (a hand-built demo case) declines as a glitch. Check out with the simulated PayPal button. |
 | Claude Desktop or `npm run mcp:try` | Ask for the same match as an agent (see above), then open the approval link. |
 | [`/admin/protection`](http://localhost:3000/admin/protection) | On the paid order, click **Replay recorded drop (simulated)**. A refund over $50 waits for **Approve**; then open its **Evidence**. |
 | [`/admin`](http://localhost:3000/admin) | Covered sales vs refunds paid, match counts and the decision feed. |
@@ -341,21 +340,13 @@ Further reading: [IDEA.md](IDEA.md) · [PLAN.md](PLAN.md) · [scripts/spikes/FIN
 
 | | |
 |---|---|
-| <img src="https://img.shields.io/badge/Channel3-product_data-0F766E?style=flat-square" alt="Channel3"> | **Lookup** resolves any product URL into a canonical product with every store's **offers**. **Price history** with `statistics.current_status` powers the glitch check. **Price tracking** and the `price.changed` **webhook** drive price protection, with a poll as fallback. The approved stores are a **Collection**, and **`similar`** suggests stocked alternatives on a decline. |
+| <img src="https://img.shields.io/badge/Channel3-product_data-0F766E?style=flat-square" alt="Channel3"> | **Lookup** resolves any product URL into a canonical product with every store's **offers**. **Price history** with `statistics.current_status` powers the glitch check. **Price tracking** and the `price.changed` **webhook** drive price protection (for products in Channel3's catalog), with a poll as fallback. The approved stores are a **Collection**, and **`similar`** suggests stocked alternatives on a decline. |
 | <img src="https://img.shields.io/badge/PayPal-Orders_v2-003087?style=flat-square&logo=paypal&logoColor=white" alt="PayPal"> | **Orders v2** (create, capture) and **partial refunds** through [`@paypal/paypal-server-sdk`](https://github.com/paypal/PayPal-TypeScript-Server-SDK). **Verified webhooks** (`verify-webhook-signature`) feed a de-duplicated ledger. The **JS SDK v6** renders the buttons on the shop's checkout; agents get the order's approval link instead. |
 | <img src="https://img.shields.io/badge/APIMatic-Context_Plugin-F05A28?style=flat-square" alt="APIMatic"> | The PayPal Server SDK is **APIMatic-generated**, and the integration was built with APIMatic's **PayPal Context Plugin**. |
 | <img src="https://img.shields.io/badge/Claude-structured_outputs-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude"> | The same-product judgment, via `@anthropic-ai/sdk` with **structured outputs** parsed against a Zod schema. The model comes from `ANTHROPIC_MODEL` (default `claude-sonnet-5-5`). |
 | <img src="https://img.shields.io/badge/MCP-TypeScript_SDK-111?style=flat-square" alt="MCP"> | `@modelcontextprotocol/sdk` over Streamable HTTP, so any shopper's agent can negotiate with the shop. |
 
 **Also:** Next.js 16 (App Router, TypeScript), Tailwind CSS, Postgres with Drizzle ORM (money in integer cents, rates in basis points), Resend for email, Vitest.
-
-## Known limitations
-
-- **Replayed and simulated price drops are labelled.** The protection console's replay injects a recorded Channel3 payload with a made-up lower price, marked *SIMULATED* everywhere it appears, including the PayPal refund note. The *Crutchfield one-day low* demo case is also constructed by hand and only offered in demo mode.
-- **Price tracking only covers products in Channel3's catalog.** Lookup works on any product URL, but only catalog products can be tracked or passed to `similar`.
-- **PayPal runs in the sandbox** only.
-- **Live prices change.** Best Buy's live Bose price has since risen above the shop's, so the recorded Best Buy match only plays out in demo mode.
-- The console and admin routes have no login: it's a single-shop demo. The MCP rate limit is in memory, per app instance.
 
 ## Commission disclosure
 
